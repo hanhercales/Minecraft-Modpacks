@@ -17,42 +17,12 @@
 				item: "minecraft:cooked_beef"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "31B2A43FFAB67505"
-					item: {
-						Count: 1
-						id: "minecraft:stone_axe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7348ECA9E4520A31"
-					item: {
-						Count: 1
-						id: "minecraft:stone_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "36103BF33AC8B9B4"
-					item: {
-						Count: 1
-						id: "minecraft:stone_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Đồ Tồi Tàn Của Mày"
+			tasks: [{
+				id: "34E9DA8DDDC967D6"
+				title: "Khởi đầu moi daden"
+				type: "checkmark"
+			}]
+			title: "Khởi đầu moi daden"
 			x: 3.5d
 			y: -11.5d
 		}
@@ -124,7 +94,7 @@
 				type: "item"
 			}]
 			title: "Mặc Cái Gì Vào Đi, Nhìn Ngứa Mắt Vãi"
-			x: 5.5d
+			x: 3.5d
 			y: -13.5d
 		}
 		{
@@ -178,7 +148,7 @@
 				type: "item"
 			}]
 			title: "Sắt Chỉ Là Đồ Bỏ Đi"
-			x: 7.5d
+			x: 5.5d
 			y: -13.5d
 		}
 		{
@@ -237,7 +207,7 @@
 				}
 			]
 			title: "Giáp Kim Cương Mới Oách"
-			x: 9.5d
+			x: 7.5d
 			y: -15.5d
 		}
 		{
@@ -262,7 +232,7 @@
 				type: "item"
 			}]
 			title: "Bén Hơn Nữa Đi, Thằng Ngu"
-			x: 7.5d
+			x: 5.5d
 			y: -15.5d
 		}
 		{
@@ -296,34 +266,8 @@
 				}
 			]
 			title: "Khắc Mấy Cái Chữ Vớ Vẩn Lên Đồ"
-			x: 5.5d
-			y: -15.5d
-		}
-		{
-			dependencies: ["5B73ED5DEE261D00"]
-			description: ["Vẫn còn dùng quyển sách phép bằng sắt à? Yếu như sên. Nâng cấp nó lên Vàng đi, ít ra cũng học được mấy trò xịn hơn."]
-			id: "6B03D8933E2FF1F6"
-			rewards: [
-				{
-					count: 5
-					id: "171077CD036B073F"
-					item: "blades_of_the_fallen:coin"
-					type: "item"
-				}
-				{
-					id: "6AEC21293989D9EA"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [{
-				id: "5D99A9C01272C512"
-				item: "irons_spellbooks:gold_spell_book"
-				type: "item"
-			}]
-			title: "Sách Sắt Chỉ Để Lau Đít"
 			x: 3.5d
-			y: -17.5d
+			y: -15.5d
 		}
 		{
 			dependencies: [
@@ -355,7 +299,7 @@
 				value: 1L
 			}]
 			title: "Đập Nát Đống Xương Khô Đó Đi"
-			x: 5.5d
+			x: 3.5d
 			y: -19.5d
 		}
 		{
@@ -477,32 +421,6 @@
 			title: "Full Set Netherite Mới Là Chân Ái"
 			x: 13.5d
 			y: -17.5d
-		}
-		{
-			dependencies: ["6B03D8933E2FF1F6"]
-			description: ["Sách vàng cũng thường thôi. Nâng cấp nó lên Sách Phép Kim Cương đi. Đây là giới hạn sức mạnh phép thuật mà một thằng như mày có thể chạm tới rồi đấy."]
-			id: "4DF78105C840BFF2"
-			rewards: [
-				{
-					count: 10
-					id: "56C9C1BE0267CEE0"
-					item: "blades_of_the_fallen:coin"
-					type: "item"
-				}
-				{
-					id: "31728A19961E3A6A"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			tasks: [{
-				id: "3FA4A50C064B1EEA"
-				item: "irons_spellbooks:diamond_spell_book"
-				type: "item"
-			}]
-			title: "Sức Mạnh Tối Thượng (Tạm Thời)"
-			x: 3.5d
-			y: -19.5d
 		}
 		{
 			dependencies: [
@@ -632,157 +550,6 @@
 			y: -25.5d
 		}
 		{
-			dependencies: ["5EB43D569189F18A"]
-			description: ["Chế thử một cuốn này xem, nó sẽ giúp mày thành Fap Sư, dù là về sau cũng đề chùi đít thôi!"]
-			id: "02A7E81C10A980E7"
-			rewards: [
-				{
-					count: 5
-					id: "37D1DEFA116AC2D0"
-					item: "blades_of_the_fallen:coin"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "141E01B803100D9A"
-					item: "irons_spellbooks:arcane_essence"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5E82AC3E217D7AA0"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:copper_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 5
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			title: "Bắt đầu làm Fap sư"
-			x: 3.5d
-			y: -13.5d
-		}
-		{
-			dependencies: ["02A7E81C10A980E7"]
-			description: ["Đến lúc thăng hạng rồi! Nâng quyển giấy vệ sinh của mày lên bậc Sắt đi mà đánh Rank!"]
-			id: "5B73ED5DEE261D00"
-			rewards: [
-				{
-					count: 5
-					id: "3B8A1FD86AA08E83"
-					item: "blades_of_the_fallen:coin"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "29EB11A90E2F1DBD"
-					item: "irons_spellbooks:arcane_essence"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "05AB679DBFDCB250"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:iron_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 6
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			title: "Fap Sư rank Sắt"
-			x: 3.5d
-			y: -15.5d
-		}
-		{
-			dependencies: ["02A7E81C10A980E7"]
-			description: ["Tạo một cái Inscription Table mà viết Scroll! Chứ mày nghĩ phép để cast từ trên trời rơi xuống à?"]
-			id: "7D67BA7C59FE710D"
-			rewards: [
-				{
-					count: 3
-					id: "11AF59D161641C71"
-					item: "irons_spellbooks:arcane_essence"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "0AB789014369C5B4"
-					item: "irons_spellbooks:common_ink"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "60D476C8D38217B1"
-				item: "irons_spellbooks:inscription_table"
-				type: "item"
-			}]
-			title: "Viết phép mới!"
-			x: 1.5d
-			y: -13.5d
-		}
-		{
-			dependencies: ["7D67BA7C59FE710D"]
-			description: ["Hãy viết những cuộn sác phép đầu tiên. Nó phế, nhưng được cái nó yếu!"]
-			id: "36FA2DF5A1823DDA"
-			rewards: [
-				{
-					id: "683C3C74EF5F2820"
-					item: "irons_spellbooks:uncommon_ink"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "227A70AF0B65B62B"
-					item: "blades_of_the_fallen:coin"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "623038EC3E7180F1"
-					item: "irons_spellbooks:arcane_essence"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2923CA3D2C8C38A7"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:fireball"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-				}
-				type: "item"
-			}]
-			title: "Cuộn phép đầu moi"
-			x: 1.5d
-			y: -15.5d
-		}
-		{
 			dependencies: ["42ED7568802C0DEE"]
 			description: [
 				"Triệu hồi con Wither và phang bỏ mẹ nó cho tao!"
@@ -818,6 +585,19 @@
 			dependencies: ["43409A3E0B50ECD1"]
 			description: ["Đi chặt mấy thằng da đen bên Nether và cầm đầu chúng nó về."]
 			id: "42ED7568802C0DEE"
+			rewards: [
+				{
+					id: "235A7C5C9162BC87"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "1F07DC89D468A459"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 3L
 				id: "4ACEB8BA556C441A"
@@ -844,7 +624,7 @@
 				type: "dimension"
 			}]
 			title: "Kết Thúc?"
-			x: -0.5d
+			x: 1.5d
 			y: -15.5d
 		}
 		{
@@ -862,7 +642,7 @@
 				type: "structure"
 			}]
 			title: "Đi Tìm Stronghold"
-			x: -0.5d
+			x: 1.5d
 			y: -13.5d
 		}
 		{
@@ -955,7 +735,7 @@
 				type: "structure"
 			}]
 			title: "Ngôi Đền Dưới Biển"
-			x: -2.5d
+			x: -0.5d
 			y: -11.5d
 		}
 		{
@@ -982,7 +762,7 @@
 				value: 1L
 			}]
 			title: "Hộ Vệ Già Cỗi"
-			x: -2.5d
+			x: -0.5d
 			y: -15.5d
 		}
 		{
@@ -1009,7 +789,7 @@
 				type: "structure"
 			}]
 			title: "Thành Cổ Vực Sâu"
-			x: -2.5d
+			x: -0.5d
 			y: -17.5d
 		}
 		{
@@ -1041,7 +821,7 @@
 				value: 1L
 			}]
 			title: "Hạ Gục Thủy Quái"
-			x: -2.5d
+			x: -0.5d
 			y: -19.5d
 		}
 		{
@@ -1106,7 +886,7 @@
 				type: "structure"
 			}]
 			title: "Thành Phố Cổ Đại"
-			x: 7.5d
+			x: 5.5d
 			y: -19.5d
 		}
 		{

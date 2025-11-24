@@ -1,0 +1,71 @@
+{
+	id: "2FB7312237D5673A"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "efn:yamato_step"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "efn:efn_dodge"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "efn:efn_step"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "efn:indestructible"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "efn:judgementcutend"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "efn:parry_master"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "efn:precise_parry"
+				}
+			}
+		}
+	]
+	title: "Nightfall Skill Book"
+}

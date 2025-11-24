@@ -1,0 +1,125 @@
+{
+	id: "52DF9B08D61485B7"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:sword_soaring_elytra_master"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:sword_soaring_apprentice"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:sword_soaring_elytra_expert"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:sword_soaring_expert"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:sword_soaring_master"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:vatansever_dodge"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:wan_jian_gui_zong"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:kill_aura_1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:rain_sword"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:sword_soaring_elytra_apprentice"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:babylon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:kill_aura_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "sword_soaring:screen_sword"
+				}
+			}
+		}
+	]
+	title: "Sword Soaring Skill Book"
+}

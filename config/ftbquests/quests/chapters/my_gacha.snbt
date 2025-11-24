@@ -197,6 +197,24 @@
 			x: -1.0d
 			y: -3.0d
 		}
+		{
+			id: "0F047684B6B97196"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06719BC98D5FCE7D"
+				table_id: 4451303138137542407L
+				type: "random"
+			}]
+			tasks: [{
+				count: 16L
+				id: "789E080C617E28A8"
+				item: { Count: 16, id: "blades_of_the_fallen:coin" }
+				type: "item"
+			}]
+			title: "Silver Flag"
+			x: 3.0d
+			y: -3.0d
+		}
 	]
 	title: "Máy Gacha"
 }

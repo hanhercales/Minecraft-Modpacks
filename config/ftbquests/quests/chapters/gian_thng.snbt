@@ -370,6 +370,147 @@
 			x: 5.0d
 			y: 1.0d
 		}
+		{
+			description: [
+				"Dùng lệnh này trước khi đổi nghề:"
+				"/advecement revoke <playername> <advancement>"
+				"Nghề là advancement đã hoàn thành trong thành tựu của Dungeon and Combat."
+			]
+			icon: "dungeons_and_combat:combat_style_manual"
+			id: "2376350AA086E024"
+			rewards: [{
+				id: "43939F23A38E72BF"
+				item: "dungeons_and_combat:combat_style_manual"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "5913D46FA408C8B1"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Combat Style Manual"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "cdmoveset:bloodwolf"
+				}
+			}
+			id: "475A959E335D6544"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1730016DFDF9F581"
+				table_id: 8168872106329387002L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2BD6AE99E52D3D9C"
+				item: { Count: 8, id: "blades_of_the_fallen:coin" }
+				type: "item"
+			}]
+			title: "Skill Book"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "cdmoveset:bloodwolf"
+				}
+			}
+			id: "3B3506A2990F1674"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A06C2414347912F"
+				table_id: 3438270863556044602L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 64L
+				id: "394AAB9A2234C1ED"
+				item: { Count: 8, id: "blades_of_the_fallen:coin" }
+				type: "item"
+			}]
+			title: "Nightfall Skill Book"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "cdmoveset:bloodwolf"
+				}
+			}
+			id: "1D505EE0C5D927C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FFAED7852C8C0E9"
+				table_id: 6699631961608109917L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 96L
+				id: "555A95A4D098BD39"
+				item: { Count: 8, id: "blades_of_the_fallen:coin" }
+				type: "item"
+			}]
+			title: "Corrupted Fight Skill Book"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "cdmoveset:bloodwolf"
+				}
+			}
+			id: "642BB3A68BE4F844"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12AD102690616875"
+				table_id: 5971662093170279863L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 96L
+				id: "7ADD81A7AC82A857"
+				item: { Count: 8, id: "blades_of_the_fallen:coin" }
+				type: "item"
+			}]
+			title: "Sword Soaring Skill Book"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:sniffer_egg"
+			id: "70E4940FC3C3C451"
+			rewards: [{
+				id: "114AD7AD1B17DEDA"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4BE481F2D7A7FC0F"
+				item: { Count: 8, id: "blades_of_the_fallen:coin" }
+				type: "item"
+			}]
+			title: "Sniffer Egg"
+			x: 3.0d
+			y: 3.0d
+		}
 	]
 	title: "Gian thương"
 }

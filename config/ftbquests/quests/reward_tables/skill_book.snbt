@@ -1,0 +1,215 @@
+{
+	id: "715DA9E6715C2FFA"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:adaptive_skin"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:adrenaline_fiend"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:berserker"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:bonebreaker"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:catharsis"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:death_harvest"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:demolition_leap"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:emergency_escape"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:endurance"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:forbidden_strength"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:guard"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:hypervitality"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:impact_guard"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:meteor_slam"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:parrying"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:phantom_ascent"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:revelation"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:roll"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:stamina_pillager"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:step"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:swordmaster"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:technician"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "epicfight:vengeance"
+				}
+			}
+		}
+	]
+	title: "Skill Book"
+}

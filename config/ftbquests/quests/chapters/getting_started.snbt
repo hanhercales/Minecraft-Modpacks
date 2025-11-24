@@ -203,6 +203,22 @@
 			x: -2.0d
 			y: -5.5d
 		}
+		{
+			can_repeat: true
+			id: "3080755AA3330B83"
+			rewards: [{
+				command: "/kill @e[type=item]"
+				id: "71E72C567620A3A1"
+				type: "command"
+			}]
+			tasks: [{
+				id: "56B152D69480EBE9"
+				title: "Clear Item"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
 	]
 	title: "Khởi Đầu Moi Da Den"
 }

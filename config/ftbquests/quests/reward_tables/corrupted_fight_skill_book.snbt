@@ -1,0 +1,62 @@
+{
+	id: "5CF9DFC5DD813F5D"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "cdmoveset:bloodwolf"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "cdmoveset:bstep"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "cdmoveset:ex_yamato_step"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "cdmoveset:fatalfalsh"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "cdmoveset:wolf_dodge"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "cdmoveset:yamato_step"
+				}
+			}
+		}
+	]
+	title: "Corrupted Fight Skill Book"
+}

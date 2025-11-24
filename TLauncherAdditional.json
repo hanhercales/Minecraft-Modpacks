@@ -9998,6 +9998,97 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1211400,
+          "name": "No Enchantment Cap Level",
+          "author": "Dplayend",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/no-enchantment-cap-level",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 15,
+              "name": "server_utility",
+              "shortName": "plugins",
+              "nesting": 0
+            }
+          ],
+          "picture": 1039291,
+          "pictures": [],
+          "lanName": "no-enchantment-cap-level",
+          "version": {
+            "id": 6254546,
+            "name": "forge-1.20.[0-4]-v1.0",
+            "updateDate": 1740898539000,
+            "type": "beta",
+            "gameVersionsDTO": [
+              {
+                "id": 49,
+                "name": "1.20.4"
+              },
+              {
+                "id": 48,
+                "name": "1.20.3"
+              },
+              {
+                "id": 47,
+                "name": "1.20.2"
+              },
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              }
+            ],
+            "metadata": {
+              "sha1": "56b92950c0bb99fa26757100966c72e2fe9566bb",
+              "size": 11123,
+              "path": "mods/NoEnchantmentCapLevel-forge-1.20.[0-4]-v1.0.jar",
+              "url": "/mods/1211400/6254546/NoEnchantmentCapLevel-forge-1.20.%5B0-4%5D-v1.0.jar"
+            },
+            "installed": 22,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 1489,
+              "name": "MixinBootstrap",
+              "gameEntityId": 357178,
+              "dependencyType": "required"
+            },
+            {
+              "gameType": "mod",
+              "id": 12312,
+              "name": "Toggle Enchantments",
+              "gameEntityId": 891161,
+              "dependencyType": "optional"
+            }
+          ],
+          "lastGameVersion": {
+            "id": 65,
+            "name": "1.21.10"
+          },
+          "updated": 1760216400000,
+          "update": 1760216400000,
+          "downloadALL": 69143,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
