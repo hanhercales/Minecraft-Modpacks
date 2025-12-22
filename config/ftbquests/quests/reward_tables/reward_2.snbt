@@ -1,0 +1,20 @@
+{
+	id: "000000000000000B"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "minecraft:netherite_scrap", weight: 10.0f }
+		{ item: "minecraft:ancient_debris", weight: 5.0f }
+		{ item: "silentgear:crimson_steel_ingot", weight: 15.0f }
+		{ item: "silentgear:azure_silver_ingot", weight: 15.0f }
+		{ count: 4, item: "irons_spellbooks:arcane_essence", weight: 20.0f }
+		{ item: "cataclysm:witherite_ingot", weight: 2.0f }
+		{
+			type: "xp_levels"
+			weight: 15.0f
+			xp_levels: 15
+		}
+		{ item: "lightmanscurrency:coin_emerald" }
+	]
+	title: "Gacha: Khoáng Sản Hiếm (Tier 2)"
+}

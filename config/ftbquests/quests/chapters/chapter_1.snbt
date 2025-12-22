@@ -1,0 +1,392 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "chapter_1"
+	group: "42D4851EE8075942"
+	icon: "silentgear:hammer_blueprint"
+	id: "0563920183749201"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Chào mừng đến với thế giới hỗn mang!"
+				"Modpack này tập trung vào chiến đấu và rèn đúc. Công cụ Vanilla (Gỗ, Đá, Sắt...) đã lỗi thời."
+				"Bạn cần làm quen với **Silent Gear** để chế tạo vũ khí mạnh mẽ."
+			]
+			icon: "minecraft:crafting_table"
+			id: "0000000000001001"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000002001"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0000000000002002"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000003001"
+				title: "Tôi đã hiểu!"
+				type: "checkmark"
+			}]
+			title: "Khởi Đầu Hành Trình"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001001"]
+			description: ["Đây là nguyên liệu cơ bản nhất để chế tạo các bản vẽ (Blueprint) cho Silent Gear."]
+			id: "0000000000001002"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0000000000002003"
+				table_id: 3888247262552222328L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "0000000000003002"
+				item: "silentgear:blueprint_paper"
+				type: "item"
+			}]
+			title: "Giấy Vẽ Bản Thiết Kế"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000001002"]
+			description: [
+				"Sử dụng Giấy vẽ (Blueprint Paper) để chế tạo các khuôn mẫu này."
+				"Bạn sẽ cần chúng để định hình vũ khí."
+			]
+			icon: "silentgear:pickaxe_blueprint"
+			id: "0000000000001003"
+			rewards: [
+				{
+					count: 10
+					id: "0000000000002004"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					id: "0000000000002005"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0000000000003003"
+					item: {
+						Count: 1
+						id: "silentgear:pickaxe_blueprint"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000003004"
+					item: {
+						Count: 1
+						id: "silentgear:sword_blueprint"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000003005"
+					item: {
+						Count: 1
+						id: "silentgear:rod_blueprint"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bộ Khuôn Mẫu Cơ Bản"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000001003"]
+			description: [
+				"Đừng vội ghép vũ khí! Hãy dùng **Material Grader**."
+				"Bỏ nguyên liệu (Sắt, Đá, Kim cương...) vào kèm với chất xúc tác (Catalyst) để tăng hạng (Grade) của chúng."
+				"Hạng càng cao (S, SS, MAX), chỉ số vũ khí càng mạnh."
+			]
+			id: "0000000000001004"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000002006"
+					item: "silentgear:glowing_dust"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0000000000002007"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000003006"
+				item: "silentgear:material_grader"
+				type: "item"
+			}]
+			title: "Kiểm Định Chất Lượng"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000001004"]
+			description: [
+				"Đã đến lúc chế tạo vũ khí đầu tiên!"
+				"1. Dùng 3 nguyên liệu (đã Grade) ghép với Pickaxe Blueprint để tạo **Pickaxe Head**."
+				"2. Dùng 2 nguyên liệu (Gỗ/Sắt) ghép với Rod Blueprint để tạo **Tool Rod**."
+				"3. Ghép Head + Rod trong bàn chế tạo để ra Cúp."
+			]
+			icon: {
+				Count: 1
+				id: "silentgear:pickaxe"
+				tag: {
+					Damage: 0
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									ID: "silentgear:pickaxe_head"
+									Item: {
+										Count: 1b
+										id: "silentgear:pickaxe_head"
+										tag: {
+											Materials: [{
+												Count: 3b
+												ID: "silentgear:iron"
+												Item: {
+													Count: 1b
+													id: "minecraft:iron_ingot"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:rod"
+									Item: {
+										Count: 1b
+										id: "silentgear:rod"
+										tag: {
+											Materials: [{
+												Count: 2b
+												ID: "silentgear:wood"
+												Item: {
+													Count: 1b
+													id: "minecraft:oak_planks"
+												}
+											}]
+										}
+									}
+								}
+							]
+						}
+						Properties: {
+							LockStats: 0b
+							ModVersion: "3.2.0"
+							Stats: {
+								"silentgear:attack_reach": 3.0f
+								"silentgear:attack_speed": -2.8f
+								"silentgear:charging_value": 0.7f
+								"silentgear:durability": 250.0f
+								"silentgear:enchantment_value": 14.0f
+								"silentgear:harvest_level": 2.0f
+								"silentgear:harvest_speed": 6.0f
+								"silentgear:melee_damage": 4.0f
+								"silentgear:rarity": 20.0f
+								"silentgear:repair_efficiency": 1.0f
+							}
+							Traits: [
+								{
+									Level: 3b
+									Name: "silentgear:malleable"
+								}
+								{
+									Level: 2b
+									Name: "silentgear:flexible"
+								}
+							]
+						}
+					}
+					SGear_UUID: [I;
+						-107779774
+						338274092
+						-1296225895
+						-1959727508
+					]
+				}
+			}
+			id: "0000000000001005"
+			rewards: [
+				{
+					id: "0000000000002008"
+					item: "silentgear:nether_banana"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0000000000002009"
+					table_id: 3888247262552222328L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0000000000003007"
+				item: {
+					Count: 1
+					id: "silentgear:pickaxe"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+						SGear_UUID: [I;
+							1699984929
+							1981170323
+							-1284008769
+							1382770229
+						]
+					}
+				}
+				title: "Chế tạo 1 cái Cúp từ Silent Gear"
+				type: "item"
+			}]
+			title: "Cây Cúp Đầu Tiên"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001005"]
+			description: [
+				"Bạn cần nâng cấp Gear? Hãy đi xuống Nether."
+				"Tìm quặng **Crimson Iron**. Nó cứng hơn sắt thường và có khả năng tự sửa chữa."
+			]
+			id: "0000000000001006"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000002010"
+					item: "silentgear:crimson_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0000000000002011"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "0000000000003008"
+				item: "silentgear:crimson_iron_ingot"
+				type: "item"
+			}]
+			title: "Khoáng Sản Địa Ngục"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001006"]
+			description: ["Để tạo ra hợp kim cao cấp (Alloy), bạn không thể nung trong lò thường. Hãy chế tạo **Metal Alloyer**."]
+			id: "0000000000001007"
+			rewards: [{
+				id: "0000000000002012"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0000000000003009"
+				item: "silentgear:metal_alloyer"
+				type: "item"
+			}]
+			title: "Lò Luyện Hợp Kim"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000001007"]
+			description: [
+				"Sử dụng **Metal Alloyer** để kết hợp Crimson Iron, Blaze Rod và các nguyên liệu khác."
+				"Hợp kim này cực mạnh, dùng để chế tạo Gear hạng nặng."
+			]
+			id: "0000000000001008"
+			rewards: [
+				{
+					id: "0000000000002013"
+					item: "silentgear:golden_nether_banana"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0000000000002014"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000003010"
+				item: "silentgear:crimson_steel_ingot"
+				type: "item"
+			}]
+			title: "Hợp Kim: Crimson Steel"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000001008"]
+			description: [
+				"Bước cuối cùng của sức mạnh!"
+				"Chế tạo **Starlight Charger**. Đặt nó lộ thiên vào ban đêm."
+				"Bỏ nguyên liệu vào cùng với Stardust để cường hóa chúng lên cấp 'Star Charged'."
+			]
+			id: "0000000000001009"
+			rewards: [
+				{
+					count: 10
+					id: "0000000000002015"
+					item: "silentgear:starmetal_dust"
+					type: "item"
+				}
+				{
+					id: "0000000000002016"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000003011"
+				item: "silentgear:starlight_charger"
+				type: "item"
+			}]
+			title: "Sức Mạnh Tinh Tú"
+			x: 8.0d
+			y: 4.0d
+		}
+	]
+	title: "Chương 1: Thợ Rèn Tập Sự"
+}

@@ -1,0 +1,351 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "chapter_6"
+	group: "42D4851EE8075942"
+	icon: "apotheosis:mythic_material"
+	id: "63B91532B8EE6A59"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bạn cảm thấy Silent Gear là chưa đủ?"
+				"**Apotheosis** mang đến hệ thống Affix (Tiền tố/Hậu tố), Ngọc (Gems) và Phù phép vượt giới hạn."
+				"Đây là chìa khóa để đạt sức mạnh 'Thần Thánh' nhằm đánh bại Ignis."
+			]
+			icon: "apotheosis:boss_summoner"
+			id: "0000000000008001"
+			rewards: [{
+				id: "0000000000008101"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000009001"
+				title: "Sức Mạnh Thần Thánh"
+				type: "checkmark"
+			}]
+			title: "Nhập Môn Apotheosis"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000008001"]
+			description: [
+				"Đôi khi bạn nhặt được những trang bị có viền màu (Xanh, Vàng, Cam...)."
+				"Đó là đồ Affix. Nếu không dùng, đừng vứt đi!"
+				"Hãy bỏ chúng vào **Salvaging Table** để tách lấy nguyên liệu quý."
+			]
+			id: "0000000000008002"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000008102"
+					item: "apotheosis:common_material"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0000000000008103"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000009002"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			title: "Bàn Phân Tách (Salvaging)"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000008002"]
+			description: [
+				"Bạn có một thanh kiếm mạnh nhưng dòng chỉ số (Affix) quá lởm?"
+				"Dùng **Reforging Table** để quay lại (Reroll) chỉ số."
+				"Sử dụng Gem Dust và Rarity Material (lấy từ Salvaging)."
+			]
+			id: "0000000000008003"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000008104"
+					item: "apotheosis:rare_material"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0000000000008105"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000009003"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			title: "Bàn Tái Luyện (Reforging)"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000008001"]
+			description: [
+				"Ngọc (Gem) rơi ra từ quái vật có thể khảm vào trang bị có lỗ (Socket)."
+				"Nhưng Ngọc thường bị nứt (Cracked). Hãy dùng **Gem Cutting Table** để nâng cấp chúng lên Flawed, Flawless và Perfect."
+			]
+			id: "0000000000008004"
+			rewards: [
+				{
+					count: 10
+					id: "0000000000008106"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "0000000000008107"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "0000000000009004"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			title: "Bàn Cắt Ngọc"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000008004"]
+			description: [
+				"Vũ khí của bạn chưa có lỗ để khảm ngọc?"
+				"Sử dụng **Sigil of Socketing** trong bàn rèn (Smithing Table) để đục tối đa 3 lỗ."
+			]
+			id: "0000000000008005"
+			rewards: [{
+				id: "0000000000008108"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000009005"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			title: "Ấn Đục Lỗ"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000008003"]
+			description: [
+				"Vật liệu tối thượng để rèn các trang bị cấp Mythic (Thần Thoại)."
+				"Chỉ tìm thấy ở The End hoặc tái chế đồ Cam (Mythic)."
+			]
+			id: "0000000000008006"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000008109"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "0000000000008110"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000009006"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			title: "Ngọc Trai Thần Rèn (Godforged Pearl)"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0000000000008001"]
+			description: [
+				"Enchanting Table thường chỉ tối đa Level 30."
+				"Với Apotheosis, bạn có thể đạt Level 100."
+				"Có 3 chỉ số cần quan tâm:"
+				"- **Eterna:** Cấp độ phép tối đa."
+				"- **Quanta:** Độ ngẫu nhiên (May rủi)."
+				"- **Arcana:** Tỉ lệ ra phép hiếm."
+			]
+			id: "0000000000008007"
+			rewards: [{
+				count: 3
+				id: "0000000000008111"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000009007"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Bàn Phù Phép Cải Tiến"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000008007"]
+			description: [
+				"Kệ sách gỗ không đủ mạnh."
+				"Hãy chế tạo **Hellshelf** từ Nether Bricks để tăng Eterna lên 30+."
+			]
+			id: "0000000000008008"
+			rewards: [{
+				count: 2
+				id: "0000000000008112"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				count: 15L
+				id: "0000000000009008"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			title: "Thư Viện Địa Ngục (Hellshelf)"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000008008"]
+			description: [
+				"Kết hợp Hellshelf với các vật phẩm quý hiếm để tạo ra **Seashelf** (Biển) hoặc **Endshelf** (The End)."
+				"Chúng giúp bạn đạt cấp độ enchant 60-80."
+			]
+			icon: "apotheosis:endshelf"
+			id: "0000000000008009"
+			rewards: [{
+				id: "0000000000008113"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 5L
+					id: "0000000000009009"
+					item: "apotheosis:seashelf"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0000000000009010"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+			]
+			title: "Thư Viện Cao Cấp"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0000000000008009"]
+			description: [
+				"Đỉnh cao của tri thức."
+				"Đạt **100 Eterna** để mở khóa những dòng enchant mạnh nhất (như Sharpness VII, Protection VII...)."
+			]
+			icon: "minecraft:enchanted_book"
+			id: "0000000000008010"
+			rewards: [
+				{
+					count: 10
+					id: "0000000000008114"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "0000000000008115"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			subtitle: "Level 100 Enchantment"
+			tasks: [{
+				id: "0000000000009011"
+				title: "Đạt cấp độ tối thượng"
+				type: "checkmark"
+			}]
+			title: "Phù Thủy Tối Thượng"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000008001"]
+			description: [
+				"Với phù phép **Silk Touch**, bạn có thể nhặt lồng Spawner lên."
+				"Apotheosis cho phép bạn nâng cấp Spawner bằng các vật phẩm thường."
+			]
+			icon: "minecraft:spawner"
+			id: "0000000000008011"
+			rewards: [{
+				id: "0000000000008116"
+				item: "minecraft:creeper_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000009012"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			title: "Thu Thập Spawner"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0000000000008011"]
+			description: [
+				"Chuột phải vào Spawner bằng các item sau để nâng cấp:"
+				"- **Đường:** Giảm thời gian spawn."
+				"- **Clock:** Tăng tốc độ."
+				"- **Ghast Tear:** Tăng số lượng mob."
+				"- **Dragon Egg:** Bỏ qua điều kiện môi trường."
+				"- **Redstone Comparator:** Kích hoạt bằng Redstone."
+			]
+			id: "0000000000008012"
+			rewards: [
+				{
+					count: 10
+					id: "0000000000008117"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0000000000008118"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0000000000008119"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000009013"
+				title: "Tôi đã hiểu cách nâng cấp!"
+				type: "checkmark"
+			}]
+			title: "Kỹ Sư Spawner"
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	title: "Chương 6: Apotheosis - Con Đường Thần Thánh"
+}

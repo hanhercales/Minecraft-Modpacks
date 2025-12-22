@@ -1,0 +1,165 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	default_repeatable_quest: true
+	filename: "gacha"
+	group: "1F2CD815FBA73E3B"
+	icon: "minecraft:ender_chest"
+	id: "3541AC45018A7CED"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bạn cảm thấy dư tiền và muốn thử vận may?"
+				"Chào mừng đến với Sòng Bạc (Gacha System)!"
+				"Tỷ lệ cược là ngẫu nhiên, vui lòng không cay cú."
+			]
+			icon: "minecraft:ender_chest"
+			id: "749A500575D24645"
+			rewards: [{
+				id: "0000000000009101"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000009201"
+				title: "Tôi đồng ý chơi!"
+				type: "checkmark"
+			}]
+			title: "Sảnh Gacha"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0000000000009001"]
+			disable_toast: true
+			icon: "minecraft:iron_ingot"
+			id: "6A3DCF9959CDDEB5"
+			rewards: [{
+				id: "0000000000009102"
+				table_id: 10L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Giá: 5 Iron Coins"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0000000000009202"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "Gacha: Tài Nguyên Cơ Bản"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0000000000009001"]
+			disable_toast: true
+			icon: "minecraft:diamond"
+			id: "24A3CD57D6E9B1BF"
+			rewards: [{
+				id: "0000000000009103"
+				table_id: 11L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Giá: 5 Gold Coins"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0000000000009203"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Gacha: Khoáng Sản Cao Cấp"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0000000000009001"]
+			disable_toast: true
+			icon: "cataclysm:ignitium_ingot"
+			id: "5762DFD0924E0896"
+			rewards: [{
+				id: "0000000000009104"
+				table_id: 12L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Giá: 2 Emerald Coins"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "0000000000009204"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Gacha: Hàng Cực Phẩm (Legendary)"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0000000000009001"]
+			disable_toast: true
+			icon: "minecraft:experience_bottle"
+			id: "11A4E1DFAFE68F28"
+			rewards: [{
+				id: "0000000000009105"
+				table_id: 13L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "Giá: 3 Gold Coins. Cơ hội trúng 100 Level!"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "0000000000009205"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Xổ Số Kinh Nghiệm (XP Lottery)"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0000000000009001"]
+			description: [
+				"Bạn có quá nhiều Sắt?"
+				"Thử vận may để đổi lấy Vàng hoặc Emerald."
+				"Nhưng cẩn thận, bạn có thể lỗ đấy!"
+			]
+			disable_toast: true
+			icon: "lightmanscurrency:coinpile_gold"
+			id: "712B0C6B598CAC49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "790A91C4403DCA61"
+				table_id: 8340262676666500226L
+				type: "random"
+			}]
+			shape: "octagon"
+			subtitle: "Giá: 1 Stack Iron Coin (64)"
+			tasks: [{
+				consume_items: true
+				count: 60L
+				id: "0000000000009206"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "Đầu Tư Mạo Hiểm"
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Vòng Quay May Mắn (Gacha)"
+}

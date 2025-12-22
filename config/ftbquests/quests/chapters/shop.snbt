@@ -1,0 +1,475 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: true
+	default_quest_shape: "rsquare"
+	default_repeatable_quest: true
+	filename: "shop"
+	group: "1F2CD815FBA73E3B"
+	icon: "lightmanscurrency:coin_gold"
+	id: "7000000000000000"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Nơi tiêu tiền cho những nhu cầu thiết yếu."]
+			icon: "minecraft:chest"
+			id: "5872FD4D8EDD2463"
+			rewards: [{
+				id: "234CC81B5DF139A6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "03109FFDD72F562E"
+				title: "Mở Cửa Hàng"
+				type: "checkmark"
+			}]
+			title: "Shopping"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:totem_of_undying"
+			id: "0000000000007101"
+			rewards: [{
+				id: "01B03996315A78BF"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			subtitle: "Bảo hiểm nhân mạng"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "4F602C0A484153B4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua: Totem of Undying"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:heart_of_the_sea"
+			id: "0000000000007102"
+			rewards: [{
+				id: "690A6DBDB1E20B72"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			subtitle: "Trái tim biển cả - Khỏi cần đào kho báu"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "0165AF0B7AB2DAB9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua: Heart of the Sea"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0000000000005025"]
+			disable_toast: true
+			icon: "minecraft:dragon_breath"
+			id: "0000000000007103"
+			rewards: [{
+				count: 4
+				id: "0952C72979ADB68E"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			subtitle: "Hơi thở rồng dùng để pha thuốc"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "3F5F252D9301D7B3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua: Dragon Breath (x4)"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:budding_amethyst"
+			id: "0000000000007104"
+			rewards: [{
+				id: "13C164EC3C19F998"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			subtitle: "Khối này không thể thu hoạch bằng Silk Touch. Chỉ có mua ở đây!"
+			tasks: [{
+				consume_items: true
+				id: "0BA8558A67D11DD2"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Mua: Budding Amethyst"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "irons_spellbooks:legendary_ink"
+			id: "0000000000007201"
+			rewards: [{
+				id: "0000000000008201"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			subtitle: "Mực huyền thoại để chép phép cấp cao nhất"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "205E0EFFC969381C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua: Legendary Ink"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "irons_spellbooks:arcane_debris"
+			id: "0000000000007202"
+			rewards: [{
+				count: 4
+				id: "0000000000008202"
+				item: "irons_spellbooks:arcane_debris"
+				type: "item"
+			}]
+			subtitle: "Nguyên liệu hiếm để chế tạo Arcane Ingot"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "35EBC325D3F2962A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua: Arcane Debris (x4)"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "cataclysm:witherite_ingot"
+			id: "0000000000007203"
+			rewards: [{
+				id: "0000000000008203"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			subtitle: "Kim loại từ Netherite Monstrosity"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "5879942440CDDBD7"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Mua: Witherite Ingot"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "cataclysm:ignitium_ingot"
+			id: "0000000000007204"
+			rewards: [{
+				id: "0000000000008204"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			subtitle: "Kim loại nóng chảy từ Ignis. Siêu đắt!"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "671F68FFB4D70796"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Mua: Ignitium Ingot"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "silentgear:blueprint_package"
+			id: "0000000000007301"
+			rewards: [{
+				id: "0000000000008301"
+				item: "silentgear:blueprint_package"
+				type: "item"
+			}]
+			subtitle: "Gói chứa đầy đủ các bản vẽ cơ bản"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "0000000000009301"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua: Blueprint Package"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "silentgear:azure_silver_ingot"
+			id: "0000000000007302"
+			rewards: [{
+				count: 2
+				id: "0000000000008302"
+				item: "silentgear:azure_silver_ingot"
+				type: "item"
+			}]
+			subtitle: "Bạc xanh từ lòng đất sâu"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0000000000009302"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua: Azure Silver (x2)"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0000000000005025"]
+			description: [
+				"**QUYỀN NĂNG VÔ HẠN: LƯU TRỮ**"
+				"Nâng cấp này cho phép một ô trong Balo chứa được 2 tỷ vật phẩm."
+				"Biến balo của bạn thành kho chứa đồ di động vĩnh cửu."
+				"Chỉ tồn tại trong chế độ Sáng Tạo."
+			]
+			icon: "sophisticatedbackpacks:survival_infinity_upgrade"
+			id: "0000000000007401"
+			rewards: [{
+				id: "0000000000008401"
+				item: "sophisticatedbackpacks:survival_infinity_upgrade"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Giá: 5 Netherite Coin"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "0000000000009401"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+				{
+					id: "6C37FE36CD2C7B6F"
+					item: "twilightforest:quest_ram_trophy"
+					type: "item"
+				}
+				{
+					id: "421807C8E8690342"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_ignis"
+					criterion: ""
+					id: "34F0D69428C0599C"
+					type: "advancement"
+				}
+			]
+			title: "CHỢ ĐEN: Creative Stack Upgrade"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"**CÔNG CỤ CỦA THẦN (DEBUG)**"
+				"Cho phép thay đổi trạng thái của bất kỳ block nào (xoay hướng, mở cửa, đổi màu...)."
+				"Sử dụng cẩn thận kẻo làm hỏng map!"
+			]
+			icon: "minecraft:debug_stick"
+			id: "0000000000007404"
+			rewards: [{
+				id: "0000000000008404"
+				item: "minecraft:debug_stick"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Giá: 3 Netherite Coin"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "0000000000009404"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			title: "CHỢ ĐEN: Debug Stick"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Muốn thử sức mạnh của bộ giáp mới?"
+				"Hãy triệu hồi **Supreme Bonecaller** - Kẻ triệu hồi xương cốt đáng sợ nhất của **Born in Chaos**."
+				"Đây là cách duy nhất để mang hắn về sân nhà."
+			]
+			icon: "born_in_chaos_v1:supreme_bonescaller_spawn_egg"
+			id: "0000000000007405"
+			rewards: [{
+				count: 2
+				id: "0000000000008405"
+				item: "born_in_chaos_v1:supreme_bonescaller_spawn_egg"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Giá: 2 Netherite Coin"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "0000000000009405"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			title: "CHỢ ĐEN: Supreme Bonecaller Egg"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["56A2467485FCABF3"]
+			disable_toast: true
+			icon: "minecraft:ancient_debris"
+			id: "0000000000007501"
+			rewards: [{
+				id: "0000000000008501"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			subtitle: "Đỡ phải đi đào nát cái Nether"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "0000000000009501"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Mua: Ancient Debris"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "irons_spellbooks:blank_rune"
+			id: "0000000000007502"
+			rewards: [{
+				count: 2
+				id: "0000000000008502"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			subtitle: "Nguyên liệu gốc để chế tạo ngọc phép (Rune)"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0000000000009502"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua: Blank Rune (x2)"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "irons_spellbooks:arcane_essence"
+			id: "0000000000007503"
+			rewards: [{
+				count: 8
+				id: "0000000000008503"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			subtitle: "Tinh hoa rớt ra từ quái ma pháp"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "0000000000009503"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua: Arcane Essence (x8)"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "sophisticatedbackpacks:upgrade_base"
+			id: "0000000000007504"
+			rewards: [{
+				count: 2
+				id: "0000000000008504"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			subtitle: "Đế để chế tạo mọi loại nâng cấp Balo"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0000000000009504"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "Mua: Upgrade Base (x2)"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:crying_obsidian"
+			id: "0000000000007506"
+			rewards: [{
+				count: 4
+				id: "0000000000008506"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			subtitle: "Dùng để chế tạo Respawn Anchor hoặc trang trí"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "0000000000009506"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua: Crying Obsidian (x4)"
+			x: -1.0d
+			y: 3.5d
+		}
+	]
+	title: "Shopping"
+}

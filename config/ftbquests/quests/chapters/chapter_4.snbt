@@ -1,0 +1,1150 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "chapter_4"
+	group: "42D4851EE8075942"
+	icon: {
+		Count: 1
+		id: "cataclysm:ignitium_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5000000000000000"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Chào mừng đến với đại sảnh danh vọng."
+				"Đây là nơi ghi nhận chiến tích tiêu diệt những thực thể hùng mạnh nhất."
+				"Hãy bắt đầu từ những kẻ gác cổng."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0000000000005000"
+			rewards: [{
+				id: "0000000000006000"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000007000"
+				title: "Bắt đầu Săn Boss"
+				type: "checkmark"
+			}]
+			title: "Khởi Đầu Kỷ Nguyên Boss"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000005000"]
+			description: [
+				"**TWILIGHT FOREST - CẤP 1**"
+				"Kẻ gác cổng đầu tiên là con rắn khổng lồ trong **Naga Courtyard**."
+			]
+			icon: "twilightforest:naga_trophy"
+			id: "7F265F86AE07C24A"
+			rewards: [
+				{
+					count: 5
+					id: "5C8F6CC08C926133"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "063FE43E5F78DB4D"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+				{
+					id: "1000000000000001"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "0000000000007001"
+				type: "kill"
+				value: 1L
+			}]
+			title: "TF 1: Naga"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F265F86AE07C24A"]
+			description: [
+				"**TWILIGHT FOREST - CẤP 2**"
+				"Phù thủy quyền năng trong tòa tháp cao chọc trời."
+				"Phá vỡ khiên của hắn bằng cách phản đòn."
+			]
+			icon: "twilightforest:lich_trophy"
+			id: "4D2B59CAD3D6E598"
+			rewards: [
+				{
+					count: 2
+					id: "5E600A8F3CC47D45"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "6F8429F8F61747B6"
+					item: "twilightforest:scepter_of_twilight"
+					type: "item"
+				}
+				{
+					id: "1000000000000002"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "0000000000007002"
+				type: "kill"
+				value: 1L
+			}]
+			title: "TF 2: Twilight Lich"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D2B59CAD3D6E598"]
+			description: [
+				"**TWILIGHT FOREST - CẤP 3 (Đầm Lầy)**"
+				"Tìm hắn dưới mê cung ngầm. Bạn cần ăn thịt Meef Stroganoff của hắn để đi tiếp."
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "248B3CA18B7A9368"
+			rewards: [
+				{
+					count: 5
+					id: "3DF32F5A61B5D4B0"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "479B59D8C38EDAA3"
+					item: "twilightforest:meef_stroganoff"
+					type: "item"
+				}
+				{
+					id: "1000000000000003"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "0000000000007003"
+				type: "kill"
+				value: 1L
+			}]
+			title: "TF 3: Minoshroom"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["248B3CA18B7A9368"]
+			description: [
+				"**TWILIGHT FOREST - CẤP 4 (Đầm Lầy Lửa)**"
+				"Quái vật bất tử nếu không bị giết đúng cách. Máu của nó dùng để rèn Fiery Ingot."
+			]
+			icon: "twilightforest:hydra_trophy"
+			id: "0653726AB296BA96"
+			rewards: [
+				{
+					count: 5
+					id: "0619AFC6EE82A417"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3F61B0875F004F6D"
+					item: "twilightforest:fiery_blood"
+					type: "item"
+				}
+				{
+					id: "1000000000000004"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "0000000000007004"
+				type: "kill"
+				value: 1L
+			}]
+			title: "TF 4: The Hydra"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D2B59CAD3D6E598"]
+			description: [
+				"**TWILIGHT FOREST - CẤP 3 (Rừng Tối)**"
+				"Sử dụng Trophy của boss khác để mở hầm mộ gạch."
+			]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "7BA076AC4E2667A9"
+			rewards: [
+				{
+					count: 3
+					id: "3D870DB9396A75DA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1000000000000005"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "0000000000007005"
+				type: "kill"
+				value: 1L
+			}]
+			title: "TF 5: Knight Phantom"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7BA076AC4E2667A9"]
+			description: [
+				"**TWILIGHT FOREST - CẤP 4 (Tháp Bóng Tối)**"
+				"Con ma khổng lồ trên đỉnh tháp. Sử dụng Carminite để chế tạo máy móc."
+			]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "58EB60845A66236C"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006010"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0000000000006011"
+					item: "twilightforest:carminite"
+					type: "item"
+				}
+				{
+					id: "1000000000000006"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "0000000000007006"
+				type: "kill"
+				value: 1L
+			}]
+			title: "TF 6: Ur-Ghast"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4D2B59CAD3D6E598"]
+			description: [
+				"**TWILIGHT FOREST - CẤP 3 (Hang Băng)**"
+				"Kẻ thống trị loài Yeti. Lông của hắn rất mềm và bền."
+			]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "074CB3D6CCD72CB1"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000006012"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1000000000000007"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "0000000000007007"
+				type: "kill"
+				value: 1L
+			}]
+			title: "TF 7: Alpha Yeti"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["074CB3D6CCD72CB1"]
+			description: [
+				"**TWILIGHT FOREST - CẤP 4 (Cung Điện Băng)**"
+				"Nữ hoàng băng giá. Cung Tri-bow của bà ta bắn ra 3 mũi tên cùng lúc."
+			]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "1F76A970E71370D3"
+			rewards: [
+				{
+					count: 10
+					id: "0000000000006013"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0000000000006014"
+					item: "twilightforest:tri_bow"
+					type: "item"
+				}
+				{
+					id: "1000000000000008"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "0000000000007008"
+				type: "kill"
+				value: 1L
+			}]
+			title: "TF 8: Snow Queen"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000005000"]
+			description: ["Linh điểu khổng lồ trên bầu trời Savanna. Tìm nó vào ban ngày."]
+			icon: "mowziesmobs:grant_suns_blessing"
+			id: "0000000000005027"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006050"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1000000000000009"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "0000000000007027"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Umvuthi, The Sunbird"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000005000"]
+			description: [
+				"Một con thú khổng lồ ngủ say ở vùng băng giá."
+				"**Frostmaw** bảo vệ Ice Crystal, một cổ vật quyền năng."
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "07501FDC3488740B"
+			rewards: [
+				{
+					id: "0000000000006017"
+					item: {
+						Count: 1
+						id: "mowziesmobs:ice_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0000000000006018"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1000000000000010"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "0000000000007010"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Quái Thú Băng Giá (Frostmaw)"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000005000"]
+			description: ["Con rồng song sinh bay lượn ở các vách núi ven biển (Coastal Cliffs)."]
+			icon: "mowziesmobs:naga_fang"
+			id: "0000000000005026"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000006048"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0000000000006049"
+					item: "mowziesmobs:naga_fang"
+					type: "item"
+				}
+				{
+					id: "1000000000000011"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				id: "0000000000007026"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Song Long (Mowzie's Naga)"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000005000"]
+			description: [
+				"Cây ăn thịt khổng lồ trong rừng sâu."
+				"Đừng đến quá gần!"
+			]
+			icon: "mowziesmobs:foliaath_seed"
+			id: "0000000000005030"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000006055"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "1000000000000012"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				id: "0000000000007030"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Thực Vật Ăn Thịt (Foliaath)"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["349A6207C0E24744"]
+			description: [
+				"Vị vua pháp sư thất lạc trong hầm mộ (Catacombs)."
+				"Hắn nắm giữ bí thuật máu."
+			]
+			icon: "irons_spellbooks:blood_staff"
+			id: "0000000000005028"
+			rewards: [
+				{
+					id: "0000000000006051"
+					item: "irons_spellbooks:blood_staff"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0000000000006052"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1000000000000013"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "0000000000007028"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Dead King"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0000000000005000"]
+			description: [
+				"Bóng ma thuyền trưởng của con tàu ma ở Aquamirae."
+				"Thổi tù và trên con tàu Ghost Ship để gọi hắn."
+			]
+			icon: {
+				Count: 1
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "531DB89FD11EE1EE"
+			rewards: [
+				{
+					id: "0000000000006019"
+					item: "aquamirae:dead_sea_scroll"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0000000000006020"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1000000000000014"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "0000000000007011"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Thuyền Trưởng Cornelia"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000005000"]
+			description: ["Hiệp sĩ bí ngô xuất hiện ở các cánh đồng bí (Born in Chaos)."]
+			icon: "born_in_chaos_v1:evil_carved_pumpkin"
+			id: "539F81C6DF88681A"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000006021"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1000000000000015"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "born_in_chaos_v1:sir_pumpkinhead"
+				icon: "born_in_chaos_v1:evil_carved_pumpkin"
+				id: "0000000000007012"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ngài Đầu Bí Ngô"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000005000"]
+			description: ["Kẻ triệu hồi xương cốt tối thượng."]
+			icon: "born_in_chaos_v1:shattered_skull"
+			id: "428086C126F63F0C"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000006022"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1000000000000016"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "born_in_chaos_v1:bonescaller"
+				icon: "born_in_chaos_v1:shattered_skull"
+				id: "0000000000007013"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Supreme Bonecaller"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0000000000005000"]
+			description: [
+				"Thống trị các tòa tháp băng (Lich Tower) ở Overworld."
+				"Phá hủy các ngôi sao bay quanh hắn trước."
+			]
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			id: "349A6207C0E24744"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006023"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0000000000006024"
+					item: "bosses_of_mass_destruction:ancient_anima"
+					type: "item"
+				}
+				{
+					id: "1000000000000017"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "0000000000007014"
+				type: "kill"
+				value: 1L
+			}]
+			title: "BoMD: Night Lich"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000005028"]
+			description: ["Loài hoa khổng lồ mọc sâu dưới hang động (Void Caves)."]
+			icon: "bosses_of_mass_destruction:void_thorn"
+			id: "73D43C527E0150D7"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006025"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0000000000006026"
+					item: "bosses_of_mass_destruction:void_thorn"
+					type: "item"
+				}
+				{
+					id: "1000000000000018"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "0000000000007015"
+				type: "kill"
+				value: 1L
+			}]
+			title: "BoMD: Void Blossom"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000005018"]
+			description: ["Cỗ máy bay lơ lửng ở Nether."]
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "7F74797141071B27"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006027"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0000000000006028"
+					item: "bosses_of_mass_destruction:blazing_eye"
+					type: "item"
+				}
+				{
+					id: "1000000000000019"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:nether_gauntlet"
+				id: "0000000000007016"
+				type: "kill"
+				value: 1L
+			}]
+			title: "BoMD: Nether Gauntlet"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0000000000005019"]
+			description: ["Tháp Obsidian sống ở The End."]
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "163DE7BFFB9CBDB2"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006029"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0000000000006030"
+					item: "bosses_of_mass_destruction:obsidian_heart"
+					type: "item"
+				}
+				{
+					id: "1000000000000020"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "0000000000007017"
+				type: "kill"
+				value: 1L
+			}]
+			title: "BoMD: Obsidilith"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0000000000005000"]
+			description: [
+				"**CATACLYSM - TIER 1**"
+				"Tạo vật rèn từ Netherite và Linh hồn."
+				"Tìm tại **Soul Blacksmith** (Nether)."
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:infernal_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0000000000005018"
+			rewards: [
+				{
+					id: "0000000000006031"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "0000000000006032"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+				{
+					id: "1000000000000021"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "0000000000007018"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Cataclysm: Monstrosity"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000005018"]
+			description: [
+				"**CATACLYSM - TIER 2**"
+				"Khủng long xương cổ đại trong Kim Tự Tháp."
+				"Sử dụng Necklace of the Desert để đánh thức."
+			]
+			icon: "cataclysm:remnant_skull"
+			id: "0000000000005029"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000006053"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "0000000000006054"
+					item: "cataclysm:sandstorm_in_a_bottle"
+					type: "item"
+				}
+				{
+					id: "1000000000000022"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "0000000000007029"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Cataclysm: Ancient Remnant"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000005029"]
+			description: [
+				"**CATACLYSM - TIER 3**"
+				"Người bảo vệ tàn tích **Ruined Citadel** ở The End."
+			]
+			icon: "cataclysm:gauntlet_of_guard"
+			id: "0000000000005019"
+			rewards: [
+				{
+					id: "0000000000006033"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "0000000000006034"
+					item: "cataclysm:gauntlet_of_guard"
+					type: "item"
+				}
+				{
+					id: "1000000000000023"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "0000000000007019"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Cataclysm: Ender Guardian"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000005019"]
+			description: [
+				"**CATACLYSM - TIER 4**"
+				"Vũ khí hủy diệt trong **Ancient Factory**."
+			]
+			icon: "cataclysm:wither_assault_shoulder_weapon"
+			id: "0000000000005020"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000006035"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "0000000000006036"
+					item: "cataclysm:mechanical_fusion_anvil"
+					type: "item"
+				}
+				{
+					id: "1000000000000024"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "0000000000007020"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Cataclysm: The Harbinger"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000005020"]
+			description: [
+				"**CATACLYSM - TIER 5**"
+				"Quái vật biển sâu trong **Sunken City**."
+			]
+			icon: "cataclysm:the_baby_leviathan_bucket"
+			id: "0000000000005021"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000006037"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "0000000000006038"
+					item: "cataclysm:tidal_claws"
+					type: "item"
+				}
+				{
+					id: "1000000000000025"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "0000000000007021"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Cataclysm: The Leviathan"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000005021"]
+			description: [
+				"**CATACLYSM - FINAL BOSS**"
+				"Chúa tể lửa Nether."
+				"Sức mạnh hủy diệt tối thượng."
+			]
+			icon: "cataclysm:ignitium_ingot"
+			id: "0000000000005022"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006039"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "0000000000006040"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0000000000006041"
+					type: "loot"
+				}
+				{
+					id: "1000000000000026"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "0000000000007022"
+				type: "kill"
+				value: 1L
+			}]
+			title: "BOSS FINAL: Ignis"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["531DB89FD11EE1EE"]
+			description: [
+				"Hiệp sĩ sắt bất hoại ngủ sâu trong lòng đất."
+				"Chỉ có thể bị thương khi lộ điểm yếu sau lưng."
+			]
+			icon: "mowziesmobs:wrought_helmet"
+			id: "0000000000005023"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000006042"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "0000000000006043"
+					item: "mowziesmobs:wrought_axe"
+					type: "item"
+				}
+				{
+					id: "1000000000000027"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "0000000000007023"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ferrous Wroughtnaut"
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0000000000005000"]
+			description: [
+				"Kẻ hủy diệt 3 đầu."
+				"Nguồn cung Nether Star."
+			]
+			icon: "minecraft:nether_star"
+			id: "0000000000005024"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000006044"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1000000000000028"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "0000000000007024"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Wither"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0000000000005024"]
+			description: [
+				"Con rồng hủy diệt ở The End."
+				"Được cường hóa bởi Savage Ender Dragon, nó nguy hiểm hơn gấp bội."
+			]
+			icon: "minecraft:dragon_head"
+			id: "0000000000005025"
+			rewards: [
+				{
+					count: 10
+					id: "0000000000006045"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "0000000000006046"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "0000000000006047"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1000000000000029"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "0000000000007025"
+				type: "kill"
+				value: 1L
+			}]
+			title: "THE END: Savage Dragon"
+			x: 0.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0000000000005000"]
+			description: [
+				"Quái vật mù lòa canh giữ Deep Dark."
+				"Cực mạnh nhưng phần thưởng xứng đáng."
+			]
+			icon: "minecraft:echo_shard"
+			id: "0000000000005031"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000006056"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0000000000006057"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "1000000000000030"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "0000000000007031"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Warden"
+			x: 3.0d
+			y: -0.5d
+		}
+	]
+	title: "Chương 4: Bộ Sưu Tập Trùm"
+}

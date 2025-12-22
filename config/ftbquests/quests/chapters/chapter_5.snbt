@@ -1,0 +1,511 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "chapter_5"
+	group: "42D4851EE8075942"
+	icon: {
+		Count: 1
+		id: "endrem:old_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6000000000000000"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Cánh cổng dẫn tới The End đã thay đổi."
+				"12 Con mắt của Ender (Eyes of Ender) bình thường không còn tác dụng."
+				"Bạn phải đi khắp thế giới, lục tung các hầm ngục để tìm **11 loại mắt cổ đại khác nhau**."
+				"Chỉ khi có đủ bộ sưu tập, cánh cổng mới mở ra."
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "043578A4A233446E"
+			rewards: [{
+				count: 3
+				id: "0000000000006101"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000006201"
+				title: "Tôi đã sẵn sàng đi tìm!"
+				type: "checkmark"
+			}]
+			title: "Kẻ Gác Cổng (The Gatekeeper)"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000006001"]
+			description: [
+				"Tìm thấy trong các **Mineshaft** (Hầm mỏ bỏ hoang)."
+				"Nó bị lãng quên trong bóng tối sâu thẳm."
+			]
+			id: "3A053DBE911E7AA7"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006102"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "0000000000006103"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0000000000006202"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Lost Eye (Hầm Mỏ)"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0000000000006001"]
+			description: [
+				"Rơi ra từ **Elder Guardian** trong Ocean Monument."
+				"Hoặc đôi khi tìm thấy trong rương kho báu biển."
+			]
+			id: "0E81F5EA6981CC62"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000006104"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0000000000006105"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				id: "0000000000006203"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Guardian Eye (Biển Sâu)"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0000000000006001"]
+			description: [
+				"Tìm thấy trong **Jungle Temple** (Đền thờ rừng rậm)."
+				"Cẩn thận bẫy tên độc!"
+			]
+			id: "62F0A73B29BC5069"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006106"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "0000000000006107"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0000000000006204"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Rogue Eye (Rừng Rậm)"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0000000000006001"]
+			description: [
+				"Tìm thấy trong **Desert Pyramid** (Kim tự tháp sa mạc)."
+				"Đừng đào trúng nút kích hoạt TNT!"
+			]
+			id: "2B42E8CCDD39F86B"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006108"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "0000000000006109"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0000000000006205"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Old Eye (Sa Mạc)"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0000000000006001"]
+			description: [
+				"Tìm thấy trong **Nether Fortress**."
+				"Nơi ngự trị của Blaze và Wither Skeleton."
+			]
+			id: "56A2467485FCABF3"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006110"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "0000000000006111"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "0000000000006206"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Nether Eye (Pháo Đài)"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000006001"]
+			description: [
+				"Có tỉ lệ rơi ra khi tiêu diệt **The Wither**."
+				"Một thử thách thực sự."
+			]
+			id: "08D4DB32C60873DD"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006112"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0000000000006113"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "0000000000006207"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Wither Eye (Hủy Diệt)"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000006001"]
+			description: [
+				"Tìm thấy trong **Igloo** (Lều tuyết) hoặc rương ở làng tuyết."
+				"Cái lạnh thấu xương lưu giữ nó."
+			]
+			id: "35FB5343AFCA4CBF"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006114"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "0000000000006115"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0000000000006208"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Cold Eye (Băng Giá)"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000006001"]
+			description: [
+				"Có được bằng cách giao dịch với **Cleric Villager** (Dân làng tu sĩ) cấp cao."
+				"Hoặc tìm thấy trong rương của **Witch** (Phù thủy)."
+			]
+			id: "4CD38CC0C3AFB990"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006116"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "0000000000006117"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0000000000006209"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Magical Eye (Pháp Thuật)"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000006001"]
+			description: [
+				"Tìm thấy trong **Buried Treasure** (Kho báu bị chôn vùi)."
+				"Hãy tìm bản đồ kho báu từ các con tàu đắm."
+			]
+			id: "4C949F9AE78055E3"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006118"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "0000000000006119"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "0000000000006210"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Black Eye (Hải Tặc)"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0000000000006001"]
+			description: [
+				"Tìm thấy trong **Pillager Outpost**."
+				"Được canh giữ bởi bọn cướp làng."
+			]
+			id: "168E1782AAA2FD52"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006120"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "0000000000006121"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "0000000000006211"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Corrupted Eye (Sa Ngã)"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0000000000006001"]
+			description: [
+				"Tìm thấy trong **Bastion Remnant** (Pháo đài Heo) ở Nether."
+				"Đây là con mắt khó tìm nhất."
+			]
+			id: "4B4B766F71DDC637"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000006122"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0000000000006123"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				id: "0000000000006212"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Cursed Eye (Nguyền Rủa)"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0000000000006001"]
+			description: [
+				"Loại mắt này có thể chế tạo được!"
+				"Sử dụng các nguyên liệu quý hiếm dưới biển và trong hầm ngục."
+				"Kiểm tra công thức trong JEI."
+			]
+			id: "1F56CF4B7BA33132"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000006124"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "0000000000006125"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0000000000006213"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Exotic Eye (Ngoại Lai)"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0000000000006002"
+				"0000000000006003"
+				"0000000000006004"
+				"0000000000006005"
+				"0000000000006006"
+				"0000000000006007"
+				"0000000000006008"
+				"0000000000006009"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Bạn đã có đủ các con mắt."
+				"Bây giờ, hãy sử dụng **Explorer's Compass** để tìm cấu trúc **End Gate** (thường là một tòa lâu đài lớn)."
+				"Đặt các con mắt vào khung cổng và chuẩn bị đối mặt với Savage Ender Dragon."
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "3927254E578EF6CF"
+			min_required_dependencies: 11
+			rewards: [
+				{
+					count: 10
+					id: "0000000000006126"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0000000000006127"
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				advancement: "endrem:main/end_gate"
+				criterion: ""
+				id: "0000000000006214"
+				type: "advancement"
+			}]
+			title: "Mở Cổng The End"
+			x: 0.0d
+			y: 6.5d
+		}
+	]
+	title: "Chương 5: Hành Trình Tới The End"
+}

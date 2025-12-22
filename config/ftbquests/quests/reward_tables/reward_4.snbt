@@ -1,0 +1,37 @@
+{
+	id: "000000000000000D"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			title: "5 Levels (An ủi)"
+			type: "xp_levels"
+			weight: 50.0f
+			xp_levels: 5
+		}
+		{
+			title: "10 Levels (Thường)"
+			type: "xp_levels"
+			weight: 30.0f
+			xp_levels: 10
+		}
+		{
+			title: "30 Levels (May mắn)"
+			type: "xp_levels"
+			weight: 15.0f
+			xp_levels: 30
+		}
+		{
+			title: "50 Levels (Đại gia)"
+			type: "xp_levels"
+			weight: 4.0f
+			xp_levels: 50
+		}
+		{
+			title: "100 Levels (JACKPOT!)"
+			type: "xp_levels"
+			xp_levels: 100
+		}
+	]
+	title: "Gacha: Xổ Số Kinh Nghiệm (XP)"
+}

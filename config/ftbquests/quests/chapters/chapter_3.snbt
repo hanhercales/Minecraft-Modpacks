@@ -1,0 +1,403 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "chapter_3"
+	group: "42D4851EE8075942"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3000000000000000"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"Lũ xác sống không bao giờ hết."
+				"Hãy dọn dẹp chúng để giữ an toàn cho căn cứ."
+				"**Phần thưởng:** Tiền Đồng & XP."
+			]
+			icon: "minecraft:zombie_head"
+			id: "6492B38DF75A0050"
+			rewards: [
+				{
+					count: 15
+					id: "0000000000003101"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					id: "0000000000003102"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "square"
+			subtitle: "Cooldown: 5 phút"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "0000000000003201"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Dọn Dẹp Xác Sống"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["Xương của chúng rất tốt để làm bột xương, và tiền thưởng cũng không tệ."]
+			icon: "minecraft:skeleton_skull"
+			id: "3BBB71F09B734B1D"
+			rewards: [
+				{
+					count: 15
+					id: "0000000000003103"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0000000000003104"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					id: "0000000000003105"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "square"
+			subtitle: "Cooldown: 5 phút"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "0000000000003202"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Xạ Thủ Diệt Cốt"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["Cẩn thận nổ! Chúng là nguồn cung thuốc súng chính cho súng đạn."]
+			icon: "minecraft:creeper_head"
+			id: "39E23F20F93167DB"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000003106"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0000000000003107"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Cooldown: 5 phút"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "0000000000003203"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Biệt Đội Gỡ Bom"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Những kẻ lãng khách đến từ chiều không gian khác."
+				"Ngọc trai của chúng rất quý giá."
+			]
+			icon: "minecraft:ender_pearl"
+			id: "244FAF7B25820C7D"
+			rewards: [
+				{
+					count: 10
+					id: "0000000000003108"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0000000000003109"
+					type: "loot"
+				}
+			]
+			shape: "square"
+			subtitle: "Cooldown: 10 phút"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "0000000000003204"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Kẻ Trộm Đen Đúa"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"**Born in Chaos** thêm vào những con quái vật đáng sợ ban đêm."
+				"Nightmare Stalker cực kỳ nguy hiểm, hãy cẩn thận."
+			]
+			icon: "born_in_chaos_v1:nightmare_stalker_skull"
+			id: "70EF93A3777BC9EC"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000003110"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0000000000003111"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Cooldown: 10 phút"
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				id: "0000000000003205"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Cơn Ác Mộng (Nightmare Stalker)"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: ["Những linh hồn bí ngô lang thang trên cánh đồng. Tiêu diệt chúng trước khi chúng gieo rắc nỗi sợ."]
+			icon: "born_in_chaos_v1:pumpkin_spirit_spawn_egg"
+			id: "650AB034BC362C1C"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000003112"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0000000000003113"
+					item: "farmersdelight:pumpkin_slice"
+					type: "item"
+				}
+			]
+			subtitle: "Cooldown: 5 phút"
+			tasks: [{
+				entity: "born_in_chaos_v1:pumpkin_spirit"
+				icon: "born_in_chaos_v1:pumpkin_spirit_spawn_egg"
+				id: "0000000000003206"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Lễ Hội Ma Ám (Pumpkin Spirit)"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: ["Lũ quỷ nhỏ xương xẩu này rất khó chịu. Đập tan chúng!"]
+			icon: "born_in_chaos_v1:bone_imp_spawn_egg"
+			id: "156D0CEBE6F58CAC"
+			rewards: [{
+				count: 3
+				id: "0000000000003114"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Cooldown: 5 phút"
+			tasks: [{
+				entity: "born_in_chaos_v1:bone_imp"
+				id: "0000000000003207"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Quỷ Xương (Bone Imp)"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Vùng biển băng giá **Aquamirae** chứa đầy quái vật."
+				"Anglerfish (Cá lồng đèn) là nỗi kinh hoàng dưới đáy sâu."
+			]
+			icon: "aquamirae:fin"
+			id: "16600C0450DC2FE2"
+			rewards: [
+				{
+					id: "0000000000003115"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0000000000003116"
+					item: "aquamirae:esca"
+					type: "item"
+				}
+			]
+			subtitle: "Cooldown: 10 phút"
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				id: "0000000000003208"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Thợ Lặn Biển Sâu (Anglerfish)"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["Những linh hồn bị tra tấn trôi dạt trên mặt biển băng."]
+			icon: "aquamirae:tortured_soul_spawn_egg"
+			id: "090992F7321508AF"
+			rewards: [
+				{
+					count: 10
+					id: "0000000000003117"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "0000000000003118"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Cooldown: 10 phút"
+			tasks: [{
+				entity: "aquamirae:tortured_soul"
+				icon: "aquamirae:tortured_soul_spawn_egg"
+				id: "0000000000003209"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Giải Thoát Linh Hồn (Tortured Soul)"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Sinh vật sống sâu trong lòng đất, nơi có **Sunken City**."
+				"Chúng bảo vệ các kho báu của Cataclysm."
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:athame"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "403CC7791204BC6B"
+			rewards: [
+				{
+					count: 15
+					id: "0000000000003119"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0000000000003120"
+					type: "loot"
+				}
+			]
+			subtitle: "Cooldown: 10 phút"
+			tasks: [{
+				entity: "cataclysm:deepling"
+				id: "0000000000003210"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Người Cá Vực Sâu (Deepling)"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Những cái cây ăn thịt khổng lồ trong rừng rậm."
+				"Đừng lại gần nếu bạn không muốn làm bữa trưa."
+			]
+			icon: "mowziesmobs:foliaath_seed"
+			id: "165E73DA33728AAE"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000003121"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0000000000003122"
+					item: "mowziesmobs:foliaath_seed"
+					type: "item"
+				}
+			]
+			subtitle: "Cooldown: 15 phút"
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				id: "0000000000003211"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Làm Vườn Mạo Hiểm (Foliaath)"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Những hiệp sĩ đã ngã xuống và bị bóng tối nuốt chửng."
+				"Chúng mặc giáp đen, rất trâu và đánh đau. Hãy cẩn thận!"
+			]
+			icon: "born_in_chaos_v1:fallen_chaos_knight_spawn_egg"
+			id: "0000000000003012"
+			rewards: [
+				{
+					count: 15
+					id: "0000000000003123"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "0000000000003124"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Cooldown: 10 phút"
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: "born_in_chaos_v1:fallen_chaos_knight_spawn_egg"
+				id: "0000000000003212"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Hiệp Sĩ Sa Ngã (Fallen Chaos Knight)"
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+	title: "Chương 3: Thợ Săn Quái Vật"
+}

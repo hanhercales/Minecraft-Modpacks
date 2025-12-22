@@ -1,0 +1,19 @@
+{
+	id: "000000000000000A"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 8, item: "minecraft:iron_ingot", weight: 40.0f }
+		{ count: 4, item: "minecraft:gold_ingot", weight: 30.0f }
+		{ item: "minecraft:diamond", weight: 5.0f }
+		{ count: 4, item: "farmersdelight:steak_and_potatoes", weight: 20.0f }
+		{ count: 2, item: "silentgear:blueprint_paper", weight: 15.0f }
+		{
+			type: "xp_levels"
+			weight: 10.0f
+			xp_levels: 5
+		}
+		{ item: "lightmanscurrency:coin_gold", weight: 2.0f }
+	]
+	title: "Gacha: Tài Nguyên (Tier 1)"
+}

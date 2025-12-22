@@ -1,0 +1,309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "chapter_2"
+	group: "42D4851EE8075942"
+	icon: "irons_spellbooks:arcane_anvil"
+	id: "2000000000000000"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Sức mạnh cơ bắp là không đủ trong thế giới này. Bạn cần phép thuật."
+				"Bước đầu tiên để trở thành pháp sư là chế tạo **Mực Ma Thuật (Magic Ink)**."
+				"Nó được dùng để viết các cuộn phép (Scroll) vào sách."
+			]
+			icon: "irons_spellbooks:common_ink"
+			id: "0000000000004001"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000005001"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0000000000005002"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000006001"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			title: "Mực Ma Thuật: Khởi Nguyên"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000004001"]
+			description: [
+				"Có mực rồi, bạn cần một nơi để làm việc."
+				"**Inscription Table** là bàn làm việc của pháp sư. Dùng nó để ghép Cuộn phép (Scroll) vào Sách phép (Spell Book)."
+			]
+			id: "0000000000004002"
+			rewards: [{
+				id: "0000000000005003"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0000000000006002"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "Bàn Chép Phép"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000004002"]
+			description: [
+				"Bạn có thể tìm thấy các cuộn phép (Scroll) trong rương hầm ngục, hoặc tiêu diệt quái vật pháp sư."
+				"Hãy tìm bất kỳ một cuộn phép nào để bắt đầu."
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "0000000000004003"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000005004"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					id: "0000000000005005"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000006003"
+				item: "irons_spellbooks:scroll"
+				title: "Tìm bất kỳ Cuộn Phép (Scroll) nào"
+				type: "item"
+			}]
+			title: "Thu Thập Tri Thức"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000004002"]
+			description: [
+				"Vũ khí của pháp sư không phải là kiếm, mà là **Sách Phép (Spell Book)**."
+				"Sách cấp càng cao (Đồng -> Sắt -> Vàng -> Kim Cương) thì càng chứa được nhiều phép và chỉ số càng mạnh."
+				"Hãy chế tạo cuốn sách cơ bản nhất: **Copper Spell Book**."
+			]
+			id: "0000000000004004"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0000000000005006"
+					type: "loot"
+				}
+				{
+					id: "0000000000005007"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000006004"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: 0
+							spellSlots: 5
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Cuốn Sách Đầu Tiên"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000004004"]
+			description: [
+				"Để trở thành một pháp sư thực thụ, bạn cần trang phục phù hợp."
+				"Bộ đồ **Wandering Magician** giúp tăng lượng Mana tối đa của bạn."
+				"Hãy chế tạo Áo choàng (Robe)."
+			]
+			id: "0000000000004005"
+			rewards: [
+				{
+					id: "0000000000005008"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "irons_spellbooks:instant_mana_one"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0000000000005009"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000006005"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wandering_magician_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Y Phục Pháp Sư"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000004004"]
+			description: [
+				"Bạn muốn phép thuật mạnh hơn? Hãy dùng **Arcane Anvil**."
+				"Nó dùng để:"
+				"- Nâng cấp độ hiếm của Cuộn phép (Cần 2 cuộn giống nhau)."
+				"- Nâng cấp Sách phép (Ví dụ: Copper -> Iron)."
+			]
+			id: "0000000000004006"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000005010"
+					item: "irons_spellbooks:arcane_ingot"
+					type: "item"
+				}
+				{
+					id: "0000000000005011"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "0000000000006006"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "Đe Ma Thuật"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000004006"]
+			description: [
+				"Sách Đồng quá yếu? Hãy nâng cấp nó lên **Sách Sắt (Iron Spell Book)**."
+				"Bạn sẽ cần Arcane Ingot và Sách Đồng cũ để thực hiện việc này trong Arcane Anvil."
+			]
+			id: "0000000000004007"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000005012"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0000000000005013"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0000000000006007"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: 0
+							spellSlots: 6
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Nâng Cấp Sức Mạnh"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000004007"]
+			description: [
+				"Trong các hầm mộ sâu dưới lòng đất, có một vị vua đã chết nhưng chưa yên nghỉ."
+				"**Dead King** nắm giữ những bí mật phép thuật tối thượng (và cả Netherite nữa)."
+				"Hãy tìm và giải thoát cho hắn."
+			]
+			icon: "irons_spellbooks:wayward_compass"
+			id: "0000000000004008"
+			rewards: [
+				{
+					id: "0000000000005014"
+					item: "irons_spellbooks:blood_staff"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0000000000005015"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0000000000005016"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "0000000000006008"
+				type: "kill"
+				value: 1L
+			}]
+			title: "BOSS: The Dead King"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000004001"]
+			description: [
+				"Đôi khi phép thuật không cần sách."
+				"Hãy tìm các **Scroll** đặc biệt trong rương Ancient City (Thành phố cổ) để học các kỹ năng tối thượng."
+			]
+			id: "0000000000004009"
+			optional: true
+			rewards: [{
+				id: "0000000000005017"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "0000000000006009"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			title: "Tri Thức Cổ Đại (Optional)"
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "Chương 2: Con Đường Pháp Thuật"
+}

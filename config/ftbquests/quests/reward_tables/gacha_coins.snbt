@@ -1,0 +1,13 @@
+{
+	id: "73BE90B74027C482"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 30, item: "lightmanscurrency:coin_iron", weight: 1.5f }
+		{ count: 18, item: "lightmanscurrency:coin_gold", weight: 0.3f }
+		{ count: 3, item: "lightmanscurrency:coin_emerald", weight: 0.1f }
+		{ item: "lightmanscurrency:coin_diamond", weight: 0.01f }
+		{ count: 6, item: "lightmanscurrency:coin_gold" }
+	]
+	title: "Gacha: Coins"
+}
