@@ -7903,9 +7903,93 @@
           "available": true,
           "parser": true,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 240633,
+          "name": "Inventory Sorter",
+          "author": "cpw11",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/inventory-sorter",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            }
+          ],
+          "picture": 821296,
+          "pictures": [],
+          "lanName": "inventory-sorter",
+          "version": {
+            "id": 7188685,
+            "name": "inventorysorter-1.20.1-23.0.11",
+            "updateDate": 1762343763000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "fe77bda0f98df034f00ecdcb9537b31bf3800477",
+              "size": 54267,
+              "path": "mods/inventorysorter-1.20.1-23.0.11.jar",
+              "url": "/mods/240633/7188685/inventorysorter-1.20.1-23.0.11.jar"
+            },
+            "installed": 4527,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 4,
+          "downloadMonth": 204,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 63,
+            "name": "1.21.8"
+          },
+          "updated": 1762290000000,
+          "update": 1762290000000,
+          "downloadALL": 475608,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
-      "resourcePacks": [],
+      "resourcePacks": [
+        {
+          "stateGameElement": "active",
+          "id": -35864845537900,
+          "name": "SilentGearFix",
+          "favorite": false,
+          "version": {
+            "id": -35864857523100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "51d2454b3e4263ea6a0626aa1bc2afd20beec68a",
+              "size": 2102,
+              "path": "resourcepacks/SilentGearFix.zip",
+              "url": "resourcepacks/SilentGearFix.zip"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        }
+      ],
       "maps": [],
       "shaderpacks": [],
       "gameVersionDTO": {
