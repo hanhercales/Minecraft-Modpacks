@@ -11,6 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: false
 			description: [
 				"Bạn cảm thấy dư tiền và muốn thử vận may?"
 				"Chào mừng đến với Sòng Bạc (Gacha System)!"

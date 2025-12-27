@@ -7964,6 +7964,327 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 405593,
+          "name": "ATO - All the Ores",
+          "author": "atmteam",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/ato",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 23,
+              "name": "world_ores_resources",
+              "shortName": "ores",
+              "nesting": 0
+            },
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            }
+          ],
+          "picture": 800260,
+          "pictures": [],
+          "lanName": "ato",
+          "version": {
+            "id": 5348605,
+            "name": "alltheores-1.20.1-47.1.3-2.2.4",
+            "updateDate": 1715863369000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "acb6b854e441014ad864c10ff2f42444e8754ebb",
+              "size": 1073852,
+              "path": "mods/alltheores-1.20.1-47.1.3-2.2.4.jar",
+              "url": "/mods/405593/5348605/alltheores-1.20.1-47.1.3-2.2.4.jar"
+            },
+            "installed": 27535,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              },
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 64,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1758574800000,
+          "update": 1758574800000,
+          "downloadALL": 201010,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 666014,
+          "name": "Immersive Aircraft [FabricForge]",
+          "author": "conczin",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/immersive-aircraft",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 55,
+              "name": "adventure_and_rpg",
+              "shortName": "roleplay",
+              "nesting": 0
+            },
+            {
+              "id": 5,
+              "name": "technology",
+              "shortName": "technology",
+              "nesting": 0
+            },
+            {
+              "id": 21,
+              "name": "technology_player_transport",
+              "shortName": "transport",
+              "nesting": 0
+            }
+          ],
+          "picture": 787876,
+          "pictures": [
+            399986,
+            381750,
+            381751,
+            426113,
+            399988,
+            426114,
+            399987,
+            399985,
+            399989
+          ],
+          "lanName": "immersive-aircraft",
+          "version": {
+            "id": 6972825,
+            "name": "immersive_aircraft-1.4.0+1.20.1-forge",
+            "updateDate": 1757254749000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "64e6c792c5208005ee6b099e8fb7d2738873737d",
+              "size": 2428368,
+              "path": "mods/immersive_aircraft-1.4.0+1.20.1-forge.jar",
+              "url": "/mods/666014/6972825/immersive_aircraft-1.4.0+1.20.1-forge.jar"
+            },
+            "installed": 56074,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 6458,
+              "name": "Man of Many Planes",
+              "gameEntityId": 984493,
+              "dependencyType": "optional"
+            }
+          ],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1757710800000,
+          "update": 1757710800000,
+          "downloadALL": 636303,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 933200,
+          "name": "UI Lib",
+          "author": "DAQEM DAQEM",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/ui",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 1067045,
+          "pictures": [],
+          "lanName": "ui",
+          "version": {
+            "id": 6755489,
+            "name": "uilib-0.3.6-forge",
+            "updateDate": 1752228119000,
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "9fe368c3a95d60319c6352435b77e653367a4009",
+              "size": 204649,
+              "path": "mods/uilib-0.3.6-forge.jar",
+              "url": "/mods/933200/6755489/uilib-0.3.6-forge.jar"
+            },
+            "installed": 8272,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1766178000000,
+          "update": 1766178000000,
+          "downloadALL": 32560,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 986607,
+          "name": "Tiny Mob Farm Remastered",
+          "author": "DAQEM DAQEM",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/tiny-mob-farm-remastered",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 25,
+              "name": "redstone",
+              "shortName": "redstone",
+              "nesting": 0
+            },
+            {
+              "id": 55,
+              "name": "adventure_and_rpg",
+              "shortName": "roleplay",
+              "nesting": 0
+            },
+            {
+              "id": 13,
+              "name": "world_mobs",
+              "shortName": "mobs",
+              "nesting": 0
+            },
+            {
+              "id": 10,
+              "name": "technology_farming",
+              "shortName": "farming",
+              "nesting": 0
+            }
+          ],
+          "picture": 1011913,
+          "pictures": [],
+          "lanName": "tiny-mob-farm-remastered",
+          "version": {
+            "id": 6755589,
+            "name": "tinymobfarm-1.4.1-1.20.1-forge",
+            "updateDate": 1752229244000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "c5c8ec55ae68a64d37ec467307298ef9fe2b54a3",
+              "size": 81047,
+              "path": "mods/tinymobfarm-1.4.1-1.20.1-forge.jar",
+              "url": "/mods/986607/6755589/tinymobfarm-1.4.1-1.20.1-forge.jar"
+            },
+            "installed": 8728,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 11776,
+              "name": "YAML Config",
+              "gameEntityId": 1128669,
+              "dependencyType": "required"
+            },
+            {
+              "gameType": "mod",
+              "id": 6348,
+              "name": "UI Lib",
+              "gameEntityId": 933200,
+              "dependencyType": "required"
+            },
+            {
+              "gameType": "mod",
+              "id": 422,
+              "name": "Architectury API",
+              "gameEntityId": 419699,
+              "dependencyType": "required"
+            }
+          ],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1766178000000,
+          "update": 1766178000000,
+          "downloadALL": 29969,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [

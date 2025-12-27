@@ -11,6 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: false
 			description: ["Nơi tiêu tiền cho những nhu cầu thiết yếu."]
 			icon: "minecraft:chest"
 			id: "5872FD4D8EDD2463"
@@ -297,62 +298,7 @@
 				}
 			]
 			title: "CHỢ ĐEN: Creative Stack Upgrade"
-			x: -3.0d
-			y: 6.0d
-		}
-		{
-			can_repeat: true
-			description: [
-				"**CÔNG CỤ CỦA THẦN (DEBUG)**"
-				"Cho phép thay đổi trạng thái của bất kỳ block nào (xoay hướng, mở cửa, đổi màu...)."
-				"Sử dụng cẩn thận kẻo làm hỏng map!"
-			]
-			icon: "minecraft:debug_stick"
-			id: "0000000000007404"
-			rewards: [{
-				id: "0000000000008404"
-				item: "minecraft:debug_stick"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "Giá: 3 Netherite Coin"
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "0000000000009404"
-				item: "lightmanscurrency:coin_netherite"
-				type: "item"
-			}]
-			title: "CHỢ ĐEN: Debug Stick"
 			x: -1.0d
-			y: 6.0d
-		}
-		{
-			can_repeat: true
-			description: [
-				"Muốn thử sức mạnh của bộ giáp mới?"
-				"Hãy triệu hồi **Supreme Bonecaller** - Kẻ triệu hồi xương cốt đáng sợ nhất của **Born in Chaos**."
-				"Đây là cách duy nhất để mang hắn về sân nhà."
-			]
-			icon: "born_in_chaos_v1:supreme_bonescaller_spawn_egg"
-			id: "0000000000007405"
-			rewards: [{
-				count: 2
-				id: "0000000000008405"
-				item: "born_in_chaos_v1:supreme_bonescaller_spawn_egg"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "Giá: 2 Netherite Coin"
-			tasks: [{
-				consume_items: true
-				count: 2L
-				id: "0000000000009405"
-				item: "lightmanscurrency:coin_netherite"
-				type: "item"
-			}]
-			title: "CHỢ ĐEN: Supreme Bonecaller Egg"
-			x: 1.0d
 			y: 6.0d
 		}
 		{

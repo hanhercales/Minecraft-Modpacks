@@ -1026,7 +1026,7 @@
 			y: 3.75d
 		}
 		{
-			dependencies: ["0000000000005000"]
+			dependencies: ["0000000000005026"]
 			description: [
 				"Kẻ hủy diệt 3 đầu."
 				"Nguồn cung Nether Star."
