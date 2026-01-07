@@ -1,0 +1,625 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "th_nghim_nm_mc"
+	group: "333D629C3F40D9B2"
+	icon: "spore:vigil_spawnegg"
+	id: "703F093B8B1447C6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bước đầu tiên để sinh tồn: Thu thập mẫu vật."
+				""
+				"Hãy tiêu diệt các thực thể nhiễm bệnh (Infected Human/Villager) để thu thập các mô cơ. Đừng quên nhặt cả nội tạng của chúng, tuy kinh tởm nhưng rất hữu dụng."
+			]
+			id: "000000000001A001"
+			rewards: [{
+				count: 5
+				id: "1BC3F353E5E054C5"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			subtitle: "Khởi đầu của sự biến dị"
+			tasks: [
+				{
+					count: 16L
+					id: "68447EC0A2A98A4B"
+					item: "spore:mutated_fiber"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4ED5F57660280A1A"
+					item: "spore:mutated_heart"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "70A5F1D5BFA14704"
+					item: "spore:innards"
+					type: "item"
+				}
+			]
+			title: "Thu hoạch bệnh phẩm"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000001A001"]
+			description: [
+				"Một khối thịt sống dùng để lưu trữ đồ đạc."
+				""
+				"Nó có sức chứa khá ổn. Cảnh báo: Nó có thể thở và phát ra tiếng động lạ vào ban đêm."
+			]
+			id: "000000000001A002"
+			rewards: [{
+				count: 2
+				id: "663CDCB3CE5342F5"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Kho chứa sinh học"
+			tasks: [{
+				id: "4BDA88C9CFD8D419"
+				item: "spore:container"
+				type: "item"
+			}]
+			title: "Thùng chứa biến dị"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000001A001"]
+			description: [
+				"Bàn làm việc tối thượng của nhà sinh học."
+				""
+				"Nơi bạn tái cấu trúc các mô cơ biến dị thành các công cụ hữu ích. Không có nó, bạn không thể tiến xa hơn trong công nghệ Spore."
+			]
+			id: "000000000001A003"
+			rewards: [{
+				count: 5
+				id: "684ABE30CAE0B4A6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Trái tim của phòng thí nghiệm"
+			tasks: [{
+				id: "032870A0925C5365"
+				item: "spore:surgery_table"
+				type: "item"
+			}]
+			title: "Bàn tái tạo sinh học"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000001A003"]
+			description: [
+				"Dụng cụ y tế quan trọng để lấy mẫu máu hoặc tiêm thuốc."
+				""
+				"Bạn sẽ cần nó để chế tạo các hợp chất phức tạp hơn sau này."
+			]
+			id: "000000000001A004"
+			rewards: [{
+				count: 3
+				id: "3CA4B62E6A65E718"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			subtitle: "Y cụ"
+			tasks: [{
+				id: "0C03262D9B4889C2"
+				item: "spore:syringe"
+				type: "item"
+			}]
+			title: "Ống tiêm"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["000000000001A003"]
+			description: [
+				"Vũ khí cận chiến được rèn từ xương và thịt nhiễm khuẩn."
+				""
+				"Sát thương cao hơn kiếm sắt và có độ bền tự phục hồi theo thời gian."
+			]
+			id: "000000000001A005"
+			rewards: [{
+				id: "465C21A2247F604F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Cận chiến"
+			tasks: [{
+				id: "6B97250959077689"
+				item: {
+					Count: 1
+					id: "spore:greatsword"
+					tag: {
+						Damage: 0
+						agent: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Kiếm nhiễm khuẩn"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["000000000001A005"]
+			description: [
+				"Dụng cụ khai thác làm từ sinh vật sống."
+				""
+				"Nó đào khá nhanh nhưng hãy cẩn thận, cảm giác cầm nó rất nhớt nhát."
+			]
+			id: "00000000001A005B"
+			rewards: [{
+				count: 5
+				id: "2AB6219274753300"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Công cụ"
+			tasks: [{
+				id: "1A0B43C353619E35"
+				item: {
+					Count: 1
+					id: "spore:combat_pickaxe"
+					tag: {
+						Damage: 0
+						agent: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Cúp nhiễm khuẩn"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["000000000001A003"]
+			description: [
+				"Một cây cung được làm từ gân và cơ của quái vật."
+				""
+				"Rất hữu dụng để tiêu diệt Spore từ xa nếu bạn chưa có súng."
+			]
+			id: "00000000001A005C"
+			rewards: [{
+				count: 16
+				id: "381CE15087960B86"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			subtitle: "Tầm xa"
+			tasks: [{
+				id: "3864957B1E0741D0"
+				item: {
+					Count: 1
+					id: "spore:infected_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Cung nhiễm khuẩn"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["000000000001A003"]
+			description: [
+				"Bộ giáp cơ bản chế tạo từ các thớ thịt."
+				""
+				"Bảo vệ bạn khỏi các đòn tấn công vật lý cơ bản. Trông hơi ghê rợn nhưng hiệu quả."
+			]
+			id: "000000000001A006"
+			rewards: [{
+				count: 5
+				id: "4653EB36B55683E3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Giáp cấp 1"
+			tasks: [
+				{
+					id: "7FCEB6BFE631DEDF"
+					item: {
+						Count: 1
+						id: "spore:living_helmet"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05623EE10926B253"
+					item: {
+						Count: 1
+						id: "spore:living_chest"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E94A32A0869B392"
+					item: {
+						Count: 1
+						id: "spore:living_pants"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "715E6202229046F8"
+					item: {
+						Count: 1
+						id: "spore:living_boots"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bộ giáp xác thịt"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000001A006"]
+			description: [
+				"Muốn mạnh hơn? Hãy đi săn những con quái đã tiến hóa (Knight, Griefer)."
+				""
+				"Lớp vỏ của chúng cứng như thép. Thu thập mảnh vỡ này để nâng cấp giáp."
+			]
+			id: "000000000001A007"
+			rewards: [{
+				count: 2
+				id: "2125EDE63A101A91"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Nguyên liệu cao cấp"
+			tasks: [{
+				count: 8L
+				id: "76C1D2411ECA1C7A"
+				item: "spore:armor_fragment"
+				type: "item"
+			}]
+			title: "Thu thập mảnh giáp vỡ"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000001A007"]
+			description: ["Bộ giáp chế tạo từ các mảnh xác cứng."]
+			id: "000000000001A008"
+			rewards: [{
+				count: 5
+				id: "6A4258E78E1E5B03"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Giáp cứng cấp 1"
+			tasks: [
+				{
+					id: "7EB94A913A719374"
+					item: {
+						Count: 1
+						id: "spore:plated_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75846A950633A304"
+					item: {
+						Count: 1
+						id: "spore:plated_chest"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "602E9758DA4C2847"
+					item: {
+						Count: 1
+						id: "spore:plated_boots"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D588B9B1CA8377B"
+					item: {
+						Count: 1
+						id: "spore:plated_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bộ giáp bọc thép"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000001A001"]
+			description: [
+				"Môi trường nhiễm nấm chứa đầy bào tử độc hại."
+				""
+				"Đeo mặt nạ này vào để bảo vệ phổi của bạn. Nhớ kiểm tra độ bền của nó thường xuyên."
+			]
+			id: "000000000001A009"
+			rewards: [{
+				id: "19388D3D1F750AD1"
+				item: "spore:mutated_fiber"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10D14424D8087FB7"
+				item: "spore:gas_mask"
+				type: "item"
+			}]
+			title: "Mặt nạ phòng độc"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000001A003"]
+			description: [
+				"Trái tim đang đập của một Thảm Họa (Calamity Boss)."
+				""
+				"Nó chứa đựng năng lượng sinh học khổng lồ. Dùng để chế tạo các thiết bị tối thượng."
+			]
+			id: "000000000001A010"
+			rewards: [{
+				id: "2D93458287A539BA"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Tinh hoa tối thượng"
+			tasks: [{
+				id: "11442FD161180E6A"
+				item: "spore:living_core"
+				type: "item"
+			}]
+			title: "Lõi sự sống"
+			x: 9.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["000000000001A004"]
+			description: [
+				"Một loại axit sinh học cực mạnh lấy từ quái vật."
+				""
+				"Cẩn thận khi vận chuyển, nó có thể nung chảy cả sắt thép."
+			]
+			id: "000000000001A011"
+			rewards: [{
+				count: 5
+				id: "526631B3433D1D6D"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1818AFF3A33656A2"
+				item: "spore:bucket_of_bile"
+				type: "item"
+			}]
+			title: "Xô dịch mật"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["000000000001A001"]
+			description: [
+				"Một khối vật chất hữu cơ tổng hợp."
+				""
+				"Dùng để xây dựng hoặc làm nguyên liệu chế tạo trung gian."
+			]
+			id: "000000000001A012"
+			rewards: [{
+				count: 16
+				id: "5D44414750A9889A"
+				item: "spore:biomass"
+				type: "item"
+			}]
+			subtitle: "Vật liệu xây dựng?"
+			tasks: [{
+				count: 8L
+				id: "12C43CD554FD979B"
+				item: "spore:biomass"
+				type: "item"
+			}]
+			title: "Khối sinh khối"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000001A008"]
+			description: ["Bộ giáp kết hợp hoàn hảo giữa xác thịt và lớp vỏ cứng cáp."]
+			id: "2218AEB38167A8FB"
+			rewards: [{
+				count: 3
+				id: "423087DBBA69CACE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Giáp cấp 2"
+			tasks: [
+				{
+					id: "12066CC10E719012"
+					item: {
+						Count: 1
+						id: "spore:inf_helmet"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "123C6AEB30CA04DF"
+					item: {
+						Count: 1
+						id: "spore:inf_chest"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7785B33977699FA8"
+					item: {
+						Count: 1
+						id: "spore:inf_pants"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13720ABD4EA8CF1D"
+					item: {
+						Count: 1
+						id: "spore:inf_boots"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Giáp sự sống"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000001A003"]
+			id: "29660069FF397B35"
+			rewards: [{
+				count: 3
+				id: "2E73BCD500813622"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "264D323ECB7F2F19"
+				item: {
+					Count: 1
+					id: "spore:r_elytron"
+					tag: {
+						Damage: 0
+						agent: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"29660069FF397B35"
+				"2218AEB38167A8FB"
+			]
+			description: ["Bộ giáp tối thượng, thứ giúp bạn sống sót khi đối diện với đám quái Calamity."]
+			id: "1EFFE6231656675A"
+			rewards: [{
+				count: 6
+				id: "3F25BBA5EEA1A38D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Giáp tối thượng"
+			tasks: [
+				{
+					id: "423AF8A20EB5CC33"
+					item: {
+						Count: 1
+						id: "spore:inf_up_helmet"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F53394BF2C85718"
+					item: {
+						Count: 1
+						id: "spore:inf_up_chest"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E518466478836FB"
+					item: {
+						Count: 1
+						id: "spore:inf_up_pants"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "438BD0A3AFDFC3C0"
+					item: {
+						Count: 1
+						id: "spore:inf_up_boots"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Giáp sự sống MK2"
+			x: 10.0d
+			y: 1.0d
+		}
+	]
+	title: "Thí nghiệm nấm mốc"
+}

@@ -1,0 +1,390 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "v_kh_cng_nghip"
+	group: "333D629C3F40D9B2"
+	icon: "tacz:gun_smith_table"
+	id: "335EFE1A3E7CE292"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chế tạo Gun Smith Table để chế tạo súng ống."]
+			id: "70421C14E627F3E6"
+			rewards: [{
+				id: "3CD836C0BCCA7262"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F50BD316A1A3EEE"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70421C14E627F3E6"]
+			description: ["Độ súng thôi, lắp thêm phụ kiện vào như PUBG ấy."]
+			id: "4DC9A475F90B9199"
+			rewards: [{
+				count: 2
+				id: "2D299513C7259B08"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53A767859F473718"
+				item: {
+					Count: 1
+					id: "tacz:workbench_c"
+					tag: {
+						BlockId: "tacz:attachment_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70421C14E627F3E6"]
+			description: ["Nhìn tên cũng biết, cái này để chế đạn."]
+			id: "3170FE483900BC0F"
+			rewards: [{
+				count: 2
+				id: "737288A6C88A8DD4"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "294981F909137D97"
+				item: {
+					Count: 1
+					id: "tacz:workbench_a"
+					tag: {
+						BlockId: "tacz:ammo_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: ["Cái bàn này dùng để chế cháo thêm vũ khí phụ như dao, bom linh tinh."]
+			id: "4C76D23D6D1E006C"
+			rewards: [{
+				count: 2
+				id: "75AF0C710B66E4B3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "207E4F769C4E9912"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "lrtactical:smith_table"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70421C14E627F3E6"]
+			description: ["Bố mày giật, nhưng bố mày MẠNH!"]
+			id: "08176E05BBB31DB6"
+			rewards: [
+				{
+					id: "1F6E80E2E2037FFA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "5F0E87E405B8EE7D"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:762x39"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7633358F703903BB"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 30
+						GunFireMode: "AUTO"
+						GunId: "tacz:ak47"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["70421C14E627F3E6"]
+			description: ["Chạy bắn đi em, giữ Shift mãi thế!"]
+			id: "049CDB9BABC8BCC6"
+			rewards: [
+				{
+					id: "1908B672A1036F93"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "64E836844C7986FE"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:45acp"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C284681AD26729C"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 25
+						GunFireMode: "AUTO"
+						GunId: "tacz:ump45"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DC9A475F90B9199"]
+			dependency_requirement: "one_completed"
+			id: "039AEF1723D837CD"
+			rewards: [{
+				count: 5
+				id: "071245A7121F4E7D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C2BAF2E0AAEAD01"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_compensator_trident"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DC9A475F90B9199"]
+			dependency_requirement: "one_completed"
+			id: "73D67DD5D1A81965"
+			rewards: [{
+				count: 3
+				id: "7013C5790308915C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37E06C90DE01F861"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_rmr_dot"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4DC9A475F90B9199"]
+			dependency_requirement: "one_completed"
+			id: "257E15B3C75859C9"
+			rewards: [{
+				count: 5
+				id: "33E481904367BDED"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32E9C6868820F295"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:ammo_mod_hp"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3170FE483900BC0F"]
+			id: "086FEC4EA9960C53"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6ECA981512A229E7"
+					table_id: 7874984001396058230L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "6111040D381E6D58"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B6AEA513D179C54"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["086FEC4EA9960C53"]
+			id: "65058D2451C88769"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C7D21E9C66A0BAE"
+					table_id: 7874984001396058230L
+					type: "choice"
+				}
+				{
+					count: 4
+					id: "68DC40D4713506C9"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5049928854443EA8"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65058D2451C88769"]
+			id: "07E3394079E46CB0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "065BCB72D54EA6EF"
+					table_id: 7874984001396058230L
+					type: "choice"
+				}
+				{
+					count: 6
+					id: "48D95913521BB253"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77D63E7C0FF48F38"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C76D23D6D1E006C"]
+			id: "4FF0F765CBDC00BF"
+			rewards: [{
+				id: "1DCBB17ED35C6CE8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "552C489BB8E0E36D"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "lrtactical:dagger"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4C76D23D6D1E006C"]
+			id: "2214A51083869C7A"
+			rewards: [{
+				id: "24AD5E24C3993C74"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EEEDC46174F4658"
+				item: {
+					Count: 1
+					id: "lrtactical:throwable"
+					tag: {
+						ThrowableId: "lrtactical:m67"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+	]
+	title: "Vũ khí công nghiệp"
+}

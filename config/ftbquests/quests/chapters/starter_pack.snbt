@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starter_pack"
+	group: "3CAB33623C145DBB"
+	icon: "ftbquests:book"
+	id: "448EDBBCE2426B94"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Khởi đầu nhẹ nhàng với một con dao, một khẩu Glock 17 và vài mẩu bánh mì."]
+			id: "6DFD2C9B0786960C"
+			rewards: [
+				{
+					id: "33684663728E2A24"
+					item: {
+						Count: 1
+						id: "aquaculture:wooden_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "113A1B7F0BE07D21"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 17
+							GunFireMode: "SEMI"
+							GunId: "tacz:glock_17"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "2A87DAF740C1A3FB"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5FB7C3FD6E744830"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5565A889923A7AFB"
+				title: "Khởi đầu moi!"
+				type: "checkmark"
+			}]
+			title: "Starter Pack"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Có rất nhiều loại cây trồng trong này, cố gắng thu thập hết chúng để kiếm đồ ăn. Đây là vài thứ khởi đầu."]
+			id: "64F94733311F03FC"
+			rewards: [{
+				id: "4E976BD7029C3E95"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "295F0075CBE96327"
+				title: "Nhà nông vui vẻ"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			description: ["Lũ quái vật sẽ săn hết động vật xung quanh và đấm vào mồm mày, hãy cẩn thận."]
+			id: "765EDA9EBA5738F3"
+			rewards: [{
+				id: "4B4117C242F829F6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6A0B3F883DCC81C7"
+				title: "Quái vật hung hãn"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			description: ["Thu thập đủ 12 con mắt khác nhau để mở đường đi tới The End."]
+			id: "03EED8FBF85EED3C"
+			rewards: [{
+				id: "7CB58CC1C5802086"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57A3A903E558DD0B"
+				title: "Kết thúc mới"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: ["Thêm vài loại động vật cũng như boss mới, khỏe thì vcl."]
+			id: "47E561D834921E2F"
+			rewards: [{
+				id: "1327BAF459A4F15D"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F4AFEFA98E0C534"
+				title: "Động vật mới"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	title: "Khởi đầu moi"
+}

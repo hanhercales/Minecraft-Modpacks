@@ -1,0 +1,238 @@
+{
+	id: "6D499039CF18A876"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:68x51fury"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "lradd:flintlock_bullet"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "lradd:m993"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:556x45"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x25"
+				}
+			}
+		}
+		{
+			count: 15
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:45_70"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:545x39"
+				}
+			}
+		}
+		{
+			count: 15
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:30_06"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:57x28"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:46x30"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:9mm"
+				}
+			}
+		}
+		{
+			count: 15
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:338"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x54"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x39"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:58x42"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:12g"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:45acp"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "lradd:545x39"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:308"
+				}
+			}
+		}
+		{
+			count: 15
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:50bmg"
+				}
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:357mag"
+				}
+			}
+		}
+		{
+			count: 15
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:50ae"
+				}
+			}
+		}
+		{
+			count: 15
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "lradd:2mm_ec"
+				}
+			}
+		}
+	]
+	title: "Bullets"
+}

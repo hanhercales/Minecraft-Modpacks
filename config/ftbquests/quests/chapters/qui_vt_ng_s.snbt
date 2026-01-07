@@ -1,0 +1,1158 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qui_vt_ng_s"
+	group: "664EA39468B63E4E"
+	icon: "spore:living_core"
+	id: "4718FB86A7DFF4F2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "60210F9921C78C39"
+			rewards: [{
+				count: 5
+				id: "26C68557945589C9"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_diseased_villager"
+				icon: "spore:inf_diseased_villager_spawnegg"
+				id: "2A49B9B269742FA9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2DD556A2A00D7C41"
+			rewards: [{
+				count: 5
+				id: "0C2C86B4CDB40952"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_drowned"
+				icon: "spore:inf_drowned_spawnegg"
+				id: "4A2BA4BDC2DA292A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "15F959C8329715B3"
+			rewards: [{
+				count: 5
+				id: "010D7EC8A6526BCA"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_human"
+				icon: "spore:infected_human_spawnegg"
+				id: "73D30E6E6F839ADE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "69FA49C23A265E45"
+			rewards: [{
+				count: 5
+				id: "75FE707274A1F8E5"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_husk"
+				icon: "spore:inf_husk_spawnegg"
+				id: "152F0730BB6375B1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "329A13051EDE31F9"
+			rewards: [{
+				count: 5
+				id: "16776AAEBF65DDF4"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_villager"
+				icon: "spore:inf_villager_spawnegg"
+				id: "42B9AE690D655E14"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "2E03FE2CBDA4921C"
+			rewards: [{
+				id: "096FA528E8E7A1AF"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_witch"
+				icon: "spore:inf_witch_spawnegg"
+				id: "3DB983AC8207FFD7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "04E7FE1DB5C323CF"
+			rewards: [{
+				count: 2
+				id: "535FC63ECB4D4CB5"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_pillager"
+				icon: "spore:inf_pillager_spawnegg"
+				id: "613A55A128F36B83"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "60D3861776967E4C"
+			rewards: [{
+				count: 3
+				id: "02069B60E1F623F0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_vindicator"
+				icon: "spore:inf_vind_spawnegg"
+				id: "110AE5C4C50072DA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "55255601DAA9694E"
+			rewards: [{
+				count: 3
+				id: "1C7952CAC2CE63EB"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_evoker"
+				icon: "spore:inf_evo_spawnegg"
+				id: "3C09606188E79A49"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "6B3A9A6C6E23358A"
+			rewards: [{
+				count: 5
+				id: "6B9C135F700A3DBD"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_wanderer"
+				icon: "spore:inf_wanderer_spawnegg"
+				id: "70A26588EC7D5111"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "786067F1162B52AD"
+			rewards: [{
+				count: 5
+				id: "18601482391BBCDD"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_player"
+				icon: "spore:inf_player_spawnegg"
+				id: "60D771C1B6C8D857"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "7BC6EED83BA96720"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47CA7F"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_hazmat"
+				icon: "spore:inf_hazmat_spawnegg"
+				id: "745D32A9578CF4D1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "70D771C1B6C8D001"
+			rewards: [{
+				id: "39E4B44BDF47C001"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:plagued"
+				icon: "spore:plagued_spawnegg"
+				id: "745D32A9578CF001"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "70D771C1B6C8D002"
+			rewards: [{
+				id: "39E4B44BDF47C002"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:lacerator"
+				icon: "spore:lacerator_spawnegg"
+				id: "745D32A9578CF002"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "70D771C1B6C8D003"
+			rewards: [{
+				id: "39E4B44BDF47C003"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:biobloob"
+				icon: "spore:biobloob_spawnegg"
+				id: "745D32A9578CF003"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "70D771C1B6C8D004"
+			rewards: [{
+				id: "39E4B44BDF47C004"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:saugling"
+				icon: "spore:saugling_spawnegg"
+				id: "745D32A9578CF004"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "70D771C1B6C8D005"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C005"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:knight"
+				icon: "spore:knight_spawnegg"
+				id: "745D32A9578CF005"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "70D771C1B6C8D006"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C006"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:griefer"
+				icon: "spore:griefer_spawnegg"
+				id: "745D32A9578CF006"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "70D771C1B6C8D007"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C007"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:protector"
+				icon: "spore:prot_spawnegg"
+				id: "745D32A9578CF007"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "70D771C1B6C8D008"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C008"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:scavenger"
+				icon: "spore:scavenger_spawnegg"
+				id: "745D32A9578CF008"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			id: "70D771C1B6C8D009"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C009"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:jagd"
+				icon: "spore:jagd_spawnegg"
+				id: "745D32A9578CF009"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "70D771C1B6C8D010"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C010"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:bloater"
+				icon: "spore:bloater_spawnegg"
+				id: "745D32A9578CF010"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "70D771C1B6C8D011"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C011"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:naiad"
+				icon: "spore:naiad_spawnegg"
+				id: "745D32A9578CF011"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "70D771C1B6C8D012"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C012"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:nuclea"
+				icon: "spore:nuclea_spawnegg"
+				id: "745D32A9578CF012"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "70D771C1B6C8D013"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C013"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:braiomil"
+				icon: "spore:braio_spawnegg"
+				id: "745D32A9578CF013"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "70D771C1B6C8D014"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C014"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:busser"
+				icon: "spore:busser_spawnegg"
+				id: "745D32A9578CF014"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "70D771C1B6C8D015"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C015"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:leaper"
+				icon: "spore:leaper_spawnegg"
+				id: "745D32A9578CF015"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "70D771C1B6C8D016"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C016"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:slasher"
+				icon: "spore:slasher_spawnegg"
+				id: "745D32A9578CF016"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "70D771C1B6C8D017"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C017"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:spitter"
+				icon: "spore:spitter_spawnegg"
+				id: "745D32A9578CF017"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "70D771C1B6C8D018"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C018"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:howler"
+				icon: "spore:howler_spawnegg"
+				id: "745D32A9578CF018"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "70D771C1B6C8D019"
+			rewards: [{
+				count: 8
+				id: "39E4B44BDF47C019"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:stalker"
+				icon: "spore:stalker_spawnegg"
+				id: "745D32A9578CF019"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "70D771C1B6C8D020"
+			rewards: [{
+				count: 8
+				id: "39E4B44BDF47C020"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:brute"
+				icon: "spore:brute_spawnegg"
+				id: "745D32A9578CF020"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "70D771C1B6C8D021"
+			rewards: [{
+				count: 8
+				id: "39E4B44BDF47C021"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:volatile"
+				icon: "spore:volatile_spawnegg"
+				id: "745D32A9578CF021"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "70D771C1B6C8D022"
+			rewards: [{
+				count: 8
+				id: "39E4B44BDF47C022"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:mephitic"
+				icon: "spore:meph_spawnegg"
+				id: "745D32A9578CF022"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "70D771C1B6C8D023"
+			rewards: [{
+				count: 8
+				id: "39E4B44BDF47C023"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inebriater"
+				icon: "spore:inebriater_spawnegg"
+				id: "745D32A9578CF023"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "70D771C1B6C8D024"
+			rewards: [{
+				count: 8
+				id: "39E4B44BDF47C024"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:chemist"
+				icon: "spore:chemist_spawnegg"
+				id: "745D32A9578CF024"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			id: "70D771C1B6C8D025"
+			rewards: [{
+				count: 8
+				id: "39E4B44BDF47C025"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:thorn"
+				icon: "spore:thorn_spawnegg"
+				id: "745D32A9578CF025"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "70D771C1B6C8D026"
+			rewards: [{
+				id: "39E4B44BDF47C026"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:mound"
+				icon: "spore:mound_spawnegg"
+				id: "745D32A9578CF026"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			id: "70D771C1B6C8D027"
+			rewards: [{
+				count: 2
+				id: "39E4B44BDF47C027"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:vigil"
+				icon: "spore:vigil_spawnegg"
+				id: "745D32A9578CF027"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			id: "70D771C1B6C8D028"
+			rewards: [{
+				count: 2
+				id: "39E4B44BDF47C028"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:umarmed"
+				icon: "spore:umarmed_spawnegg"
+				id: "745D32A9578CF028"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			id: "70D771C1B6C8D029"
+			rewards: [{
+				count: 3
+				id: "39E4B44BDF47C029"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:usurper"
+				icon: "spore:usurper_spawnegg"
+				id: "745D32A9578CF029"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			id: "70D771C1B6C8D030"
+			rewards: [{
+				count: 2
+				id: "39E4B44BDF47C030"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:braurei"
+				icon: "spore:braurei_spawnegg"
+				id: "745D32A9578CF030"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			id: "70D771C1B6C8D031"
+			rewards: [{
+				id: "39E4B44BDF47C031"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:verva"
+				icon: "spore:verva_spawnegg"
+				id: "745D32A9578CF031"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			id: "70D771C1B6C8D032"
+			rewards: [{
+				count: 3
+				id: "39E4B44BDF47C032"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:delusioner"
+				icon: "spore:illusion_spawnegg"
+				id: "745D32A9578CF032"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			id: "70D771C1B6C8D033"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C033"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:reconstructor"
+				icon: "spore:reconstructor_spawnegg"
+				id: "745D32A9578CF033"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			id: "70D771C1B6C8D034"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C034"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:proto"
+				icon: "spore:proto_spawnegg"
+				id: "745D32A9578CF034"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			id: "70D771C1B6C8D035"
+			rewards: [{
+				count: 10
+				id: "39E4B44BDF47C035"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:sieger"
+				icon: "spore:sieger_spawnegg"
+				id: "745D32A9578CF035"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			id: "70D771C1B6C8D036"
+			rewards: [{
+				count: 10
+				id: "39E4B44BDF47C036"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:gazenbreacher"
+				icon: "spore:gazen_spawnegg"
+				id: "745D32A9578CF036"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			id: "70D771C1B6C8D037"
+			rewards: [{
+				count: 10
+				id: "39E4B44BDF47C037"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:hindenburg"
+				icon: "spore:hinden_spawnegg"
+				id: "745D32A9578CF037"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			id: "70D771C1B6C8D038"
+			rewards: [{
+				count: 10
+				id: "39E4B44BDF47C038"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:howitzer"
+				icon: "spore:howitzer_spawnegg"
+				id: "745D32A9578CF038"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			id: "70D771C1B6C8D039"
+			rewards: [{
+				count: 10
+				id: "39E4B44BDF47C039"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:hohlfresser"
+				icon: "spore:hohlfresser_spawnegg"
+				id: "745D32A9578CF039"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			id: "70D771C1B6C8D040"
+			rewards: [{
+				count: 10
+				id: "39E4B44BDF47C040"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:kraken"
+				icon: "spore:kraken_spawnegg"
+				id: "745D32A9578CF040"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			id: "70D771C1B6C8D041"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C041"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:wendigo"
+				icon: "spore:wendigo_spawnegg"
+				id: "745D32A9578CF041"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			id: "70D771C1B6C8D042"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C042"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inquisitor"
+				icon: "spore:inquisitor_spawnegg"
+				id: "745D32A9578CF042"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			id: "70D771C1B6C8D043"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C043"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:brotkatze"
+				icon: "spore:brotkatze_spawnegg"
+				id: "745D32A9578CF043"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			id: "70D771C1B6C8D044"
+			rewards: [{
+				count: 6
+				id: "39E4B44BDF47C044"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:hevoker"
+				icon: "spore:hevoker_spawnegg"
+				id: "745D32A9578CF044"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			id: "70D771C1B6C8D045"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C045"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:ogre"
+				icon: "spore:ogre_spawnegg"
+				id: "745D32A9578CF045"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			id: "70D771C1B6C8D046"
+			rewards: [{
+				count: 6
+				id: "39E4B44BDF47C046"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:hvindicator"
+				icon: "spore:hvindicator_spawnegg"
+				id: "745D32A9578CF046"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			id: "70D771C1B6C8D047"
+			rewards: [{
+				count: 3
+				id: "39E4B44BDF47C047"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:bairn"
+				icon: "spore:bairn_spawnegg"
+				id: "745D32A9578CF047"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			id: "70D771C1B6C8D048"
+			rewards: [{
+				count: 3
+				id: "39E4B44BDF47C048"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:scamper"
+				icon: "spore:scamper_spawnegg"
+				id: "745D32A9578CF048"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			id: "70D771C1B6C8D049"
+			rewards: [{
+				count: 2
+				id: "39E4B44BDF47C049"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:gastgaber"
+				icon: "spore:gastgaber_spawnegg"
+				id: "745D32A9578CF049"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			id: "70D771C1B6C8D050"
+			rewards: [{
+				count: 3
+				id: "39E4B44BDF47C050"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:specter"
+				icon: "spore:specter_spawnegg"
+				id: "745D32A9578CF050"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "70D771C1B6C8D051"
+			rewards: [{
+				count: 5
+				id: "39E4B44BDF47C051"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:inf_construct"
+				icon: "spore:construct_spawnegg"
+				id: "745D32A9578CF051"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			id: "70D771C1B6C8D052"
+			rewards: [{
+				count: 8
+				id: "39E4B44BDF47C052"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "spore:vanguard"
+				icon: "spore:vanguard_spawnegg"
+				id: "745D32A9578CF052"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: -4.0d
+		}
+	]
+	title: "Quái vật đáng sợ"
+}

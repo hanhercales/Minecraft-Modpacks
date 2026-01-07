@@ -1,0 +1,391 @@
+{
+	id: "4718486DF72028CA"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "ar_skin_case"
+	}
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:m4a1_silverpurple"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:hk416d_security"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:m4a1_zero"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:qbz95_arasaka"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:ak47_asiimov"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:qbz_95_industries"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:ak47_supercharged"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:qbz95_piano"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 25
+					GunFireMode: "AUTO"
+					GunId: "lrl:ash12_pity"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 20
+					GunFireMode: "AUTO"
+					GunId: "lrl:mdr_223_blackice"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 20
+					GunFireMode: "AUTO"
+					GunId: "lrl:mdr_223_pity"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 20
+					GunFireMode: "AUTO"
+					GunId: "lrl:mdr_308_dawn"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:rd704_blackice"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:rd704_asiimov"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:aug_security"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:qbz191_blackice"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 20
+					GunFireMode: "SEMI"
+					GunId: "lrl:ngsw_r_pity"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 20
+					GunFireMode: "SEMI"
+					GunId: "lrl:spr_15_medic"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:aug_ywzj"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:ak12_blackgold"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:m4a1_temukau"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:m4a1_turbine"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:hk416d_ocean"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:hk416d_blackice"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:scar_l_ocean"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "BURST"
+					GunId: "lrl:m16a4_ocean"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:ak200_sky"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:ak200_power"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 20
+					GunFireMode: "AUTO"
+					GunId: "lrl:sa58_medic"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 5
+					GunFireMode: "SEMI"
+					GunId: "lrl:m700_ocean"
+					HasBulletInBarrel: 0b
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 4
+					GunFireMode: "SEMI"
+					GunId: "lrl:ai_awp_asiimov"
+					HasBulletInBarrel: 1b
+				}
+			}
+			weight: 0.01f
+		}
+	]
+	title: "AR Skin Case"
+}

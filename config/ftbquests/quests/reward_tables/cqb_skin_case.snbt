@@ -1,0 +1,197 @@
+{
+	id: "29DF6C162768BA61"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "cqb_skin_case"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 17
+					GunFireMode: "SEMI"
+					GunId: "lrl:glock_17_silverpurple"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 7
+					GunFireMode: "SEMI"
+					GunId: "lrl:deagle_pilot"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 17
+					GunFireMode: "SEMI"
+					GunId: "lrl:glock_17_highbeam"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 7
+					GunFireMode: "SEMI"
+					GunId: "lrl:deagle_conspiracy"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 12
+					GunFireMode: "SEMI"
+					GunId: "lrl:p320_doctor"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:hk_mp5a5_cyrex"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 25
+					GunFireMode: "AUTO"
+					GunId: "lrl:ump45_crimson_foil"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 25
+					GunFireMode: "AUTO"
+					GunId: "lrl:ump45_hurrican"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 50
+					GunFireMode: "AUTO"
+					GunId: "lrl:p90_asiimov"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:mp7_cirrus"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 17
+					GunFireMode: "AUTO"
+					GunId: "lrl:vector45_silverpurple"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 50
+					GunFireMode: "AUTO"
+					GunId: "lrl:p90_industries"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:hk_mp5a5_agent"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 32
+					GunFireMode: "AUTO"
+					GunId: "lrl:pp19_shark"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 50
+					GunFireMode: "AUTO"
+					GunId: "lrl:p90_cold_blooded"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+	]
+	title: "CQB Skin Case"
+}

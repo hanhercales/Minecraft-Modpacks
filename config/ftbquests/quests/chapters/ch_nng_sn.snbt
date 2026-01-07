@@ -1,0 +1,553 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	filename: "ch_nng_sn"
+	group: "571752A4E67CA15B"
+	icon: "minecraft:wheat"
+	id: "16CEB6B9498556B5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: "minecraft:wheat"
+			id: "7A17627EDD66B239"
+			rewards: [{
+				id: "0076E784950C31A1"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Thu mua ngũ cốc"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "52005405F2496A54"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "Bán Lúa mì"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:sugar_cane"
+			id: "23717F47D882C241"
+			rewards: [{
+				id: "38694BF173A8DDA6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Thu mua mía đường"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "28A4CCCCC5FEFF6C"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			title: "Bán Mía"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:beetroot"
+			id: "11BFE4FAAD7AF91A"
+			rewards: [{
+				id: "650F1F3B7A3F35A0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Thu mua củ dền"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "149C57E1045BE582"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			title: "Bán Củ dền"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:cactus"
+			id: "3A49128A706CC85C"
+			rewards: [{
+				count: 8
+				id: "11FF37E954D6574F"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			subtitle: "Thu mua xương rồng"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "468A430BD22D0EF8"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			title: "Bán Xương rồng"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:wheat_seeds"
+			id: "1E916DF6AC2839BF"
+			rewards: [{
+				count: 5
+				id: "2820337EE83BFDDC"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			subtitle: "Thu mua hạt giống dư thừa"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6D509B922B352FED"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			title: "Bán Hạt giống"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: "farmersdelight:tomato"
+			id: "0C2682255D206D28"
+			rewards: [{
+				count: 2
+				id: "07C9CC6D332F2A33"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Rau củ Farmer's Delight"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "59B009162349DED0"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			title: "Bán Cà chua"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "farmersdelight:onion"
+			id: "47B8AFCB2B3697EE"
+			rewards: [{
+				count: 2
+				id: "75CD47C775BC3D19"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Rau củ Farmer's Delight"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "633D3837F47BC839"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			title: "Bán Hành tây"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "farmersdelight:cabbage"
+			id: "76E2AD085D399D40"
+			rewards: [{
+				count: 2
+				id: "06A885E1877D6125"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Rau củ Farmer's Delight"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "601922A840BC4673"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			title: "Bán Bắp cải"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "farmersdelight:rice_panicle"
+			id: "3191443A5C2B231D"
+			rewards: [{
+				count: 2
+				id: "0F73BA1913A5846A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Rau củ Farmer's Delight"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "70BCFACD88CC3EED"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			title: "Bán Gạo"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:potato"
+			id: "3F428A4E7FC349ED"
+			rewards: [{
+				count: 2
+				id: "3D63B750608785EA"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Thu mua củ quả"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "079D52AB5E6F69AF"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			title: "Bán Khoai tây"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:carrot"
+			id: "29FF53FB8E97E35B"
+			rewards: [{
+				count: 2
+				id: "3F2F40C40D3A25E2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Thu mua củ quả"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "442B39D677B5F4EF"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			title: "Bán Cà rốt"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:pumpkin"
+			id: "58E3EA27E219D19F"
+			rewards: [{
+				count: 3
+				id: "3A064397A3292CB0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Thu mua bí ngô"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "60FCB6910B584F90"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			title: "Bán Bí ngô"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:melon_slice"
+			id: "483627DC4229BA5F"
+			rewards: [{
+				id: "7A41273D9FB40631"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Thu mua dưa hấu"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6D8E9B1770FC740F"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			title: "Bán Dưa hấu"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:apple"
+			id: "1541BD96ACA0BB05"
+			rewards: [{
+				count: 4
+				id: "7ECD9A5EF9B70F3B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Thu mua trái cây"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7523FB642CD5A5E6"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			title: "Bán Táo"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:cocoa_beans"
+			id: "07E7520AF38687C4"
+			rewards: [{
+				count: 3
+				id: "4B86B8C6566B98F6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Thu mua ca cao"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "256542E86807D2A3"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			title: "Bán Ca cao"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:red_mushroom"
+			id: "48A9066E2952CAEB"
+			rewards: [{
+				count: 3
+				id: "7648A1C578392836"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Thu mua nấm thường"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "45695DFF235A8C37"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "7D10EF4700EDED74"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+			]
+			title: "Bán Nấm (Đỏ/Nâu)"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:honey_bottle"
+			id: "678CE95B326F33F8"
+			rewards: [{
+				count: 5
+				id: "64A1ADA04CCDE6C1"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Sản phẩm từ ong (16 chai)"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "719FDE5F2FD3E153"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			title: "Bán Mật ong"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:egg"
+			id: "0615724423E686F3"
+			rewards: [{
+				count: 2
+				id: "348FF0809D3BB004"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Sản phẩm chăn nuôi (16 quả)"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2C744DA71F4836FB"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			title: "Bán Trứng gà"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:white_wool"
+			id: "675A88BA764B9C77"
+			rewards: [{
+				count: 5
+				id: "022ACE764EFED715"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Sản phẩm chăn nuôi"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "40503E7690BF3FA0"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			title: "Bán Lông cừu"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:leather"
+			id: "523732AAFAE8B92F"
+			rewards: [{
+				count: 8
+				id: "6D7290A5CF5A48D8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Sản phẩm chăn nuôi"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6BB67E80ABDC6C97"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "Bán Da thuộc"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:milk_bucket"
+			id: "019C84AE23FD8203"
+			rewards: [{
+				id: "728527CAC1AC9E30"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Sản phẩm chăn nuôi (1 Xô)"
+			tasks: [{
+				consume_items: true
+				id: "6EB1C4C7DCF731FC"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			title: "Bán Sữa bò"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:nether_wart"
+			id: "7A300358EAE3FF7E"
+			rewards: [{
+				id: "31AE9AC20C52FF6E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Nông sản Địa ngục"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "119A7F5A89084586"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			title: "Bán Bướu địa ngục"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			icon: "nethersdelight:propelpearl"
+			id: "2B1AF188C7CA637E"
+			rewards: [{
+				id: "1075603EF7484EEC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Nông sản Địa ngục"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3C2E0851AC0F1233"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			title: "Bán Quả Propel"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:crimson_fungus"
+			id: "6F0FB0E2EA5BAE14"
+			rewards: [{
+				count: 8
+				id: "01034629F0C9703C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Nấm Địa ngục (Kỳ dị/Đỏ thẫm)"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "67E67EF59C686A16"
+					item: "minecraft:crimson_fungus"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "26E295F3783CD436"
+					item: "minecraft:warped_fungus"
+					type: "item"
+				}
+			]
+			title: "Bán Nấm Nether"
+			x: 4.0d
+			y: 8.0d
+		}
+	]
+	title: "Chợ nông sản"
+}

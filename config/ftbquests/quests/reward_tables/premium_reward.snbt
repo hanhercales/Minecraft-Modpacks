@@ -1,0 +1,11 @@
+{
+	id: "36AEDC0A8098E801"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 5, item: "minecraft:diamond" }
+		{ item: "lightmanscurrency:coin_netherite" }
+		{ count: 2, item: "minecraft:netherite_ingot" }
+	]
+	title: "Premium Reward"
+}

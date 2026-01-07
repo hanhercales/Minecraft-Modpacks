@@ -1,0 +1,195 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	filename: "sng_ng_v_hn_th_na"
+	group: "571752A4E67CA15B"
+	icon: {
+		Count: 1
+		id: "tacz:modern_kinetic_gun"
+		tag: {
+			GunCurrentAmmoCount: 30
+			GunFireMode: "AUTO"
+			GunId: "lrl:m4a1_temukau"
+			HasBulletInBarrel: 1b
+		}
+	}
+	id: "23340EC77BDD115F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 5
+					GunFireMode: "SEMI"
+					GunId: "lrl:m700_ocean"
+					HasBulletInBarrel: 0b
+				}
+			}
+			id: "467A6FB78371A005"
+			rewards: [{
+				id: "57B23FB1B7D0BFA3"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 5
+						GunFireMode: "SEMI"
+						GunId: "lrl:m700_ocean"
+						HasBulletInBarrel: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D7BFAE0B4B3A2D1"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "M700-OCEAN"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 4
+					GunFireMode: "SEMI"
+					GunId: "lrl:ai_awp_asiimov"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "52B933937EF3479A"
+			rewards: [{
+				id: "67E5B97AC990204A"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 4
+						GunFireMode: "SEMI"
+						GunId: "lrl:ai_awp_asiimov"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40AEBC1710D57176"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "AI AWP-ASIIMOV"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 2
+					GunFireMode: "SEMI"
+					GunId: "lrl:db_long_super"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "7B95F51E560A1FD3"
+			rewards: [{
+				id: "2F5C72F0242E108D"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 2
+						GunFireMode: "SEMI"
+						GunId: "lrl:db_long_super"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41DD9305540EB280"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "DB LONG-SUPER"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "lrl:m4a1_temukau"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "591D61E0E8C75F2F"
+			rewards: [{
+				id: "07C2A6ADE0D91AA4"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ar_skin_case"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "4B28FDE4E237AA0F"
+				item: { Count: 5, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			title: "AR Skin Case"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 25
+					GunFireMode: "AUTO"
+					GunId: "lrl:ump45_crimson_foil"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "2EC0A55541508E7C"
+			rewards: [{
+				id: "38035240931AAD7F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "cqb_skin_case"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "7AD69CE89DC88DF6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "CQB Skin Case"
+			x: 3.0d
+			y: 0.5d
+		}
+	]
+	title: "Súng ống và hơn thế nữa"
+}

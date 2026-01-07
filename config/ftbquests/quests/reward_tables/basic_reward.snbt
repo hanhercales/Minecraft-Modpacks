@@ -1,0 +1,13 @@
+{
+	id: "3FF0C0CD5C108E3A"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 3, item: "minecraft:bread" }
+		{ count: 3, item: "lightmanscurrency:coin_copper" }
+		{ count: 3, item: "minecraft:apple" }
+		{ count: 2, item: "minecraft:iron_ingot" }
+		{ item: "minecraft:gold_ingot" }
+	]
+	title: "Basic Reward"
+}

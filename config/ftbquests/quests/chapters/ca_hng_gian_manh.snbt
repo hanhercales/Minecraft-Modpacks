@@ -1,0 +1,414 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	filename: "ca_hng_gian_manh"
+	group: "571752A4E67CA15B"
+	icon: "minecraft:diamond"
+	id: "479C1C8813911079"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: "minecraft:coal"
+			id: "63C78C89CF910E43"
+			rewards: [{
+				count: 64
+				id: "45C8222D256627D6"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Mua 64 Than đá"
+			tasks: [{
+				consume_items: true
+				id: "651C6AB415D0B7AF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua nhiên liệu"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:copper_ingot"
+			id: "5933A470A3962608"
+			rewards: [{
+				count: 64
+				id: "4D8471CA13E7D692"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			subtitle: "Mua 64 Đồng"
+			tasks: [{
+				consume_items: true
+				id: "52812951FE5D6936"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua Đồng"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: "create:zinc_ingot"
+			id: "0B773D9752786F08"
+			rewards: [{
+				count: 64
+				id: "28E206664E4560D4"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			subtitle: "Mua 64 Kẽm"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6816EA8D18C1A361"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua Kẽm (Zinc)"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:iron_ingot"
+			id: "4C9AB3E2163CDE3A"
+			rewards: [{
+				count: 64
+				id: "25379FBE7E1C7F5A"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Mua 64 Sắt"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "071B075EC4DFBC5A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua Sắt"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:gold_ingot"
+			id: "086DC44CDCB100FA"
+			rewards: [{
+				count: 64
+				id: "12C3FFDD85EF6212"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Mua 64 Vàng"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1FD287AF87E5A436"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua Vàng"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:lapis_lazuli"
+			id: "6341AE9DF0A74323"
+			rewards: [{
+				count: 64
+				id: "4E0431AB7171605D"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			subtitle: "Mua 64 Lapis"
+			tasks: [{
+				consume_items: true
+				id: "1A4E30506C273E60"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua Lapis Lazuli"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:redstone"
+			id: "2D19F1B15411A677"
+			rewards: [{
+				count: 64
+				id: "6F32F0E4A12B8FCB"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			subtitle: "Mua 64 Redstone"
+			tasks: [{
+				consume_items: true
+				id: "2A96E643016C28BB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua Redstone"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:quartz"
+			id: "1E47DDB24A1D7482"
+			rewards: [{
+				count: 64
+				id: "72E08DC27CFFE86B"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			subtitle: "Mua 64 Thạch anh"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "3AA0F951DF3591AC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua Thạch anh"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:emerald"
+			id: "3D45F495902020AD"
+			rewards: [{
+				id: "79909093D1A67282"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Mua 1 Ngọc lục bảo"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "45B2EF2869121A53"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "Mua Emerald"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:diamond"
+			id: "4AEFE7A8563EB649"
+			rewards: [{
+				id: "4683F353C6AC751F"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "Mua 1 Kim cương"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "7436FF673A2C1D44"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua Kim cương"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:rotten_flesh"
+			id: "0281607B5686AD6C"
+			rewards: [{
+				count: 64
+				id: "0ACDF0D85531CB49"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			subtitle: "Mua 64 Thịt thối"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "10245A7D9264904C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "Mua Thịt thối"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:bone"
+			id: "4D1DBD8E5B10DAFF"
+			rewards: [{
+				count: 64
+				id: "44084B538316F8DC"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			subtitle: "Mua 64 Xương"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "2FCF9E9799F35869"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "Mua Xương trắng"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:gunpowder"
+			id: "1F6BA2A9609A31A0"
+			rewards: [{
+				count: 64
+				id: "077611BA62345D3A"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			subtitle: "Mua 64 Thuốc súng (Nguyên liệu đạn)"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "327A1F6BAA67C996"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua Thuốc súng"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:ender_pearl"
+			id: "3E8983230DB5CA38"
+			rewards: [{
+				count: 16
+				id: "26630BC27AD1346C"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "Mua 16 Ngọc Ender"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "13416CF69639FF00"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua Ngọc Ender"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:slime_ball"
+			id: "1791293294898871"
+			rewards: [{
+				count: 64
+				id: "45D32BEDB077B0F6"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			subtitle: "Mua 64 Slimeball"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "4B0A606DF809AE10"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Mua Slimeball"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:netherite_scrap"
+			id: "26F2E36F434F71CD"
+			rewards: [{
+				id: "59AE94EB2213B620"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			subtitle: "Mua 1 Mảnh vỡ cổ đại"
+			tasks: [
+				{
+					consume_items: true
+					id: "172588582DE30681"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "2A2A93AF5E25ADF3"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			title: "Mua Mảnh Netherite"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:nether_star"
+			id: "512169AE975A26BC"
+			rewards: [{
+				id: "4E017223A1EDCFC0"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			subtitle: "Mua 1 Sao địa ngục"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0BC929FF06AF71E9"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "Mua Nether Star"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "tacz:ammo_box"
+				tag: {
+					Level: 0
+				}
+			}
+			id: "5823CF94915DD84D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FBB8C055EF1E8C4"
+				table_id: 7874984001396058230L
+				type: "choice"
+			}]
+			subtitle: "Hộp đạn tự chọn"
+			tasks: [{
+				id: "245086E3AE9C77FF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Hộp đạn quân nhu"
+			x: -2.0d
+			y: 6.0d
+		}
+	]
+	title: "Cửa hàng gian manh"
+}

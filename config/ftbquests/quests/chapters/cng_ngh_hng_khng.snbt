@@ -1,0 +1,273 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cng_ngh_hng_khng"
+	group: "333D629C3F40D9B2"
+	icon: "immersive_aircraft:warship"
+	id: "69F423FBC0951712"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5E6A34950BE8A26D"
+			rewards: [{
+				count: 2
+				id: "0CA0BA1D494BA18F"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4505A7530EF9A2FF"
+				item: "immersive_aircraft:boiler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E6A34950BE8A26D"]
+			id: "0743C3DC7246485C"
+			rewards: [
+				{
+					count: 3
+					id: "250B896A218248D7"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "012C7CD49D7AE6DF"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D4A845536632FE1"
+				item: "immersive_aircraft:engine"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "16DF5F85DEE1F835"
+			rewards: [{
+				count: 3
+				id: "6D617D2402EE6FAA"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22AD22489A2830CA"
+				item: "immersive_aircraft:propeller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "3D3C2DF088230FD0"
+			rewards: [{
+				count: 3
+				id: "0DC8DDAC830070FA"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7666EB695D6204F9"
+				item: "immersive_aircraft:sail"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "3EB7761239896EE3"
+			rewards: [{
+				count: 3
+				id: "0A4CBEB32D938F71"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CACAB1A2A68CE4A"
+				item: "immersive_aircraft:hull"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0743C3DC7246485C"
+				"16DF5F85DEE1F835"
+				"3EB7761239896EE3"
+				"3D3C2DF088230FD0"
+			]
+			id: "3FCD9FBC3F92A572"
+			rewards: [{
+				count: 3
+				id: "1043DF668A32E95D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "609B647675FCD6F9"
+				item: {
+					Count: 1
+					id: "immersive_aircraft:airship"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0743C3DC7246485C"
+				"16DF5F85DEE1F835"
+				"3EB7761239896EE3"
+				"3D3C2DF088230FD0"
+			]
+			id: "309E4081296FD17F"
+			rewards: [{
+				count: 5
+				id: "24D894E798FF8490"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63F64AE15918042C"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0743C3DC7246485C"
+				"16DF5F85DEE1F835"
+				"3EB7761239896EE3"
+				"3D3C2DF088230FD0"
+			]
+			id: "42A6DE13A8F90834"
+			rewards: [
+				{
+					id: "3B68D7211318F00E"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C8ABBE83548DC52"
+					table_id: 4607394407045434938L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "66211F9460E0DA4F"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0743C3DC7246485C"
+				"16DF5F85DEE1F835"
+				"3EB7761239896EE3"
+				"3D3C2DF088230FD0"
+			]
+			id: "3419FA5E4D6EA5D6"
+			rewards: [
+				{
+					id: "5C9F92285DB7B7CC"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FEE7DDE98D3BA47"
+					table_id: 4607394407045434938L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2240211C3554B6C6"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FCD9FBC3F92A572"]
+			id: "490ABA9DE877CF96"
+			rewards: [{
+				count: 6
+				id: "3EB61605EEE6352E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C9C69785F1F177B"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["490ABA9DE877CF96"]
+			id: "5BCB90D0BE1F3924"
+			rewards: [
+				{
+					id: "2E0E31726F30E3B1"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0127440D9E15225F"
+					table_id: 4607394407045434938L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0787FC83AAFBAB2C"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["309E4081296FD17F"]
+			id: "7D64E16B99BF6894"
+			rewards: [
+				{
+					id: "34EC0393B02791E4"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BC6ECC1A03C8A58"
+					table_id: 4607394407045434938L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "438E8E83D4BF3EBF"
+				item: "immersive_aircraft:bamboo_hopper"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+	]
+	title: "Công nghệ hàng không"
+}

@@ -1,0 +1,369 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "k_s_my_mc"
+	group: "333D629C3F40D9B2"
+	icon: "create:large_cogwheel"
+	id: "7E5A2B1C9D3F4E01"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Đập Andesite với Kẽm (Zinc) hoặc Sắt (Iron)."
+				""
+				"Đây là viên gạch đầu tiên của nền công nghiệp. Mọi cỗ máy vĩ đại đều bắt đầu từ hợp kim xám xịt này."
+			]
+			id: "1A2B3C4D5E6F7001"
+			rewards: [{
+				count: 16
+				id: "2F3E4D5C6B7A8001"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Kỷ nguyên Đá"
+			tasks: [{
+				count: 8L
+				id: "3B4C5D6E7F8A9001"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Khởi nguồn của Sức mạnh"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7001"]
+			description: [
+				"Truyền động lực đi khắp nơi."
+				""
+				"Nhớ quy tắc vàng: Bánh răng LỚN quay bánh răng NHỎ sẽ làm TĂNG tốc độ nhưng GIẢM lực chịu tải (Stress)."
+			]
+			id: "1A2B3C4D5E6F7002"
+			rewards: [{
+				count: 16
+				id: "2F3E4D5C6B7A8002"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "3B4C5D6E7F8A9002"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3B4C5D6E7F8A9003"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3B4C5D6E7F8A9004"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Trục quay & Bánh răng"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7002"]
+			description: ["Tận dụng dòng chảy của nước để tạo ra SU (Stress Unit). Rẻ, bền và hiệu quả nhất giai đoạn đầu game."]
+			id: "1A2B3C4D5E6F7003"
+			rewards: [{
+				id: "2F3E4D5C6B7A8003"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			subtitle: "Năng lượng xanh"
+			tasks: [{
+				id: "3B4C5D6E7F8A9005"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Dòng chảy năng lượng"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7002"]
+			description: [
+				"Dùng để ép kim loại thành tấm (Plate) hoặc ép mía thành giấy."
+				""
+				"Đây là bước chuẩn bị quan trọng để chế tạo vỏ đạn súng sau này."
+			]
+			id: "1A2B3C4D5E6F7004"
+			rewards: [{
+				count: 5
+				id: "2F3E4D5C6B7A8004"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B4C5D6E7F8A9006"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Máy ép cơ khí"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7002"]
+			description: [
+				"Nghiền Lúa mì thành Bột (Flour) để làm bánh mì (1 lúa = 1 bột + nước = 1 bánh)."
+				""
+				"Hiệu quả gấp đôi so với chế tạo thủ công. Ngoài ra còn dùng để nghiền Propelpearl hoặc đá Netherrack để lấy nguyên liệu làm thuốc súng."
+			]
+			id: "1A2B3C4D5E6F7005"
+			rewards: [{
+				count: 10
+				id: "2F3E4D5C6B7A8005"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B4C5D6E7F8A9007"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Cối xay gió"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7001"]
+			description: ["Dùng để gắn các khối lại với nhau thành một cỗ máy di động."]
+			id: "1A2B3C4D5E6F7006"
+			rewards: [{
+				count: 5
+				id: "2F3E4D5C6B7A8006"
+				item: "create:wheat_flour"
+				type: "item"
+			}]
+			subtitle: "Keo 502 phiên bản Minecraft"
+			tasks: [{
+				id: "3B4C5D6E7F8A9008"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Chất kết dính"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7006"]
+			description: ["Gắn nó lên một cỗ máy quay tròn. Nó sẽ tự động thu hoạch hoa màu mà không cần trồng lại."]
+			id: "1A2B3C4D5E6F7007"
+			rewards: [{
+				id: "2F3E4D5C6B7A8007"
+				item: "create:goggles"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B4C5D6E7F8A9009"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			title: "Máy gặt đập liên hợp"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7007"]
+			description: [
+				"Tạo ra một cỗ máy farm hình tròn."
+				""
+				"Kết hợp với Harvester và Chest để tự động hóa hoàn toàn nguồn thức ăn. Bạn sẽ không bao giờ đói nữa."
+			]
+			id: "1A2B3C4D5E6F7008"
+			rewards: [{
+				id: "2F3E4D5C6B7A8008"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			subtitle: "Tự động hóa nông nghiệp"
+			tasks: [{
+				id: "3B4C5D6E7F8A9010"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "Vòng quay vô tận"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7004"]
+			description: ["Bạn cần nhiệt độ cao hơn lửa thường để nấu hợp kim. Hãy xuống Nether và 'bắt cóc' một con Blaze về."]
+			id: "1A2B3C4D5E6F7009"
+			rewards: [{
+				id: "2F3E4D5C6B7A8009"
+				item: "farmersdelight:straw_bale"
+				type: "item"
+			}]
+			subtitle: "Kỷ nguyên Đồng thau"
+			tasks: [{
+				id: "3B4C5D6E7F8A9011"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			title: "Lò nung nhiệt độ cao"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7009"]
+			description: [
+				"Trộn Đồng (Copper) và Kẽm (Zinc) dưới nhiệt độ cao để tạo ra Đồng Thau (Brass)."
+				""
+				"Đây là kim loại của sự chính xác, dùng để chế tạo máy móc cao cấp và vỏ đạn."
+			]
+			id: "1A2B3C4D5E6F7010"
+			rewards: [{
+				count: 5
+				id: "2F3E4D5C6B7A8010"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B4C5D6E7F8A9012"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "3B4C5D6E7F8A9013"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Máy trộn hợp kim"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7010"]
+			description: ["Mô phỏng thao tác click chuột của người chơi. Dùng để cầm kiếm chém quái (farm mob) hoặc cầm hạt giống trồng cây."]
+			id: "1A2B3C4D5E6F7011"
+			rewards: [{
+				id: "2F3E4D5C6B7A8011"
+				item: {
+					Count: 1
+					id: "minecraft:golden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B4C5D6E7F8A9014"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Bàn tay Robot"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7010"]
+			description: ["Bộ não của máy móc hiện đại. Được chế tạo từ Tinh thể thạch anh tím đánh bóng (Polished Rose Quartz)."]
+			id: "1A2B3C4D5E6F7012"
+			rewards: [{
+				count: 5
+				id: "2F3E4D5C6B7A8012"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B4C5D6E7F8A9015"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Ống điện tử"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7002"]
+			description: ["Chuyển items từ máy này sang máy khác. Bước đầu của dây chuyền lắp ráp tự động."]
+			id: "1A2B3C4D5E6F7013"
+			rewards: [{
+				count: 16
+				id: "2F3E4D5C6B7A8013"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3B4C5D6E7F8A9016"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Dây chuyền sản xuất"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7010"]
+			description: [
+				"Đạn của súng hiện đại cần vỏ đồng thau (Brass)."
+				""
+				"Hãy dùng Mechanical Press để ép Brass Ingot thành vỏ đạn và sản xuất hàng loạt."
+			]
+			id: "1A2B3C4D5E6F7014"
+			rewards: [{
+				count: 10
+				id: "2F3E4D5C6B7A8014"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			subtitle: "Công xưởng quân khí"
+			tasks: [{
+				id: "3B4C5D6E7F8A9017"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Ép vỏ đạn"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7005"]
+			description: [
+				"Không có thuốc súng, súng chỉ là cục sắt vụn."
+				""
+				"Hãy thiết lập dây chuyền nghiền nát Cinder Flour hoặc Propelpearl (từ Nether) để tạo ra thuốc nổ vô tận."
+			]
+			id: "1A2B3C4D5E6F7015"
+			rewards: [{
+				count: 16
+				id: "2F3E4D5C6B7A8015"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "3B4C5D6E7F8A9018"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			title: "Nhà máy Thuốc súng"
+			x: 6.0d
+			y: -2.0d
+		}
+	]
+	title: "Kỹ sư máy móc"
+}

@@ -1,0 +1,746 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "u_bp_ti_lanh"
+	group: "3CAB33623C145DBB"
+	icon: "vintagedelight:white_chefs_hat"
+	id: "3829E5264B1FD492"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Trước khi có lò nướng xịn, chúng ta bắt đầu từ lửa trại. Chiếc chảo giúp bạn nấu ăn nhanh hơn và không làm cháy đồ ăn."]
+			id: "4F1D9B29089256CF"
+			rewards: [
+				{
+					count: 5
+					id: "6AE403C2723E7AD0"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5B2B01921F13CC24"
+					item: "minecraft:beef"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "785943A1D93A4E7F"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "11E2F02A7785933F"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bếp lửa"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20F588EBFA82BA11"]
+			description: ["Cung cấp nguồn nhiệt vô hạn để đặt Nồi và Chảo lên. Bạn cũng có thể nướng trực tiếp 6 món cùng lúc."]
+			id: "041F2F814FB58904"
+			rewards: [
+				{
+					count: 3
+					id: "40FA1F0C30ECB4E2"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3CEE0ACC4FC02261"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "76B1A8FCE5888C80"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "022747BD37727926"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "Bếp lò ấm cúng"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F1D9B29089256CF"]
+			description: ["Không thể nấu ăn ngon nếu thiếu thớt. Đặt nguyên liệu lên thớt và dùng dao để sơ chế."]
+			id: "20F588EBFA82BA11"
+			rewards: [
+				{
+					id: "384F9FC5E42DB1D4"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0932F5498EC84CD1"
+					item: "vintagedelight:salt_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "301CF1F2BB9CD3DA"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20F588EBFA82BA11"]
+			description: ["Dao của Farmer's Delight không chỉ để nấu ăn. Dùng chúng tự vệ cũng tốt."]
+			id: "586FE6D23FCDE96A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E8F593429776E21"
+				table_id: 4607394407045434938L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "00A60863563F51AB"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FCD9AECFC66AF05"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38503956FBE1DE14"
+					item: {
+						Count: 1
+						id: "farmersdelight:golden_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C8C3C4AA0632702"
+					item: {
+						Count: 1
+						id: "farmersdelight:diamond_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bộ dao xịn xò"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["20F588EBFA82BA11"]
+			description: ["Dao này chỉ để thái rau thôi, đừng có mang đi đánh nhau đấy."]
+			id: "45147F92F2346CFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E538880269E763C"
+				table_id: 4607394407045434938L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6B5582611F550F35"
+					item: {
+						Count: 1
+						id: "aquaculture:stone_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71ABA40B85599A29"
+					item: {
+						Count: 1
+						id: "aquaculture:iron_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "562893A3F33F17D5"
+					item: {
+						Count: 1
+						id: "aquaculture:gold_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76EB0313552C7138"
+					item: {
+						Count: 1
+						id: "aquaculture:diamond_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bộ dao phi lê"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["586FE6D23FCDE96A"]
+			description: ["Dao này xịn thì vcl. Nó tăng lượng phi lê nhận được từ cá."]
+			id: "2BC9AB461E0FA957"
+			rewards: [{
+				id: "2AC38BBFF92467B5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "483EF77AA2B908DF"
+				item: {
+					Count: 1
+					id: "aquaculturedelight:neptunium_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["586FE6D23FCDE96A"]
+			description: ["Dao làm từ vảy và răng rồng. Xịn thì khỏi nói, mà cũng nguy hiểm khi đi kiếm."]
+			id: "6E0CD391D1D3CAAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48592D77AAFE450A"
+				table_id: 3940328661661050881L
+				type: "all_table"
+			}]
+			tasks: [
+				{
+					id: "769AA61375F8AA49"
+					item: {
+						Count: 1
+						id: "ends_delight:dragon_egg_shell_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EDF04F93484D2B2"
+					item: {
+						Count: 1
+						id: "ends_delight:dragon_tooth_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Đồ Long Dao"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["45147F92F2346CFD"]
+			description: ["Dao này xịn thì vcl. Nó tăng lượng phi lê nhận được từ cá."]
+			id: "570C4D4582F15863"
+			rewards: [{
+				id: "1D225A51533BB299"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E401B83AE69C9A0"
+				item: "aquaculture:neptunium_fillet_knife"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["041F2F814FB58904"]
+			description: ["Dùng để nấu các món súp, món hầm và cơm. Nhớ đặt nó lên trên Bếp lò (Stove) đang cháy nhé."]
+			id: "116F4CB41AF1D056"
+			rewards: [
+				{
+					count: 2
+					id: "1E8EFF96EB749351"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2D566E7CDC21D24F"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02BCA651D02F2790"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Nồi nấu ăn"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["116F4CB41AF1D056"]
+			description: ["Cuốn sách này sẽ cho bạn biết bạn có thể nấu được món gì từ những nguyên liệu đang có trong người."]
+			id: "3F0C063765E67B77"
+			rewards: [
+				{
+					id: "6B5AB85603221D91"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "6F2A8B8BAA9E8C74"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F4E97D1C26E25DA"
+				item: "cookingforblockheads:recipe_book"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F0C063765E67B77"]
+			description: ["Đây là nơi điều kỳ diệu xảy ra. Nó kết nối với tất cả tủ lạnh/kệ bếp xung quanh. Bạn chỉ cần đứng một chỗ và nấu cả thế giới."]
+			id: "752183D450809C71"
+			rewards: [
+				{
+					id: "3F630FCF856C2695"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4FA58A520586D181"
+					item: "vintagedelight:salt_dust"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3404979174F6ABF9"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "253BA059A558B815"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F0C063765E67B77"]
+			description: ["Cung cấp nước vô hạn cho các công thức nấu ăn và làm đầy xô nước. Đặt nó cạnh Bàn chế biến để tự động lấy nước nấu súp."]
+			id: "2BA3B03DFB080E75"
+			rewards: [
+				{
+					id: "56E350F08829BD59"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "2C61F36AD5EFCD3C"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "773B3C4433EF04A2"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DB9245932A4C879"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F0C063765E67B77"]
+			description: ["Nơi bảo quản thực phẩm. Tủ lạnh còn có thể tạo ra Tuyết và Nước đá. Kết nối chúng với Bàn chế biến để mở rộng kho nguyên liệu."]
+			id: "63BF30C625C1FDD8"
+			rewards: [
+				{
+					count: 2
+					id: "60DACD90EE68E662"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6AE424062D5811E5"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28840688A90BC01E"
+					table_id: 6525977663472313041L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "43A587500AF5AC30"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F0C063765E67B77"]
+			description: ["Nung nấu thực phẩm nhanh chóng và tự động đẩy sản phẩm sang lồng chứa bên cạnh."]
+			id: "42AE73F5E15444EC"
+			rewards: [
+				{
+					id: "6E55DF604D3918BB"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "24A3EA2E5358F43A"
+					item: "cookingforblockheads:heating_unit"
+					type: "item"
+				}
+				{
+					id: "31BECFFCB6B5309E"
+					item: "alexsmobs:fish_oil"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08267AAD4C63D823"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F0C063765E67B77"]
+			description: ["Treo dao, chảo lên tường cho gọn gàng và chuyên nghiệp."]
+			id: "3B21D4F62E0203EB"
+			rewards: [{
+				id: "16BEC90712F7FD3E"
+				item: {
+					Count: 1
+					id: "farmersdelight:golden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21230368090DA69D"
+				item: "cookingforblockheads:tool_rack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C9FDCC149FDFC9A"]
+			description: ["Bữa sáng đơn giản để lót dạ trước khi ra đồng."]
+			id: "1B7AFAC96D0CF621"
+			rewards: [
+				{
+					count: 2
+					id: "29EFECFE0390EE4F"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					id: "03FD911E405E2B60"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E90F559AE8344D6"
+				item: "farmersdelight:fried_egg"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C9FDCC149FDFC9A"]
+			description: ["Học cách xử lý nguyên liệu thô trên thớt."]
+			id: "48586134C3BD1168"
+			rewards: [
+				{
+					count: 5
+					id: "4DD66A3918C0E2EE"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2BCD50A54AA30B0D"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					id: "6FDD7F44E5BB05B9"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "182B864488A2BC78"
+					item: "farmersdelight:cod_slice"
+					type: "item"
+				}
+				{
+					id: "3DE325C5338710AC"
+					item: "farmersdelight:minced_beef"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C9FDCC149FDFC9A"]
+			description: ["Cung cấp nhiều độ bão hòa (Saturation), giúp bạn không phải ăn liên tục khi đang bắn nhau."]
+			id: "669982FB93E4253C"
+			rewards: [
+				{
+					count: 15
+					id: "06E282C9AC6321EB"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "23790A7763AC93C8"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09883AB21F520898"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C9FDCC149FDFC9A"]
+			description: ["Tận dụng Lúa gạo và các loại rau củ bạn trồng được. Hồi phục rất tốt."]
+			id: "73F9899232D6EC2E"
+			rewards: [
+				{
+					count: 5
+					id: "2B8F8D7EE7A2EEE3"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "5E5CC2801B7CB07A"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "68AC617FEC196493"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A338D00387DCB68"
+				item: "culturaldelights:spicy_curry"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C9FDCC149FDFC9A"]
+			description: ["Đặt món này ra bàn, bạn có thể ăn nhiều lần hoặc chia sẻ với đồng đội. Nó cung cấp hiệu ứng Nourishment (Dinh dưỡng) giúp chặn cơn đói."]
+			id: "518C609AFD710586"
+			rewards: [
+				{
+					id: "688A327E1E9CDCA7"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "649950263A68ED2D"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22A2E4457421993A"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"63BF30C625C1FDD8"
+				"2BA3B03DFB080E75"
+				"42AE73F5E15444EC"
+				"752183D450809C71"
+				"3B21D4F62E0203EB"
+			]
+			description: ["Bắt đầu nấu ăn nào!"]
+			id: "6C9FDCC149FDFC9A"
+			rewards: [{
+				id: "240C4E5AC5C3433F"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50B771919C5D10DC"
+				title: "Bữa ăn đúng điệu"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C9FDCC149FDFC9A"]
+			description: ["Thịt Hoglin giúp tăng sức mạnh cơ bắp. Một Gunner giỏi cần đôi tay vững chắc."]
+			id: "352A9A8E1D63A911"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C429C0BB63C4124"
+					table_id: 7874984001396058230L
+					type: "choice"
+				}
+				{
+					count: 3
+					id: "0ED3030BCDF7F83A"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41B47510340618DF"
+				item: "nethersdelight:stuffed_hoglin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6C9FDCC149FDFC9A"]
+			description: ["Món ăn kỳ lạ giúp bạn lơ lửng hoặc dịch chuyển tức thời. Cẩn thận khi ăn!"]
+			id: "17A54C59BB080004"
+			rewards: [
+				{
+					id: "7F04E1216E8B5C00"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "04DC3702D6C5ABBB"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+				{
+					id: "1B98B4FEC64BF70A"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A72F87099AD424B"
+				item: "ends_delight:chorus_fruit_pie"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+	]
+	title: "Đầu bếp tài lanh"
+}

@@ -1,0 +1,345 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tin_cng__trumg"
+	group: "664EA39468B63E4E"
+	icon: "alexsmobs:mysterious_worm"
+	id: "3DAF80B03E6BA34E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Kẻ canh gác ngôi đền dưới đáy biển."
+				""
+				"Đôi mắt của nó gây hiệu ứng mệt mỏi, khiến việc đào phá trở nên bất khả thi. Hãy chuẩn bị thuốc thở dưới nước và đinh ba."
+			]
+			id: "000000000004A001"
+			rewards: [{
+				count: 5
+				id: "586CDD151919651F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Vanilla Mini-Boss"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:elder_guardian_spawn_egg"
+				id: "48047BD594FEA466"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Vệ thần biển sâu"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000004A001"]
+			description: [
+				"Triệu hồi bằng cách xếp cát linh hồn và đầu lâu Wither."
+				""
+				"Kẻ hủy diệt mọi sự sống. Hãy cẩn thận, hắn hồi máu rất nhanh và bắn ra những cái đầu nổ tung."
+			]
+			id: "000000000004A002"
+			rewards: [{
+				id: "22B5C54378B0CF37"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Vanilla Boss"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "59A9537DD3A0AED6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Wither"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000004A002"]
+			description: [
+				"Chúa tể của The End."
+				""
+				"Hãy phá hủy các tinh thể hồi máu trước khi tấn công nó. Sau khi giết nó, bạn sẽ mở ra cánh cổng đến những hòn đảo xa xôi."
+			]
+			id: "000000000004A003"
+			rewards: [{
+				count: 3
+				id: "3E86013EBBB17A40"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Vanilla Final Boss"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "737A713C1570E8C1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Rồng Ender"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["000000000004A003"]
+			description: [
+				"Thực thể cổ đại trôi dạt trong hư không (The Void) ở The End."
+				""
+				"Để triệu hồi nó, hãy ném Mysterious Worm vào khoảng không (Void) ở The End. Nó cực kỳ nhanh và khó chịu."
+			]
+			id: "000000000004A004"
+			rewards: [{
+				count: 5
+				id: "78A93E24D40E2056"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Alex's Mobs Boss"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_eye"
+				id: "0F0C35BF51F95BB8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Sâu Hư Không"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"Một bộ xương khổng lồ với sức mạnh ma thuật hắc ám."
+				""
+				"Hắn triệu hồi tay sai liên tục. Đừng để bị áp đảo bởi số lượng."
+			]
+			id: "000000000004A005"
+			rewards: [{
+				count: 8
+				id: "25DF6CA5E576400F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Born in Chaos Boss"
+			tasks: [{
+				entity: "born_in_chaos_v1:supreme_bonescaller"
+				icon: "born_in_chaos_v1:lifestealer_skull"
+				id: "041AC9CF55AEEB4F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kẻ gọi xương tối thượng"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000004A005"]
+			description: [
+				"Cơn ác mộng thực sự."
+				""
+				"Nó ẩn nấp trong bóng tối và tấn công bất ngờ. Hãy chuẩn bị vũ khí tốt nhất của bạn."
+			]
+			id: "000000000004A006"
+			rewards: [{
+				count: 3
+				id: "7CC8BC2F4FA262CF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Born in Chaos Boss"
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: "born_in_chaos_v1:nightmare_stalker_skull"
+				id: "6C36BBF8EFDA8A7F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kẻ bám đuôi ác mộng"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000004A006"]
+			description: [
+				"Lãnh chúa bí ngô đáng sợ."
+				""
+				"Hắn không chỉ là một cái đầu bí ngô biết đi đâu. Hắn mang theo sức mạnh hủy diệt."
+			]
+			id: "000000000004A007"
+			rewards: [{
+				count: 5
+				id: "06F3A44ACDEDF45A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Born in Chaos Boss"
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5B6BF3D976F37828"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Chúa tể Bí ngô"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Một cỗ máy hủy diệt được rèn từ Netherite nguyên khối."
+				""
+				"Tìm thấy trong cấu trúc Soul Blacksmith ở Nether. Lớp giáp của nó gần như bất hoại, hãy tìm thời cơ khi nó tấn công."
+			]
+			id: "000000000004A008"
+			rewards: [{
+				count: 5
+				id: "7177A04480FE7FAA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Cataclysm Nether Boss"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "67D4CD7CCC183F15"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Quái vật Netherite"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000004A008"]
+			description: [
+				"Hóa thân của ngọn lửa địa ngục."
+				""
+				"Tìm thấy trong Burning Arena ở Nether. Hắn có khiên lửa bảo vệ, hãy phá vỡ nó trước khi gây sát thương."
+			]
+			id: "000000000004A009"
+			rewards: [{
+				count: 5
+				id: "4F0D8110A2E16502"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Cataclysm Nether Boss"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1
+					id: "cataclysm:ignitium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1AF159BC115C2205"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ignis"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000004A003"]
+			description: [
+				"Vệ thần của Thành phố End."
+				""
+				"Tìm thấy ở tầng dưới cùng của Ruined Citadel ở The End. Nó sử dụng sức mạnh Void và trọng lực để nghiền nát bạn."
+			]
+			id: "000000000004A010"
+			rewards: [{
+				count: 4
+				id: "1140796B1B065D42"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Cataclysm End Boss"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:void_core"
+				id: "7E1E491C5F35BB45"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Vệ thần Ender"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["000000000004A010"]
+			description: [
+				"Một vũ khí cổ đại bị lãng quên."
+				""
+				"Tìm thấy ở Ancient Factory (The End). Nó có thể bắn laser hủy diệt và tên lửa. Boss khó nhất nhì game."
+			]
+			id: "000000000004A011"
+			rewards: [{
+				id: "659EB7C018F1A183"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Cataclysm Super Boss"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:wither_assault_shoulder_weapon"
+				id: "17AC4E9A8EE0221D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kẻ Báo Hiệu"
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["000000000004A003"]
+			description: [
+				"Sinh vật khổng lồ bơi trong hư không."
+				""
+				"Tìm thấy ở Sunken City (The End). Nó to lớn, trâu bò và cực kỳ nguy hiểm. Hãy chuẩn bị cho một trận chiến dài hơi."
+			]
+			id: "000000000004A012"
+			rewards: [{
+				id: "0F68DAB313344A38"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Cataclysm Super Boss"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:altar_of_abyss"
+				id: "7CC46AAC13A4738D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Thủy quái Leviathan"
+			x: -2.0d
+			y: 5.5d
+		}
+	]
+	title: "Tiến công ổ trùm"
+}

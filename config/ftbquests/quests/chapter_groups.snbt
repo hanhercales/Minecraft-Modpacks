@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "3CAB33623C145DBB", title: "Main Quest" }
+		{ id: "333D629C3F40D9B2", title: "Công nghiệp hóa" }
+		{ id: "664EA39468B63E4E", title: "TATAKAE!!!" }
+		{ id: "571752A4E67CA15B", title: "Gian thương" }
+	]
+}
