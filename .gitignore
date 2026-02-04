@@ -1,0 +1,58 @@
+# --- CÁC FILE HỆ THỐNG & TẠM (BẮT BUỘC BỎ) ---
+*.log
+*.DS_Store
+Thumbs.db
+/logs/
+/crash-reports/
+/debug/
+/.mixin.out/
+
+# --- DỮ LIỆU NGƯỜI DÙNG CÁ NHÂN (KHÔNG NÊN UP LÊN) ---
+# Map save game (Bỏ dòng này nếu bạn muốn chia sẻ cả map)
+/saves/
+/backups/
+/screenshots/
+/realms_persistence.json
+/modernfix
+
+# Cache thông tin đăng nhập và hồ sơ TLauncher (Bảo mật)
+usercache.json
+usernamecache.json
+launcher_accounts.json
+launcher_profiles.json
+/tlauncher_*/
+/skin_skins/
+/webcache2/
+
+# --- THƯ VIỆN GAME (NẶNG & KHÔNG CẦN THIẾT) ---
+/assets/
+/libraries/
+/versions/**/*.jar
+
+# --- CẤU HÌNH PHIÊN BẢN TLAUNCHER (BẮT BUỘC GIỮ) ---
+# Giữ lại file .json định nghĩa phiên bản (Ví dụ: VanillaNotVanilla.json)
+!/versions/**/*.json
+
+# =======================================================
+# --- DEFAULT OPTIONS MOD (QUAN TRỌNG NHẤT) ---
+# =======================================================
+# Đây là nơi mod lưu các setting chuẩn (Phím bấm, Video, Shader...)
+# sau khi bạn gõ lệnh /defaultoptions saveAll
+!/defaultconfigs/
+
+# Nếu bạn muốn chia sẻ modpack cho bạn bè, bạn có thể BỎ QUA file options.txt ở gốc
+# vì mod Default Options sẽ tự tạo nó từ thư mục defaultconfigs ở trên.
+# Tuy nhiên, nếu bạn muốn backup cho chính mình, hãy cứ giữ lại dòng dưới đây:
+!options.txt
+!optionsof.txt
+!optionsshaders.txt
+!servers.dat
+
+# --- DATA MODPACK (GIỮ LẠI) ---
+!/mods/
+!/config/
+!/scripts/
+!/kubejs/
+!/shaderpacks/
+!/resourcepacks/
+!/fancymenu_data/
