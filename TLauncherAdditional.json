@@ -4040,6 +4040,144 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 968868,
+          "name": "Zeta",
+          "author": "Vazkii",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/zeta",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 821260,
+          "pictures": [],
+          "lanName": "zeta",
+          "version": {
+            "id": 7335229,
+            "name": "1.0-31",
+            "updateDate": 1765771789000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
+              "size": 1006518,
+              "path": "mods/Zeta-1.0-31.jar",
+              "url": "/mods/968868/7335229/Zeta-1.0-31.jar"
+            },
+            "installed": 15871,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 46,
+            "name": "1.20.1"
+          },
+          "updated": 1743195600000,
+          "update": 1743195600000,
+          "downloadALL": 246355,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 243121,
+          "name": "Quark",
+          "author": "Vazkii",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/quark",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 23,
+              "name": "world_ores_resources",
+              "shortName": "ores",
+              "nesting": 0
+            },
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            }
+          ],
+          "picture": 787544,
+          "pictures": [],
+          "lanName": "quark",
+          "version": {
+            "id": 6427817,
+            "name": "4.0-462",
+            "updateDate": 1744770910000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "9b0fb82995622a0070c00827c698c43b49d9d14b",
+              "size": 14935230,
+              "path": "mods/Quark-4.0-462.jar",
+              "url": "/mods/243121/6427817/Quark-4.0-462.jar"
+            },
+            "installed": 120510,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 4829,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 6431,
+              "name": "Zeta",
+              "gameEntityId": 968868,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 46,
+            "name": "1.20.1"
+          },
+          "updated": 1742072400000,
+          "update": 1742072400000,
+          "downloadALL": 4425924,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
       "resourcePacks": [],
