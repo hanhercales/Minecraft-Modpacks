@@ -3149,97 +3149,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 246391,
-          "name": "Tough As Nails",
-          "author": "Glitchfiend TDWP_FTW TheAdubbz",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/tough-as-nails",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 4,
-              "name": "armor_weapons_tools",
-              "shortName": "military",
-              "nesting": 0
-            },
-            {
-              "id": 2,
-              "name": "adventure_rpg",
-              "shortName": "rpg",
-              "nesting": 0
-            },
-            {
-              "id": 24,
-              "name": "mc_food",
-              "shortName": "food",
-              "nesting": 0
-            }
-          ],
-          "picture": 800496,
-          "pictures": [],
-          "lanName": "tough-as-nails",
-          "version": {
-            "id": 5815863,
-            "name": "forge-1.20.1-9.2.0.171",
-            "updateDate": 1729034376000,
-            "type": "beta",
-            "gameVersionsDTO": [
-              {
-                "id": 46,
-                "name": "1.20.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "e1caa4a2fb30965913aefe84fe55acffdaaab26e",
-              "size": 459479,
-              "path": "mods/ToughAsNails-forge-1.20.1-9.2.0.171.jar",
-              "url": "/mods/246391/5815863/ToughAsNails-forge-1.20.1-9.2.0.171.jar"
-            },
-            "installed": 207042,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 1,
-                "name": "forge"
-              }
-            ]
-          },
-          "popularity": 5,
-          "downloadMonth": 3383,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 2,
-              "name": "Fabric API",
-              "gameEntityId": 306612,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 6285,
-              "name": "GlitchCore",
-              "gameEntityId": 955399,
-              "dependencyType": "required",
-              "available": false
-            }
-          ],
-          "lastGameVersion": {
-            "id": 66,
-            "name": "1.21.11"
-          },
-          "updated": 1767906000000,
-          "update": 1767906000000,
-          "downloadALL": 3193338,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
           "id": 398521,
           "name": "Farmer's Delight",
           "author": "vectorwing",
@@ -4399,6 +4308,75 @@
           "available": true,
           "parser": true,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 679270,
+          "name": "Thirst Was Taken",
+          "author": "ghenghen_",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/thirst-was-taken",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 24,
+              "name": "mc_food",
+              "shortName": "food",
+              "nesting": 0
+            }
+          ],
+          "picture": 844880,
+          "pictures": [
+            394016,
+            394011,
+            394013,
+            394012,
+            394015,
+            394014
+          ],
+          "lanName": "thirst-was-taken",
+          "version": {
+            "id": 11019177,
+            "name": "1.4.0.jar",
+            "updateDate": 1750178647000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "de1c5adad2a77c7f6e168f2df6e7b82d9c3db719",
+              "size": 220762,
+              "path": "mods/ThirstWasTaken-1.20.1-1.4.0.jar",
+              "url": "/mods/36238490/11019168/ThirstWasTaken-1.20.1-1.4.0.jar"
+            },
+            "installed": 20986,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1752267600000,
+          "update": 1752267600000,
+          "downloadALL": 59610,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
       "resourcePacks": [],
