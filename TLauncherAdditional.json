@@ -4178,6 +4178,227 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 316582,
+          "name": "Corpse",
+          "author": "henkelmax bommelmuetze24 junanas",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/corpse",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            },
+            {
+              "id": 83,
+              "name": "storage",
+              "shortName": "storage",
+              "nesting": 0
+            },
+            {
+              "id": 15,
+              "name": "server_utility",
+              "shortName": "plugins",
+              "nesting": 0
+            },
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            }
+          ],
+          "picture": 821175,
+          "pictures": [],
+          "lanName": "corpse",
+          "version": {
+            "id": 7018272,
+            "name": "corpse-forge-1.20.1-1.0.23",
+            "updateDate": 1758445616000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "843b16ca88bc5c390bb22a2a84437e6bffdd43dd",
+              "size": 245644,
+              "path": "mods/corpse-forge-1.20.1-1.0.23.jar",
+              "url": "/mods/316582/7018272/corpse-forge-1.20.1-1.0.23.jar"
+            },
+            "installed": 96629,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 4463,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 4,
+              "name": "Just Enough Items (JEI)",
+              "gameEntityId": 238222,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 859,
+              "name": "Jade 🔍",
+              "gameEntityId": 324717,
+              "dependencyType": "optional",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1760648400000,
+          "update": 1760648400000,
+          "downloadALL": 5869454,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1264423,
+          "name": "BaguetteLib",
+          "author": "Project8gbDeRam",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/baguettelib",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 1139215,
+          "pictures": [],
+          "lanName": "baguettelib",
+          "version": {
+            "id": 7544807,
+            "name": "baguettelib-1.20.1-Forge-1.1.6",
+            "updateDate": 1769674807000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "8d3c9551bbed4c2f2e8cb2b9a10d31bad4edb52d",
+              "size": 31898,
+              "path": "mods/baguettelib-1.20.1-Forge-1.1.6.jar",
+              "url": "/mods/1264423/7544807/baguettelib-1.20.1-Forge-1.1.6.jar"
+            },
+            "installed": 797,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1769634000000,
+          "update": 1769634000000,
+          "downloadALL": 43192,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1138130,
+          "name": "Corpse x Curios API Compat",
+          "author": "Project8gbDeRam",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/corpse-x-curios-api-compat",
+          "favorite": false,
+          "categories": [],
+          "picture": 922606,
+          "pictures": [],
+          "lanName": "corpse-x-curios-api-compat",
+          "version": {
+            "id": 7088113,
+            "name": "corpsecurioscompat-1.20.1-Forge-3.1.3",
+            "updateDate": 1760041398000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "3b36538ca8c6cc16982788c8e058cb726357a90c",
+              "size": 23655,
+              "path": "mods/corpsecurioscompat-1.20.1-Forge-3.1.3.jar",
+              "url": "/mods/1138130/7088113/corpsecurioscompat-1.20.1-Forge-3.1.3.jar"
+            },
+            "installed": 15786,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 13634,
+              "name": "BaguetteLib",
+              "gameEntityId": 1264423,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1759957200000,
+          "update": 1759957200000,
+          "downloadALL": 58976,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [],
