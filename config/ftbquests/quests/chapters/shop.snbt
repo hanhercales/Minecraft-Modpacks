@@ -1,0 +1,455 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "shop"
+	group: ""
+	icon: "minecraft:emerald"
+	id: "2000000000000001"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: "minecraft:experience_bottle"
+			id: "2000000000000002"
+			rewards: [{
+				id: "2000000000000004"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2000000000000003"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Buy Small XP Pack (+5 Levels)"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:experience_bottle"
+			id: "2000000000000005"
+			rewards: [{
+				id: "2000000000000007"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2000000000000006"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Buy Large XP Pack (+15 Levels)"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:diamond"
+			id: "2000000000000008"
+			rewards: [{
+				id: "200000000000000A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "2000000000000009"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Buy Diamond"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:netherite_ingot"
+			id: "200000000000000B"
+			rewards: [{
+				id: "200000000000000D"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "200000000000000C"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Buy Netherite Ingot"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonbone"
+			id: "200000000000000E"
+			rewards: [{
+				count: 2
+				id: "2000000000000010"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "200000000000000F"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Buy Dragon Bone"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:golden_apple"
+			id: "2000000000000011"
+			rewards: [{
+				id: "2000000000000013"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "2000000000000012"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Buy Golden Apple"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:enchanted_golden_apple"
+			id: "2000000000000014"
+			rewards: [{
+				id: "2000000000000016"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "2000000000000015"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Buy Enchanted Golden Apple"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: "irons_spellbooks:common_ink"
+			id: "2000000000000017"
+			rewards: [{
+				id: "2000000000000019"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "2000000000000018"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Buy Common Ink"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "irons_spellbooks:uncommon_ink"
+			id: "200000000000001A"
+			rewards: [{
+				id: "200000000000001C"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "200000000000001B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Buy Uncommon Ink"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "irons_spellbooks:rare_ink"
+			id: "200000000000001D"
+			rewards: [{
+				id: "200000000000001F"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "200000000000001E"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Buy Rare Ink"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "irons_spellbooks:epic_ink"
+			id: "2000000000000020"
+			rewards: [{
+				id: "2000000000000022"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "2000000000000021"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Buy Epic Ink"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: "irons_spellbooks:legendary_ink"
+			id: "2000000000000023"
+			rewards: [{
+				id: "2000000000000025"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "2000000000000024"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Buy Legendary Ink"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: "irons_spellbooks:arcane_essence"
+			id: "2000000000000026"
+			rewards: [{
+				count: 4
+				id: "2000000000000028"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2000000000000027"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Buy Arcane Essence"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "2000000000000029"
+			rewards: [{
+				id: "200000000000002B"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "200000000000002A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Buy Wither Skeleton Skull"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:heart_of_the_sea"
+			id: "200000000000002C"
+			rewards: [{
+				id: "200000000000002E"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "200000000000002D"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Buy Heart of the Sea"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:netherite_upgrade_smithing_template"
+			id: "200000000000002F"
+			rewards: [{
+				id: "2000000000000031"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2000000000000030"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Buy Netherite Upgrade Template"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:golden_carrot"
+			id: "2000000000000035"
+			rewards: [{
+				count: 16
+				id: "2000000000000037"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "2000000000000036"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Buy Golden Carrots"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:totem_of_undying"
+			id: "2000000000000038"
+			rewards: [{
+				id: "200000000000003A"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "2000000000000039"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Buy Totem of Undying"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "200000000000003B"
+			rewards: [{
+				id: "200000000000003D"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 15L
+				id: "200000000000003C"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Buy Elytra"
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_red"
+			id: "1BCFAE1619EEDF73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C6EA990D1734563"
+				table_id: 7444524518941411514L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "725AADC81DA77868"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Buy Dragon Scales x5"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "dungeons_and_combat:combat_style_manual"
+			id: "585471633F249931"
+			rewards: [
+				{
+					id: "3C4A38E55AFEC5C9"
+					item: "dungeons_and_combat:combat_style_manual"
+					type: "item"
+				}
+				{
+					command: "/advancement revoke @p from dungeons_and_combat:origin"
+					icon: "minecraft:experience_bottle"
+					id: "44FF08BD702358BD"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "0B38743272153411"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Reset Class"
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "The Shop"
+}

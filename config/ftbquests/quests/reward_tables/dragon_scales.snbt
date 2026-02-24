@@ -1,0 +1,29 @@
+{
+	id: "6750439B713048BA"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "dragon_scales"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 5, item: "iceandfire:dragonscales_copper" }
+		{ count: 5, item: "iceandfire:dragonscales_red" }
+		{ count: 5, item: "iceandfire:dragonscales_green" }
+		{ count: 5, item: "iceandfire:dragonscales_bronze" }
+		{ count: 5, item: "iceandfire:dragonscales_black" }
+		{ count: 5, item: "iceandfire:dragonscales_electric" }
+		{ count: 5, item: "iceandfire:dragonscales_amythest" }
+		{ count: 5, item: "iceandfire:dragonscales_silver" }
+		{ count: 5, item: "iceandfire:dragonscales_gray" }
+		{ count: 5, item: "iceandfire:dragonscales_blue" }
+		{ count: 5, item: "iceandfire:dragonscales_sapphire" }
+		{ count: 5, item: "iceandfire:dragonscales_white" }
+	]
+	title: "Dragon Scales"
+}

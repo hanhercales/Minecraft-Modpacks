@@ -1,0 +1,16 @@
+{
+    "ModSettings": {
+        "highlight_foused_items": {
+            "value": false
+        },
+        "highlight_foused_items_foreground": false,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": {
+            "value": false
+        },
+        "enable_profiles_announcement": false,
+        "continuous_crafting_saved_value": false
+    }
+}
