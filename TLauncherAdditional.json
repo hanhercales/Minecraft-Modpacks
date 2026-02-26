@@ -9850,6 +9850,221 @@
           "available": true,
           "parser": true,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 237307,
+          "name": "Cosmetic Armor Reworked",
+          "author": "ZLainSama",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            }
+          ],
+          "picture": 820574,
+          "pictures": [],
+          "lanName": "cosmetic-armor-reworked",
+          "version": {
+            "id": 4600191,
+            "name": "cosmeticarmorreworked-1.20.1-v1a",
+            "updateDate": 1687325875000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "afd9fa3fe95e8c086e8d439df403ed1e5ea5cbea",
+              "size": 88752,
+              "path": "mods/cosmeticarmorreworked-1.20.1-v1a.jar",
+              "url": "/mods/237307/4600191/cosmeticarmorreworked-1.20.1-v1a.jar"
+            },
+            "installed": 595259,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 6305,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 59,
+            "name": "1.21.5"
+          },
+          "updated": 1745614800000,
+          "update": 1745614800000,
+          "downloadALL": 6541642,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 470193,
+          "name": "Connectivity",
+          "author": "someaddon",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/connectivity",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 21,
+              "name": "technology_player_transport",
+              "shortName": "transport",
+              "nesting": 0
+            },
+            {
+              "id": 15,
+              "name": "server_utility",
+              "shortName": "plugins",
+              "nesting": 0
+            },
+            {
+              "id": 6,
+              "name": "map_information",
+              "shortName": "maps",
+              "nesting": 0
+            }
+          ],
+          "picture": 821153,
+          "pictures": [],
+          "lanName": "connectivity",
+          "version": {
+            "id": 7366161,
+            "name": "connectivity-1.20.1-7.6",
+            "updateDate": 1766425349000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "ae69a0712c73411a2d804eec7abce271529e273d",
+              "size": 120598,
+              "path": "mods/connectivity-1.20.1-7.6.jar",
+              "url": "/mods/470193/7366161/connectivity-1.20.1-7.6.jar"
+            },
+            "installed": 3807,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              },
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 5815,
+              "name": "Cupboard",
+              "gameEntityId": 326652,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1766350800000,
+          "update": 1766350800000,
+          "downloadALL": 84310,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 549394,
+          "name": "Krypton Reforged",
+          "author": "teamdeusvult",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/krypton-reforged",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 15,
+              "name": "server_utility",
+              "shortName": "plugins",
+              "nesting": 0
+            }
+          ],
+          "picture": 821369,
+          "pictures": [],
+          "lanName": "krypton-reforged",
+          "version": {
+            "id": 4606534,
+            "name": "0.2.3",
+            "updateDate": 1687564367000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              }
+            ],
+            "metadata": {
+              "sha1": "92690482dad46a8c9cf28e4b6b26e49f4dc67095",
+              "size": 206758,
+              "path": "mods/KryptonReforged-0.2.3.jar",
+              "url": "/mods/549394/4606534/KryptonReforged-0.2.3.jar"
+            },
+            "installed": 24863,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 46,
+            "name": "1.20.1"
+          },
+          "updated": 1687554000000,
+          "update": 1687554000000,
+          "downloadALL": 52329,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
       "resourcePacks": [
