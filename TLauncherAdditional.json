@@ -9660,6 +9660,196 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 817423,
+          "name": "AzureLib",
+          "author": "azuredoomc",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/azurelib",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 787609,
+          "pictures": [],
+          "lanName": "azurelib",
+          "version": {
+            "id": 7371538,
+            "name": "azurelib-neo-1.20.1-3.1.3",
+            "updateDate": 1766535085000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "37ba8009f7d44db5701738462acc0874e828cf8c",
+              "size": 1054548,
+              "path": "mods/azurelib-neo-1.20.1-3.1.3.jar",
+              "url": "/mods/817423/7371538/azurelib-neo-1.20.1-3.1.3.jar"
+            },
+            "installed": 41148,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              },
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 2,
+              "name": "Fabric API",
+              "gameEntityId": 306612,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1766523600000,
+          "update": 1766523600000,
+          "downloadALL": 617132,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1099461,
+          "name": "Cataclysm Spellbooks",
+          "author": "StarOcean",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/cataclysm-spellbooks",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 1,
+              "name": "magic",
+              "shortName": "magic",
+              "nesting": 0
+            },
+            {
+              "id": 55,
+              "name": "adventure_and_rpg",
+              "shortName": "roleplay",
+              "nesting": 0
+            },
+            {
+              "id": 4,
+              "name": "armor_weapons_tools",
+              "shortName": "military",
+              "nesting": 0
+            },
+            {
+              "id": 13,
+              "name": "world_mobs",
+              "shortName": "mobs",
+              "nesting": 0
+            },
+            {
+              "id": 26,
+              "name": "mc_addons",
+              "shortName": "addons",
+              "nesting": 0
+            }
+          ],
+          "picture": 949466,
+          "pictures": [
+            1209371,
+            1209373,
+            1209372,
+            1209370
+          ],
+          "lanName": "cataclysm-spellbooks",
+          "version": {
+            "id": 7447221,
+            "name": "cataclysm_spellbooks-1.2.8-1.20.1-all",
+            "updateDate": 1768153055000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "7d5be6641c1ff35fa09bef187613b749ef66c2f7",
+              "size": 1259854,
+              "path": "mods/cataclysm_spellbooks-1.2.8-1.20.1-all.jar",
+              "url": "/mods/1099461/7447221/cataclysm_spellbooks-1.2.8-1.20.1-all.jar"
+            },
+            "installed": 6692,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 4830,
+              "name": "L_Ender 's Cataclysm",
+              "gameEntityId": 551586,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 5958,
+              "name": "Iron's Spells 'n Spellbooks",
+              "gameEntityId": 855414,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 4641,
+              "name": "AzureLib",
+              "gameEntityId": 817423,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1768078800000,
+          "update": 1768078800000,
+          "downloadALL": 43775,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
