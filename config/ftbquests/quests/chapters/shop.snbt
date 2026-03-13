@@ -1,0 +1,770 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "shop"
+	group: ""
+	icon: "minecraft:emerald"
+	id: "2000000000000001"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:experience_bottle"
+			id: "2000000000000002"
+			rewards: [{
+				id: "2000000000000004"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2000000000000003"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Buy Small XP Pack (+5 Levels)"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:experience_bottle"
+			id: "2000000000000005"
+			rewards: [{
+				id: "2000000000000007"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				count: 4L
+				id: "29A27A0A8293798D"
+				item: { Count: 4, id: "numismatics:cog" }
+				type: "item"
+			}]
+			title: "Buy Large XP Pack (+15 Levels)"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:diamond"
+			id: "2000000000000008"
+			rewards: [{
+				id: "200000000000000A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2000000000000009"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Buy Diamond"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:netherite_ingot"
+			id: "200000000000000B"
+			rewards: [{
+				id: "200000000000000D"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "200000000000000C"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			title: "Buy Netherite Ingot"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:golden_apple"
+			id: "2000000000000011"
+			rewards: [{
+				id: "2000000000000013"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "151BC7B6FD8E82F7"
+				item: { Count: 2, id: "numismatics:cog" }
+				type: "item"
+			}]
+			title: "Buy Golden Apple"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:enchanted_golden_apple"
+			id: "2000000000000014"
+			rewards: [{
+				id: "2000000000000016"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "3C810C57220AA626"
+				item: { Count: 2, id: "numismatics:crown" }
+				type: "item"
+			}]
+			title: "Buy Enchanted Golden Apple"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "2000000000000029"
+			rewards: [{
+				id: "200000000000002B"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "200000000000002A"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Buy Wither Skeleton Skull"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:heart_of_the_sea"
+			id: "200000000000002C"
+			rewards: [{
+				id: "200000000000002E"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "200000000000002D"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			title: "Buy Heart of the Sea"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:netherite_upgrade_smithing_template"
+			id: "200000000000002F"
+			rewards: [{
+				id: "2000000000000031"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "25C2F94E8CB85667"
+				item: { Count: 2, id: "numismatics:crown" }
+				type: "item"
+			}]
+			title: "Buy Netherite Upgrade Template"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:golden_carrot"
+			id: "2000000000000035"
+			rewards: [{
+				count: 16
+				id: "2000000000000037"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2000000000000036"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Buy Golden Carrots"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:totem_of_undying"
+			id: "2000000000000038"
+			rewards: [{
+				id: "200000000000003A"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2000000000000039"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			title: "Buy Totem of Undying"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "200000000000003B"
+			rewards: [{
+				id: "200000000000003D"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "200000000000003C"
+				item: "numismatics:sun"
+				type: "item"
+			}]
+			title: "Buy Elytra"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "025B4E1D9C307F8F"
+			rewards: [{
+				id: "25167EBC8D4CB09E"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "289C8435DA262C69"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "53DD1A442B045A6C"
+			rewards: [{
+				id: "3BCA110001284581"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "558255B0E5EEC8CB"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "742017241FFC54D1"
+			rewards: [{
+				id: "11ED7234F88F81DD"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "78808E98531E9C9F"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "1BC057625863FF40"
+			rewards: [{
+				id: "4E47B57C400F1A63"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0DA5EDC2699A52BA"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "4E8E5690896DF13C"
+			rewards: [{
+				id: "229AC7E9A2162AF4"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4C5D3A2B3DE7C7C0"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "0DAA3E397A96B050"
+			rewards: [{
+				id: "3A1A64D928875AE2"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3EDAD5C3CE95FDD9"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "0D68584369FFF99C"
+			rewards: [{
+				id: "24D533AC4F097271"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3FE45967774CA76D"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "306A87B0961593FB"
+			rewards: [{
+				id: "29098146CD3DAD0A"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6B5BAE11866C5D33"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "19F46A94C6C335F1"
+			rewards: [{
+				id: "3CC9F9037AE2C6C3"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4F23AC39F7956854"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "7507675647E3F5B8"
+			rewards: [{
+				id: "11D06641BC604E58"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "69B444A7D29EB8A5"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2346074A75E26CCD"
+			rewards: [{
+				id: "72BC0F6559578A53"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0F1CF8AEAF8D1EE7"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "692B16B4E6D6CC98"
+			rewards: [{
+				id: "097FCD049AE9C54F"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3A65369186015AE9"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "25D3B4FBD65F6853"
+			rewards: [{
+				id: "395C15B3DC77728A"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "419FBDEA8FE28291"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "350603A708484541"
+			rewards: [{
+				count: 2
+				id: "195F8BA2405E355A"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "20624F31B9408419"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "4DA52C3371BF1291"
+			rewards: [{
+				id: "386ABFB09F4E300B"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "602F5CC1FA376909"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3A68BDB67EBC7571"
+			rewards: [{
+				id: "5E99FCC7517EEF02"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "46A47BE07D4B9E7E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "6B17223CE355E375"
+			rewards: [{
+				id: "07BC13495D074C20"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "05A57F198F05B9A9"
+					item: "minecraft:cobblestone"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 512L
+					id: "5485FA63C5D60EE6"
+					item: { Count: 512, id: "minecraft:cobbled_deepslate" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "512x Cobblestone / Cobbled Deepslate"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "4B8214CC7829CE3D"
+			rewards: [{
+				id: "586CE9174649F3D9"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6847B9E5A51996E8"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "70D31B60E04B8D78"
+			rewards: [{
+				id: "5C3CEFF2D44F6386"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CD84DEE051688F9"
+				item: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "538C2EF692E17773"
+			rewards: [{
+				id: "081A2A87A6A44B94"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FAD1229FA60401F"
+				item: "mowziesmobs:wrought_helmet"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3D8A7572FA722513"
+			rewards: [{
+				id: "37096A70D30BAA1B"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4249A01BB876A2B4"
+				item: "mowziesmobs:sol_visage"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "52BCCD04B26C754A"
+			rewards: [{
+				id: "5E7E993EA63DE68E"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "54A80B333255CA95"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_fear"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16EBAB534E3A9876"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_fury"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2A1754A32603B18C"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_rage"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "440290A1F19C0EA4"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_bliss"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2A6D7179DFF63551"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_misery"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "35271EE6B57F13B1"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_faith"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Umvuthana's Mask"
+			x: 8.0d
+			y: 10.0d
+		}
+	]
+	title: "The Shop"
+}

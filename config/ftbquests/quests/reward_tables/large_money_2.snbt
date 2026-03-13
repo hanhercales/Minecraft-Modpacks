@@ -1,0 +1,7 @@
+{
+	id: "2E072613C00A64D2"
+	loot_size: 1
+	order_index: 2
+	rewards: [{ count: 5, item: "numismatics:cog" }]
+	title: "Medium Money"
+}

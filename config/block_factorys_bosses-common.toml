@@ -8,10 +8,10 @@
 
 ["Boss Armor"]
 	#Max Armor : 30
-	"Sandworm Armor" = 30.0
-	"Yeti Armor" = 15.0
-	"Dragon Armor" = 35.0
-	"Knight Armor" = 20.0
+	"Sandworm Armor" = 20.0
+	"Yeti Armor" = 5.0
+	"Dragon Armor" = 25.0
+	"Knight Armor" = 10.0
 
 ["Base Boss Damages"]
 	#Not all damages sources depends on this variable !

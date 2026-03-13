@@ -6406,115 +6406,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 314906,
-          "name": "FTB Chunks (NeoForge)",
-          "author": "latvianmodder",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 15,
-              "name": "server_utility",
-              "shortName": "plugins",
-              "nesting": 0
-            },
-            {
-              "id": 6,
-              "name": "map_information",
-              "shortName": "maps",
-              "nesting": 0
-            }
-          ],
-          "picture": 787548,
-          "pictures": [],
-          "lanName": "ftb-chunks",
-          "version": {
-            "id": 6431735,
-            "name": "ftb-chunks-forge-2001.3.6",
-            "updateDate": 1744877227000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 46,
-                "name": "1.20.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "7fde7917655a3356cab92f17ad2bca34962c4928",
-              "size": 1158842,
-              "path": "mods/ftb-chunks-forge-2001.3.6.jar",
-              "url": "/mods/314906/6431735/ftb-chunks-forge-2001.3.6.jar"
-            },
-            "installed": 22449,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 1,
-                "name": "forge"
-              }
-            ]
-          },
-          "popularity": 3,
-          "downloadMonth": 149,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 422,
-              "name": "Architectury API",
-              "gameEntityId": 419699,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 3061,
-              "name": "FTB Ranks (NeoForge)",
-              "gameEntityId": 314905,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 1053,
-              "name": "FTB Library (Forge)",
-              "gameEntityId": 404465,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 1055,
-              "name": "FTB Teams (NeoForge)",
-              "gameEntityId": 404468,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 5798,
-              "name": "FTB XMod Compat",
-              "gameEntityId": 889915,
-              "dependencyType": "optional",
-              "available": false
-            }
-          ],
-          "lastGameVersion": {
-            "id": 66,
-            "name": "1.21.11"
-          },
-          "updated": 1772398800000,
-          "update": 1772398800000,
-          "downloadALL": 217498,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
           "id": 889722,
           "name": "Create Numismatics",
           "author": "IThundxr",
@@ -7268,133 +7159,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 889915,
-          "name": "FTB XMod Compat",
-          "author": "FTB FTB ErrorMikey desht_08",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 7,
-              "name": "library_api",
-              "shortName": "api",
-              "nesting": 0
-            }
-          ],
-          "picture": 808898,
-          "pictures": [],
-          "lanName": "ftb-xmod-compat",
-          "version": {
-            "id": 6402486,
-            "name": "ftb-xmod-compat-forge-2.1.3",
-            "updateDate": 1744195658000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 46,
-                "name": "1.20.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "0584f628d2bc6a612d79dee368324357ebae1423",
-              "size": 129725,
-              "path": "mods/ftb-xmod-compat-forge-2.1.3.jar",
-              "url": "/mods/889915/6402486/ftb-xmod-compat-forge-2.1.3.jar"
-            },
-            "installed": 8939,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 1,
-                "name": "forge"
-              }
-            ]
-          },
-          "popularity": 2,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 422,
-              "name": "Architectury API",
-              "gameEntityId": 419699,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 3061,
-              "name": "FTB Ranks (NeoForge)",
-              "gameEntityId": 314905,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 1053,
-              "name": "FTB Library (Forge)",
-              "gameEntityId": 404465,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 2155,
-              "name": "FTB Quests (NeoForge)",
-              "gameEntityId": 289412,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 4,
-              "name": "Just Enough Items (JEI)",
-              "gameEntityId": 238222,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 1054,
-              "name": "KubeJS",
-              "gameEntityId": 238086,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 632,
-              "name": "Roughly Enough Items FabricForgeNeoForge (REI)",
-              "gameEntityId": 310111,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 1244,
-              "name": "Waystones",
-              "gameEntityId": 245755,
-              "dependencyType": "optional",
-              "available": false
-            }
-          ],
-          "lastGameVersion": {
-            "id": 66,
-            "name": "1.21.11"
-          },
-          "updated": 1772658000000,
-          "update": 1772658000000,
-          "downloadALL": 27016,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
           "id": 1166811,
           "name": "Grappling Hook - Reforged",
           "author": "Chummycho",
@@ -7901,6 +7665,189 @@
           "updated": 1772139600000,
           "update": 1772139600000,
           "downloadALL": 834701,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 263420,
+          "name": "Xaero's Minimap",
+          "author": "xaero96",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 21,
+              "name": "technology_player_transport",
+              "shortName": "transport",
+              "nesting": 0
+            },
+            {
+              "id": 6,
+              "name": "map_information",
+              "shortName": "maps",
+              "nesting": 0
+            }
+          ],
+          "picture": 808845,
+          "pictures": [],
+          "lanName": "xaeros-minimap",
+          "version": {
+            "id": 7598586,
+            "name": "xaerominimap-forge-1.20.1-25.3.10",
+            "updateDate": 1770629259000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              }
+            ],
+            "metadata": {
+              "sha1": "fef773ef4cbfa240a55236f3e8d6add20eb2add1",
+              "size": 2146522,
+              "path": "mods/xaerominimap-forge-1.20.1-25.3.10.jar",
+              "url": "/mods/263420/7598586/xaerominimap-forge-1.20.1-25.3.10.jar"
+            },
+            "installed": 111511,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 33245,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 5058,
+              "name": "Open Parties and Claims",
+              "gameEntityId": 636608,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 5395,
+              "name": "Xaero's World Map",
+              "gameEntityId": 317780,
+              "dependencyType": "optional",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1770584400000,
+          "update": 1770584400000,
+          "downloadALL": 29942991,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 317780,
+          "name": "Xaero's World Map",
+          "author": "xaero96",
+          "uuid": "425fe2ba-b049-11e9-9fef-002590a1379b",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 21,
+              "name": "technology_player_transport",
+              "shortName": "transport",
+              "nesting": 0
+            },
+            {
+              "id": 6,
+              "name": "map_information",
+              "shortName": "maps",
+              "nesting": 0
+            }
+          ],
+          "picture": 808848,
+          "pictures": [
+            68971,
+            68972,
+            68970
+          ],
+          "lanName": "xaeros-world-map",
+          "version": {
+            "id": 7598469,
+            "name": "xaeroworldmap-forge-1.20.1-1.40.11",
+            "updateDate": 1770626598000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              }
+            ],
+            "metadata": {
+              "sha1": "0a5d068b6aa72c69b79e7ab7da47ef64f96e5b7c",
+              "size": 1388342,
+              "path": "mods/xaeroworldmap-forge-1.20.1-1.40.11.jar",
+              "url": "/mods/317780/7598469/xaeroworldmap-forge-1.20.1-1.40.11.jar"
+            },
+            "installed": 66780,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 4913,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 5058,
+              "name": "Open Parties and Claims",
+              "gameEntityId": 636608,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 4316,
+              "name": "Xaero's Minimap",
+              "gameEntityId": 263420,
+              "dependencyType": "optional",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1770584400000,
+          "update": 1770584400000,
+          "downloadALL": 10408369,
           "available": true,
           "parser": true,
           "totalComments": 0,

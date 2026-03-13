@@ -1,0 +1,603 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "boss_hunting"
+	group: ""
+	icon: "minecraft:dragon_head"
+	id: "1000000000000001"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1000000000000002"
+			rewards: [
+				{
+					id: "1000000000000004"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E1D2A1AFAAEF7F5"
+					table_id: 1169744110681907635L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1000000000000003"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Frostmaw"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "1000000000000006"
+			rewards: [
+				{
+					id: "1000000000000008"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0056E1946181D544"
+					table_id: 3316661516849800402L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "1000000000000007"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay Ferrous Wroughtnaut"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "100000000000000E"
+			rewards: [
+				{
+					id: "1000000000000010"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CAFFAED8B079FF8"
+					table_id: 1629020483304704251L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "100000000000000F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Wither"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1000000000000016"
+			rewards: [
+				{
+					id: "1000000000000018"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66A23F57A799C11F"
+					table_id: 1629020483304704251L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "1000000000000017"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Ender Dragon"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "100000000000001E"
+			rewards: [
+				{
+					id: "1000000000000020"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B4D711AE3D63441"
+					table_id: 1629020483304704251L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:monstrous_eye"
+				id: "100000000000001F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Netherite Monstrosity"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "1000000000000022"
+			rewards: [
+				{
+					id: "1000000000000024"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					exclude_from_claim_all: true
+					id: "459DBDDFE452CED4"
+					table_id: 6072631860365643018L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:flame_eye"
+				id: "1000000000000023"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Extinguish Ignis"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "1000000000000026"
+			rewards: [
+				{
+					id: "1000000000000028"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "385420004B9F2CBE"
+					table_id: 6072631860365643018L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:mech_eye"
+				id: "1000000000000027"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Harbinger"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "1000000000000040"
+			rewards: [
+				{
+					id: "1000000000000042"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43B45960639EC786"
+					table_id: 1169744110681907635L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1000000000000041"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Elder Guardian"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "100000000000004C"
+			rewards: [
+				{
+					id: "100000000000004E"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AD1B81B925DA46B"
+					table_id: 3316661516849800402L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "100000000000004D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay Umvuthi, the Sunbird"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "1000000000000068"
+			rewards: [
+				{
+					id: "100000000000006A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7723126AC562B438"
+					table_id: 3316661516849800402L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:echo_shard"
+				id: "1000000000000069"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Warden"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "1000000000000078"
+			rewards: [
+				{
+					id: "100000000000007A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54679BF5C9B682A4"
+					table_id: 1629020483304704251L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:void_core"
+				id: "1000000000000079"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Ender Guardian"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "1000000000000084"
+			rewards: [
+				{
+					id: "1000000000000086"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4534BAD37231503A"
+					table_id: 1629020483304704251L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:remnant_skull"
+				id: "1000000000000085"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Ancient Remnant"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "1000000000000088"
+			rewards: [
+				{
+					id: "100000000000008A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77DDB86840013F13"
+					table_id: 6072631860365643018L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:abyss_eye"
+				id: "1000000000000089"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Leviathan"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "100000000000008C"
+			rewards: [
+				{
+					id: "100000000000008E"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FCE4E49D16D2553"
+					table_id: 6072631860365643018L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursed_eye"
+				id: "100000000000008D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay Maledictus"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "1000000000000090"
+			rewards: [
+				{
+					id: "1000000000000092"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B9A58E2A8CEF25E"
+					table_id: 6072631860365643018L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:ceraunus"
+				id: "1000000000000091"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Scylla"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "10000000000000A0"
+			rewards: [
+				{
+					id: "10000000000000A2"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 6
+					id: "10000000000000A3"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "fdbosses:chesed"
+				icon: "fdbosses:chesed_trophy"
+				id: "10000000000000A1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay Chesed"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "10000000000000A4"
+			rewards: [
+				{
+					id: "10000000000000A6"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 8
+					id: "10000000000000A7"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "fdbosses:malkuth"
+				icon: "fdbosses:malkuth_trophy"
+				id: "10000000000000A5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay Malkuth"
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			id: "10000000000000B8"
+			rewards: [
+				{
+					id: "10000000000000BA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D131D4436E2DA1A"
+					table_id: 3316661516849800402L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:yeti"
+				icon: "block_factorys_bosses:yeti_spawn_egg"
+				id: "10000000000000B9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Yeti"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "10000000000000BC"
+			rewards: [
+				{
+					id: "10000000000000BE"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "454FCA8503A55797"
+					table_id: 3316661516849800402L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				icon: "block_factorys_bosses:sandworm_spawn_egg"
+				id: "10000000000000BD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Sandworm"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "10000000000000C0"
+			rewards: [
+				{
+					id: "10000000000000C2"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7277C5D2C9D44CDB"
+					table_id: 3316661516849800402L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:underworld_knight"
+				icon: "block_factorys_bosses:underworld_knight_spawn_egg"
+				id: "10000000000000C1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Underworld Knight"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "10000000000000C4"
+			rewards: [
+				{
+					id: "10000000000000C6"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E88185CCB8E0564"
+					table_id: 1629020483304704251L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:infernal_dragon"
+				icon: "block_factorys_bosses:infernal_dragon_spawn_egg"
+				id: "10000000000000C5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Infernal Dragon"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			id: "24EC7AC418D36B2D"
+			rewards: [
+				{
+					id: "08D5F84E35529EF9"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68C9DC5655D75D1B"
+					table_id: 1169744110681907635L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "27ED4BB48100E011"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay Tongbi, the Sculptor"
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+	title: "Boss Hunting"
+}

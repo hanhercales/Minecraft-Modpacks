@@ -1,0 +1,10 @@
+{
+	id: "169B717FA73648FB"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "numismatics:crown" }
+		{ count: 2, item: "numismatics:cog" }
+	]
+	title: "Large Money"
+}
