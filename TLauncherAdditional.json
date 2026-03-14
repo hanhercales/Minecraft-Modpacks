@@ -5840,134 +5840,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 689467,
-          "name": "Packet Fixer",
-          "author": "x_tonimatasmc_x",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/packet-fixer",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 22,
-              "name": "mc_miscellaneous",
-              "shortName": "mixed",
-              "nesting": 0
-            },
-            {
-              "id": 15,
-              "name": "server_utility",
-              "shortName": "plugins",
-              "nesting": 0
-            }
-          ],
-          "picture": 787444,
-          "pictures": [],
-          "lanName": "packet-fixer",
-          "version": {
-            "id": 7221527,
-            "name": "packetfixer-3.3.1-1.18-1.20.4-merged",
-            "updateDate": 1763141418000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 49,
-                "name": "1.20.4"
-              },
-              {
-                "id": 48,
-                "name": "1.20.3"
-              },
-              {
-                "id": 47,
-                "name": "1.20.2"
-              },
-              {
-                "id": 46,
-                "name": "1.20.1"
-              },
-              {
-                "id": 45,
-                "name": "1.20"
-              },
-              {
-                "id": 44,
-                "name": "1.19.4"
-              },
-              {
-                "id": 43,
-                "name": "1.19.3"
-              },
-              {
-                "id": 38,
-                "name": "1.19.2"
-              },
-              {
-                "id": 37,
-                "name": "1.19.1"
-              },
-              {
-                "id": 36,
-                "name": "1.19"
-              },
-              {
-                "id": 35,
-                "name": "1.18.2"
-              },
-              {
-                "id": 34,
-                "name": "1.18.1"
-              },
-              {
-                "id": 33,
-                "name": "1.18"
-              }
-            ],
-            "metadata": {
-              "sha1": "0bef29023c8cadb2934d78a8b0066b49d4460974",
-              "size": 188673,
-              "path": "mods/packetfixer-3.3.1-1.18-1.20.4-merged.jar",
-              "url": "/mods/689467/7221527/packetfixer-3.3.1-1.18-1.20.4-merged.jar"
-            },
-            "installed": 41774,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              },
-              {
-                "id": 2,
-                "name": "fabric"
-              },
-              {
-                "id": 1,
-                "name": "forge"
-              },
-              {
-                "id": 4,
-                "name": "quilt"
-              }
-            ]
-          },
-          "popularity": 3,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [],
-          "lastGameVersion": {
-            "id": 66,
-            "name": "1.21.11"
-          },
-          "updated": 1769202000000,
-          "update": 1769202000000,
-          "downloadALL": 232149,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
           "id": 419699,
           "name": "Architectury API",
           "author": "shedaniel",
@@ -7848,6 +7720,278 @@
           "updated": 1770584400000,
           "update": 1770584400000,
           "downloadALL": 10408369,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 679177,
+          "name": "libIPN",
+          "author": "mirinimi",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/libipn",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 821348,
+          "pictures": [],
+          "lanName": "libipn",
+          "version": {
+            "id": 5208511,
+            "name": "forge-1.20-4.0.2",
+            "updateDate": 1711293444000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              }
+            ],
+            "metadata": {
+              "sha1": "3e7c7fcdc037a6ae3d9146e718d87fc83f88f6d5",
+              "size": 693301,
+              "path": "mods/libIPN-forge-1.20-4.0.2.jar",
+              "url": "/mods/679177/5208511/libIPN-forge-1.20-4.0.2.jar"
+            },
+            "installed": 259146,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 594,
+              "name": "Fabric Language Kotlin",
+              "gameEntityId": 308769,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 2,
+              "name": "Fabric API",
+              "gameEntityId": 306612,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1762549200000,
+          "update": 1762549200000,
+          "downloadALL": 1279139,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 495267,
+          "name": "Inventory Profiles Next",
+          "author": "mirinimi",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 83,
+              "name": "storage",
+              "shortName": "storage",
+              "nesting": 0
+            }
+          ],
+          "picture": 926857,
+          "pictures": [],
+          "lanName": "inventory-profiles-next",
+          "version": {
+            "id": 7565992,
+            "name": "forge-1.20-1.10.20",
+            "updateDate": 1770038132000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              }
+            ],
+            "metadata": {
+              "sha1": "979e74fa10b24a7d7c4d9aeb5824b80f4f9235cf",
+              "size": 1457354,
+              "path": "mods/InventoryProfilesNext-forge-1.20-1.10.20.jar",
+              "url": "/mods/495267/7565992/InventoryProfilesNext-forge-1.20-1.10.20.jar"
+            },
+            "installed": 13671,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 3873,
+              "name": "libIPN",
+              "gameEntityId": 679177,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 594,
+              "name": "Fabric Language Kotlin",
+              "gameEntityId": 308769,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 2,
+              "name": "Fabric API",
+              "gameEntityId": 306612,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 204,
+              "name": "Mod Menu",
+              "gameEntityId": 308702,
+              "dependencyType": "optional",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1767042000000,
+          "update": 1767042000000,
+          "downloadALL": 1519365,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 351264,
+          "name": "Kotlin for Forge",
+          "author": "thedarkcolour",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 787547,
+          "pictures": [],
+          "lanName": "kotlin-for-forge",
+          "version": {
+            "id": 7291067,
+            "name": "kotlinforforge-4.12.0-all",
+            "updateDate": 1764791228000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 49,
+                "name": "1.20.4"
+              },
+              {
+                "id": 48,
+                "name": "1.20.3"
+              },
+              {
+                "id": 47,
+                "name": "1.20.2"
+              },
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              },
+              {
+                "id": 44,
+                "name": "1.19.4"
+              },
+              {
+                "id": 43,
+                "name": "1.19.3"
+              }
+            ],
+            "metadata": {
+              "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+              "size": 7442998,
+              "path": "mods/kotlinforforge-4.12.0-all.jar",
+              "url": "/mods/351264/7291067/kotlinforforge-4.12.0-all.jar"
+            },
+            "installed": 192541,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              },
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 153,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1768597200000,
+          "update": 1768597200000,
+          "downloadALL": 1952484,
           "available": true,
           "parser": true,
           "totalComments": 0,
