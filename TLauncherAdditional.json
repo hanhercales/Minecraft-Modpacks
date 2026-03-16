@@ -7996,6 +7996,211 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 274259,
+          "name": "Carry On",
+          "author": "Tschipp Purplicious_Cow",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/carry-on",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 83,
+              "name": "storage",
+              "shortName": "storage",
+              "nesting": 0
+            },
+            {
+              "id": 5,
+              "name": "technology",
+              "shortName": "technology",
+              "nesting": 0
+            }
+          ],
+          "picture": 787817,
+          "pictures": [
+            17751,
+            17737,
+            17743
+          ],
+          "lanName": "carry-on",
+          "version": {
+            "id": 4882500,
+            "name": "carryon-forge-1.20.1-2.1.2.7",
+            "updateDate": 1700433128000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              }
+            ],
+            "metadata": {
+              "sha1": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f",
+              "size": 439457,
+              "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
+              "url": "/mods/274259/4882500/carryon-forge-1.20.1-2.1.2.7.jar"
+            },
+            "installed": 2394805,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 18088,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1766782800000,
+          "update": 1766782800000,
+          "downloadALL": 22268417,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 237749,
+          "name": "CoroUtil",
+          "author": "Corosus",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/coroutil",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 821166,
+          "pictures": [],
+          "lanName": "coroutil",
+          "version": {
+            "id": 5096038,
+            "name": "coroutil-forge-1.20.1-1.3.7",
+            "updateDate": 1707561980000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "7f5f0b62a638b6053c95919cbe8c2bea2e0c93d0",
+              "size": 64187,
+              "path": "mods/coroutil-forge-1.20.1-1.3.7.jar",
+              "url": "/mods/237749/5096038/coroutil-forge-1.20.1-1.3.7.jar"
+            },
+            "installed": 412804,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 309,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 57,
+            "name": "1.21.4"
+          },
+          "updated": 1742418000000,
+          "update": 1742418000000,
+          "downloadALL": 1537506,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 945479,
+          "name": "What Are They Up To (Watut)",
+          "author": "Corosus",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/what-are-they-up-to",
+          "favorite": false,
+          "categories": [],
+          "picture": 821258,
+          "pictures": [],
+          "lanName": "what-are-they-up-to",
+          "version": {
+            "id": 6315241,
+            "name": "watut-forge-1.20.1-1.2.3",
+            "updateDate": 1742214967000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "d376debf1f96f37dbedf56919baeb7da2dcef9ab",
+              "size": 435496,
+              "path": "mods/watut-forge-1.20.1-1.2.3.jar",
+              "url": "/mods/945479/6315241/watut-forge-1.20.1-1.2.3.jar"
+            },
+            "installed": 51285,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              },
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 415,
+              "name": "CoroUtil",
+              "gameEntityId": 237749,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 57,
+            "name": "1.21.4"
+          },
+          "updated": 1744491600000,
+          "update": 1744491600000,
+          "downloadALL": 176893,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [],
