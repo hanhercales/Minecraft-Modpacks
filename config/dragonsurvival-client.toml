@@ -48,9 +48,9 @@
 	#Do you want your dragon skin to be rendered as a adult dragon?
 	renderAdultSkin = true
 	#Do you want your dragon skin to be rendered as a young dragon?
-	renderYoungSkin = true
+	renderYoungSkin = false
 	#Do you want your dragon skin to be rendered as a newborn dragon?
-	renderNewbornSkin = true
+	renderNewbornSkin = false
 	#Should the tools on the claws and teeth be rendered for your dragon?
 	renderDragonClaws = true
 	#Should items be rendered near the mouth of dragons rather then hovering by their side?

@@ -1,0 +1,369 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "celestial_weapons"
+	group: ""
+	icon: {
+		Count: 1
+		id: "celestisynth:solaris"
+		tag: {
+			Damage: 0
+			csController: { }
+		}
+	}
+	id: "7E872F9C454C7B25"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5B8E17B329B7E337"
+			rewards: [
+				{
+					id: "44650978B3B2B6C9"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "5DC173A0D297C4B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "2F53CDF64DBB8781"
+				item: "celestisynth:celestial_core"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B8E17B329B7E337"]
+			id: "1E1AC0E4B15AEDF5"
+			rewards: [
+				{
+					count: 2
+					id: "24BC8594D5CB95C7"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "59DA9B0AC0DFDE5D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "37B20803F6385504"
+				item: "celestisynth:supernal_netherite_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E1AC0E4B15AEDF5"]
+			id: "710DDB6EAB66E70E"
+			rewards: [
+				{
+					count: 3
+					id: "1A2EF8B8D44C0468"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "1839443F996EBDBE"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "65A6A83ADDAD35D4"
+				item: "celestisynth:celestial_netherite_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["710DDB6EAB66E70E"]
+			id: "1A43644408DC1D97"
+			rewards: [
+				{
+					count: 4
+					id: "2688E3BB7B5A5CCC"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "6BDED56B2AC60B02"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "1B6E2579098777F5"
+				item: "celestisynth:starlit_factory"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A43644408DC1D97"]
+			id: "4491CEF45FBF8913"
+			rewards: [
+				{
+					count: 5
+					id: "2D8F80E5FA0EC375"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "5902C5FBAE660E2D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "5B917479C36F0D9A"
+				item: {
+					Count: 1
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A43644408DC1D97"]
+			id: "48B042D524191510"
+			rewards: [
+				{
+					count: 5
+					id: "381DD4D8E1E64CE1"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "21554E265E3FC6C9"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "3B2264847B7D6339"
+				item: {
+					Count: 1
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A43644408DC1D97"]
+			id: "110926316997A009"
+			rewards: [
+				{
+					count: 5
+					id: "56074D130900D9AE"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "2BC425E026640FCD"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "1AD7D5BA4839C2CE"
+				item: {
+					Count: 1
+					id: "celestisynth:keres"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.keresStack: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A43644408DC1D97"]
+			id: "11E1EE689F9E2223"
+			rewards: [
+				{
+					count: 5
+					id: "3640D2F9AE3C50DA"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "75CE20E4FE4EAEA7"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "7218B6EC0B1831CD"
+				item: {
+					Count: 1
+					id: "celestisynth:breezebreaker"
+					tag: {
+						Damage: 0
+						csController: { }
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A43644408DC1D97"]
+			id: "2C1C112C42BBC68E"
+			rewards: [
+				{
+					count: 5
+					id: "53FC979433B5504F"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "45396333ACA5ADB7"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "24983EC32296FE2D"
+				item: {
+					Count: 1
+					id: "celestisynth:frostbound"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A43644408DC1D97"]
+			id: "19366C8DF74BDE14"
+			rewards: [
+				{
+					count: 5
+					id: "07941DC34F087D86"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "51ABA590709986D2"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "1EE72390D325E3DE"
+				item: {
+					Count: 1
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A43644408DC1D97"]
+			id: "6602FFB1B22B366E"
+			rewards: [
+				{
+					count: 5
+					id: "1BC1DF3C855F0AFB"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "1A568A0036301DC0"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "209F621B53880D2F"
+				item: {
+					Count: 1
+					id: "celestisynth:poltergeist"
+					tag: {
+						Damage: 0
+						csController: { }
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A43644408DC1D97"]
+			id: "755BEDE83BD2B864"
+			rewards: [
+				{
+					count: 5
+					id: "44673AD0AEA10730"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "4FD5FFB065FB7543"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "7CA5E86D71D9BDA1"
+				item: {
+					Count: 1
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						csExtras: {
+							cs.pull: 0.0f
+							cs.pulling: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+	]
+	title: "Celestial Weapons"
+}

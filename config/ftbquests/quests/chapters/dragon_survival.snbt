@@ -1,0 +1,378 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dragon_survival"
+	group: ""
+	icon: "dragonsurvival:elder_dragon_bone"
+	id: "652014344085A494"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "37885DF6A5476DEE"
+			rewards: [{
+				id: "2B475A8581CAF978"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "651E0EEF9A22317D"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37885DF6A5476DEE"]
+			id: "6FE39F0D0080A4E6"
+			rewards: [
+				{
+					id: "69954E70CE0242E1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "716AEC3E421AC0C2"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E438A31198FC08F"
+				item: "dragonsurvival:elder_dragon_bone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FE39F0D0080A4E6"]
+			id: "753480949CBD33CE"
+			rewards: [
+				{
+					id: "7FCE46975513C83F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "2DC3BC38214BC871"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "355C8BCD486078E5"
+				item: "dragonsurvival:heart_element"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"753480949CBD33CE"
+				"263357B423FB6F2A"
+			]
+			id: "781B1C362AF53D4A"
+			rewards: [
+				{
+					id: "248425F5C17D37EC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "7F3329AD08F03DE8"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "247594231FC11352"
+				item: "dragonsurvival:weak_dragon_heart"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["781B1C362AF53D4A"]
+			id: "76FA0F83965E4E21"
+			rewards: [
+				{
+					id: "0AFD7F5609A729A3"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 5
+					id: "35C1D1747D9FA4CC"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "519FBACB53C90C82"
+				item: "dragonsurvival:elder_dragon_heart"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FE39F0D0080A4E6"]
+			id: "7BC0438DDF0B7EE9"
+			rewards: [
+				{
+					id: "4995466CA2B97C5A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "54DF087A05124EB1"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "700F8CD6188CD19B"
+				item: "dragonsurvival:star_bone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76FA0F83965E4E21"]
+			id: "1D40605F37EEA184"
+			rewards: [
+				{
+					id: "1FF3C96177661D78"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 8
+					id: "5F92312F4ED6D99C"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "089AC4CA4E0FE0D6"
+				item: "dragonsurvival:star_heart"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37885DF6A5476DEE"]
+			id: "524CCF834C3E6162"
+			rewards: [
+				{
+					id: "16D2F46B83AE0332"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "38E73E6C51487DB9"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5F16E404C631D5F5"
+					item: "dragonsurvival:sea_dragon_treat"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C22F7E269703D24"
+					item: "dragonsurvival:cave_dragon_treat"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7324A51DC2AE5371"
+					item: "dragonsurvival:forest_dragon_treat"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Dragon Treat"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37885DF6A5476DEE"]
+			id: "6563A8D20AA70555"
+			rewards: [{
+				count: 2
+				id: "1768ECCDF9337D71"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6C2853E90356F29E"
+					item: "dragonsurvival:treasure_iron"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C4259D5F0B741FB"
+					item: "dragonsurvival:treasure_gold"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A17AA49AF99CC91"
+					item: "dragonsurvival:treasure_diamond"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "55D5FC70C4A04B29"
+					item: "dragonsurvival:treasure_debris"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6091F0870B49578A"
+					item: "dragonsurvival:treasure_copper"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0349A03CD7EAD435"
+					item: "dragonsurvival:treasure_emerald"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Dragon Treasure"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FE39F0D0080A4E6"]
+			description: [
+				"Use this Altar to transform between Dragon and Human form."
+				"You can also use this to change your Dragon Form's Appearance."
+				"P/s: If you change type or species, you will lose all of your process."
+			]
+			id: "19D148D45CC16DAE"
+			rewards: [
+				{
+					id: "2E63D2DE36929015"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "19B12FE343562435"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Dragon or Human?"
+			tasks: [
+				{
+					id: "78B380845F666489"
+					item: "dragonsurvival:dragon_altar_stone"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C6E068253855A80"
+					item: "dragonsurvival:dragon_altar_sandstone"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26AA1EEFC4E153CB"
+					item: "dragonsurvival:dragon_altar_red_sandstone"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "78DC3E0F8BAD3A17"
+					item: "dragonsurvival:dragon_altar_purpur_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "39CCB9F89FFECE1E"
+					item: "dragonsurvival:dragon_altar_oak_log"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7B91A29D087B8B96"
+					item: "dragonsurvival:dragon_altar_nether_bricks"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F54724947A835BA"
+					item: "dragonsurvival:dragon_altar_mossy_cobblestone"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "698FB2A04FC90618"
+					item: "dragonsurvival:dragon_altar_blackstone"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "389AE0E6D86ABDEF"
+					item: "dragonsurvival:dragon_altar_birch_log"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Dragon Altar"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["524CCF834C3E6162"]
+			description: ["Use this item to evol to an ancient species of your current Dragon Form."]
+			id: "263357B423FB6F2A"
+			rewards: [
+				{
+					count: 15
+					id: "34E1D82D62DBB86A"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4CE43421E4390EAC"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "799922C0EA79B856"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			subtitle: "Final Form Dragon"
+			tasks: [{
+				id: "15AF0CC766D17991"
+				item: "additionaldragons:ancient_catalyst"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+	]
+	title: "Dragon Survival"
+}
