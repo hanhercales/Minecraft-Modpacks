@@ -8228,6 +8228,129 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1264423,
+          "name": "BaguetteLib",
+          "author": "Project8gbDeRam",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/baguettelib",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 1139215,
+          "pictures": [],
+          "lanName": "baguettelib",
+          "version": {
+            "id": 7544807,
+            "name": "baguettelib-1.20.1-Forge-1.1.6",
+            "updateDate": 1769674807000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "8d3c9551bbed4c2f2e8cb2b9a10d31bad4edb52d",
+              "size": 31898,
+              "path": "mods/baguettelib-1.20.1-Forge-1.1.6.jar",
+              "url": "/mods/1264423/7544807/baguettelib-1.20.1-Forge-1.1.6.jar"
+            },
+            "installed": 16967,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 69,
+            "name": "26.1.2"
+          },
+          "updated": 1776200400000,
+          "update": 1776200400000,
+          "downloadALL": 62206,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1138130,
+          "name": "Corpse x Curios API Compat",
+          "author": "Project8gbDeRam",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/corpse-x-curios-api-compat",
+          "favorite": false,
+          "categories": [],
+          "picture": 922606,
+          "pictures": [],
+          "lanName": "corpse-x-curios-api-compat",
+          "version": {
+            "id": 7891790,
+            "name": "corpsecurioscompat-1.20.1-Forge-4.0.1",
+            "updateDate": 1775592723000,
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "1320497f252c57bf2ac0149e7b499a9f9db74650",
+              "size": 22535,
+              "path": "mods/corpsecurioscompat-1.20.1-Forge-4.0.1.jar",
+              "url": "/mods/1138130/7891790/corpsecurioscompat-1.20.1-Forge-4.0.1.jar"
+            },
+            "installed": 1280,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 13634,
+              "name": "BaguetteLib",
+              "gameEntityId": 1264423,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 69,
+            "name": "26.1.2"
+          },
+          "updated": 1759957200000,
+          "update": 1759957200000,
+          "downloadALL": 72762,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [],
