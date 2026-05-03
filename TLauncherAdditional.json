@@ -8351,6 +8351,275 @@
           "available": true,
           "parser": true,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 355044,
+          "name": "Touhou Little Maid",
+          "author": "tartaricacid",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/touhou-little-maid",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            }
+          ],
+          "picture": 845873,
+          "pictures": [
+            555126,
+            555129,
+            555128,
+            555124,
+            555127,
+            555125
+          ],
+          "lanName": "touhou-little-maid",
+          "version": {
+            "id": 7894263,
+            "name": "touhoulittlemaid-1.5.2-forge+mc1.20.1",
+            "updateDate": 1775640564000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "5561eda38c4fbdf79630a3558c7bea2d1cc481cd",
+              "size": 24403507,
+              "path": "mods/touhoulittlemaid-1.5.2-forge%2Bmc1.20.1.jar",
+              "url": "/mods/355044/7894263/touhoulittlemaid-1.5.2-forge%252Bmc1.20.1.jar"
+            },
+            "installed": 1127,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 42,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1769115600000,
+          "update": 1769115600000,
+          "downloadALL": 131214,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 910095,
+          "name": "Dynamic Lights [Server] [FabricQuiltForgeNeoForge]",
+          "author": "Tschipcraft Tschipcraft",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/tschipcrafts-dynamic-lights-mod",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 55,
+              "name": "adventure_and_rpg",
+              "shortName": "roleplay",
+              "nesting": 0
+            },
+            {
+              "id": 4,
+              "name": "armor_weapons_tools",
+              "shortName": "military",
+              "nesting": 0
+            },
+            {
+              "id": 15,
+              "name": "server_utility",
+              "shortName": "plugins",
+              "nesting": 0
+            },
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            }
+          ],
+          "picture": 801046,
+          "pictures": [
+            536596,
+            536593,
+            536595,
+            536597,
+            536592,
+            536594
+          ],
+          "lanName": "tschipcrafts-dynamic-lights-mod",
+          "version": {
+            "id": 7053902,
+            "name": "dynamiclights-v1.9-mc1.17-1.21.5-mod",
+            "updateDate": 1759330883000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 59,
+                "name": "1.21.5"
+              },
+              {
+                "id": 57,
+                "name": "1.21.4"
+              },
+              {
+                "id": 55,
+                "name": "1.21.3"
+              },
+              {
+                "id": 54,
+                "name": "1.21.2"
+              },
+              {
+                "id": 53,
+                "name": "1.21.1"
+              },
+              {
+                "id": 52,
+                "name": "1.21"
+              },
+              {
+                "id": 51,
+                "name": "1.20.6"
+              },
+              {
+                "id": 50,
+                "name": "1.20.5"
+              },
+              {
+                "id": 49,
+                "name": "1.20.4"
+              },
+              {
+                "id": 48,
+                "name": "1.20.3"
+              },
+              {
+                "id": 47,
+                "name": "1.20.2"
+              },
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              },
+              {
+                "id": 44,
+                "name": "1.19.4"
+              },
+              {
+                "id": 43,
+                "name": "1.19.3"
+              },
+              {
+                "id": 38,
+                "name": "1.19.2"
+              },
+              {
+                "id": 37,
+                "name": "1.19.1"
+              },
+              {
+                "id": 36,
+                "name": "1.19"
+              },
+              {
+                "id": 35,
+                "name": "1.18.2"
+              },
+              {
+                "id": 34,
+                "name": "1.18.1"
+              },
+              {
+                "id": 33,
+                "name": "1.18"
+              },
+              {
+                "id": 32,
+                "name": "1.17.1"
+              },
+              {
+                "id": 39,
+                "name": "1.17"
+              }
+            ],
+            "metadata": {
+              "sha1": "b90e19d06788a0c2bc8551b7e0e7dd49e67b3b16",
+              "size": 406858,
+              "path": "mods/dynamiclights-v1.9-mc1.17-1.21.5-mod.jar",
+              "url": "/mods/910095/7053902/dynamiclights-v1.9-mc1.17-1.21.5-mod.jar"
+            },
+            "installed": 1233476,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 4390,
+              "name": "MidnightLib",
+              "gameEntityId": 488090,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 5175,
+              "name": "Catalogue (Fabric)",
+              "gameEntityId": 667377,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 1050,
+              "name": "Catalogue",
+              "gameEntityId": 459701,
+              "dependencyType": "optional",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 69,
+            "name": "26.1.2"
+          },
+          "updated": 1775768400000,
+          "update": 1775768400000,
+          "downloadALL": 7993362,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
       "resourcePacks": [],
