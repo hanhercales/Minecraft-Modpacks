@@ -8620,6 +8620,68 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 237307,
+          "name": "Cosmetic Armor Reworked",
+          "author": "ZLainSama",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            }
+          ],
+          "picture": 820574,
+          "pictures": [],
+          "lanName": "cosmetic-armor-reworked",
+          "version": {
+            "id": 4600191,
+            "name": "cosmeticarmorreworked-1.20.1-v1a",
+            "updateDate": 1687325875000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "afd9fa3fe95e8c086e8d439df403ed1e5ea5cbea",
+              "size": 88752,
+              "path": "mods/cosmeticarmorreworked-1.20.1-v1a.jar",
+              "url": "/mods/237307/4600191/cosmeticarmorreworked-1.20.1-v1a.jar"
+            },
+            "installed": 628535,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 6305,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 59,
+            "name": "1.21.5"
+          },
+          "updated": 1745614800000,
+          "update": 1745614800000,
+          "downloadALL": 6606723,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
       "resourcePacks": [],
