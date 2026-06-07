@@ -1,0 +1,14 @@
+﻿crash-reports
+CustomSkinLoader
+hs_err_pid10044.log
+hs_err_pid12368.log
+*.log
+usercache.json
+usernamecache.json
+xaero
+saves
+resourcepacks
+natives
+mods
+logs
+local

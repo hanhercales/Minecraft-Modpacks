@@ -1,0 +1,245 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "shop"
+	group: ""
+	icon: "block_factorys_bosses:coin_pile"
+	id: "04327178172FB9B6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:firework_rocket"
+				tag: {
+					Fireworks: {
+						Flight: 3b
+					}
+				}
+			}
+			id: "668F75A898C496AE"
+			rewards: [{
+				count: 16
+				id: "0D813E2B2C478861"
+				item: {
+					Count: 1
+					id: "minecraft:firework_rocket"
+					tag: {
+						Fireworks: {
+							Flight: 3b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "4FAF3313101CB0F7"
+				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				type: "item"
+			}]
+			title: "x16 Rocket Tier 3"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			icon: "irons_spellbooks:arcane_essence"
+			id: "6ADBAEB6BE37E6D1"
+			rewards: [{
+				count: 16
+				id: "44CC10D7C7C7BF6A"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "23639E6400E65CFA"
+				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				type: "item"
+			}]
+			title: "x16 Arcane Powder"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "74DEA6FD6E984762"
+			rewards: [{
+				id: "4EA6054A06A629DE"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 120L
+				id: "6ABBC8E331E4AF8C"
+				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				type: "item"
+			}]
+			title: "x1 Elytra"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			icon: "irons_spellbooks:blank_rune"
+			id: "11D9A663317085A8"
+			rewards: [{
+				count: 16
+				id: "445A7EF41220D2E9"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			tasks: [{
+				count: 120L
+				id: "465E0757699EB703"
+				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				type: "item"
+			}]
+			title: "x16 Blank Runestone"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			icon: "minecraft:experience_bottle"
+			id: "2543990ED2E42E68"
+			rewards: [{
+				id: "6C905D6C9067949D"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				count: 50L
+				id: "2132FFF854E464A9"
+				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				type: "item"
+			}]
+			title: "x15 XP Levels"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			icon: "minecraft:diamond"
+			id: "33E34E29A76D728B"
+			rewards: [{
+				id: "1A7E71CEE293984A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "31BB0693FEFA1C60"
+				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				type: "item"
+			}]
+			title: "x1 Diamond"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			icon: "minecraft:netherite_scrap"
+			id: "17D26CAE5710CC3F"
+			rewards: [{
+				id: "53CDD2637A0C01CA"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "14B9401C179EA728"
+				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				type: "item"
+			}]
+			title: "x1 Netherite Scrap"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			icon: "irons_spellbooks:mithril_scrap"
+			id: "400B2295ACD42FCA"
+			rewards: [{
+				id: "0AD40B0975BE2B0E"
+				item: "irons_spellbooks:mithril_scrap"
+				type: "item"
+			}]
+			tasks: [{
+				count: 24L
+				id: "740DE486A8EAD60D"
+				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				type: "item"
+			}]
+			title: "x1 Mithril Scrap"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			icon: "wom:eternal_fire_arcane"
+			id: "0AE8966D98F2EC1F"
+			rewards: [{
+				id: "6ED41916F5CF54A4"
+				item: "wom:eternal_fire_arcane"
+				type: "item"
+			}]
+			tasks: [{
+				count: 40L
+				id: "3CE5C98CE1D592C8"
+				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				type: "item"
+			}]
+			title: "x1 Eternal fire arcane"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			icon: "epicskills:ability_stone"
+			id: "23EB01BD172CA62C"
+			rewards: [{
+				id: "22156C582A824C0F"
+				item: "epicskills:ability_stone"
+				type: "item"
+			}]
+			tasks: [{
+				count: 24L
+				id: "4C6E28068D227A4A"
+				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				type: "item"
+			}]
+			title: "x1 Ability Stone"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			icon: "minecraft:experience_bottle"
+			id: "0F0871653CB85531"
+			rewards: [{
+				id: "2A5023EDEA364577"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [{
+				count: 90L
+				id: "489F2AB52386E27F"
+				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				type: "item"
+			}]
+			title: "x30 XP Levels"
+			x: 3.5d
+			y: -6.5d
+		}
+	]
+	title: "Shop"
+}

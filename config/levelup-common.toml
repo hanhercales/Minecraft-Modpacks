@@ -1,0 +1,123 @@
+
+["Client Configs for LevelUP"]
+	#How many stat points per level!
+	"Points Per Level" = 3.0
+	#Reset player stats after death(and level) - Overrides lose levels
+	Reset = false
+	#Make player lose stats and levels after death. When using try and use non-decimal points per level
+	"Lose levels" = false
+	#Make player lose xp after death. Makes you lose levels if you have lose levels set to true. 
+	"Lose XP" = true
+	#XP % loss after death if lose xp is enabled. 1 = 1%
+	"Death XP Loss" = 25.0
+	#Height before fall damage per stat
+	"Fall dmg mitigation" = 0.25
+	#Enable constitution fall damage
+	"Do fall damage reduction" = true
+	#HP increase per stat
+	"HP increase" = 0.01
+	#Enable constitution hp increase
+	"Do hp" = true
+	#Speed Increase per stat
+	"Speed increase" = 0.01
+	#Enable dexterity speed
+	"Do speed" = true
+	#Attack speed Increase per stat
+	"Attack Speed increase" = 0.01
+	#Enable dexterity attack speed
+	"Do attack speed" = true
+	#Swim Speed Increase per stat
+	"Swim speed increase" = 0.01
+	#Enable dexterity swim speed
+	"Do swim speed" = false
+	#Jump boost level per x stat points
+	"Jump height increase" = 50.0
+	#Enable dexterity jump boost
+	"Do jump boost" = true
+	#Damage Increase per stat
+	"Dmg Increase" = 0.01
+	#Enable strength damage
+	"Do damage" = true
+	#Knockback Increase per stat
+	"Kb Increase" = 0.01
+	#Enable strength knockback
+	"Do Knockback" = true
+	#HP Regen/tick per stat lvl
+	"HP Regen/tick per stat lvl" = 2.5E-4
+	#Enable vitality regen
+	"Do regen" = true
+	#Ticks per Regen
+	"Ticks Per Regen" = 1
+	#Vitality Healing Buff to all healing
+	"Healing Buff" = 0.005
+	#Enable vitality armor
+	"Do armor" = true
+	#The amount regen is divided by. Divide by 1 to disable, use a number lower than one to buff vitality in hardcore. DO NOT USE 0.
+	"Vitality regen nerf in hardcore" = 1.5
+	#Armor Toughness Increase per stat
+	"Armor Toughness Increase" = 0.1
+	#Enable endurance armor toughness
+	"Do armor toughness" = false
+	#Knockback Resistance per stat
+	"KB Res Increase" = 0.01
+	#Enable endurance kb res
+	"Do kb res" = false
+	#Hunger cost decrease of sprinting per stat
+	"Hunger Cost Decrease" = 0.01
+	#Enable endurance hunger decrease
+	"do hunger decrease" = true
+	#Armor % increase for each point in endurance
+	"Endurance armor percent" = 0.01
+	#Enable Endurance Armor
+	"endurance armor" = true
+	#XP gain multiplier per stat 
+	"Wisdom XP Multiplier" = 0.01
+	#Enable wisdom XP gain bonus
+	"Do wisdom xp" = true
+	#LevelUP xp multiplier 
+	"Wisdom leveling speed multiplier" = 0.01
+	#Enable Wisdom Leveling Speed
+	"Do wisdom leveling speed" = true
+	#Ars Nouveau Mana Regen Boost 
+	"Ars mana regen boost" = 0.01
+	#Enable Ars Nouveau mana regen boost
+	"Do ars mana regen" = true
+	#Irons Mana Regen Boost 
+	"Irons regen boost" = 0.01
+	#Enable Irons mana regen boost
+	"Do Irons regen" = true
+	#Chance to not take durability damage (Exponential, not linear, like the endurance hunger)
+	"Durability damage reduction" = 0.01
+	#Enable intelligence durability reduction
+	"Do durability reduction" = true
+	#Ars Nouveau Mana Regen Boost 
+	"Ars max mana boost" = 0.01
+	#Enable Irons Spells max regen boost
+	"Do ars max mana" = true
+	#Ars Nouveau Mana Regen Boost 
+	"Iron's max mana boost" = 0.01
+	#Enable Iron's Spells max regen boost
+	"Do iron's max mana" = true
+	#Enable intelligence potion duration boost
+	"Do potion duration boost" = true
+	#Max Level a player can reach without commands
+	"Max Level" = 999999
+	#Max stat a player can reach without commands
+	"Max Stat" = 1073741824
+	#The a value in the equation for calculating xp for next level: ax^d+bx+c     a increases how fast the xp needed for the next level increases
+	"A value" = 0.2
+	#The b value in the equation for calculating xp for next level: ax^d+bx+c     b increases how fast the xp needed for the next level increases
+	"B value" = 0.25
+	#The c value in the equation for calculating xp for next level: ax^d+bx+c     c is the base xp needed for level 1
+	"C value" = 10.0
+	#The d value in the equation for calculating xp for next level: ax^d+bx+c     d increases how fast the xp needed for the next level increases
+	"D value" = 2.0
+	#Display the level under your nametag
+	"Display under name" = false
+	#Display the level beside your name in playerlist
+	"Display in list" = true
+	#Display the level on the side of your screen
+	"Display in sidebar" = false
+	#Stat increase per enchantment level
+	"Ench Stat Increase" = 5
+

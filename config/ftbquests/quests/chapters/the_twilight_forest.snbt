@@ -1,0 +1,306 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_twilight_forest"
+	group: ""
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "221243950439F5F4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2A3A460E387CFBBC"
+			rewards: [
+				{
+					id: "3928E57A54A7F3A2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 10
+					id: "28CFE8343BBD4765"
+					item: "block_factorys_bosses:coin_pile"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "338E87F4E0C193C2"
+				type: "dimension"
+			}]
+			title: "The Twilight Forest"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A3A460E387CFBBC"]
+			id: "680BB3C02B9E94D6"
+			rewards: [
+				{
+					id: "49A3C1C6FC1C1A8E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "5383B6F5356E31A6"
+					item: "epicskills:ability_stone"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "0CB7EB7ECB9F989C"
+					item: "block_factorys_bosses:coin_pile"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "606D52130B8D3009"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["680BB3C02B9E94D6"]
+			id: "7F5754B1CE6D2204"
+			rewards: [
+				{
+					id: "563FEF34A16F8EB0"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "48B613A3C57A5A80"
+					item: "epicskills:ability_stone"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "131D48C12E4AA11D"
+					item: "block_factorys_bosses:coin_pile"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "32E2694811908A15"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F5754B1CE6D2204"]
+			id: "413567664AECAFE1"
+			rewards: [
+				{
+					id: "2B734211E727F494"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "507851E611990201"
+					item: "epicskills:ability_stone"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "28B604FAB36CB27F"
+					item: "block_factorys_bosses:coin_pile"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "5DF6A050143AA937"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["413567664AECAFE1"]
+			id: "51FF634E255E6DEC"
+			rewards: [
+				{
+					id: "4B00CECE298F17EC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "20065DFBA64360D2"
+					item: "epicskills:ability_stone"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "15189BC74189BEC3"
+					item: "block_factorys_bosses:coin_pile"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
+				id: "2AEB9E46EAA000FE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7F5754B1CE6D2204"]
+			id: "0680B7EBEE38486C"
+			rewards: [
+				{
+					id: "718917C3872E7EC3"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "134D23B0B3A77DB2"
+					item: "epicskills:ability_stone"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "0460FAA8860E992C"
+					item: "block_factorys_bosses:coin_pile"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "542949824A1EC929"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0680B7EBEE38486C"]
+			id: "6371700F72A43C81"
+			rewards: [
+				{
+					id: "51AF4DFD5619CDF0"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "2EA7248D9A36634B"
+					item: "epicskills:ability_stone"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "44BD4A9940608345"
+					item: "block_factorys_bosses:coin_pile"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "2F8941A9C55CB2FC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1E2C4C3E9085883A"]
+			id: "693EED3635016FC4"
+			rewards: [
+				{
+					id: "2EA2BBDFA604918C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "642F8D4636222B2F"
+					item: "epicskills:ability_stone"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "7D760E70272D890A"
+					item: "block_factorys_bosses:coin_pile"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "482287591C971328"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7F5754B1CE6D2204"]
+			id: "1E2C4C3E9085883A"
+			rewards: [
+				{
+					id: "323F19851378D22E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "02529A9AF5954E8E"
+					item: "epicskills:ability_stone"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "57A8645DCE887CAC"
+					item: "block_factorys_bosses:coin_pile"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "233628B4B0A4BCD9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A3A460E387CFBBC"]
+			id: "2FCEB387A0F79271"
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "4BB3492BB4185E93"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+	]
+	title: "The Twilight Forest"
+}
