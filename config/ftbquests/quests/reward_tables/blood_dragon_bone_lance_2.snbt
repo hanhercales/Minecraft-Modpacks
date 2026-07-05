@@ -1,0 +1,35 @@
+{
+	id: "44635117758A7F01"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_dagger_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_dagger_ice"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_dagger_lightning"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Blood Dragon Bone Dagger"
+}

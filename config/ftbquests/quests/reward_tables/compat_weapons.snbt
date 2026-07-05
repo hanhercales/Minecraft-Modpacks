@@ -1,0 +1,64 @@
+{
+	id: "6751956963B4F47C"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:wulfrum_katana"
+				tag: {
+					Damage: 0
+					sheath: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:wulfrum_rapier"
+				tag: {
+					Damage: 0
+					sheath: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:wulfrum_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:crystal_lance"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:crystal_fists"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:crystal_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Compat Weapons"
+}

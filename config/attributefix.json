@@ -220,17 +220,6 @@
         "value": 100
       }
     },
-    "levelup:dexterity": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1073741824,
-        "value": 1073741824
-      }
-    },
     "obscure_api:magic_resistance": {
       "enabled": false,
       "min": {
@@ -253,7 +242,7 @@
         "value": 1024
       }
     },
-    "levelup:wisdom": {
+    "levelup:dexterity": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -275,6 +264,17 @@
         "value": 100
       }
     },
+    "levelup:wisdom": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1073741824,
+        "value": 1073741824
+      }
+    },
     "celestisynth:celestial_damage": {
       "enabled": false,
       "min": {
@@ -286,17 +286,6 @@
         "value": 1024
       }
     },
-    "levelup:endurance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1073741824,
-        "value": 1073741824
-      }
-    },
     "irons_spellbooks:eldritch_spell_power": {
       "enabled": false,
       "min": {
@@ -306,6 +295,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "levelup:endurance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1073741824,
+        "value": 1073741824
       }
     },
     "obscure_api:magic_damage": {
@@ -462,6 +462,17 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "dungeons_and_combat:action_state": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "obscure_api:accuracy": {
       "enabled": false,
       "min": {
@@ -539,17 +550,6 @@
         "value": 64
       }
     },
-    "levelup:vitality": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1073741824,
-        "value": 1073741824
-      }
-    },
     "irons_spellbooks:blood_magic_resist": {
       "enabled": false,
       "min": {
@@ -559,6 +559,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "levelup:vitality": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1073741824,
+        "value": 1073741824
       }
     },
     "irons_spellbooks:evocation_magic_resist": {
@@ -704,17 +715,6 @@
         "value": 100
       }
     },
-    "levelup:strength": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1073741824,
-        "value": 1073741824
-      }
-    },
     "ftbultimine:cooldown_modifier": {
       "enabled": false,
       "min": {
@@ -724,6 +724,17 @@
       "max": {
         "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      }
+    },
+    "levelup:strength": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1073741824,
+        "value": 1073741824
       }
     },
     "ftbultimine:experience_modifier": {
@@ -847,6 +858,17 @@
         "value": 512
       }
     },
+    "caelus:fall_flying": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "obscure_api:critical_damage": {
       "enabled": false,
       "min": {
@@ -924,17 +946,6 @@
         "value": 1024
       }
     },
-    "levelup:constitution": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1073741824,
-        "value": 1073741824
-      }
-    },
     "epicfight:armor_negation": {
       "enabled": false,
       "min": {
@@ -944,6 +955,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "levelup:constitution": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1073741824,
+        "value": 1073741824
       }
     },
     "minecraft:horse.jump_strength": {
@@ -957,17 +979,6 @@
         "value": 2
       }
     },
-    "autoleveling:monster.projectile_damage_bonus": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
-      }
-    },
     "irons_spellbooks:max_mana": {
       "enabled": false,
       "min": {
@@ -977,6 +988,17 @@
       "max": {
         "default": 1000000,
         "value": 1000000
+      }
+    },
+    "autoleveling:monster.projectile_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "minecraft:generic.knockback_resistance": {

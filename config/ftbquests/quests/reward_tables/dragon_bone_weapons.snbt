@@ -1,0 +1,35 @@
+{
+	id: "3AD11BCF158BCAEF"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_dagger_bone"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_lance_bone"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_greatsword_bone"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Dragon Bone Weapons"
+}

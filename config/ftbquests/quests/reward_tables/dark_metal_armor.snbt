@@ -1,0 +1,44 @@
+{
+	id: "08E4361FCD7A0962"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dark_metal_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dark_metal_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dark_metal_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dark_metal_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Dark Metal Armor"
+}

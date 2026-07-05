@@ -1,0 +1,13 @@
+{
+	id: "32E708D09FBC6D3D"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{ count: 55, item: "epic_mobs:tech_core" }
+		{
+			type: "xp_levels"
+			xp_levels: 20
+		}
+	]
+	title: "Tier 5 Boss Repeat"
+}

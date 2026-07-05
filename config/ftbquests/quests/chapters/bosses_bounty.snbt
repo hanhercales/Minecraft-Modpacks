@@ -1,0 +1,541 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	default_repeatable_quest: true
+	filename: "bosses_bounty"
+	group: ""
+	icon: "efn:thornwheel"
+	id: "66368FAE3B2CB899"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F9FB66CDC3476BF"]
+			id: "1E7CA7D295DDD3F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AEBCA5767DC8739"
+				table_id: 99871453494783397L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6FDA37F9EE2BD570"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07679BA268E8D465"]
+			id: "41282F5DC1D0382A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77303885C9F711A2"
+				table_id: 99871453494783397L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "epic_mobs:bronzer"
+				icon: {
+					Count: 1
+					id: "epic_mobs:bronzeaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "69E317BB11B51957"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58FCC82188BB5311"]
+			id: "1D10B262B14A5B4A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3084097C537D9165"
+				table_id: 3108265536733767117L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "4D81A46F79C5A9FD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BDD561C185EA4DA"]
+			id: "7FCAE5235AB14D94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64F0E6060FF89578"
+				table_id: 3108265536733767117L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "745EF5E0F548B334"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C5459C7746FB948"]
+			id: "3C5C161569ABF411"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62A4D0E0686DB394"
+				table_id: 99871453494783397L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "295756B82B0905F0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13F44F03429B67D6"]
+			id: "7EFE473EF42BAE6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35C7DBB76310C477"
+				table_id: 99871453494783397L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "16C4F552CFEF8BC2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["031C6F71D7BFD05E"]
+			id: "4080354E988280B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "205A3A53B0815E7D"
+				table_id: 3108265536733767117L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "epic_mobs:frost_knight"
+				icon: {
+					Count: 1
+					id: "epic_mobs:frost_reaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "41BE099370CAAC5C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["017774E403F831BC"]
+			id: "254CFCDE5A196C63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F4789578D5A0E53"
+				table_id: 8243465627733003082L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "2A37CF330259115F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05DA9611BB412B6F"]
+			id: "460870B187436462"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09650234CEACA4F3"
+				table_id: 99871453494783397L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:nether_star"
+				id: "2DD616AF7AD5914F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F0DA031B333760F"]
+			id: "425130CA5F4402F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F0C8199E04C2639"
+				table_id: 5764468693290831652L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "efn:deepdark_heart"
+				id: "7CAF390E4022A85A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1C80658D30B29459"]
+			id: "7ADDFC8D67AED677"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65A3CADFEC0A3AA7"
+				table_id: 3108265536733767117L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "epicfight_arachne:arachne"
+				icon: "epicfight_arachne:arachne_egg"
+				id: "2161EC59FB79D673"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E5E5BFD405220C7"]
+			id: "45A8AC1CCFCDB92C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "014E0424068A6F9E"
+				table_id: 3667910113642704189L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "nightfall_invade:arterius"
+				icon: "efn:duskfire_helmet"
+				id: "0E74F31911329596"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D265F6CCA03A5CE"]
+			id: "2CEA2E6F1CD53966"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2299B375FD13E318"
+				table_id: 3667910113642704189L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "nightfall_invade:scarlet_hunter"
+				icon: "efn:crimson_moon"
+				id: "0C66CF5707492040"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5E3F627C1BE550C5"]
+			id: "74E0C3A0AC28169B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D198D22EA0BD619"
+				table_id: 3108265536733767117L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:rune_of_the_storm"
+				id: "79345467E5774973"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5566D9BE7558394D"]
+			id: "7468E160F5D22936"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E3FA476421FE61D"
+				table_id: 8243465627733003082L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "epic_mobs:phoenix_fight"
+				icon: "epic_mobs:emerald_machete"
+				id: "17AC206E741F19DA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30CB4B4D2CEF42D5"]
+			id: "312C098A154D2D9D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7017304664C4A55A"
+				table_id: 8243465627733003082L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "42C1283997139247"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E96D5C74675AA72"]
+			id: "687FC542BB2E1193"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26B6F79526E18F4B"
+				table_id: 5764468693290831652L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignitium_helmet"
+				id: "1E9787CD475AFE7C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["71D5FD80570470E1"]
+			id: "6756ECC4FF1E9B7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49F74C77B9920D34"
+				table_id: 8243465627733003082L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "559D8049460EE61C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C6C6A63B15AA69B"]
+			id: "68C062E1ACFED488"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D26A16698847C15"
+				table_id: 5764468693290831652L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:meat_shredder"
+				id: "48D3C7424C12707E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["02D83CDFB7B27D89"]
+			id: "45F11D9AEB62FD09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17B9D9763767D95C"
+				table_id: 5764468693290831652L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:altar_of_abyss"
+				id: "36B1D772069C39D3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["574089F9ABA33E4C"]
+			id: "22A2D3DBB5166D58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1033378965DD5688"
+				table_id: 5764468693290831652L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "2ABF28569F00F3FC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C8CD8B0BE217361"]
+			id: "002ACF2849A48B92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4551427C57171D01"
+				table_id: 8243465627733003082L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "epic_mobs:infernal_fight"
+				icon: {
+					Count: 1
+					id: "epic_mobs:trailblaze"
+					tag: { }
+				}
+				id: "07F57F20FE81DD62"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["288B0ACEB5BA88C3"]
+			id: "04F82E517840E0B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34B94DF578C8E145"
+				table_id: 3667910113642704189L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "epic_fight_boss_ascension:azrath_the_berserk"
+				icon: "epic_fight_boss_ascension:summon_azrath_block"
+				id: "38C581DA9399AB32"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5CE36BF01AC7F93F"]
+			id: "615D109DE77E209C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51E57542339A22BF"
+				table_id: 3630830484907587401L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "dungeons_and_combat:kamath"
+				icon: {
+					Count: 1
+					id: "dungeons_and_combat:kamath_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1A893CE31EEABFE0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["053DA7BFBB78A580"]
+			id: "41498A98A6D23936"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "748CA703626695B9"
+				table_id: 3630830484907587401L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "dungeons_and_combat:sunleia"
+				icon: {
+					Count: 1
+					id: "dungeons_and_combat:sunleia_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "16B23C37035F77F7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+	]
+	title: "Bosses Bounty"
+}

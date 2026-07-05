@@ -1,0 +1,13 @@
+{
+	id: "4FFF81BC2E75CF24"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{ count: 35, item: "epic_mobs:tech_core" }
+		{
+			type: "xp_levels"
+			xp_levels: 10
+		}
+	]
+	title: "Tier 4 Boss Repeat"
+}

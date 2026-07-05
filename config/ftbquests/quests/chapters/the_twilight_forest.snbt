@@ -5,7 +5,7 @@
 	group: ""
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "221243950439F5F4"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -19,7 +19,7 @@
 				{
 					count: 10
 					id: "28CFE8343BBD4765"
-					item: "block_factorys_bosses:coin_pile"
+					item: "epic_mobs:tech_core"
 					type: "item"
 				}
 			]
@@ -43,15 +43,9 @@
 					xp_levels: 15
 				}
 				{
-					count: 2
-					id: "5383B6F5356E31A6"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
 					count: 35
 					id: "0CB7EB7ECB9F989C"
-					item: "block_factorys_bosses:coin_pile"
+					item: "epic_mobs:tech_core"
 					type: "item"
 				}
 			]
@@ -75,15 +69,9 @@
 					xp_levels: 15
 				}
 				{
-					count: 2
-					id: "48B613A3C57A5A80"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
 					count: 35
 					id: "131D48C12E4AA11D"
-					item: "block_factorys_bosses:coin_pile"
+					item: "epic_mobs:tech_core"
 					type: "item"
 				}
 			]
@@ -107,15 +95,9 @@
 					xp_levels: 15
 				}
 				{
-					count: 2
-					id: "507851E611990201"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
 					count: 35
 					id: "28B604FAB36CB27F"
-					item: "block_factorys_bosses:coin_pile"
+					item: "epic_mobs:tech_core"
 					type: "item"
 				}
 			]
@@ -139,15 +121,9 @@
 					xp_levels: 15
 				}
 				{
-					count: 2
-					id: "20065DFBA64360D2"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
 					count: 35
 					id: "15189BC74189BEC3"
-					item: "block_factorys_bosses:coin_pile"
+					item: "epic_mobs:tech_core"
 					type: "item"
 				}
 			]
@@ -171,15 +147,9 @@
 					xp_levels: 15
 				}
 				{
-					count: 2
-					id: "134D23B0B3A77DB2"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
 					count: 35
 					id: "0460FAA8860E992C"
-					item: "block_factorys_bosses:coin_pile"
+					item: "epic_mobs:tech_core"
 					type: "item"
 				}
 			]
@@ -203,15 +173,9 @@
 					xp_levels: 15
 				}
 				{
-					count: 2
-					id: "2EA7248D9A36634B"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
 					count: 35
 					id: "44BD4A9940608345"
-					item: "block_factorys_bosses:coin_pile"
+					item: "epic_mobs:tech_core"
 					type: "item"
 				}
 			]
@@ -235,15 +199,9 @@
 					xp_levels: 15
 				}
 				{
-					count: 2
-					id: "642F8D4636222B2F"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
 					count: 35
 					id: "7D760E70272D890A"
-					item: "block_factorys_bosses:coin_pile"
+					item: "epic_mobs:tech_core"
 					type: "item"
 				}
 			]
@@ -267,15 +225,9 @@
 					xp_levels: 15
 				}
 				{
-					count: 2
-					id: "02529A9AF5954E8E"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
 					count: 35
 					id: "57A8645DCE887CAC"
-					item: "block_factorys_bosses:coin_pile"
+					item: "epic_mobs:tech_core"
 					type: "item"
 				}
 			]

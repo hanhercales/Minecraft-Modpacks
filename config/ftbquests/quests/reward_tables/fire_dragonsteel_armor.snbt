@@ -1,0 +1,44 @@
+{
+	id: "11DE499537867C01"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:fire_dragonsteel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:fire_dragonsteel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:fire_dragonsteel_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:fire_dragonsteel_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Fire Dragonsteel Armor"
+}

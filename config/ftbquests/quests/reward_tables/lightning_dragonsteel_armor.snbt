@@ -1,0 +1,44 @@
+{
+	id: "7B7723C129BA8ACD"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:lightning_dragonsteel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:lightning_dragonsteel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:lightning_dragonsteel_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:lightning_dragonsteel_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Lightning Dragonsteel Armor"
+}

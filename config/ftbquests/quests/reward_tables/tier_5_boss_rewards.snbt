@@ -1,0 +1,13 @@
+{
+	id: "64569D1CA26C6FC9"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			type: "xp_levels"
+			xp_levels: 35
+		}
+		{ count: 100, item: "epic_mobs:tech_core" }
+	]
+	title: "Tier 4 Boss Rewards"
+}

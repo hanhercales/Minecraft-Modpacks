@@ -6,9 +6,9 @@
 	disable_toast: true
 	filename: "shop"
 	group: ""
-	icon: "block_factorys_bosses:coin_pile"
+	icon: "minecraft:emerald"
 	id: "04327178172FB9B6"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -39,11 +39,11 @@
 			tasks: [{
 				count: 10L
 				id: "4FAF3313101CB0F7"
-				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				item: { Count: 10, id: "epic_mobs:tech_core" }
 				type: "item"
 			}]
 			title: "x16 Rocket Tier 3"
-			x: 1.5d
+			x: 3.5d
 			y: -0.5d
 		}
 		{
@@ -58,7 +58,7 @@
 			tasks: [{
 				count: 32L
 				id: "23639E6400E65CFA"
-				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				item: { Count: 10, id: "epic_mobs:tech_core" }
 				type: "item"
 			}]
 			title: "x16 Arcane Powder"
@@ -88,7 +88,7 @@
 			tasks: [{
 				count: 120L
 				id: "6ABBC8E331E4AF8C"
-				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				item: { Count: 10, id: "epic_mobs:tech_core" }
 				type: "item"
 			}]
 			title: "x1 Elytra"
@@ -107,7 +107,7 @@
 			tasks: [{
 				count: 120L
 				id: "465E0757699EB703"
-				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				item: { Count: 10, id: "epic_mobs:tech_core" }
 				type: "item"
 			}]
 			title: "x16 Blank Runestone"
@@ -125,7 +125,7 @@
 			tasks: [{
 				count: 50L
 				id: "2132FFF854E464A9"
-				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				item: { Count: 10, id: "epic_mobs:tech_core" }
 				type: "item"
 			}]
 			title: "x15 XP Levels"
@@ -143,7 +143,7 @@
 			tasks: [{
 				count: 10L
 				id: "31BB0693FEFA1C60"
-				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				item: { Count: 10, id: "epic_mobs:tech_core" }
 				type: "item"
 			}]
 			title: "x1 Diamond"
@@ -161,7 +161,7 @@
 			tasks: [{
 				count: 16L
 				id: "14B9401C179EA728"
-				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				item: { Count: 10, id: "epic_mobs:tech_core" }
 				type: "item"
 			}]
 			title: "x1 Netherite Scrap"
@@ -179,7 +179,7 @@
 			tasks: [{
 				count: 24L
 				id: "740DE486A8EAD60D"
-				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				item: { Count: 10, id: "epic_mobs:tech_core" }
 				type: "item"
 			}]
 			title: "x1 Mithril Scrap"
@@ -197,30 +197,12 @@
 			tasks: [{
 				count: 40L
 				id: "3CE5C98CE1D592C8"
-				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				item: { Count: 10, id: "epic_mobs:tech_core" }
 				type: "item"
 			}]
 			title: "x1 Eternal fire arcane"
 			x: -0.5d
 			y: -2.5d
-		}
-		{
-			icon: "epicskills:ability_stone"
-			id: "23EB01BD172CA62C"
-			rewards: [{
-				id: "22156C582A824C0F"
-				item: "epicskills:ability_stone"
-				type: "item"
-			}]
-			tasks: [{
-				count: 24L
-				id: "4C6E28068D227A4A"
-				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
-				type: "item"
-			}]
-			title: "x1 Ability Stone"
-			x: 1.5d
-			y: -6.5d
 		}
 		{
 			icon: "minecraft:experience_bottle"
@@ -233,11 +215,546 @@
 			tasks: [{
 				count: 90L
 				id: "489F2AB52386E27F"
-				item: { Count: 10, id: "block_factorys_bosses:coin_pile" }
+				item: { Count: 10, id: "epic_mobs:tech_core" }
 				type: "item"
 			}]
 			title: "x30 XP Levels"
 			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"71D5FD80570470E1"
+				"017774E403F831BC"
+				"30CB4B4D2CEF42D5"
+				"6C8CD8B0BE217361"
+				"5566D9BE7558394D"
+			]
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:dragonsteel_fire_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "139FE6677A1DEFFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72C3EA8B0EEB361D"
+				table_id: 8137233818010329239L
+				type: "all_table"
+			}]
+			tasks: [{
+				count: 350L
+				id: "7705DC97C225E3EF"
+				item: "epic_mobs:tech_core"
+				type: "item"
+			}]
+			title: "Dragonsteel Greatsword"
+			x: 7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"71D5FD80570470E1"
+				"017774E403F831BC"
+				"30CB4B4D2CEF42D5"
+				"6C8CD8B0BE217361"
+				"5566D9BE7558394D"
+			]
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:dragonsteel_lightning_long_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "61A8F292E00492FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D6BC3E11AB04996"
+				table_id: 3078183428015104562L
+				type: "all_table"
+			}]
+			tasks: [{
+				count: 280L
+				id: "65DB3B67C6B07D91"
+				item: "epic_mobs:tech_core"
+				type: "item"
+			}]
+			title: "Dragonsteel Long Sword"
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"71D5FD80570470E1"
+				"017774E403F831BC"
+				"30CB4B4D2CEF42D5"
+				"6C8CD8B0BE217361"
+				"5566D9BE7558394D"
+			]
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:dragonsteel_ice_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5BB1602B37797AB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7836ED4FC82066C9"
+				table_id: 3702222095052429034L
+				type: "all_table"
+			}]
+			tasks: [{
+				count: 200L
+				id: "75D6224EFEA77947"
+				item: "epic_mobs:tech_core"
+				type: "item"
+			}]
+			title: "Dragonsteel Katana"
+			x: 3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"71D5FD80570470E1"
+				"017774E403F831BC"
+				"30CB4B4D2CEF42D5"
+				"6C8CD8B0BE217361"
+				"5566D9BE7558394D"
+			]
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:fire_dragonsteel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "142830625B151525"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "232E39A08BEA3791"
+				table_id: 1287547448705055745L
+				type: "all_table"
+			}]
+			tasks: [{
+				count: 320L
+				id: "68AB96234662A991"
+				item: "epic_mobs:tech_core"
+				type: "item"
+			}]
+			title: "Fire Dragonsteel Armor"
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"71D5FD80570470E1"
+				"017774E403F831BC"
+				"30CB4B4D2CEF42D5"
+				"6C8CD8B0BE217361"
+				"5566D9BE7558394D"
+			]
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:ice_dragonsteel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E0EBB5EF3D432AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CD4FBC5437AEB13"
+				table_id: 1802441281082841132L
+				type: "all_table"
+			}]
+			tasks: [{
+				count: 320L
+				id: "63862E964A1B7B54"
+				item: "epic_mobs:tech_core"
+				type: "item"
+			}]
+			title: "Ice Dragonsteel Armor"
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"71D5FD80570470E1"
+				"017774E403F831BC"
+				"30CB4B4D2CEF42D5"
+				"6C8CD8B0BE217361"
+				"5566D9BE7558394D"
+			]
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:lightning_dragonsteel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4CA577B735426E50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06698D36AF9B1E2B"
+				table_id: 8896618901429455565L
+				type: "all_table"
+			}]
+			tasks: [{
+				count: 320L
+				id: "07CD64CDEDECBAC2"
+				item: "epic_mobs:tech_core"
+				type: "item"
+			}]
+			title: "Lightning Dragonsteel Armor"
+			x: 7.5d
+			y: -10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:red_dragon_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0C779410A7561E6E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51D6FBC36AD669CE"
+					table_id: 4007122872633857553L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5069407D3B243A1B"
+					table_id: 3993341108398516787L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CD0E960F112BED4"
+					table_id: 2019777408172563664L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C7E85CA357007CD"
+					table_id: 3716627217782671200L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				count: 160L
+				id: "0B898DEA43B769DF"
+				item: "epic_mobs:tech_core"
+				type: "item"
+			}]
+			title: "Dragon Armor"
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_greatsword_bone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "07D8F97E2070A009"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BDA9F881A23AB30"
+				table_id: 4238199300566010607L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 20L
+				id: "102811B525B23E32"
+				item: "epic_mobs:tech_core"
+				type: "item"
+			}]
+			title: "Dragon Bone Weapons"
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_greatsword_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0F764F81FA65F306"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CD276A16FDA280B"
+				table_id: 5251524288667830954L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "55CFA69089BF6F75"
+					item: "epic_mobs:tech_core"
+					type: "item"
+				}
+				{
+					id: "60DD47F99B191055"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:dragon_greatsword_bone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blood Dragon Bone Greatsword"
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_dagger_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C76D8FECAF22255"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "281033640A46312A"
+				table_id: 4927871578471563009L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "6AE71DA542F94E3A"
+					item: "epic_mobs:tech_core"
+					type: "item"
+				}
+				{
+					id: "568E4731A69A4778"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:dragon_dagger_bone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blood Dragon Bone Dagger"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_lance_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6A1DBCD63B9D9F08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "571DEC05FFF0D187"
+				table_id: 6069620380465013671L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "21BDE59BF4E6D660"
+					item: "epic_mobs:tech_core"
+					type: "item"
+				}
+				{
+					id: "4B494993707C1269"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:dragon_lance_bone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blood Dragon Bone Lance"
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:neptunium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F745D90400BC140"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C601D56838940B5"
+				table_id: 2389503801084440977L
+				type: "all_table"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "7CE02ABB654E3A33"
+					item: "epic_mobs:tech_core"
+					type: "item"
+				}
+				{
+					id: "7EF5A1F62A633F6E"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06AA759B38F88F07"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E413EC7DDB617CF"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C982582F5A21639"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Neptunium Armor"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:neptunium_greathammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E839AB2DAF2F740"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74B9D09D77B1FA50"
+				table_id: 9215784215289253614L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "7E685AC71AC46877"
+					item: "epic_mobs:tech_core"
+					type: "item"
+				}
+				{
+					id: "309E3FB2FECDBA49"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Neptunium Weapons"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:dark_metal_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "596E1E5C018E3B63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F770891951D61AC"
+				table_id: 640696557212666210L
+				type: "all_table"
+			}]
+			tasks: [{
+				count: 280L
+				id: "4FB6C678889275C9"
+				item: "epic_mobs:tech_core"
+				type: "item"
+			}]
+			title: "Dark Metal Armor"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:wulfrum_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1DDDAB97BAD6F23D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "087CABAB01F307A1"
+				table_id: 7444895938897048700L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 20L
+				id: "2A330A81F6A96C05"
+				item: "epic_mobs:tech_core"
+				type: "item"
+			}]
+			title: "Compat Weapons"
+			x: 9.5d
 			y: -6.5d
 		}
 	]

@@ -1,0 +1,13 @@
+{
+	id: "39D814CB7F7203C8"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			type: "xp_levels"
+			xp_levels: 50
+		}
+		{ count: 160, item: "epic_mobs:tech_core" }
+	]
+	title: "Tier 5 Boss Rewards"
+}

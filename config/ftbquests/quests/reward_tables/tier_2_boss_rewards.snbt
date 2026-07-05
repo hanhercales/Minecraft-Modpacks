@@ -1,0 +1,13 @@
+{
+	id: "005AB818A89B543B"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			type: "xp_levels"
+			xp_levels: 10
+		}
+		{ count: 30, item: "epic_mobs:tech_core" }
+	]
+	title: "Tier 2 Boss Rewards"
+}

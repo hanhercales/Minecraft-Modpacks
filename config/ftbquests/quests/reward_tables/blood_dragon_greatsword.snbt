@@ -1,0 +1,35 @@
+{
+	id: "48E129844B61CAAA"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_greatsword_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_greatsword_ice"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragon_greatsword_lightning"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Blood Dragon Greatsword"
+}

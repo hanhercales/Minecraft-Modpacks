@@ -9,295 +9,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "3B5F4307787B4D71"
-			rewards: [
-				{
-					id: "7E11B65BD596DBA6"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "2EE169911065D618"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "4DD95ACC06BB3B91"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "mutantmonsters:mutant_skeleton"
-				icon: {
-					Count: 1
-					id: "mutantmonsters:mutant_skeleton_skull"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "614D57EFAC05F91A"
-				type: "kill"
-				value: 1L
+			id: "1F9FB66CDC3476BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01948DA2ACE7B90B"
+				table_id: 3981421967572784161L
+				type: "all_table"
 			}]
-			x: -3.5d
-			y: 1.0d
-		}
-		{
-			id: "1B138D8DF533814F"
-			rewards: [
-				{
-					id: "134B259C4C3DC424"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "1196BC0BCD11078A"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "1A67198833C5D22F"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "mutantmonsters:mutant_creeper"
-				icon: {
-					Count: 1
-					id: "mutantmonsters:creeper_shard"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "0A624090CF611689"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.5d
-			y: 1.0d
-		}
-		{
-			id: "0A2A1352616B141C"
-			rewards: [
-				{
-					id: "07B3C1EDB5065B39"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "4B17B19ABECDD063"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "3B5422074819E512"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "mutantmore:mutant_husk"
-				icon: {
-					Count: 1
-					id: "mutantmore:husk_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "613C37D160A7F47E"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.5d
-			y: 1.0d
-		}
-		{
-			id: "214D4A3AE9D16DBD"
-			rewards: [
-				{
-					id: "764B3BC6AD2FBDE6"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "7743C9DC7DAE4125"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "5B8D47B835CA82FB"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "mutantmore:mutant_shulker"
-				icon: "mutantmore:mutant_shulker_turret"
-				id: "777CC18F3DB12FB7"
-				type: "kill"
-				value: 1L
-			}]
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			id: "27BF3FCD14D45C4B"
-			rewards: [
-				{
-					id: "1AD4DFCAE0E30630"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "2FCD1CA70B879CAA"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "5B376D104C25F075"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "mutantmore:mutant_jungle_zombie"
-				icon: {
-					Count: 1
-					id: "mutantmore:mutant_jungle_zombie_arm"
-					tag: {
-						AnimationID: 2
-					}
-				}
-				id: "57E66CFE88015CF0"
-				type: "kill"
-				value: 1L
-			}]
-			x: -5.5d
-			y: 1.0d
-		}
-		{
-			id: "26D730B356D8B52C"
-			rewards: [
-				{
-					id: "405B80F7AD4679D1"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "36EB032FC247120F"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "02DF9A46DAE996CC"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "mutantmore:mutant_frozen_zombie"
-				icon: "mutantmore:mutant_frozen_zombie_spikes"
-				id: "36944E6E8B85CC60"
-				type: "kill"
-				value: 1L
-			}]
-			x: -7.5d
-			y: 1.0d
-		}
-		{
-			id: "4F0A0E32639A9301"
-			rewards: [
-				{
-					id: "66DE1C44B3D2A877"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "26E4E00BCC292391"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "60E3E09A94536964"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "mutantmonsters:mutant_zombie"
-				icon: {
-					Count: 1
-					id: "mutantmonsters:hulk_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "6249E262CACC48FB"
-				type: "kill"
-				value: 1L
-			}]
-			x: -9.5d
-			y: 1.0d
-		}
-		{
-			id: "4DD59D691EB35EF3"
-			rewards: [
-				{
-					id: "74EFA9BA4E08B815"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "2448953A3A6CDF77"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "2033CD5E5E689105"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "mutantmonsters:mutant_enderman"
-				icon: "minecraft:ender_eye"
-				id: "5E425B730E019205"
-				type: "kill"
-				value: 1L
-			}]
-			x: 6.5d
-			y: 1.0d
-		}
-		{
-			id: "1E7CA7D295DDD3F5"
-			rewards: [
-				{
-					id: "4A7E73ABC90A44B5"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "568536277B24DCDF"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "330636F1048312E8"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
 			tasks: [{
 				entity: "minecraft:elder_guardian"
 				icon: {
@@ -307,7 +25,7 @@
 						Damage: 0
 					}
 				}
-				id: "6FDA37F9EE2BD570"
+				id: "151FE2DD8525DCBA"
 				type: "kill"
 				value: 1L
 			}]
@@ -315,26 +33,13 @@
 			y: 1.0d
 		}
 		{
-			id: "41282F5DC1D0382A"
-			rewards: [
-				{
-					id: "044E9520797E05B7"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					count: 2
-					id: "4C4959F2A76D3A2B"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 35
-					id: "7AA0F2148D302A72"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
+			id: "07679BA268E8D465"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58376238009B22A3"
+				table_id: 3981421967572784161L
+				type: "all_table"
+			}]
 			tasks: [{
 				entity: "epic_mobs:bronzer"
 				icon: {
@@ -344,167 +49,39 @@
 						Damage: 0
 					}
 				}
-				id: "69E317BB11B51957"
+				id: "4FFB6B25CDCFA49A"
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.5d
-			y: -1.0d
-		}
-		{
-			id: "6EE3F2CEE73D4C90"
-			rewards: [
-				{
-					id: "2EC927E6666739F3"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "033C8CA8CF28CFC5"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "1933446A49DB9CD6"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "mutantmore:mutant_hoglin"
-				icon: {
-					Count: 1
-					id: "mutantmore:hog_helm"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "01AFC18CD217256C"
-				type: "kill"
-				value: 1L
-			}]
-			x: 8.5d
+			x: 0.5d
 			y: 1.0d
 		}
 		{
-			id: "0F2283B474CD33FA"
-			rewards: [
-				{
-					id: "71AACA61D4C49C8D"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "7F097BDC2ED7E837"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "52FB835D72D558F9"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "mutantmore:mutant_blaze"
-				icon: "mutantmore:mutant_blaze_core"
-				id: "7DA6B80273E99A3A"
-				type: "kill"
-				value: 1L
+			id: "58FCC82188BB5311"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "765AC26973E7FD32"
+				table_id: 25535163951436859L
+				type: "all_table"
 			}]
-			x: 10.5d
-			y: 1.0d
-		}
-		{
-			id: "5D6F2FE8C4390325"
-			rewards: [
-				{
-					id: "458DAD53385C6307"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "4207EADF4385BDF5"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "16E5C73EC809CB76"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "mutantmore:mutant_wither_skeleton_body_part"
-				icon: {
-					Count: 1
-					id: "mutantmore:mutant_wither_skeleton_skull"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "46FFB2D05ECDC61B"
-				type: "kill"
-				value: 1L
-			}]
-			x: 12.5d
-			y: 1.0d
-		}
-		{
-			id: "1D10B262B14A5B4A"
-			rewards: [
-				{
-					id: "6435F219E6FC8C9E"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					count: 2
-					id: "3B1C208DD0A61CEC"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 35
-					id: "47E967450C5D9FE9"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				icon: "mowziesmobs:sol_visage"
-				id: "4D81A46F79C5A9FD"
+				id: "6695700D0FCCA467"
 				type: "kill"
 				value: 1L
 			}]
-			x: -4.5d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
-			id: "7FCAE5235AB14D94"
-			rewards: [
-				{
-					id: "1CFFC43F3CD50CC1"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					count: 2
-					id: "4FC4B4CEC1AC31DA"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 35
-					id: "2E761DC79228F975"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
+			id: "0BDD561C185EA4DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6472742DDD6A4C98"
+				table_id: 25535163951436859L
+				type: "all_table"
+			}]
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
 				icon: {
@@ -514,65 +91,39 @@
 						Damage: 0
 					}
 				}
-				id: "745EF5E0F548B334"
+				id: "7C65A8CFC855B711"
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
-			id: "3C5C161569ABF411"
-			rewards: [
-				{
-					id: "64C4B8B14209DAC4"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					count: 2
-					id: "698E7C37DEDC059B"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 35
-					id: "0C20F4E0594132D0"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
+			id: "0C5459C7746FB948"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50CE438C35EFF321"
+				table_id: 3981421967572784161L
+				type: "all_table"
+			}]
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
 				icon: "mowziesmobs:wrought_helmet"
-				id: "295756B82B0905F0"
+				id: "141AF89E77861AC0"
 				type: "kill"
 				value: 1L
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
-			id: "7EFE473EF42BAE6A"
-			rewards: [
-				{
-					id: "6B18FDC2C74A0FEA"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					count: 2
-					id: "7D7FD485BEA6305E"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 35
-					id: "31152E0B02053495"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
+			id: "13F44F03429B67D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FBEB4C60C87238D"
+				table_id: 3981421967572784161L
+				type: "all_table"
+			}]
 			tasks: [{
 				entity: "mowziesmobs:sculptor"
 				icon: {
@@ -582,34 +133,21 @@
 						Damage: 0
 					}
 				}
-				id: "16C4F552CFEF8BC2"
+				id: "2BFC70676AA9AEC2"
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
-			id: "4080354E988280B7"
-			rewards: [
-				{
-					id: "0477A1263B826719"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					count: 2
-					id: "250D683F6A77A254"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 35
-					id: "0C1AC371840CEB00"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
+			id: "031C6F71D7BFD05E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D76683594D2B547"
+				table_id: 25535163951436859L
+				type: "all_table"
+			}]
 			tasks: [{
 				entity: "epic_mobs:frost_knight"
 				icon: {
@@ -619,7 +157,7 @@
 						Damage: 0
 					}
 				}
-				id: "41BE099370CAAC5C"
+				id: "7ACB3AC3CE999D0E"
 				type: "kill"
 				value: 1L
 			}]
@@ -627,30 +165,125 @@
 			y: -1.0d
 		}
 		{
-			id: "254CFCDE5A196C63"
-			rewards: [
-				{
-					id: "26F430E8BAB48705"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					count: 2
-					id: "3D558244BB4ECA40"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 35
-					id: "35564F8005091FBA"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
+			id: "017774E403F831BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0546C7A5284FD07C"
+				table_id: 6387345303855910648L
+				type: "all_table"
+			}]
 			tasks: [{
 				entity: "irons_spellbooks:dead_king"
 				icon: "irons_spellbooks:blood_staff"
-				id: "2A37CF330259115F"
+				id: "32E08DD061A2F400"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "05DA9611BB412B6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70095E2E1D56B468"
+				table_id: 3981421967572784161L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:nether_star"
+				id: "06AAD012C5F33C97"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "3F0DA031B333760F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30D4EF9290FF2A39"
+				table_id: 7230138998099570633L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "efn:deepdark_heart"
+				id: "644AA35306365F26"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			id: "1C80658D30B29459"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D1BCDFC25DBE65B"
+				table_id: 25535163951436859L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "epicfight_arachne:arachne"
+				icon: "epicfight_arachne:arachne_egg"
+				id: "6912EBE9039F591C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "7E5E5BFD405220C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32E44F3773FD73EE"
+				table_id: 4168104319380489160L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "nightfall_invade:arterius"
+				icon: "efn:duskfire_helmet"
+				id: "215B306EF4F67B5B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			id: "6D265F6CCA03A5CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "459631FD47BDA21C"
+				table_id: 4168104319380489160L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "nightfall_invade:scarlet_hunter"
+				icon: "efn:crimson_moon"
+				id: "463C5D20859F2BA4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			id: "5E3F627C1BE550C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "278A5E82AC879A01"
+				table_id: 25535163951436859L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:rune_of_the_storm"
+				id: "4ED28FC656A5D5D8"
 				type: "kill"
 				value: 1L
 			}]
@@ -658,519 +291,67 @@
 			y: -1.0d
 		}
 		{
-			id: "642118C35C38FA23"
-			rewards: [
-				{
-					id: "5D1227E63E89E501"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					count: 2
-					id: "704B0D6B58B61981"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 35
-					id: "7235AEEB4A694D17"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "mowziesmobs:sculptor_challenge"
-				criterion: ""
-				id: "192648757E10B325"
-				type: "advancement"
+			id: "5566D9BE7558394D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2015A6CB8C349419"
+				table_id: 6387345303855910648L
+				type: "all_table"
 			}]
-			x: 3.5d
-			y: -1.0d
-		}
-		{
-			id: "460870B187436462"
-			rewards: [
-				{
-					id: "17B175711FF7482D"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					count: 2
-					id: "143F4F716BA84BC2"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 35
-					id: "406A765F5F577EDB"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "minecraft:wither"
-				icon: "minecraft:nether_star"
-				id: "2DD616AF7AD5914F"
-				type: "kill"
-				value: 1L
-			}]
-			x: 9.5d
-			y: -1.0d
-		}
-		{
-			id: "425130CA5F4402F9"
-			rewards: [
-				{
-					id: "35FA136E4C674963"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 4
-					id: "08AE8BDBD7BCBE30"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 80
-					id: "0D3E18E5B756D74C"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "minecraft:warden"
-				icon: "efn:deepdark_heart"
-				id: "7CAF390E4022A85A"
-				type: "kill"
-				value: 1L
-			}]
-			x: -9.5d
-			y: -3.0d
-		}
-		{
-			id: "7ADDFC8D67AED677"
-			rewards: [
-				{
-					id: "69E9B0BCDE9C76F3"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 4
-					id: "18D9304E44817304"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 80
-					id: "7371B33A7AC2358A"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "epicfight_arachne:arachne"
-				icon: "epicfight_arachne:arachne_egg"
-				id: "2161EC59FB79D673"
-				type: "kill"
-				value: 1L
-			}]
-			x: -7.5d
-			y: -3.0d
-		}
-		{
-			id: "45A8AC1CCFCDB92C"
-			rewards: [
-				{
-					id: "4D3C38514A46ACDB"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 4
-					id: "62A309E4BCEFAD17"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 80
-					id: "5ABE9C34CD4899CB"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "nightfall_invade:arterius"
-				icon: "efn:duskfire_helmet"
-				id: "0E74F31911329596"
-				type: "kill"
-				value: 1L
-			}]
-			x: -5.5d
-			y: -3.0d
-		}
-		{
-			id: "2CEA2E6F1CD53966"
-			rewards: [
-				{
-					id: "4D911601F5483385"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 4
-					id: "0635A3CAA04740F0"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 80
-					id: "371A3FC66839D1ED"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "nightfall_invade:scarlet_hunter"
-				icon: "efn:crimson_moon"
-				id: "0C66CF5707492040"
-				type: "kill"
-				value: 1L
-			}]
-			x: -3.5d
-			y: -3.0d
-		}
-		{
-			id: "74E0C3A0AC28169B"
-			rewards: [
-				{
-					id: "604E103FB770DAC1"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 4
-					id: "256124915DE83DEE"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 80
-					id: "08B43853D0E13EC2"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "aquamirae:captain_cornelia"
-				icon: "aquamirae:rune_of_the_storm"
-				id: "79345467E5774973"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			id: "7468E160F5D22936"
-			rewards: [
-				{
-					id: "76565577B827106B"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 4
-					id: "6D255E439DC9EF6E"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 80
-					id: "7FC7327D18861FC4"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
 			tasks: [{
 				entity: "epic_mobs:phoenix_fight"
 				icon: "epic_mobs:emerald_machete"
-				id: "17AC206E741F19DA"
+				id: "79959AA4ED44D27E"
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.5d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
-			id: "0EC43D097F41F172"
-			rewards: [
-				{
-					id: "54FDCC9E25CF7FD4"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 4
-					id: "445A7BA57B1152C7"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 80
-					id: "0E04A351AA8BB1CA"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "block_factorys_bosses:kill_underworld_knight"
-				criterion: ""
-				id: "102C8FB4CB977DA3"
-				type: "advancement"
+			id: "30CB4B4D2CEF42D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D0BF473B9CBCF8C"
+				table_id: 6387345303855910648L
+				type: "all_table"
 			}]
-			x: 2.5d
-			y: -3.0d
-		}
-		{
-			id: "6D83AF883EF46AF2"
-			rewards: [
-				{
-					id: "5D8E7BD9F96FFAB5"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 4
-					id: "4F2AC817B7976AAD"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 80
-					id: "6ADE14F8A0476DAD"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "block_factorys_bosses:kill_sandworm"
-				criterion: ""
-				id: "602E62D9B60D6A86"
-				type: "advancement"
-			}]
-			x: 4.5d
-			y: -3.0d
-		}
-		{
-			id: "07E69FEDD6FFE901"
-			rewards: [
-				{
-					id: "677595D212BA2D92"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 4
-					id: "0957348CD36FF96A"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 80
-					id: "1BFD12A8C1041546"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "bosses_of_mass_destruction:lich"
-				icon: "bosses_of_mass_destruction:ancient_anima"
-				id: "12C15515A34766D0"
-				type: "kill"
-				value: 1L
-			}]
-			x: 6.5d
-			y: -3.0d
-		}
-		{
-			id: "796FC5EE335EE337"
-			rewards: [
-				{
-					id: "607852AB5EAFE19B"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 4
-					id: "0950227D5C8A8C8C"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 80
-					id: "00064983657D69F4"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "bosses_of_mass_destruction:void_blossom"
-				icon: "bosses_of_mass_destruction:void_thorn"
-				id: "3C4E9C9EED7074D5"
-				type: "kill"
-				value: 1L
-			}]
-			x: 8.5d
-			y: -3.0d
-		}
-		{
-			id: "2B7BF6AF7F1B7D58"
-			rewards: [
-				{
-					id: "683758D13EB5EDB8"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 4
-					id: "4BED52E00DAAB389"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 80
-					id: "0EA8093710826D00"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "bosses_of_mass_destruction:obsidilith"
-				icon: "bosses_of_mass_destruction:obsidian_heart"
-				id: "5AA41DECE435E9D4"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.5d
-			y: -3.0d
-		}
-		{
-			id: "4141BE5D25E9D9AE"
-			rewards: [
-				{
-					id: "06269C3C11229CBB"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 4
-					id: "5C1FD939AD3C92CA"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 80
-					id: "2F42C84DF7BDEC72"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "bosses_of_mass_destruction:gauntlet"
-				icon: "bosses_of_mass_destruction:blazing_eye"
-				id: "72852F12E772F2FC"
-				type: "kill"
-				value: 1L
-			}]
-			x: 12.5d
-			y: -3.0d
-		}
-		{
-			id: "312C098A154D2D9D"
-			rewards: [
-				{
-					id: "57CA69ED2A536499"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					count: 6
-					id: "4EF74E2496C55335"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 150
-					id: "05007A5178E206CF"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
-				id: "42C1283997139247"
+				id: "01B28FBF26EA7035"
 				type: "kill"
 				value: 1L
 			}]
-			x: -9.5d
-			y: -5.0d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
-			id: "687FC542BB2E1193"
-			rewards: [
-				{
-					id: "56A003935F4043C3"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					count: 6
-					id: "0232B4A99DEE725D"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 150
-					id: "3F387CABEC8DFD6E"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
+			id: "5E96D5C74675AA72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35179D814D819D73"
+				table_id: 7230138998099570633L
+				type: "all_table"
+			}]
 			tasks: [{
 				entity: "cataclysm:ignis"
 				icon: "cataclysm:ignitium_helmet"
-				id: "1E9787CD475AFE7C"
+				id: "6A6FCD34FA806FF8"
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.5d
+			x: 7.5d
 			y: -5.0d
 		}
 		{
-			id: "6756ECC4FF1E9B7D"
-			rewards: [
-				{
-					id: "071C77B1403E89E6"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					count: 6
-					id: "0530B72B2F8B0070"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 150
-					id: "37C801AB292EF924"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
+			id: "71D5FD80570470E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "103EEFF3F831CE9D"
+				table_id: 6387345303855910648L
+				type: "all_table"
+			}]
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				icon: {
@@ -1180,187 +361,75 @@
 						Damage: 0
 					}
 				}
-				id: "559D8049460EE61C"
+				id: "29CE8BBF9D5F9D31"
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.5d
-			y: -5.0d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
-			id: "68C062E1ACFED488"
-			rewards: [
-				{
-					id: "0E44E4A2B535D43D"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					count: 6
-					id: "7C504FC29E89AAF4"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 150
-					id: "7FAC36E305EF29BF"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
+			id: "0C6C6A63B15AA69B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F1C9FB2A13E4E1B"
+				table_id: 7230138998099570633L
+				type: "all_table"
+			}]
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				icon: "cataclysm:meat_shredder"
-				id: "48D3C7424C12707E"
+				id: "66CBF073BBDAB5E7"
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.5d
+			x: 1.5d
 			y: -5.0d
 		}
 		{
-			id: "45F11D9AEB62FD09"
-			rewards: [
-				{
-					id: "31815DC68E78A216"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					count: 6
-					id: "6B487360710DCA3C"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 150
-					id: "2547FCCF8FE2D35D"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
+			id: "02D83CDFB7B27D89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EB2BE0E58A13877"
+				table_id: 7230138998099570633L
+				type: "all_table"
+			}]
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				icon: "cataclysm:altar_of_abyss"
-				id: "36B1D772069C39D3"
+				id: "0946F23BBD47CF96"
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
+			x: 3.5d
 			y: -5.0d
 		}
 		{
-			id: "22A2D3DBB5166D58"
-			rewards: [
-				{
-					id: "21BAA7A463E16194"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					count: 6
-					id: "0B0EA861662D1479"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 150
-					id: "4C094DC3BD781C9A"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
+			id: "574089F9ABA33E4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6285C447C77EA033"
+				table_id: 7230138998099570633L
+				type: "all_table"
+			}]
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				icon: "cataclysm:gauntlet_of_guard"
-				id: "2ABF28569F00F3FC"
+				id: "4E7636B0CEF81E77"
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: -5.0d
 		}
 		{
-			id: "1F8D9C6681B3E04A"
-			rewards: [
-				{
-					id: "6573115A26618AB0"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					count: 6
-					id: "00C02FF38824DA34"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 150
-					id: "4FD68004FA5A788C"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "block_factorys_bosses:kill_dragon"
-				criterion: ""
-				id: "3045C26E3F1E75DE"
-				type: "advancement"
+			id: "6C8CD8B0BE217361"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "765806738A07190C"
+				table_id: 6387345303855910648L
+				type: "all_table"
 			}]
-			x: 2.5d
-			y: -5.0d
-		}
-		{
-			id: "212319458145AD39"
-			rewards: [
-				{
-					id: "4D615EF41EC017B7"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					count: 6
-					id: "4116F152580C46D4"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 150
-					id: "5CBC193D78B5A0E1"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "block_factorys_bosses:kill_yeti"
-				criterion: ""
-				id: "7A51B6202630F8F6"
-				type: "advancement"
-			}]
-			x: 6.5d
-			y: -5.0d
-		}
-		{
-			id: "002ACF2849A48B92"
-			rewards: [
-				{
-					id: "1B62D50402EC5A35"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					count: 6
-					id: "64E508BB7430ADF1"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 150
-					id: "33311BBB5B9AB56B"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
 			tasks: [{
 				entity: "epic_mobs:infernal_fight"
 				icon: {
@@ -1368,104 +437,95 @@
 					id: "epic_mobs:trailblaze"
 					tag: { }
 				}
-				id: "07F57F20FE81DD62"
+				id: "162E31893CA68C43"
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.5d
-			y: -5.0d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
-			id: "6C84A5C5403EB315"
-			rewards: [
-				{
-					id: "18C5F925E895E405"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					count: 6
-					id: "16BC823A675FA28F"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 150
-					id: "3132C12A4448004D"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "woc_remastered:mechx_12"
-				icon: "cataclysm:mech_eye"
-				id: "40F794E47ACB634A"
-				type: "kill"
-				value: 1L
+			id: "288B0ACEB5BA88C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42B29013795C4F9D"
+				table_id: 4168104319380489160L
+				type: "all_table"
 			}]
-			x: 10.5d
-			y: -5.0d
-		}
-		{
-			id: "04F82E517840E0B0"
-			rewards: [
-				{
-					id: "37A752BF32BD048A"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					count: 6
-					id: "274E50650E06BC70"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 150
-					id: "60D36F443DF2A479"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
 			tasks: [{
 				entity: "epic_fight_boss_ascension:azrath_the_berserk"
 				icon: "epic_fight_boss_ascension:summon_azrath_block"
-				id: "38C581DA9399AB32"
+				id: "585B3DD35C812CE1"
 				type: "kill"
 				value: 1L
 			}]
-			x: 12.5d
-			y: -5.0d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
-			id: "291803A33F8B0AB7"
-			rewards: [
-				{
-					id: "6421B3D60F284C0B"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					count: 6
-					id: "6D527E02D0591984"
-					item: "epicskills:ability_stone"
-					type: "item"
-				}
-				{
-					count: 150
-					id: "18D25855D8034B75"
-					item: "block_factorys_bosses:coin_pile"
-					type: "item"
-				}
-			]
+			id: "5CE36BF01AC7F93F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A0382F83F933DDA"
+				table_id: 9027153437127728810L
+				type: "all_table"
+			}]
 			tasks: [{
-				advancement: "block_factorys_bosses:kill_kraken"
-				criterion: ""
-				id: "5C7033C9B9B9A039"
-				type: "advancement"
+				entity: "dungeons_and_combat:kamath"
+				icon: {
+					Count: 1
+					id: "dungeons_and_combat:kamath_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1FF8E0907200EDFA"
+				type: "kill"
+				value: 1L
 			}]
 			x: 4.5d
-			y: -5.0d
+			y: -9.0d
+		}
+		{
+			id: "053DA7BFBB78A580"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67BF9A649F3A2BAD"
+				table_id: 9027153437127728810L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "dungeons_and_combat:sunleia"
+				icon: {
+					Count: 1
+					id: "dungeons_and_combat:sunleia_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0C99AE5BFCA14A79"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			id: "642118C35C38FA23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A4DAD8CC69BBDAD"
+				table_id: 3981421967572784161L
+				type: "all_table"
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
+				id: "192648757E10B325"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 1.0d
 		}
 	]
 	title: "Bosses Fight"

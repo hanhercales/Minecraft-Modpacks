@@ -1,0 +1,35 @@
+{
+	id: "3360EF615733D6EA"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragonsteel_fire_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragonsteel_lightning_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragonsteel_ice_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Dragonsteel Katana"
+}

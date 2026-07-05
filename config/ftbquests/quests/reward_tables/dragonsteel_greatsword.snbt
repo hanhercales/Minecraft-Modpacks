@@ -1,0 +1,35 @@
+{
+	id: "70ED430B68CD2097"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragonsteel_fire_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragonsteel_lightning_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:dragonsteel_ice_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Dragonsteel Greatsword"
+}
