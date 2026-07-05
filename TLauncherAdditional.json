@@ -1735,61 +1735,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 570431,
-          "name": "Trade Cycling",
-          "author": "henkelmax",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/trade-cycling",
-          "favorite": false,
-          "categories": [],
-          "picture": 844666,
-          "pictures": [],
-          "lanName": "trade-cycling",
-          "version": {
-            "id": 6497870,
-            "name": "trade-cycling-forge-1.20.1-1.0.18",
-            "updateDate": 1746428256000,
-            "type": "beta",
-            "gameVersionsDTO": [
-              {
-                "id": 46,
-                "name": "1.20.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "fbe3dfba11bd9e1c73b673f252c7d4f5cececa06",
-              "size": 84453,
-              "path": "mods/trade-cycling-forge-1.20.1-1.0.18.jar",
-              "url": "/mods/570431/6497870/trade-cycling-forge-1.20.1-1.0.18.jar"
-            },
-            "installed": 162830,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 1,
-                "name": "forge"
-              }
-            ]
-          },
-          "popularity": 5,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [],
-          "lastGameVersion": {
-            "id": 69,
-            "name": "26.1.2"
-          },
-          "updated": 1777582800000,
-          "update": 1777582800000,
-          "downloadALL": 964436,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
           "id": 250498,
           "name": "Mowzie's Mobs",
           "author": "BobMowzie pau101 iLexiconn",
