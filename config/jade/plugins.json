@@ -55,6 +55,11 @@
     "decorative_graves": true,
     "player_graves": true
   },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
   "twilightforest": {
     "quest_ram_wool": true
   },

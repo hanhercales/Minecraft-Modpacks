@@ -8721,6 +8721,253 @@
           "available": true,
           "parser": true,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 495476,
+          "name": "Puzzles Lib",
+          "author": "fuzs_",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/puzzles-lib",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 787436,
+          "pictures": [],
+          "lanName": "puzzles-lib",
+          "version": {
+            "id": 6918565,
+            "name": "v8.1.33-1.20.1-Forge",
+            "updateDate": 1755952052000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf",
+              "size": 1342987,
+              "path": "mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+              "url": "/mods/495476/6918565/PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
+            },
+            "installed": 391750,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 70,
+            "name": "26.2"
+          },
+          "updated": 1781643600000,
+          "update": 1781643600000,
+          "downloadALL": 2293930,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 456239,
+          "name": "Easy Magic",
+          "author": "fuzs_",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/easy-magic",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            }
+          ],
+          "picture": 787843,
+          "pictures": [
+            215507,
+            345614,
+            345612,
+            215508,
+            345613,
+            345615
+          ],
+          "lanName": "easy-magic",
+          "version": {
+            "id": 4658750,
+            "name": "EasyMagic-v8.0.1-1.20.1-Forge",
+            "updateDate": 1690041655000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "9bfb5d63ac2e03ecdab8755c968ffa25b799469b",
+              "size": 115947,
+              "path": "mods/EasyMagic-v8.0.1-1.20.1-Forge.jar",
+              "url": "/mods/456239/4658750/EasyMagic-v8.0.1-1.20.1-Forge.jar"
+            },
+            "installed": 78605,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 2,
+              "name": "Fabric API",
+              "gameEntityId": 306612,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 841,
+              "name": "Forge Config API Port",
+              "gameEntityId": 547434,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 969,
+              "name": "Puzzles Lib",
+              "gameEntityId": 495476,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 70,
+            "name": "26.2"
+          },
+          "updated": 1781730000000,
+          "update": 1781730000000,
+          "downloadALL": 269871,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 400514,
+          "name": "Easy Villagers",
+          "author": "henkelmax",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/easy-villagers",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 5,
+              "name": "technology",
+              "shortName": "technology",
+              "nesting": 0
+            },
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            },
+            {
+              "id": 10,
+              "name": "technology_farming",
+              "shortName": "farming",
+              "nesting": 0
+            }
+          ],
+          "picture": 787604,
+          "pictures": [],
+          "lanName": "easy-villagers",
+          "version": {
+            "id": 7202309,
+            "name": "easy-villagers-forge-1.20.1-1.1.39",
+            "updateDate": 1762685450000,
+            "type": "beta",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "5b264d682b070eaea1b6d14c67f075a2e5d40156",
+              "size": 414686,
+              "path": "mods/easy-villagers-forge-1.20.1-1.1.39.jar",
+              "url": "/mods/400514/7202309/easy-villagers-forge-1.20.1-1.1.39.jar"
+            },
+            "installed": 97182,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 468,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 4,
+              "name": "Just Enough Items (JEI)",
+              "gameEntityId": 238222,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 859,
+              "name": "Jade 🔍",
+              "gameEntityId": 324717,
+              "dependencyType": "optional",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 70,
+            "name": "26.2"
+          },
+          "updated": 1781557200000,
+          "update": 1781557200000,
+          "downloadALL": 1891215,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
       "resourcePacks": [
