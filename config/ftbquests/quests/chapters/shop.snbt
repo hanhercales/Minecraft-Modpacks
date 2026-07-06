@@ -12,6 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "minecraft:firework_rocket"
@@ -47,6 +48,7 @@
 			y: -0.5d
 		}
 		{
+			disable_toast: true
 			icon: "irons_spellbooks:arcane_essence"
 			id: "6ADBAEB6BE37E6D1"
 			rewards: [{
@@ -66,6 +68,7 @@
 			y: -2.5d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "minecraft:elytra"
@@ -96,25 +99,26 @@
 			y: -0.5d
 		}
 		{
+			disable_toast: true
 			icon: "irons_spellbooks:blank_rune"
 			id: "11D9A663317085A8"
 			rewards: [{
-				count: 16
 				id: "445A7EF41220D2E9"
 				item: "irons_spellbooks:blank_rune"
 				type: "item"
 			}]
 			tasks: [{
-				count: 120L
+				count: 3L
 				id: "465E0757699EB703"
-				item: { Count: 10, id: "epic_mobs:tech_core" }
+				item: "epic_mobs:tech_core"
 				type: "item"
 			}]
-			title: "x16 Blank Runestone"
+			title: "x1 Blank Runestone"
 			x: 3.5d
 			y: -2.5d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:experience_bottle"
 			id: "2543990ED2E42E68"
 			rewards: [{
@@ -133,6 +137,7 @@
 			y: -6.5d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:diamond"
 			id: "33E34E29A76D728B"
 			rewards: [{
@@ -151,6 +156,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:netherite_scrap"
 			id: "17D26CAE5710CC3F"
 			rewards: [{
@@ -169,6 +175,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			icon: "irons_spellbooks:mithril_scrap"
 			id: "400B2295ACD42FCA"
 			rewards: [{
@@ -187,6 +194,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			icon: "wom:eternal_fire_arcane"
 			id: "0AE8966D98F2EC1F"
 			rewards: [{
@@ -205,6 +213,7 @@
 			y: -2.5d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:experience_bottle"
 			id: "0F0871653CB85531"
 			rewards: [{
@@ -415,6 +424,7 @@
 			y: -10.5d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "dungeons_and_combat:red_dragon_helmet"
@@ -460,6 +470,7 @@
 			y: -5.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "dungeons_and_combat:dragon_greatsword_bone"
@@ -485,6 +496,7 @@
 			y: -5.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "dungeons_and_combat:dragon_greatsword_fire"
@@ -523,6 +535,7 @@
 			y: -3.5d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "dungeons_and_combat:dragon_dagger_fire"
@@ -561,6 +574,7 @@
 			y: -3.5d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "dungeons_and_combat:dragon_lance_fire"
@@ -599,6 +613,7 @@
 			y: -3.5d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "dungeons_and_combat:neptunium_helmet"
@@ -670,6 +685,7 @@
 			y: -2.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "dungeons_and_combat:neptunium_greathammer"
@@ -708,6 +724,7 @@
 			y: -2.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "dungeons_and_combat:dark_metal_helmet"
@@ -733,6 +750,7 @@
 			y: -0.5d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "dungeons_and_combat:wulfrum_katana"
