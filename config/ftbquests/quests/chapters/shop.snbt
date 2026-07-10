@@ -127,9 +127,9 @@
 				xp_levels: 15
 			}]
 			tasks: [{
-				count: 50L
+				count: 20L
 				id: "2132FFF854E464A9"
-				item: { Count: 10, id: "epic_mobs:tech_core" }
+				item: "epic_mobs:tech_core"
 				type: "item"
 			}]
 			title: "x15 XP Levels"
@@ -222,9 +222,9 @@
 				xp_levels: 30
 			}]
 			tasks: [{
-				count: 90L
+				count: 36L
 				id: "489F2AB52386E27F"
-				item: { Count: 10, id: "epic_mobs:tech_core" }
+				item: "epic_mobs:tech_core"
 				type: "item"
 			}]
 			title: "x30 XP Levels"
@@ -436,27 +436,27 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "51D6FBC36AD669CE"
+					id: "4F6C7CD6E5FD6FEE"
 					table_id: 4007122872633857553L
-					type: "all_table"
+					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5069407D3B243A1B"
+					id: "4C79786057653BA0"
 					table_id: 3993341108398516787L
-					type: "all_table"
+					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2CD0E960F112BED4"
+					id: "66CA34E3E96338B3"
 					table_id: 2019777408172563664L
-					type: "all_table"
+					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2C7E85CA357007CD"
+					id: "5D58D14345407821"
 					table_id: 3716627217782671200L
-					type: "all_table"
+					type: "choice"
 				}
 			]
 			tasks: [{

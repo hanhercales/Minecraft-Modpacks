@@ -179,7 +179,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
@@ -305,7 +305,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
@@ -323,7 +323,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: -3.0d
 		}
 		{
@@ -365,7 +365,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: -3.0d
 		}
 		{
@@ -441,7 +441,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -526,6 +526,30 @@
 			}]
 			x: 8.5d
 			y: 1.0d
+		}
+		{
+			id: "4F81505658699E71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BAFAF85F5F997BE"
+				table_id: 6387345303855910648L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "epic_mobs:the_knight"
+				icon: {
+					Count: 1
+					id: "epic_mobs:knightsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0DCDEBECBB821DD2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -3.0d
 		}
 	]
 	title: "Bosses Fight"
