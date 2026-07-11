@@ -75,7 +75,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -100,7 +100,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -169,7 +169,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
@@ -188,7 +188,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
@@ -216,7 +216,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5F0C8199E04C2639"
-				table_id: 5764468693290831652L
+				table_id: 3108265536733767117L
 				type: "all_table"
 			}]
 			tasks: [{
@@ -226,8 +226,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
-			y: -5.0d
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1C80658D30B29459"]
@@ -245,7 +245,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -302,7 +302,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -321,7 +321,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -340,7 +340,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: -3.0d
 		}
 		{
@@ -359,7 +359,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
+			x: 5.5d
 			y: -5.0d
 		}
 		{
@@ -368,7 +368,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "49F74C77B9920D34"
-				table_id: 8243465627733003082L
+				table_id: 5764468693290831652L
 				type: "all_table"
 			}]
 			tasks: [{
@@ -384,8 +384,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.5d
-			y: -3.0d
+			x: 7.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0C6C6A63B15AA69B"]
@@ -464,7 +464,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: -3.0d
 		}
 		{
@@ -558,7 +558,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.5d
+			x: 7.5d
 			y: -3.0d
 		}
 	]

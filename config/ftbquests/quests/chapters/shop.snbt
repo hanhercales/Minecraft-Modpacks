@@ -775,6 +775,27 @@
 			x: 9.5d
 			y: -6.5d
 		}
+		{
+			can_repeat: false
+			disable_toast: true
+			icon: "minecraft:netherite_ingot"
+			id: "1ADCAA123F4379D6"
+			rewards: [{
+				count: 2
+				id: "6E362ADD059A85A2"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "741466F17D294E2A"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Transfer Quest Reward"
+			x: 1.5d
+			y: -6.5d
+		}
 	]
 	title: "Shop"
 }
