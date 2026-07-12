@@ -138,22 +138,22 @@
 		}
 		{
 			disable_toast: true
-			icon: "minecraft:diamond"
+			icon: "irons_spellbooks:legendary_ink"
 			id: "33E34E29A76D728B"
 			rewards: [{
 				id: "1A7E71CEE293984A"
-				item: "minecraft:diamond"
+				item: "irons_spellbooks:legendary_ink"
 				type: "item"
 			}]
 			tasks: [{
-				count: 10L
+				count: 64L
 				id: "31BB0693FEFA1C60"
-				item: { Count: 10, id: "epic_mobs:tech_core" }
+				item: "epic_mobs:tech_core"
 				type: "item"
 			}]
-			title: "x1 Diamond"
-			x: 3.5d
-			y: -4.5d
+			title: "x1 Legendaty Ink"
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			disable_toast: true
@@ -209,8 +209,8 @@
 				type: "item"
 			}]
 			title: "x1 Eternal fire arcane"
-			x: -0.5d
-			y: -2.5d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			disable_toast: true
@@ -233,9 +233,9 @@
 		}
 		{
 			dependencies: [
-				"71D5FD80570470E1"
+				"4F81505658699E71"
 				"017774E403F831BC"
-				"30CB4B4D2CEF42D5"
+				"694470AC64503309"
 				"6C8CD8B0BE217361"
 				"5566D9BE7558394D"
 			]
@@ -265,9 +265,9 @@
 		}
 		{
 			dependencies: [
-				"71D5FD80570470E1"
+				"4F81505658699E71"
 				"017774E403F831BC"
-				"30CB4B4D2CEF42D5"
+				"694470AC64503309"
 				"6C8CD8B0BE217361"
 				"5566D9BE7558394D"
 			]
@@ -297,9 +297,9 @@
 		}
 		{
 			dependencies: [
-				"71D5FD80570470E1"
+				"4F81505658699E71"
 				"017774E403F831BC"
-				"30CB4B4D2CEF42D5"
+				"694470AC64503309"
 				"6C8CD8B0BE217361"
 				"5566D9BE7558394D"
 			]
@@ -329,9 +329,9 @@
 		}
 		{
 			dependencies: [
-				"71D5FD80570470E1"
+				"4F81505658699E71"
 				"017774E403F831BC"
-				"30CB4B4D2CEF42D5"
+				"694470AC64503309"
 				"6C8CD8B0BE217361"
 				"5566D9BE7558394D"
 			]
@@ -361,9 +361,9 @@
 		}
 		{
 			dependencies: [
-				"71D5FD80570470E1"
+				"4F81505658699E71"
 				"017774E403F831BC"
-				"30CB4B4D2CEF42D5"
+				"694470AC64503309"
 				"6C8CD8B0BE217361"
 				"5566D9BE7558394D"
 			]
@@ -393,9 +393,9 @@
 		}
 		{
 			dependencies: [
-				"71D5FD80570470E1"
+				"4F81505658699E71"
 				"017774E403F831BC"
-				"30CB4B4D2CEF42D5"
+				"694470AC64503309"
 				"6C8CD8B0BE217361"
 				"5566D9BE7558394D"
 			]
@@ -795,6 +795,26 @@
 			title: "Transfer Quest Reward"
 			x: 1.5d
 			y: -6.5d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:emerald"
+			id: "5E224004B29659BD"
+			rewards: [{
+				count: 64
+				id: "5C9796AEEB58269E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "73FE20A03DC1FBB6"
+				item: "epic_mobs:tech_core"
+				type: "item"
+			}]
+			title: "x64 Emerald"
+			x: 3.5d
+			y: -4.5d
 		}
 	]
 	title: "Shop"

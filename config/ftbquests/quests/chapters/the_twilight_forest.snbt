@@ -244,6 +244,12 @@
 		{
 			dependencies: ["2A3A460E387CFBBC"]
 			id: "2FCEB387A0F79271"
+			rewards: [{
+				count: 10
+				id: "53D95DE5B1675CF5"
+				item: "epic_mobs:tech_core"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "twilightforest:quest_ram"
 				criterion: ""

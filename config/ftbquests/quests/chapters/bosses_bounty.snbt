@@ -75,7 +75,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -100,7 +100,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -169,7 +169,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
@@ -226,7 +226,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.5d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -245,7 +245,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
@@ -302,7 +302,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -340,8 +340,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 9.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5E96D5C74675AA72"]
@@ -542,7 +542,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1B0BEE6E62CEF323"
-				table_id: 6387345303855910648L
+				table_id: 8243465627733003082L
 				type: "all_table"
 			}]
 			tasks: [{
@@ -559,6 +559,24 @@
 				value: 1L
 			}]
 			x: 7.5d
+			y: -3.0d
+		}
+		{
+			id: "694470AC64503309"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19A6E9D410EB827D"
+				table_id: 8243465627733003082L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursium_helmet"
+				id: "0679E61A42E3C701"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
 			y: -3.0d
 		}
 	]
