@@ -8722,6 +8722,77 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1525641,
+          "name": "MEB Cataclysm 3.24 Compatibility Patch",
+          "author": "Tvrsier",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/meb-cataclysm-3-24-compatibility-patch",
+          "favorite": false,
+          "categories": [],
+          "picture": 1399624,
+          "pictures": [],
+          "lanName": "meb-cataclysm-3-24-compatibility-patch",
+          "version": {
+            "id": 7989171,
+            "name": "meb_cataclysm-1.0.1_cataclysm3.24+fix",
+            "updateDate": 1777205773000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "58e7599bb7a64523b55056f4c92c82bc4358ee05",
+              "size": 3158058,
+              "path": "mods/meb_cataclysm-1.0.1_cataclysm3.24%2Bfix.jar",
+              "url": "/mods/1525641/7989171/meb_cataclysm-1.0.1_cataclysm3.24%252Bfix.jar"
+            },
+            "installed": 34,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 1,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 13321,
+              "name": "Epic fight - Avalon",
+              "gameEntityId": 1268823,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 4830,
+              "name": "L_Ender 's Cataclysm",
+              "gameEntityId": 551586,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 46,
+            "name": "1.20.1"
+          },
+          "updated": 1777150800000,
+          "update": 1777150800000,
+          "downloadALL": 34,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
