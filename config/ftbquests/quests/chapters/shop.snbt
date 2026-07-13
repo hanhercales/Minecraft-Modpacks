@@ -235,7 +235,7 @@
 			dependencies: [
 				"4F81505658699E71"
 				"017774E403F831BC"
-				"694470AC64503309"
+				"3C6C9C133C9664D0"
 				"6C8CD8B0BE217361"
 				"5566D9BE7558394D"
 			]
@@ -249,9 +249,9 @@
 			id: "139FE6677A1DEFFB"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "72C3EA8B0EEB361D"
+				id: "44FE3FB7F44007A5"
 				table_id: 8137233818010329239L
-				type: "all_table"
+				type: "choice"
 			}]
 			tasks: [{
 				count: 350L
@@ -267,7 +267,7 @@
 			dependencies: [
 				"4F81505658699E71"
 				"017774E403F831BC"
-				"694470AC64503309"
+				"3C6C9C133C9664D0"
 				"6C8CD8B0BE217361"
 				"5566D9BE7558394D"
 			]
@@ -281,9 +281,9 @@
 			id: "61A8F292E00492FD"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3D6BC3E11AB04996"
+				id: "279264407DA1CA70"
 				table_id: 3078183428015104562L
-				type: "all_table"
+				type: "choice"
 			}]
 			tasks: [{
 				count: 280L
@@ -297,11 +297,11 @@
 		}
 		{
 			dependencies: [
-				"4F81505658699E71"
 				"017774E403F831BC"
-				"694470AC64503309"
+				"3C6C9C133C9664D0"
 				"6C8CD8B0BE217361"
 				"5566D9BE7558394D"
+				"4F81505658699E71"
 			]
 			icon: {
 				Count: 1
@@ -313,9 +313,9 @@
 			id: "5BB1602B37797AB1"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7836ED4FC82066C9"
+				id: "7D505A0FC73498EB"
 				table_id: 3702222095052429034L
-				type: "all_table"
+				type: "choice"
 			}]
 			tasks: [{
 				count: 200L
@@ -331,7 +331,7 @@
 			dependencies: [
 				"4F81505658699E71"
 				"017774E403F831BC"
-				"694470AC64503309"
+				"3C6C9C133C9664D0"
 				"6C8CD8B0BE217361"
 				"5566D9BE7558394D"
 			]
@@ -363,7 +363,7 @@
 			dependencies: [
 				"4F81505658699E71"
 				"017774E403F831BC"
-				"694470AC64503309"
+				"3C6C9C133C9664D0"
 				"6C8CD8B0BE217361"
 				"5566D9BE7558394D"
 			]
@@ -395,7 +395,7 @@
 			dependencies: [
 				"4F81505658699E71"
 				"017774E403F831BC"
-				"694470AC64503309"
+				"3C6C9C133C9664D0"
 				"6C8CD8B0BE217361"
 				"5566D9BE7558394D"
 			]
@@ -784,6 +784,7 @@
 				count: 2
 				id: "6E362ADD059A85A2"
 				item: "minecraft:netherite_ingot"
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -815,6 +816,39 @@
 			title: "x64 Emerald"
 			x: 3.5d
 			y: -4.5d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "twilightforest:glass_sword"
+				tag: {
+					Damage: 0
+					Unbreakable: 1
+				}
+			}
+			id: "35A2446583D79E74"
+			rewards: [{
+				id: "51967B09C9325D05"
+				item: {
+					Count: 1
+					id: "twilightforest:glass_sword"
+					tag: {
+						Damage: 0
+						Unbreakable: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 1000L
+				id: "5071F16AD789D3F0"
+				item: { Count: 10, id: "epic_mobs:tech_core" }
+				type: "item"
+			}]
+			title: "Unbreakable Glass Sword"
+			x: 5.5d
+			y: -8.5d
 		}
 	]
 	title: "Shop"
