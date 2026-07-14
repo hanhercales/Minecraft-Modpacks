@@ -20,11 +20,11 @@
 	#Enables the enchantment Magic Siphon [false/true|default:true]
 	enable_enchantment_magic_siphon = true
 	#Enables the enchantment Plague Bringer [false/true|default:true]
-	enable_enchantment_plague_bringer = true
+	enable_enchantment_plague_bringer = false
 	#Enables the enchantment Curse of Bones [false/true|default:true]
 	enable_enchantment_curse_of_bones = true
 	#Enables the enchantment Blessing [false/true|default:true]
-	enable_enchantment_blessing = true
+	enable_enchantment_blessing = false
 	#Enables the enchantment Frostbite [false/true|default:true]
 	enable_enchantment_frostbite = true
 	#Enables the enchantment Spectral Conjurer [false/true|default:true]
@@ -44,11 +44,11 @@
 	#Allows Magic Siphon at enchanting table [false/true|default:false]
 	magic_siphon_enchanting_table = true
 	#Allows Plague Bringer at enchanting table [false/true|default:false]
-	plague_bringer_enchanting_table = true
+	plague_bringer_enchanting_table = false
 	#Allows Curse of Bones at enchanting table [false/true|default:false]
 	curse_of_bones_enchanting_table = true
 	#Allows Blessing at enchanting table [false/true|default:false]
-	blessing_enchanting_table = true
+	blessing_enchanting_table = false
 	#Allows Frostbite at enchanting table [false/true|default:false]
 	frostbite_enchanting_table = true
 	#Allows Spectral Conjurer at enchanting table [false/true|default:false]
