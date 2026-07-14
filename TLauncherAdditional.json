@@ -8793,6 +8793,114 @@
           "available": true,
           "parser": true,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 602199,
+          "name": "Radiant Gear (FabricForgeQuilt)",
+          "author": "theillusivec4",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/radiant-gear",
+          "favorite": false,
+          "categories": [],
+          "picture": 800747,
+          "pictures": [],
+          "lanName": "radiant-gear",
+          "version": {
+            "id": 6029352,
+            "name": "radiantgear-forge-2.2.0+1.20.1",
+            "updateDate": 1735365292000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              },
+              {
+                "id": 44,
+                "name": "1.19.4"
+              },
+              {
+                "id": 43,
+                "name": "1.19.3"
+              }
+            ],
+            "metadata": {
+              "sha1": "525b3ebccece23ed6bf4945a1c054c21599fc083",
+              "size": 47170,
+              "path": "mods/radiantgear-forge-2.2.0+1.20.1.jar",
+              "url": "/mods/602199/6029352/radiantgear-forge-2.2.0+1.20.1.jar"
+            },
+            "installed": 34963,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 3274,
+              "name": "Lucent",
+              "gameEntityId": 493280,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 9,
+              "name": "Curios API (ForgeNeoForge)",
+              "gameEntityId": 309927,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 220,
+              "name": "Dynamic Lights",
+              "gameEntityId": 227874,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 5695,
+              "name": "SodiumEmbeddium Dynamic Lights",
+              "gameEntityId": 551736,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 2427,
+              "name": "Ars Nouveau",
+              "gameEntityId": 401955,
+              "dependencyType": "optional",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 51,
+            "name": "1.20.6"
+          },
+          "updated": 1735333200000,
+          "update": 1735333200000,
+          "downloadALL": 57742,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
       "resourcePacks": [
