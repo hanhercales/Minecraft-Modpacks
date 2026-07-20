@@ -1,0 +1,132 @@
+enabled = true
+remove_damage_indicator_hearts = true
+round_damage_values = false
+
+[animation]
+	# Default: 16
+	# Range: > 0
+	duration = 16
+
+	[animation.size]
+		# Default: 0.5
+		# Range: 0.0 ~ 3.4028234663852886E38
+		min = 0.5
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		max = 1.0
+
+	[animation.brightness]
+		# Default: 0.85
+		# Range: 0.0 ~ 1.0
+		min = 0.85
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		max = 1.0
+
+	[animation.opacity]
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		min = 0.0
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		max = 1.0
+
+	[animation.speed]
+		# Default: 0.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		min = 0.0
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		max = 1.0
+
+	#Colors can be Minecraft color name (GOLD), hex code (#FFAA00), or NONE to disable damage numbers for that type
+	[color.damage]
+		default = "GOLD"
+		"dummmmmmy:critical" = "GOLD"
+		"minecraft:fireworks" = "GOLD"
+		"minecraft:thorns" = "GOLD"
+		"create_enchantment_industry:grind" = "GOLD"
+		"minecraft:mob_attack" = "GOLD"
+		"minecraft:lightning_bolt" = "GOLD"
+		"minecraft:outside_border" = "GOLD"
+		"minecraft:indirect_magic" = "GOLD"
+		"spore:slasher_damage" = "GOLD"
+		"minecraft:arrow" = "GOLD"
+		"minecraft:explosion" = "GOLD"
+		"minecraft:dry_out" = "GOLD"
+		"ntgl:fire" = "GOLD"
+		"minecraft:wither" = "GOLD"
+		"create:fan_lava" = "GOLD"
+		"create:run_over" = "GOLD"
+		"spore:mycelium_overtake" = "GOLD"
+		"minecraft:trident" = "GOLD"
+		"minecraft:unattributed_fireball" = "GOLD"
+		"neoforge:poison" = "GOLD"
+		"createaddition:barbed_wire" = "GOLD"
+		"minecraft:falling_anvil" = "GOLD"
+		"ntgl:bullet" = "GOLD"
+		"minecraft:fireball" = "GOLD"
+		"minecraft:magic" = "GOLD"
+		"spore:braiomil_damage" = "GOLD"
+		"createaddition:tesla_coil" = "GOLD"
+		"create:potato_cannon" = "GOLD"
+		"spore:infected_damage3" = "GOLD"
+		"spore:infected_damage2" = "GOLD"
+		"spore:infected_damage1" = "GOLD"
+		"spore:knight_damage" = "GOLD"
+		"minecraft:sting" = "GOLD"
+		"minecraft:drown" = "GOLD"
+		"minecraft:generic_kill" = "GOLD"
+		"minecraft:player_explosion" = "GOLD"
+		"create:mechanical_roller" = "GOLD"
+		"minecraft:mob_projectile" = "GOLD"
+		"spore:radiation_damage" = "GOLD"
+		"create:mechanical_drill" = "GOLD"
+		"minecraft:mob_attack_no_aggro" = "GOLD"
+		"create:crush" = "GOLD"
+		"create_sa:grapplin_whisk_attack" = "GOLD"
+		"minecraft:sonic_boom" = "GOLD"
+		"spore:leaper_damage" = "GOLD"
+		"spore:mental_damage" = "GOLD"
+		"minecraft:on_fire" = "GOLD"
+		"spore:calamity_damage2" = "GOLD"
+		"minecraft:starve" = "GOLD"
+		"spore:calamity_damage1" = "GOLD"
+		"minecraft:fall" = "GOLD"
+		"spore:calamity_damage3" = "GOLD"
+		"dummmmmmy:true" = "GOLD"
+		"minecraft:sweet_berry_bush" = "GOLD"
+		"minecraft:player_attack" = "GOLD"
+		"minecraft:wind_charge" = "GOLD"
+		"farmersdelight:stove_burn" = "GOLD"
+		"minecraft:bad_respawn_point" = "GOLD"
+		"ntgl:energy" = "GOLD"
+		"create:mechanical_saw" = "GOLD"
+		"minecraft:dragon_breath" = "GOLD"
+		"minecraft:hot_floor" = "GOLD"
+		"minecraft:in_wall" = "GOLD"
+		"create:cuckoo_surprise" = "GOLD"
+		"minecraft:generic" = "GOLD"
+		"minecraft:wither_skull" = "GOLD"
+		"minecraft:campfire" = "GOLD"
+		"minecraft:cramming" = "GOLD"
+		"spore:griefer_damage" = "GOLD"
+		"minecraft:stalagmite" = "GOLD"
+		"create:fan_fire" = "GOLD"
+		"spore:infected_witch_damage" = "GOLD"
+		"minecraft:lava" = "GOLD"
+		"minecraft:freeze" = "GOLD"
+		"minecraft:in_fire" = "GOLD"
+		"minecraft:spit" = "GOLD"
+		"minecraft:thrown" = "GOLD"
+		"spore:slasher_piercing_damage" = "GOLD"
+		"minecraft:falling_block" = "GOLD"
+		"minecraft:cactus" = "GOLD"
+		"minecraft:out_of_world" = "GOLD"
+		"minecraft:falling_stalactite" = "GOLD"
+		"spore:acid" = "GOLD"
+		"minecraft:fly_into_wall" = "GOLD"
+		"ntgl:explosive" = "GOLD"
+
+	[color.heal]
+		default = "DARK_GREEN"

@@ -1,0 +1,17 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:create_dragons_plus:blaze_upgrade_smithing_template",
+    "item:cgs:paper_cartridge",
+    "item:cgs:flintlock{\"ntgl:ammo_count\":1}",
+    "item:clockwork:clockwork_wings"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
