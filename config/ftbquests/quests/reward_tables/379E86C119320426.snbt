@@ -1,0 +1,24 @@
+{
+	id: "379E86C119320426"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "49E3BEEA19FA7325", item: { count: 1, id: "numismatics:bevel" } }
+		{
+			count: 3
+			id: "03D7E81633BF3A74"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+		}
+		{
+			count: 2
+			id: "30648074C20CB9EC"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+		}
+	]
+}

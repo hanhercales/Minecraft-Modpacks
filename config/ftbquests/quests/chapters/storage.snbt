@@ -1,0 +1,560 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "5BB36CECFAF95BB9"
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "0DE267F50674195C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6BFCAB67CB28623F"
+			rewards: [
+				{
+					id: "7308A9ECC55F05CF"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "74FB3690389ADEC3"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4298CC7452F53BB8"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6BFCAB67CB28623F"]
+			id: "7E890C980179F4CB"
+			tasks: [{
+				id: "75139E22C86344E8"
+				item: { count: 1, id: "ironchest:copper_chest" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6BFCAB67CB28623F"
+				"7E890C980179F4CB"
+			]
+			dependency_requirement: "one_completed"
+			id: "441CEA97757F0849"
+			tasks: [{
+				id: "7DA411670A73D5F5"
+				item: { count: 1, id: "ironchest:iron_chest" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["441CEA97757F0849"]
+			id: "66E18CA56886CB67"
+			tasks: [{
+				id: "1978F1F04A791397"
+				item: { count: 1, id: "ironchest:gold_chest" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["66E18CA56886CB67"]
+			id: "5974E256AA3EAB20"
+			rewards: [
+				{
+					id: "5BEE1D6DF574E1B8"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "63C497B05628C9F0"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ADBF8C7381ADC61"
+				item: { count: 1, id: "ironchest:diamond_chest" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5974E256AA3EAB20"]
+			id: "7DDD5A95658E9F87"
+			tasks: [{
+				id: "5865460BC86EC767"
+				item: { count: 1, id: "ironchest:obsidian_chest" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5974E256AA3EAB20"]
+			id: "473CCBBD2E77FBD3"
+			tasks: [{
+				id: "2AE44DDB267288F0"
+				item: { count: 1, id: "ironchest:crystal_chest" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BFCAB67CB28623F"]
+			id: "48BF6CD24292FB05"
+			rewards: [
+				{
+					id: "157794B23AA3B101"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4DA9395CD7638C3B"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FB64652739D9C34"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 27, "sophisticatedcore:number_of_upgrade_slots": 1 }, count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["48BF6CD24292FB05"]
+			id: "2B5068FF1C3FE2E4"
+			tasks: [{
+				id: "7E2095CC56B53836"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 45, "sophisticatedcore:number_of_upgrade_slots": 1 }, count: 1, id: "sophisticatedbackpacks:copper_backpack" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1821DC598018E828"]
+			id: "4E44DF3730B67C3E"
+			tasks: [{
+				id: "6B40493FAF6DFCD6"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 81, "sophisticatedcore:number_of_upgrade_slots": 3 }, count: 1, id: "sophisticatedbackpacks:gold_backpack" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E44DF3730B67C3E"]
+			id: "28B71B1466F5723C"
+			tasks: [{
+				id: "7A3DBDB0D3F68312"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 108, "sophisticatedcore:number_of_upgrade_slots": 5 }, count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["28B71B1466F5723C"]
+			id: "2DE35C4022017867"
+			rewards: [
+				{
+					id: "6997D93BD6EE6384"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "30DCB491C2ACFA51"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E93FCD004680D2F"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 120, "sophisticatedcore:number_of_upgrade_slots": 7 }, count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"48BF6CD24292FB05"
+				"2B5068FF1C3FE2E4"
+			]
+			dependency_requirement: "one_completed"
+			id: "1821DC598018E828"
+			rewards: [
+				{
+					id: "404934AF0040E45C"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "52D7B62C16B42867"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AFF55BD3F30163A"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 54, "sophisticatedcore:number_of_upgrade_slots": 2 }, count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "5C5AF6D3A0E3F5D6"
+			rewards: [
+				{
+					id: "0B4E53D0B806BCA8"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4A16BA821FBCA8D3"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F261A294B80302B"
+				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C5AF6D3A0E3F5D6"]
+			id: "08FC1C78B93019C8"
+			tasks: [{
+				id: "08D72D44EB886EA9"
+				item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5C5AF6D3A0E3F5D6"]
+			id: "2DE4CDF9CC26D7BA"
+			tasks: [{
+				id: "37BE1036941178C0"
+				item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C5AF6D3A0E3F5D6"]
+			id: "09A8BEDC37299A79"
+			tasks: [{
+				id: "4CD7AADD2EA503A8"
+				item: { count: 1, id: "sophisticatedbackpacks:smelting_upgrade" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C5AF6D3A0E3F5D6"]
+			id: "46BE794B9B088A76"
+			tasks: [{
+				id: "0652140DB8144867"
+				item: { count: 1, id: "sophisticatedbackpacks:anvil_upgrade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			id: "387DC2CD41EFEF75"
+			rewards: [
+				{
+					id: "2E956E567F78B2B1"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "798BA6BBF0E015ED"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CEB61CA90AE3582"
+				item: { count: 1, id: "refinedstorage:controller" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["387DC2CD41EFEF75"]
+			id: "6013DEE477C09BEB"
+			tasks: [{
+				id: "27F5ABF14D961FC4"
+				item: { count: 1, id: "refinedstorage:grid" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6013DEE477C09BEB"]
+			id: "4BEA70C2A49B4042"
+			tasks: [{
+				id: "7975AC238C85D6AC"
+				item: { count: 1, id: "refinedstorage:crafting_grid" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["387DC2CD41EFEF75"]
+			id: "05278E93621EA1EB"
+			rewards: [
+				{
+					id: "5A4F17ACFE7AC18A"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "20C275FDE00CDAA2"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CB6313365BADC24"
+				item: { count: 1, id: "refinedstorage:disk_drive" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["05278E93621EA1EB"]
+			id: "304E14B06D7A479E"
+			tasks: [{
+				id: "08B5A04334E632C3"
+				item: { components: { "refinedstorage:storage_reference": [I; -1034628410, -525251000, -2002639866, -1215516905 ] }, count: 1, id: "refinedstorage:1k_storage_disk" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["304E14B06D7A479E"]
+			id: "0CD9E9E8225C5EA3"
+			tasks: [{
+				id: "0B7BC2BDD9274501"
+				item: { components: { "refinedstorage:storage_reference": [I; -874037317, 1671252765, -1289605650, -1888442932 ] }, count: 1, id: "refinedstorage:4k_storage_disk" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0CD9E9E8225C5EA3"]
+			id: "13CBA32DB91252F8"
+			tasks: [{
+				id: "54EE73156D58B3F0"
+				item: { components: { "refinedstorage:storage_reference": [I; -434612546, -1558362300, -1588326007, 2046709601 ] }, count: 1, id: "refinedstorage:16k_storage_disk" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["13CBA32DB91252F8"]
+			id: "31B2C1E977EACFFA"
+			rewards: [
+				{
+					id: "2A7205CA7ED50A23"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "357251AC3EECB0B0"
+					item: {
+						count: 1
+						id: "create:zinc_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E1E970DE891204E"
+				item: { components: { "refinedstorage:storage_reference": [I; -138796261, -1594276059, -1280971995, -1103117113 ] }, count: 1, id: "refinedstorage:64k_storage_disk" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["387DC2CD41EFEF75"]
+			id: "71514C83FA91E9DF"
+			tasks: [{
+				id: "599E7AABF8F9AB1C"
+				item: { count: 1, id: "refinedstorage:wireless_transmitter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["71514C83FA91E9DF"]
+			id: "2C80CAABEDD346FE"
+			tasks: [{
+				id: "477DC8B73086565E"
+				item: { count: 1, id: "refinedstorage:wireless_grid" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["05278E93621EA1EB"]
+			id: "4256C2BDDD3820ED"
+			tasks: [{
+				id: "5FC1B8E4E4A9DCD8"
+				item: { components: { "refinedstorage:storage_reference": [I; 1208235570, -1000388679, -1981442964, -2129120429 ] }, count: 1, id: "refinedstorage:64b_fluid_storage_disk" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4256C2BDDD3820ED"]
+			id: "2773B13B10B55342"
+			tasks: [{
+				id: "235D60010B4621B7"
+				item: { components: { "refinedstorage:storage_reference": [I; -273690105, -1495840495, -1450731222, -1987436430 ] }, count: 1, id: "refinedstorage:256b_fluid_storage_disk" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2773B13B10B55342"]
+			id: "205E2E6A84AEA018"
+			tasks: [{
+				id: "751BC15094F0F4A4"
+				item: { components: { "refinedstorage:storage_reference": [I; 426575240, 1916356274, -2136663160, 1756302956 ] }, count: 1, id: "refinedstorage:1024b_fluid_storage_disk" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["205E2E6A84AEA018"]
+			id: "3E4361A705E217F7"
+			rewards: [
+				{
+					id: "2711DF50D336C764"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "114A70F6157D15DA"
+					item: {
+						count: 1
+						id: "create:zinc_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5F0F8698B92CAA"
+				item: { components: { "refinedstorage:storage_reference": [I; 228715654, 1897877046, -1943420835, 175455281 ] }, count: 1, id: "refinedstorage:4096b_fluid_storage_disk" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+	]
+}

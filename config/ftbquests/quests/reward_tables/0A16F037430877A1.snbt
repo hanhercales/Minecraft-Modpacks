@@ -1,0 +1,55 @@
+{
+	id: "0A16F037430877A1"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 10
+			id: "5C62C39AF05E0CD0"
+			item: {
+				count: 1
+				id: "cgs:paper_cartridge"
+			}
+		}
+		{
+			count: 20
+			id: "427DEF8E1E73E15E"
+			item: {
+				count: 1
+				id: "cgs:round_revolver"
+			}
+		}
+		{
+			count: 10
+			id: "04537CC820D5C6E4"
+			item: {
+				count: 1
+				id: "cgs:round_shotgun"
+			}
+		}
+		{
+			count: 60
+			id: "7ED5F0FC1A690D49"
+			item: {
+				count: 1
+				id: "cgs:nail"
+			}
+		}
+		{
+			count: 80
+			id: "1D6C756F64853E39"
+			item: {
+				count: 1
+				id: "cgs:round_gatling"
+			}
+		}
+		{
+			count: 4
+			id: "4DB543D53ED837FB"
+			item: {
+				count: 1
+				id: "cgs:rocket_small"
+			}
+		}
+	]
+}

@@ -164,79 +164,6 @@
       "mods": [
         {
           "stateGameElement": "active",
-          "id": 678295,
-          "name": "Fungal Infection Spore",
-          "author": "the_harbinger69",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/fungal-infection-spore",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 4,
-              "name": "armor_weapons_tools",
-              "shortName": "military",
-              "nesting": 0
-            },
-            {
-              "id": 13,
-              "name": "world_mobs",
-              "shortName": "mobs",
-              "nesting": 0
-            }
-          ],
-          "picture": 1021822,
-          "pictures": [
-            513430,
-            513431,
-            513432,
-            513433
-          ],
-          "lanName": "fungal-infection-spore",
-          "version": {
-            "id": 8342823,
-            "name": "spore_1.21.1_2.2.0j_neo",
-            "updateDate": 1782766379000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "43b07f98a760328a6d092f8a8c502e6ea81989e5",
-              "size": 119073141,
-              "path": "mods/spore_1.21.1_2.2.0j_neo.jar",
-              "url": "/mods/678295/8342823/spore_1.21.1_2.2.0j_neo.jar"
-            },
-            "installed": 719,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 3,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1779051600000,
-          "update": 1779051600000,
-          "downloadALL": 212208,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
           "id": 328085,
           "name": "Create",
           "author": "simibubi",
@@ -3846,77 +3773,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 580555,
-          "name": "EMI",
-          "author": "emilyploszaj",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/emi",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 6,
-              "name": "map_information",
-              "shortName": "maps",
-              "nesting": 0
-            },
-            {
-              "id": 7,
-              "name": "library_api",
-              "shortName": "api",
-              "nesting": 0
-            }
-          ],
-          "picture": 800369,
-          "pictures": [
-            472327,
-            472326
-          ],
-          "lanName": "emi",
-          "version": {
-            "id": 8081408,
-            "name": "emi-1.1.24+1.21.1+neoforge",
-            "updateDate": 1778653929000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "3fd494b37027dfbc7f78414d7cbf251c9eb6738a",
-              "size": 1111538,
-              "path": "mods/emi-1.1.24%2B1.21.1%2Bneoforge.jar",
-              "url": "/mods/580555/8081408/emi-1.1.24%252B1.21.1%252Bneoforge.jar"
-            },
-            "installed": 6391,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 4,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1778619600000,
-          "update": 1778619600000,
-          "downloadALL": 356436,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
           "id": 1005914,
           "name": "Fzzy Config",
           "author": "fzzyhmstrs",
@@ -4004,99 +3860,6 @@
           "available": true,
           "parser": true,
           "totalComments": 0
-        },
-        {
-          "stateGameElement": "active",
-          "id": 681783,
-          "name": "EMI Loot",
-          "author": "fzzyhmstrs",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/emi-loot",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 6,
-              "name": "map_information",
-              "shortName": "maps",
-              "nesting": 0
-            },
-            {
-              "id": 7,
-              "name": "library_api",
-              "shortName": "api",
-              "nesting": 0
-            }
-          ],
-          "picture": 844366,
-          "pictures": [],
-          "lanName": "emi-loot",
-          "version": {
-            "id": 7417271,
-            "name": "emi_loot-0.7.9+1.21+neoforge",
-            "updateDate": 1767544836000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "bd0326eeda721c87a29efd78f9a52f46d572392c",
-              "size": 465870,
-              "path": "mods/emi_loot-0.7.9%2B1.21%2Bneoforge.jar",
-              "url": "/mods/681783/7417271/emi_loot-0.7.9%252B1.21%252Bneoforge.jar"
-            },
-            "installed": 1862,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 2,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 3294,
-              "name": "EMI",
-              "gameEntityId": 580555,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 6481,
-              "name": "Fzzy Config",
-              "gameEntityId": 1005914,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 11959,
-              "name": "Symbols 'n' Stuff",
-              "gameEntityId": 1091274,
-              "dependencyType": "optional",
-              "available": false
-            }
-          ],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1767474000000,
-          "update": 1767474000000,
-          "downloadALL": 23129,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
         },
         {
           "stateGameElement": "active",
@@ -7287,6 +7050,630 @@
           "updated": 1782507600000,
           "update": 1782507600000,
           "downloadALL": 2044772,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 678295,
+          "name": "Fungal Infection Spore",
+          "author": "the_harbinger69",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/fungal-infection-spore",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 4,
+              "name": "armor_weapons_tools",
+              "shortName": "military",
+              "nesting": 0
+            },
+            {
+              "id": 13,
+              "name": "world_mobs",
+              "shortName": "mobs",
+              "nesting": 0
+            }
+          ],
+          "picture": 1021822,
+          "pictures": [
+            513430,
+            513431,
+            513432,
+            513433
+          ],
+          "lanName": "fungal-infection-spore",
+          "version": {
+            "id": 8342823,
+            "name": "spore_1.21.1_2.2.0j_neo",
+            "updateDate": 1782766379000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "43b07f98a760328a6d092f8a8c502e6ea81989e5",
+              "size": 119073141,
+              "path": "mods/spore_1.21.1_2.2.0j_neo.jar",
+              "url": "/mods/678295/8342823/spore_1.21.1_2.2.0j_neo.jar"
+            },
+            "installed": 719,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1779051600000,
+          "update": 1779051600000,
+          "downloadALL": 212208,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 637808,
+          "name": "Brewin' And Chewin'",
+          "author": "lumpazl",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 24,
+              "name": "mc_food",
+              "shortName": "food",
+              "nesting": 0
+            }
+          ],
+          "picture": 844640,
+          "pictures": [
+            363483,
+            363482,
+            363484,
+            363485
+          ],
+          "lanName": "brewin-and-chewin",
+          "version": {
+            "id": 8309583,
+            "name": "BrewinAndChewin-neoforge-4.5.0+1.21.1",
+            "updateDate": 1782259282000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "bc86c776779b16dec386f4b667ff46d9e2ecb88d",
+              "size": 1575450,
+              "path": "mods/BrewinAndChewin-neoforge-4.5.0+1.21.1.jar",
+              "url": "/mods/637808/8309583/BrewinAndChewin-neoforge-4.5.0+1.21.1.jar"
+            },
+            "installed": 518,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 3783,
+              "name": "EMI",
+              "gameEntityId": 580555,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 4,
+              "name": "Just Enough Items (JEI)",
+              "gameEntityId": 238222,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 1417,
+              "name": "Farmer's Delight",
+              "gameEntityId": 398521,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1782248400000,
+          "update": 1782248400000,
+          "downloadALL": 39560,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 228756,
+          "name": "Iron Chests",
+          "author": "progwml6 Alexbegt",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/iron-chests",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 83,
+              "name": "storage",
+              "shortName": "storage",
+              "nesting": 0
+            }
+          ],
+          "picture": 821188,
+          "pictures": [],
+          "lanName": "iron-chests",
+          "version": {
+            "id": 5491156,
+            "name": "ironchest-1.21-neoforge-16.0.7",
+            "updateDate": 1719800268000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              },
+              {
+                "id": 52,
+                "name": "1.21"
+              }
+            ],
+            "metadata": {
+              "sha1": "7064b4ea349f37d95a6448c3179dc0a2cad0c162",
+              "size": 305975,
+              "path": "mods/ironchest-1.21-neoforge-16.0.7.jar",
+              "url": "/mods/228756/5491156/ironchest-1.21-neoforge-16.0.7.jar"
+            },
+            "installed": 155716,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 43536,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1767214800000,
+          "update": 1767214800000,
+          "downloadALL": 25106514,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 238222,
+          "name": "Just Enough Items (JEI)",
+          "author": "mezz",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/jei",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 6,
+              "name": "map_information",
+              "shortName": "maps",
+              "nesting": 0
+            },
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 821131,
+          "pictures": [
+            24089,
+            24069,
+            24074,
+            24081
+          ],
+          "lanName": "jei",
+          "version": {
+            "id": 8419197,
+            "name": "jei-1.21.1-neoforge-19.38.0.366",
+            "updateDate": 1783867272000,
+            "type": "beta",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              },
+              {
+                "id": 52,
+                "name": "1.21"
+              }
+            ],
+            "metadata": {
+              "sha1": "8f91816e579615b3a157a48b70213fe83a52d70d",
+              "size": 1628259,
+              "path": "mods/jei-1.21.1-neoforge-19.38.0.366.jar",
+              "url": "/mods/238222/8419197/jei-1.21.1-neoforge-19.38.0.366.jar"
+            },
+            "installed": 1958,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 74909,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 70,
+            "name": "26.2"
+          },
+          "updated": 1783890000000,
+          "update": 1783890000000,
+          "downloadALL": 82952867,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 240630,
+          "name": "Just Enough Resources (JER)",
+          "author": "Way2muchnoise",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 23,
+              "name": "world_ores_resources",
+              "shortName": "ores",
+              "nesting": 0
+            },
+            {
+              "id": 14,
+              "name": "world_biomes",
+              "shortName": "biomes",
+              "nesting": 0
+            },
+            {
+              "id": 6,
+              "name": "map_information",
+              "shortName": "maps",
+              "nesting": 0
+            },
+            {
+              "id": 13,
+              "name": "world_mobs",
+              "shortName": "mobs",
+              "nesting": 0
+            },
+            {
+              "id": 26,
+              "name": "mc_addons",
+              "shortName": "addons",
+              "nesting": 0
+            }
+          ],
+          "picture": 821141,
+          "pictures": [],
+          "lanName": "just-enough-resources-jer",
+          "version": {
+            "id": 6506298,
+            "name": "JustEnoughResources-NeoForge-1.21.1-1.6.0.17",
+            "updateDate": 1746644778000,
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "e739d69b2de31ca8c0cb4691ab08e823f153bc44",
+              "size": 292088,
+              "path": "mods/JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar",
+              "url": "/mods/240630/6506298/JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar"
+            },
+            "installed": 47855,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 1789,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 69,
+            "name": "26.1.2"
+          },
+          "updated": 1780779600000,
+          "update": 1780779600000,
+          "downloadALL": 4558502,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1023259,
+          "name": "Prickle",
+          "author": "DarkhaxDev",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/prickle",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 15,
+              "name": "server_utility",
+              "shortName": "plugins",
+              "nesting": 0
+            },
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 916267,
+          "pictures": [],
+          "lanName": "prickle",
+          "version": {
+            "id": 6961457,
+            "name": "prickle-neoforge-1.21.1-21.1.11",
+            "updateDate": 1756955973000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "5174059ecf97340a0de5ef211b938de26c4eaa36",
+              "size": 84812,
+              "path": "mods/prickle-neoforge-1.21.1-21.1.11.jar",
+              "url": "/mods/1023259/6961457/prickle-neoforge-1.21.1-21.1.11.jar"
+            },
+            "installed": 31628,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 70,
+            "name": "26.2"
+          },
+          "updated": 1781730000000,
+          "update": 1781730000000,
+          "downloadALL": 219267,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 250419,
+          "name": "Enchantment Descriptions",
+          "author": "Darkhax MinecraftModDevelopment",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 1,
+              "name": "magic",
+              "shortName": "magic",
+              "nesting": 0
+            },
+            {
+              "id": 6,
+              "name": "map_information",
+              "shortName": "maps",
+              "nesting": 0
+            },
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            }
+          ],
+          "picture": 781713,
+          "pictures": [
+            202353,
+            202352,
+            206354,
+            206353
+          ],
+          "lanName": "enchantment-descriptions",
+          "version": {
+            "id": 8240827,
+            "name": "enchdesc-neoforge-1.21.1-21.1.10",
+            "updateDate": 1781336317000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "9a06a20881c5feb730aa249666cac2871ca99fda",
+              "size": 82629,
+              "path": "mods/enchdesc-neoforge-1.21.1-21.1.10.jar",
+              "url": "/mods/250419/8240827/enchdesc-neoforge-1.21.1-21.1.10.jar"
+            },
+            "installed": 2289,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 2364,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 7552,
+              "name": "Prickle",
+              "gameEntityId": 1023259,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 70,
+            "name": "26.2"
+          },
+          "updated": 1781730000000,
+          "update": 1781730000000,
+          "downloadALL": 5890854,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 228525,
+          "name": "Bookshelf",
+          "author": "Darkhax lclc98 MinecraftModDevelopment",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/bookshelf",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            },
+            {
+              "id": 15,
+              "name": "server_utility",
+              "shortName": "plugins",
+              "nesting": 0
+            },
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 808843,
+          "pictures": [
+            226667
+          ],
+          "lanName": "bookshelf",
+          "version": {
+            "id": 7606240,
+            "name": "bookshelf-neoforge-1.21.1-21.1.81",
+            "updateDate": 1770763457000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "efc4cda6da4dd879f24d057ed0a6413764c9ba40",
+              "size": 328813,
+              "path": "mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
+              "url": "/mods/228525/7606240/bookshelf-neoforge-1.21.1-21.1.81.jar"
+            },
+            "installed": 18662,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 1353,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 70,
+            "name": "26.2"
+          },
+          "updated": 1782939600000,
+          "update": 1782939600000,
+          "downloadALL": 6247013,
           "available": true,
           "parser": true,
           "totalComments": 0,

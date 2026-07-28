@@ -1,0 +1,23 @@
+{
+	id: "20B5648879C1ABC0"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 3
+			id: "6FF9218A1D387F07"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+		}
+		{
+			count: 8
+			id: "3E977BEF40051B7F"
+			item: {
+				count: 1
+				id: "cgs:raw_lead"
+			}
+		}
+	]
+}

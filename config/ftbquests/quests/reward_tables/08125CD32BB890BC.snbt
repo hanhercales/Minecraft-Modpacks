@@ -1,0 +1,79 @@
+{
+	id: "08125CD32BB890BC"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 10
+			id: "780163BD8A489B70"
+			item: {
+				count: 1
+				id: "cgs:paper_shot"
+			}
+		}
+		{
+			count: 20
+			id: "15D1FC02C725A841"
+			item: {
+				count: 1
+				id: "cgs:round_revolver_piercing"
+			}
+		}
+		{
+			count: 10
+			id: "61436F8A71EEE4BC"
+			item: {
+				count: 1
+				id: "cgs:round_shotgun_incendiary"
+			}
+		}
+		{
+			count: 10
+			id: "58EDB7554125D80A"
+			item: {
+				count: 1
+				id: "cgs:round_shotgun_incendiary"
+			}
+		}
+		{
+			count: 10
+			id: "0E92069036634F45"
+			item: {
+				count: 1
+				id: "cgs:round_shotgun_flechette"
+			}
+		}
+		{
+			count: 10
+			id: "2EE953E7A3842EE5"
+			item: {
+				count: 1
+				id: "cgs:round_shotgun_flechette_steel"
+			}
+		}
+		{
+			count: 60
+			id: "1F36427626B4D61E"
+			item: {
+				count: 1
+				id: "cgs:nail_steel"
+			}
+		}
+		{
+			count: 80
+			id: "1D2BB0A4801DD022"
+			item: {
+				count: 1
+				id: "cgs:round_gatling_piercing"
+			}
+		}
+		{
+			count: 4
+			id: "7595904CA99371B2"
+			item: {
+				count: 1
+				id: "cgs:rocket"
+			}
+		}
+	]
+}

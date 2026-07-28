@@ -1,0 +1,171 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "offroad"
+	group: "340EDB8350563026"
+	icon: {
+		id: "offroad:tire"
+	}
+	id: "010F3251541FC7DC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6BC0D978E293515F"]
+			id: "163D0CE9361628FA"
+			rewards: [
+				{
+					id: "011D7EEBC41AB6B0"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5D3ED6DC455FF946"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "160BDEB4D20F782C"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["163D0CE9361628FA"]
+			id: "1498C78F14A0F91B"
+			rewards: [
+				{
+					id: "13509E39E7094BB5"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "227788BB1AC5F1FF"
+					item: {
+						count: 1
+						id: "offroad:small_tire"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "2FA01A5EC9321B9C"
+				item: { count: 1, id: "offroad:wheel_mount" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["223A1E5B6E119BF3"]
+			id: "1B67448AD335E5E4"
+			tasks: [{
+				id: "181E9F4521805628"
+				item: { count: 1, id: "offroad:borehead_bearing" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["223A1E5B6E119BF3"]
+			id: "163364A51A8AC02E"
+			tasks: [{
+				id: "7EBA5850E229C5D5"
+				item: { count: 1, id: "offroad:rockcutting_wheel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["163D0CE9361628FA"]
+			id: "223A1E5B6E119BF3"
+			rewards: [
+				{
+					id: "50ABC2FDB113CDA7"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "57FD4429BA952222"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "111E8C10C94ABA45"
+				item: { count: 1, id: "create:industrial_iron_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1498C78F14A0F91B"]
+			id: "1FD5D2A8CEB4D418"
+			tasks: [{
+				id: "1149671096347781"
+				item: { count: 1, id: "offroad:small_tire" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1498C78F14A0F91B"]
+			id: "63ABA4CA92CAA675"
+			tasks: [{
+				id: "0A3E6E53180DD7F3"
+				item: { count: 1, id: "offroad:tire" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1498C78F14A0F91B"]
+			id: "45E7B061B7E02E68"
+			tasks: [{
+				id: "058E362BA3A92DB6"
+				item: { count: 1, id: "offroad:large_tire" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1498C78F14A0F91B"]
+			id: "0A4F6414C91AF6CD"
+			tasks: [{
+				id: "0991A5C508159825"
+				item: { count: 1, id: "offroad:monstrous_tire" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+	]
+}

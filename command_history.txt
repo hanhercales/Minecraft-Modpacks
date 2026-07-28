@@ -1,2 +1,17 @@
 /reload
 /summon clockwork:broken_dragonfly
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/clear
+/ftbquests reload
+/clear
+/reload
+/clear
+/give HanPierrot minecraft:command_block
+/jer_profile 1000
+/jer_profile stop
+/jer_profile 1000 true
+/summon clockwork:broken_dragonfly
+/ftbquests reload

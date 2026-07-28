@@ -127,6 +127,8 @@ round_damage_values = false
 		"spore:acid" = "GOLD"
 		"minecraft:fly_into_wall" = "GOLD"
 		"ntgl:explosive" = "GOLD"
+		"brewinandchewin:cardiac_arrest" = "GOLD"
+		"bookshelf:fake_player" = "GOLD"
 
 	[color.heal]
 		default = "DARK_GREEN"

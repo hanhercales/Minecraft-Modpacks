@@ -1,0 +1,448 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "gunsmith"
+	group: "340EDB8350563026"
+	icon: {
+		components: {
+			"ntgl:ammo_count": 1
+		}
+		id: "cgs:flintlock"
+	}
+	id: "1C9065AEE50D5DA7"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ntgl:ammo_count": 1
+				}
+				id: "cgs:flintlock"
+			}
+			id: "6624636589488A95"
+			tasks: [
+				{
+					id: "740C089BC1E108D0"
+					item: { components: { "ntgl:ammo_count": 1 }, count: 1, id: "cgs:flintlock" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "680A19CF872339C8"
+					item: { count: 1, id: "cgs:paper_cartridge" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37AA7E2985F6BD05"]
+			icon: {
+				components: {
+					"ntgl:ammo_count": 6
+				}
+				id: "cgs:revolver"
+			}
+			id: "0A680772C179C5BD"
+			tasks: [
+				{
+					id: "2BCC97D5841E498B"
+					item: { components: { "ntgl:ammo_count": 6 }, count: 1, id: "cgs:revolver" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "780C35208DCCFB28"
+					item: { count: 1, id: "cgs:round_revolver" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A338812DCDA3633"]
+			icon: {
+				components: {
+					"ntgl:ammo_count": 2
+				}
+				id: "cgs:shotgun"
+			}
+			id: "5584E5B5838B33CA"
+			tasks: [
+				{
+					id: "46E1F9A1BA0E1CC4"
+					item: { components: { "ntgl:ammo_count": 2 }, count: 1, id: "cgs:shotgun" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "24FA637396F4AC18"
+					item: { count: 1, id: "cgs:round_shotgun" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			icon: {
+				components: {
+					"ntgl:ammo_count": 40
+				}
+				id: "cgs:nailgun"
+			}
+			id: "36BE55B888221B18"
+			tasks: [
+				{
+					id: "2B5BC5B747C0D5E4"
+					item: { components: { "ntgl:ammo_count": 40 }, count: 1, id: "cgs:nailgun" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "5BEEAB14CB57B8AB"
+					item: { count: 1, id: "cgs:nail" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19CFB59AC3A76D2E"]
+			icon: {
+				components: {
+					"ntgl:ammo_count": 100
+				}
+				id: "cgs:gatling"
+			}
+			id: "29CB7CF57BCC6642"
+			rewards: [
+				{
+					id: "22F0571EE4703FD6"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "18FEF925A5DABE36"
+					item: {
+						count: 1
+						id: "cgs:round_gatling"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "363F6D9C2256291A"
+					item: { components: { "ntgl:ammo_count": 100 }, count: 1, id: "cgs:gatling" }
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "50953B058766C9A4"
+					item: { count: 1, id: "cgs:round_gatling" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			icon: {
+				components: {
+					"ntgl:ammo_count": 20000
+				}
+				id: "cgs:blazegun"
+			}
+			id: "559F5030C314E12F"
+			rewards: [
+				{
+					id: "2577FE0CEB7B1A3B"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "315F3644414FE8B1"
+					item: {
+						count: 1
+						id: "cgs:tank_lava"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "74650C23D8020A97"
+					item: { components: { "ntgl:ammo_count": 20000 }, count: 1, id: "cgs:blazegun" }
+					type: "item"
+				}
+				{
+					id: "7884D8986FE9D94B"
+					item: { count: 1, id: "cgs:tank_lava" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ntgl:ammo_count": 4
+				}
+				id: "cgs:launcher"
+			}
+			id: "78774D32B6774002"
+			rewards: [
+				{
+					id: "1C16AD29495D909B"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2834CF486D6F0BF0"
+					item: {
+						count: 1
+						id: "cgs:rocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6209EA114B77B578"
+					item: { components: { "ntgl:ammo_count": 4 }, count: 1, id: "cgs:launcher" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "61727CCFD40A6D3F"
+					item: { count: 1, id: "cgs:rocket" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "5E174EDE625913B3"
+			rewards: [{
+				id: "7AE5DF81BFCF5F53"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31BFB9B052F30492"
+				item: { components: { "ntgl:ammo_count": 900 }, count: 1, id: "cgs:hammer" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "6F42C763A30A0709"
+			tasks: [{
+				id: "6D390BC082317EA6"
+				item: { components: { "ntgl:ammo_count": 0 }, count: 1, id: "cgs:frag_grenade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E174EDE625913B3"]
+			id: "1D49BA6931C01718"
+			tasks: [
+				{
+					id: "06F6B5D8EB05F4AF"
+					item: { count: 1, id: "cgs:hammer_stone" }
+					type: "item"
+				}
+				{
+					id: "715F06F7E1CAB47B"
+					item: { count: 1, id: "cgs:axe_stone" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E174EDE625913B3"]
+			id: "44B9CC6DDF3484EE"
+			tasks: [
+				{
+					id: "347C020A8F34C65F"
+					item: { count: 1, id: "cgs:hammer_iron" }
+					type: "item"
+				}
+				{
+					id: "072F52128320D65C"
+					item: { count: 1, id: "cgs:axe_iron" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E174EDE625913B3"]
+			id: "506FFD2B196102D5"
+			tasks: [
+				{
+					id: "7A564A648604D397"
+					item: { count: 1, id: "cgs:hammer_diamond" }
+					type: "item"
+				}
+				{
+					id: "7E747D7E2DB010C3"
+					item: { count: 1, id: "cgs:axe_diamond" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5E174EDE625913B3"]
+			id: "40FB5A3747D602C4"
+			rewards: [
+				{
+					id: "59C3366D5D1E0CEE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "3A90AD6E8D77C6FA"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "64BB1B4C3C01ED49"
+					item: { count: 1, id: "cgs:hammer_netherite" }
+					type: "item"
+				}
+				{
+					id: "6D7D360D0C57B195"
+					item: { count: 1, id: "cgs:axe_netherite" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			id: "19CFB59AC3A76D2E"
+			rewards: [
+				{
+					id: "55A0C52CAA0AE6A6"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0DF6C337BEFF96B6"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7083F7959E427F45"
+				item: { count: 1, id: "cgs:press_form_gatling" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "37AA7E2985F6BD05"
+			rewards: [
+				{
+					id: "71EE061C2527FFF2"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4197E63705D0B616"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0366CC18C2F23073"
+				item: { count: 1, id: "cgs:press_form_revolver" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "4A338812DCDA3633"
+			rewards: [
+				{
+					id: "7B04BDB6FB0673F6"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0767A8521146070E"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D92A3514EA8B654"
+				item: { count: 1, id: "cgs:press_form_shotgun" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+	]
+}

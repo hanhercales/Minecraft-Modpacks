@@ -1,0 +1,28 @@
+{
+	id: "4B2DAD7528B856D0"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 2
+			id: "464270BC685C0794"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+		}
+		{
+			count: 16
+			id: "3929DDDF40317AB4"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+		}
+		{
+			id: "4B8FD3D8C8CA17DD"
+			type: "xp_levels"
+			xp_levels: 10
+		}
+	]
+}
