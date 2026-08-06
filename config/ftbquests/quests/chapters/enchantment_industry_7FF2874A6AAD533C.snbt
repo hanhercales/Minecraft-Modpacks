@@ -15,6 +15,7 @@
 			id: "391FA9B8D6B130A7"
 			rewards: [
 				{
+					count: 4
 					id: "07F9B9ED0F526790"
 					item: {
 						count: 1
@@ -43,6 +44,25 @@
 		{
 			dependencies: ["391FA9B8D6B130A7"]
 			id: "00F10FDD120BC630"
+			rewards: [
+				{
+					id: "35AD842ED9D73211"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "702DBFA76D6B63D6"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "4772EE8819F6F6A2"
@@ -63,6 +83,7 @@
 			id: "13D833C11A71B131"
 			rewards: [
 				{
+					count: 3
 					id: "705F97AD411F5B29"
 					item: {
 						count: 1
@@ -91,6 +112,25 @@
 		{
 			dependencies: ["13D833C11A71B131"]
 			id: "66FCECE2CEA842D9"
+			rewards: [
+				{
+					id: "7AC07BF2476D4014"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "66997EE2F4D687D9"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7DEB6DED68D94803"
 				item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
@@ -102,6 +142,25 @@
 		{
 			dependencies: ["13D833C11A71B131"]
 			id: "4566D7BB620B517A"
+			rewards: [
+				{
+					id: "4D798A63D6A71455"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "74B078AE9A0080B3"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "210F9AC71C9B2890"
 				item: { count: 1, id: "create_enchantment_industry:experience_lantern" }
@@ -113,6 +172,25 @@
 		{
 			dependencies: ["13D833C11A71B131"]
 			id: "2A5D792CD3695430"
+			rewards: [
+				{
+					id: "5E4A1FD2D7B41510"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "04A68E1D58918627"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "17019C41FA9C1742"
 				item: { count: 1, id: "minecraft:lightning_rod" }
@@ -124,6 +202,25 @@
 		{
 			dependencies: ["2A5D792CD3695430"]
 			id: "68AC478385F4DE6C"
+			rewards: [
+				{
+					id: "2CD9527A9713F025"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "35B1EF7ED0F7FD88"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "28ADB117100DD1BA"
 				item: { count: 1, id: "create_enchantment_industry:super_experience_block" }
@@ -137,6 +234,7 @@
 			id: "5A576D629B37BEAF"
 			rewards: [
 				{
+					count: 3
 					id: "2B3DE741942E65E6"
 					item: {
 						count: 1
@@ -167,6 +265,7 @@
 			id: "01AAA5D33720CE80"
 			rewards: [
 				{
+					count: 3
 					id: "419BFE56E764C85E"
 					item: {
 						count: 1
@@ -202,6 +301,25 @@
 		{
 			dependencies: ["391FA9B8D6B130A7"]
 			id: "72C5E74B15EFB67A"
+			rewards: [
+				{
+					id: "590C4C1B1F5E96CA"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "645927571BDD5FE3"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0DC0CD2D423C969F"
 				item: { count: 1, id: "create_enchantment_industry:printer" }

@@ -13,6 +13,25 @@
 		{
 			dependencies: ["6BC0D978E293515F"]
 			id: "76D805D38E84858C"
+			rewards: [
+				{
+					id: "7809D74869698F85"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "00006561A2076C4A"
+					item: {
+						count: 1
+						id: "minecraft:end_stone"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "682813840751E4B3"
 				item: { count: 1, id: "minecraft:end_stone" }
@@ -26,6 +45,7 @@
 			id: "3F891FB92BDD9743"
 			rewards: [
 				{
+					count: 3
 					id: "0919FA07B26290C2"
 					item: {
 						count: 1
@@ -56,6 +76,25 @@
 		{
 			dependencies: ["3F891FB92BDD9743"]
 			id: "2B00541A5EA7F062"
+			rewards: [
+				{
+					id: "05C71DF1690306D1"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1B37EF36CA0433D8"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1F309D8EA2529A51"
 				item: { count: 1, id: "aeronautics:steam_vent" }
@@ -67,6 +106,25 @@
 		{
 			dependencies: ["3F891FB92BDD9743"]
 			id: "5C57943A4AA32FB1"
+			rewards: [
+				{
+					id: "0B29D4393B3C3166"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "53212F6F6B975CDD"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "55F130F803E59E46"
 				item: { count: 1, id: "aeronautics:propeller_bearing" }
@@ -78,6 +136,25 @@
 		{
 			dependencies: ["3F891FB92BDD9743"]
 			id: "1D8DB9025EC63135"
+			rewards: [
+				{
+					id: "320A91A2750DEDBD"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "17F55C8C06A55273"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "78F69C860C6BA997"
 				item: { count: 1, id: "aeronautics:adjustable_burner" }
@@ -89,6 +166,25 @@
 		{
 			dependencies: ["3F891FB92BDD9743"]
 			id: "49D48F359FEDCE62"
+			rewards: [
+				{
+					id: "2C24B9FD82301CFC"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4265F051351C4FE8"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7117D15FF90FA794"
 				item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
@@ -100,6 +196,25 @@
 		{
 			dependencies: ["3F891FB92BDD9743"]
 			id: "2BA2507984D3E703"
+			rewards: [
+				{
+					id: "744F4A1FD37751B2"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7020B45724914648"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6FADD8D033E94A28"
 				item: { count: 1, id: "aeronautics:smart_propeller" }
@@ -111,6 +226,25 @@
 		{
 			dependencies: ["3F891FB92BDD9743"]
 			id: "12E775AF8E963543"
+			rewards: [
+				{
+					id: "66DC05C96EF0447A"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3BCF7CD00655793E"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6460DA234CE56819"
@@ -129,6 +263,25 @@
 		{
 			dependencies: ["3F891FB92BDD9743"]
 			id: "49FE019F2EA64ED1"
+			rewards: [
+				{
+					id: "7FADCD5D1C63E375"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "565E10E85682B3F5"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "47E9B83B3FD0E8E7"
 				item: { count: 1, id: "aeronautics:mounted_potato_cannon" }
@@ -140,6 +293,25 @@
 		{
 			dependencies: ["1D8DB9025EC63135"]
 			id: "242E73C55EA48037"
+			rewards: [
+				{
+					id: "5CFF61923363CB9D"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22C00E89F2CFF1CC"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "744598A96C56BF2B"
 				item: { count: 1, id: "aeronautics:white_envelope" }
@@ -151,6 +323,25 @@
 		{
 			dependencies: ["76D805D38E84858C"]
 			id: "1B89EA5E54DE9178"
+			rewards: [
+				{
+					id: "3B1D9344468DA431"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "02CDE9CCEB69E26C"
+					item: {
+						count: 1
+						id: "minecraft:end_stone"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "340E4B1BB051EBE8"
 				item: { count: 1, id: "aeronautics:end_stone_powder" }
@@ -164,6 +355,7 @@
 			id: "38830B6B945944C9"
 			rewards: [
 				{
+					count: 3
 					id: "11C8D5E0252D29FE"
 					item: {
 						count: 1
@@ -192,6 +384,25 @@
 		{
 			dependencies: ["38830B6B945944C9"]
 			id: "576DB3753456355E"
+			rewards: [
+				{
+					id: "4AFAB085CBE07EC0"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A7C475E79F46147"
+					item: {
+						count: 1
+						id: "aeronautics:end_stone_powder"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "220895B6FA63C1F7"
 				item: { count: 1, id: "aeronautics:levitite" }
@@ -203,6 +414,25 @@
 		{
 			dependencies: ["38830B6B945944C9"]
 			id: "262183D05A594A69"
+			rewards: [
+				{
+					id: "736311B243562B12"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "34535FAFDC9DE0E3"
+					item: {
+						count: 1
+						id: "aeronautics:levitite"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "652A1A68565C0639"
 				item: { count: 1, id: "aeronautics:pearlescent_levitite" }
@@ -214,6 +444,25 @@
 		{
 			dependencies: ["76D805D38E84858C"]
 			id: "3E190A6DA59EB1E9"
+			rewards: [
+				{
+					id: "1BC45C386383D1C5"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "471786B174526211"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7EDF31489F22934E"
 				item: { count: 1, id: "aeronautics:music_disc_cloud_skipper" }

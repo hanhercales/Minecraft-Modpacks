@@ -927,171 +927,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 1105855,
-          "name": "Knight Lib",
-          "author": "xylonity",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/knight-lib",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 7,
-              "name": "library_api",
-              "shortName": "api",
-              "nesting": 0
-            }
-          ],
-          "picture": 916314,
-          "pictures": [],
-          "lanName": "knight-lib",
-          "version": {
-            "id": 8400701,
-            "name": "knightlib-neoforge-1.21.1-1.6.1",
-            "updateDate": 1783610123000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              },
-              {
-                "id": 52,
-                "name": "1.21"
-              }
-            ],
-            "metadata": {
-              "sha1": "f169ce6e18530a545fda074cd26f212bacdde1e9",
-              "size": 716314,
-              "path": "mods/knightlib-neoforge-1.21.1-1.6.1.jar",
-              "url": "/mods/1105855/8400701/knightlib-neoforge-1.21.1-1.6.1.jar"
-            },
-            "installed": 209,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 2,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1783544400000,
-          "update": 1783544400000,
-          "downloadALL": 81382,
-          "available": true,
-          "parser": true,
-          "totalComments": 0
-        },
-        {
-          "stateGameElement": "active",
-          "id": 596411,
-          "name": "Clockwork",
-          "author": "joosh_7889",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/clockwork",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 5,
-              "name": "technology",
-              "shortName": "technology",
-              "nesting": 0
-            },
-            {
-              "id": 13,
-              "name": "world_mobs",
-              "shortName": "mobs",
-              "nesting": 0
-            },
-            {
-              "id": 3,
-              "name": "cosmetic",
-              "shortName": "cosmetic",
-              "nesting": 0
-            }
-          ],
-          "picture": 1249975,
-          "pictures": [
-            1253304,
-            1267761,
-            1253301,
-            1253305,
-            1267760
-          ],
-          "lanName": "clockwork1",
-          "version": {
-            "id": 8306336,
-            "name": "clockwork-neoforge-1.21.1-1.1.3",
-            "updateDate": 1782221527000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              },
-              {
-                "id": 52,
-                "name": "1.21"
-              }
-            ],
-            "metadata": {
-              "sha1": "62c4a638edcc717f513241883b1404d7fc3ad5f2",
-              "size": 2267118,
-              "path": "mods/clockwork-neoforge-1.21.1-1.1.3.jar",
-              "url": "/mods/596411/8306336/clockwork-neoforge-1.21.1-1.1.3.jar"
-            },
-            "installed": 394,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 2,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 8176,
-              "name": "Knight Lib",
-              "gameEntityId": 1105855,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 169,
-              "name": "GeckoLib",
-              "gameEntityId": 388172,
-              "dependencyType": "required",
-              "available": false
-            }
-          ],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1782162000000,
-          "update": 1782162000000,
-          "downloadALL": 17392,
-          "available": true,
-          "parser": true,
-          "totalComments": 0
-        },
-        {
-          "stateGameElement": "active",
           "id": 457570,
           "name": "Configured",
           "author": "mrcrayfish",
@@ -1952,86 +1787,6 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
-        },
-        {
-          "stateGameElement": "active",
-          "id": 1023409,
-          "name": "Create Protection Pixel",
-          "author": "JEDIGD",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/protection-pixel",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 4,
-              "name": "armor_weapons_tools",
-              "shortName": "military",
-              "nesting": 0
-            },
-            {
-              "id": 26,
-              "name": "mc_addons",
-              "shortName": "addons",
-              "nesting": 0
-            }
-          ],
-          "picture": 802801,
-          "pictures": [
-            803690,
-            803691,
-            803689
-          ],
-          "lanName": "protection-pixel",
-          "version": {
-            "id": 7549821,
-            "name": "protection_pixel-2.2.1-neoforge-1.21.1",
-            "updateDate": 1769765013000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "c35da610425f735eea4d027ad159c88de6ec6e3f",
-              "size": 2608196,
-              "path": "mods/protection_pixel-2.2.1-neoforge-1.21.1.jar",
-              "url": "/mods/1023409/7549821/protection_pixel-2.2.1-neoforge-1.21.1.jar"
-            },
-            "installed": 12638,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 3,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 1275,
-              "name": "Create",
-              "gameEntityId": 328085,
-              "dependencyType": "optional",
-              "available": false
-            }
-          ],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1769720400000,
-          "update": 1769720400000,
-          "downloadALL": 141101,
-          "available": true,
-          "parser": true,
-          "totalComments": 0
         },
         {
           "stateGameElement": "active",
@@ -6868,108 +6623,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 676721,
-          "name": "Create Aeronautics",
-          "author": "ryanhcode",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/create-aeronautics",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 25,
-              "name": "redstone",
-              "shortName": "redstone",
-              "nesting": 0
-            },
-            {
-              "id": 55,
-              "name": "adventure_and_rpg",
-              "shortName": "roleplay",
-              "nesting": 0
-            },
-            {
-              "id": 5,
-              "name": "technology",
-              "shortName": "technology",
-              "nesting": 0
-            },
-            {
-              "id": 21,
-              "name": "technology_player_transport",
-              "shortName": "transport",
-              "nesting": 0
-            }
-          ],
-          "picture": 1394208,
-          "pictures": [
-            1394474,
-            1394475,
-            1394476,
-            1394478,
-            1394477
-          ],
-          "lanName": "create-aeronautics",
-          "version": {
-            "id": 8240058,
-            "name": "create-aeronautics-bundled-1.21.1-1.3.0",
-            "updateDate": 1781320403000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "a2b08963ebc9f331f52c626aebcd65013e100d69",
-              "size": 33120013,
-              "path": "mods/create-aeronautics-bundled-1.21.1-1.3.0.jar",
-              "url": "/mods/676721/8240058/create-aeronautics-bundled-1.21.1-1.3.0.jar"
-            },
-            "installed": 26176,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 3,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 18510,
-              "name": "Sable",
-              "gameEntityId": 1312371,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 769,
-              "name": "Create",
-              "gameEntityId": 328085,
-              "dependencyType": "required",
-              "available": false
-            }
-          ],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1781298000000,
-          "update": 1781298000000,
-          "downloadALL": 189649,
-          "available": true,
-          "parser": true,
-          "totalComments": 0
-        },
-        {
-          "stateGameElement": "active",
           "id": 854949,
           "name": "Fusion (Connected Textures)",
           "author": "SuperMartijn642 SuperMartijn642",
@@ -7050,79 +6703,6 @@
           "updated": 1782507600000,
           "update": 1782507600000,
           "downloadALL": 2044772,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
-          "id": 678295,
-          "name": "Fungal Infection Spore",
-          "author": "the_harbinger69",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/fungal-infection-spore",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 4,
-              "name": "armor_weapons_tools",
-              "shortName": "military",
-              "nesting": 0
-            },
-            {
-              "id": 13,
-              "name": "world_mobs",
-              "shortName": "mobs",
-              "nesting": 0
-            }
-          ],
-          "picture": 1021822,
-          "pictures": [
-            513430,
-            513431,
-            513432,
-            513433
-          ],
-          "lanName": "fungal-infection-spore",
-          "version": {
-            "id": 8342823,
-            "name": "spore_1.21.1_2.2.0j_neo",
-            "updateDate": 1782766379000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "43b07f98a760328a6d092f8a8c502e6ea81989e5",
-              "size": 119073141,
-              "path": "mods/spore_1.21.1_2.2.0j_neo.jar",
-              "url": "/mods/678295/8342823/spore_1.21.1_2.2.0j_neo.jar"
-            },
-            "installed": 719,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 3,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1779051600000,
-          "update": 1779051600000,
-          "downloadALL": 212208,
           "available": true,
           "parser": true,
           "totalComments": 0,
@@ -7678,6 +7258,349 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 237746,
+          "name": "Weather, Storms & Tornadoes",
+          "author": "Corosus",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/weather-storms-tornadoes",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 14,
+              "name": "world_biomes",
+              "shortName": "biomes",
+              "nesting": 0
+            }
+          ],
+          "picture": 844843,
+          "pictures": [],
+          "lanName": "weather-storms-tornadoes",
+          "version": {
+            "id": 8140264,
+            "name": "weather2-neoforge-1.21.0-2.8.7",
+            "updateDate": 1779658068000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              },
+              {
+                "id": 52,
+                "name": "1.21"
+              }
+            ],
+            "metadata": {
+              "sha1": "a091ee91c7f4644e3bf6811007bbf29d268d906a",
+              "size": 6837067,
+              "path": "mods/weather2-neoforge-1.21.0-2.8.7.jar",
+              "url": "/mods/237746/8140264/weather2-neoforge-1.21.0-2.8.7.jar"
+            },
+            "installed": 5132,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 1530,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1779570000000,
+          "update": 1779570000000,
+          "downloadALL": 998004,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1541520,
+          "name": "Wheather Physics (Wind, Sails & Tornadoes)",
+          "author": "kiley_00",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/tornado-physics",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 26,
+              "name": "mc_addons",
+              "shortName": "addons",
+              "nesting": 0
+            }
+          ],
+          "picture": 1417490,
+          "pictures": [
+            1441817,
+            1441816
+          ],
+          "lanName": "tornado-physics",
+          "version": {
+            "id": 8468173,
+            "name": "tornadophysics-1.0.3",
+            "updateDate": 1784505119000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "f7026d91c30c8a669e9cd3c8476b6b32f4f35683",
+              "size": 311148,
+              "path": "mods/tornadophysics-1.0.3.jar",
+              "url": "/mods/1541520/8468173/tornadophysics-1.0.3.jar"
+            },
+            "installed": 254,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 1,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 18510,
+              "name": "Sable",
+              "gameEntityId": 1312371,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 5142,
+              "name": "Weather, Storms & Tornadoes",
+              "gameEntityId": 237746,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1783198800000,
+          "update": 1783198800000,
+          "downloadALL": 1521,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1219053,
+          "name": "Particular ✨ Reforged",
+          "author": "Project8gbDeRam",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/particular-reforged",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            }
+          ],
+          "picture": 1051261,
+          "pictures": [],
+          "lanName": "particular-reforged",
+          "version": {
+            "id": 8275091,
+            "name": "particular-1.21.1-NeoForge-1.5.5",
+            "updateDate": 1781811200000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "ae12a64a5763c701325b8ca5bf6729f645a427e7",
+              "size": 314940,
+              "path": "mods/particular-1.21.1-NeoForge-1.5.5.jar",
+              "url": "/mods/1219053/8275091/particular-1.21.1-NeoForge-1.5.5.jar"
+            },
+            "installed": 2072,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 841,
+              "name": "Forge Config API Port",
+              "gameEntityId": 547434,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 204,
+              "name": "Mod Menu",
+              "gameEntityId": 308702,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 13634,
+              "name": "BaguetteLib",
+              "gameEntityId": 1264423,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 2,
+              "name": "Fabric API",
+              "gameEntityId": 306612,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 70,
+            "name": "26.2"
+          },
+          "updated": 1785445200000,
+          "update": 1785445200000,
+          "downloadALL": 144003,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 676721,
+          "name": "Create Aeronautics",
+          "author": "ryanhcode",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/create-aeronautics",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 25,
+              "name": "redstone",
+              "shortName": "redstone",
+              "nesting": 0
+            },
+            {
+              "id": 55,
+              "name": "adventure_and_rpg",
+              "shortName": "roleplay",
+              "nesting": 0
+            },
+            {
+              "id": 5,
+              "name": "technology",
+              "shortName": "technology",
+              "nesting": 0
+            },
+            {
+              "id": 21,
+              "name": "technology_player_transport",
+              "shortName": "transport",
+              "nesting": 0
+            }
+          ],
+          "picture": 1394208,
+          "pictures": [
+            1394475,
+            1394476,
+            1394478,
+            1394474,
+            1394477
+          ],
+          "lanName": "create-aeronautics",
+          "version": {
+            "id": 8240058,
+            "name": "create-aeronautics-bundled-1.21.1-1.3.0",
+            "updateDate": 1781320403000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "a2b08963ebc9f331f52c626aebcd65013e100d69",
+              "size": 33120013,
+              "path": "mods/create-aeronautics-bundled-1.21.1-1.3.0.jar",
+              "url": "/mods/676721/8240058/create-aeronautics-bundled-1.21.1-1.3.0.jar"
+            },
+            "installed": 60969,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 769,
+              "name": "Create",
+              "gameEntityId": 328085,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 18510,
+              "name": "Sable",
+              "gameEntityId": 1312371,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1781298000000,
+          "update": 1781298000000,
+          "downloadALL": 225665,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [],

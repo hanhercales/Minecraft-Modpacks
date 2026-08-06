@@ -29,6 +29,7 @@
 					type: "item"
 				}
 				{
+					count: 4
 					id: "055D4952FCFB1644"
 					item: {
 						count: 1
@@ -100,6 +101,7 @@
 					xp: 100
 				}
 				{
+					count: 3
 					id: "3EB47BF6C2B6C698"
 					item: {
 						count: 1
@@ -251,7 +253,7 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 12
 					id: "705072A03A9E96FC"
 					item: {
 						count: 1
@@ -326,6 +328,7 @@
 					xp: 100
 				}
 				{
+					count: 3
 					id: "27A78E52967543C6"
 					item: {
 						count: 1
@@ -533,7 +536,7 @@
 					xp: 100
 				}
 				{
-					count: 2
+					count: 6
 					id: "14FAB8B0EEFEFAFE"
 					item: {
 						count: 1
@@ -560,7 +563,7 @@
 					xp: 150
 				}
 				{
-					count: 2
+					count: 6
 					id: "61DF3CDD388DFA40"
 					item: {
 						count: 1
@@ -605,7 +608,7 @@
 					xp: 100
 				}
 				{
-					count: 2
+					count: 6
 					id: "69C33EFE9D3B50AB"
 					item: {
 						count: 1
@@ -792,6 +795,7 @@
 					xp: 50
 				}
 				{
+					count: 3
 					id: "766AE1D2BB243B3E"
 					item: {
 						count: 1
@@ -1101,6 +1105,7 @@
 					xp: 50
 				}
 				{
+					count: 3
 					id: "30B33FB835405B51"
 					item: {
 						count: 1
@@ -1219,6 +1224,7 @@
 					xp: 75
 				}
 				{
+					count: 3
 					id: "45F165163A13DCAD"
 					item: {
 						count: 1
@@ -1400,6 +1406,7 @@
 					xp: 25
 				}
 				{
+					count: 3
 					id: "3494F7125EC378F9"
 					item: {
 						count: 1
@@ -1438,6 +1445,7 @@
 					xp: 25
 				}
 				{
+					count: 4
 					id: "5C3B113A5FF93A9F"
 					item: {
 						count: 1
@@ -1585,6 +1593,7 @@
 			id: "3DE38636656DD1F6"
 			rewards: [
 				{
+					count: 4
 					id: "0297C02204F02476"
 					item: {
 						count: 1
@@ -1616,6 +1625,7 @@
 			id: "3D11842DDDE1D396"
 			rewards: [
 				{
+					count: 4
 					id: "1F43837C10BBC76A"
 					item: {
 						count: 1
@@ -1646,6 +1656,7 @@
 			id: "0C8D19B106618A91"
 			rewards: [
 				{
+					count: 3
 					id: "544E6D187FEE91E5"
 					item: {
 						count: 1
@@ -1747,6 +1758,7 @@
 					xp: 100
 				}
 				{
+					count: 3
 					id: "0CD95E39BBCCD00E"
 					item: {
 						count: 1
@@ -1907,7 +1919,7 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 12
 					id: "3A4AB3F70BCEE038"
 					item: {
 						count: 1
@@ -2056,6 +2068,25 @@
 		{
 			dependencies: ["67CE399D0A9C0F57"]
 			id: "17541CB8E37D10F1"
+			rewards: [
+				{
+					id: "66765858A09004BC"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A739B1ABEBBB139"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7AC7370CAA066A09"
 				item: { count: 1, id: "createaddition:alternator" }
@@ -2200,6 +2231,25 @@
 		{
 			dependencies: ["408D9361AF8AA499"]
 			id: "712A93B1E8B43823"
+			rewards: [
+				{
+					id: "18A05B234C1D12DD"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4C2DED78216951F5"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6229107B487E026B"
 				item: { count: 1, id: "create:packager" }
@@ -2211,6 +2261,25 @@
 		{
 			dependencies: ["712A93B1E8B43823"]
 			id: "6159D6897C4438D4"
+			rewards: [
+				{
+					id: "55E47BF586607C44"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "67012681E0A6B8B3"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4572E038D2C5BE22"
 				item: { count: 1, id: "create:package_frogport" }
@@ -2222,6 +2291,25 @@
 		{
 			dependencies: ["712A93B1E8B43823"]
 			id: "44C1420F49F77E62"
+			rewards: [
+				{
+					id: "13935469691F77A6"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0C7F9FAF685D4334"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "12928E05119B5DDC"
 				item: { count: 1, id: "create:repackager" }
@@ -2270,7 +2358,7 @@
 					id: "46AE0EC36B9A2729"
 					item: {
 						count: 1
-						id: "numismatics:crown"
+						id: "numismatics:sun"
 					}
 					type: "item"
 				}
@@ -2296,6 +2384,25 @@
 		{
 			dependencies: ["67CE399D0A9C0F57"]
 			id: "63D62E2A3E5FABD4"
+			rewards: [
+				{
+					id: "1341DDDE2D5E8C50"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "404B75D1C4E08A87"
+					item: {
+						count: 1
+						id: "create:zinc_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 6L
@@ -2336,7 +2443,7 @@
 					id: "5D4394DC2D871797"
 					item: {
 						count: 1
-						id: "numismatics:crown"
+						id: "numismatics:sun"
 					}
 					type: "item"
 				}

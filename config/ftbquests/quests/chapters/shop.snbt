@@ -293,7 +293,7 @@
 				item: { count: 1, id: "numismatics:crown" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -2.0d
 			y: 6.0d
 		}
 		{
@@ -314,49 +314,7 @@
 				item: { count: 1, id: "numismatics:crown" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.0d
-		}
-		{
-			icon: {
-				id: "spore:mutation_syringe"
-			}
-			id: "55520476A45FC186"
-			rewards: [{
-				id: "759F9CC64771608E"
-				item: {
-					count: 1
-					id: "spore:mutation_syringe"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0A5E10BF890F4B3D"
-				item: { count: 1, id: "numismatics:crown" }
-				type: "item"
-			}]
 			x: 2.0d
-			y: 6.0d
-		}
-		{
-			icon: {
-				id: "spore:evo_syringe"
-			}
-			id: "5D9EFC48BD5EB3B4"
-			rewards: [{
-				id: "7E99EB0F73E7ABA4"
-				item: {
-					count: 1
-					id: "spore:evo_syringe"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5A61AF2C0AB4EA06"
-				item: { count: 1, id: "numismatics:crown" }
-				type: "item"
-			}]
-			x: 6.0d
 			y: 6.0d
 		}
 	]

@@ -15,3 +15,36 @@
 /jer_profile 1000 true
 /summon clockwork:broken_dragonfly
 /ftbquests reload
+/gamemode spectator
+/gamemode survival
+/gamemode creative
+/clear
+/weather2 summon storm_highwind
+/weather2 summon storm_hail
+/weather2 summon tornado_f0_max
+/weather2 summon tornado_f4
+/weather2 kill_all_storms
+/weather2 summon tornado_f4
+/weather2 kill_all_storms
+/weather2 summon tornado_f4
+/weather2 kill_all_storms
+/weather2 summon tornado_f4
+/weather2 kill_all_storms
+/weather2 summon tornado_f4
+/gamemode survival
+/weather2 kill_all_storms
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/weather2 kill_all_storms
+/locate structure minecraft:village_plains
+/tp @s 400 ~ 96
+/weather2 summon sandstorm_force
+/weather2 summon tornado_f4
+/gamemode survival
+/weather2 summon tornado_player
+/weather2 summon tornado_f4
+/gamemode survival
+/weather2 kill_all_storms
+/ftbquests reload

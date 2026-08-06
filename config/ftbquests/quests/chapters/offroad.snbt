@@ -15,6 +15,7 @@
 			id: "163D0CE9361628FA"
 			rewards: [
 				{
+					count: 4
 					id: "011D7EEBC41AB6B0"
 					item: {
 						count: 1
@@ -45,6 +46,7 @@
 			id: "1498C78F14A0F91B"
 			rewards: [
 				{
+					count: 3
 					id: "13509E39E7094BB5"
 					item: {
 						count: 1
@@ -74,6 +76,25 @@
 		{
 			dependencies: ["223A1E5B6E119BF3"]
 			id: "1B67448AD335E5E4"
+			rewards: [
+				{
+					id: "262F98B04B55987F"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6E9FA620AD3E4A3E"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "181E9F4521805628"
 				item: { count: 1, id: "offroad:borehead_bearing" }
@@ -85,6 +106,25 @@
 		{
 			dependencies: ["223A1E5B6E119BF3"]
 			id: "163364A51A8AC02E"
+			rewards: [
+				{
+					id: "764930015C50B180"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2B10D79800BBC6AC"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7EBA5850E229C5D5"
 				item: { count: 1, id: "offroad:rockcutting_wheel" }
@@ -98,6 +138,7 @@
 			id: "223A1E5B6E119BF3"
 			rewards: [
 				{
+					count: 3
 					id: "50ABC2FDB113CDA7"
 					item: {
 						count: 1
@@ -126,6 +167,25 @@
 		{
 			dependencies: ["1498C78F14A0F91B"]
 			id: "1FD5D2A8CEB4D418"
+			rewards: [
+				{
+					id: "256A41D795226D30"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "148BF27784BEC857"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1149671096347781"
 				item: { count: 1, id: "offroad:small_tire" }
@@ -137,6 +197,25 @@
 		{
 			dependencies: ["1498C78F14A0F91B"]
 			id: "63ABA4CA92CAA675"
+			rewards: [
+				{
+					id: "15A669FFAB0103C8"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "05F885A15715A0FD"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0A3E6E53180DD7F3"
 				item: { count: 1, id: "offroad:tire" }
@@ -148,6 +227,25 @@
 		{
 			dependencies: ["1498C78F14A0F91B"]
 			id: "45E7B061B7E02E68"
+			rewards: [
+				{
+					id: "0EDE76D82EF1CE69"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "67E341F49BCAC051"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "058E362BA3A92DB6"
 				item: { count: 1, id: "offroad:large_tire" }
@@ -159,6 +257,25 @@
 		{
 			dependencies: ["1498C78F14A0F91B"]
 			id: "0A4F6414C91AF6CD"
+			rewards: [
+				{
+					id: "4C094FDE619B33DF"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "68973C96EE58CD3E"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0991A5C508159825"
 				item: { count: 1, id: "offroad:monstrous_tire" }

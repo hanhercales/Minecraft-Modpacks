@@ -1,7 +1,7 @@
 {
 	id: "0A16F037430877A1"
 	loot_size: 1
-	order_index: 7
+	order_index: 0
 	rewards: [
 		{
 			count: 10

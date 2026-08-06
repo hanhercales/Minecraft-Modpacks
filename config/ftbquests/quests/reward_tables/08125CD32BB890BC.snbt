@@ -1,7 +1,7 @@
 {
 	id: "08125CD32BB890BC"
 	loot_size: 1
-	order_index: 8
+	order_index: 1
 	rewards: [
 		{
 			count: 10
