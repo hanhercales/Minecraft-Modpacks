@@ -158,8 +158,11 @@
     "modpackMemory": false,
     "memory": 0,
     "id": -176299197162500,
-    "name": "InfectionCreate",
+    "name": "WeatheringCreate",
     "favorite": false,
+    "categories": [],
+    "tags": [],
+    "pictures": [],
     "version": {
       "mods": [
         {
@@ -7625,6 +7628,7 @@
         }
       ]
     },
+    "versions": [],
     "userInstall": false,
     "populateStatus": false,
     "available": false,
