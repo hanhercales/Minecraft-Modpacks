@@ -486,146 +486,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 998474,
-          "name": "[NTGL] NukaTeam's Gun Lib",
-          "author": "Jetug",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/nukateams-gun-lib",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 4,
-              "name": "armor_weapons_tools",
-              "shortName": "military",
-              "nesting": 0
-            },
-            {
-              "id": 7,
-              "name": "library_api",
-              "shortName": "api",
-              "nesting": 0
-            }
-          ],
-          "picture": 916493,
-          "pictures": [],
-          "lanName": "nukateams-gun-lib",
-          "version": {
-            "id": 8389327,
-            "name": "ntgl-1.21.1-3.1.7",
-            "updateDate": 1783457394000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "8dee85e2bcc64bf5c44666f9d5bc62fdb1ccd0f2",
-              "size": 3913750,
-              "path": "mods/ntgl-1.21.1-3.1.7.jar",
-              "url": "/mods/998474/8389327/ntgl-1.21.1-3.1.7.jar"
-            },
-            "installed": 2300,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 3,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 15701,
-              "name": "yyzsbackpack",
-              "gameEntityId": 1285177,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 2138,
-              "name": "Traveler's Backpack",
-              "gameEntityId": 321117,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 5014,
-              "name": "Backpacked",
-              "gameEntityId": 352835,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 169,
-              "name": "GeckoLib",
-              "gameEntityId": 388172,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 1016,
-              "name": "Controllable",
-              "gameEntityId": 317269,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 16308,
-              "name": "Subtle Effects",
-              "gameEntityId": 1023913,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 3167,
-              "name": "Sophisticated Backpacks",
-              "gameEntityId": 422301,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 14652,
-              "name": "VMinus",
-              "gameEntityId": 1072978,
-              "dependencyType": "incompatible",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 6187,
-              "name": "playerAnimator",
-              "gameEntityId": 658587,
-              "dependencyType": "optional",
-              "available": false
-            }
-          ],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1783198800000,
-          "update": 1783198800000,
-          "downloadALL": 159458,
-          "available": true,
-          "parser": true,
-          "totalComments": 0
-        },
-        {
-          "stateGameElement": "active",
           "id": 388172,
           "name": "GeckoLib",
           "author": "spectralstudiosminecraft",
@@ -695,105 +555,6 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
-        },
-        {
-          "stateGameElement": "active",
-          "id": 1194036,
-          "name": "Create Gunsmithing",
-          "author": "Jetug",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/cgs",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 26,
-              "name": "mc_addons",
-              "shortName": "addons",
-              "nesting": 0
-            }
-          ],
-          "picture": 1022293,
-          "pictures": [
-            1085424,
-            1470857,
-            1145520,
-            1145522,
-            1470858,
-            1470859,
-            1022402,
-            1470860,
-            1145521,
-            1145519,
-            1237696,
-            1470856
-          ],
-          "lanName": "cgs",
-          "version": {
-            "id": 8396258,
-            "name": "create-gunsmithing-1.21.1-1.4.8",
-            "updateDate": 1783542594000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "63b1a6a24b0aab46854a849bb5f8fa57632c2d35",
-              "size": 1819145,
-              "path": "mods/create-gunsmithing-1.21.1-1.4.8.jar",
-              "url": "/mods/1194036/8396258/create-gunsmithing-1.21.1-1.4.8.jar"
-            },
-            "installed": 1867,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 3,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 3667,
-              "name": "playerAnimator",
-              "gameEntityId": 658587,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 769,
-              "name": "Create",
-              "gameEntityId": 328085,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 8175,
-              "name": "[NTGL] NukaTeam's Gun Lib",
-              "gameEntityId": 998474,
-              "dependencyType": "required",
-              "available": false
-            }
-          ],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1783198800000,
-          "update": 1783198800000,
-          "downloadALL": 141740,
-          "available": true,
-          "parser": true,
-          "totalComments": 0
         },
         {
           "stateGameElement": "active",
@@ -1092,72 +853,6 @@
           "updated": 1781125200000,
           "update": 1781125200000,
           "downloadALL": 1103682,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
-          "id": 419699,
-          "name": "Architectury API",
-          "author": "shedaniel",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 7,
-              "name": "library_api",
-              "shortName": "api",
-              "nesting": 0
-            }
-          ],
-          "picture": 787812,
-          "pictures": [],
-          "lanName": "architectury-forge",
-          "version": {
-            "id": 5786327,
-            "name": "architectury-13.0.8-neoforge",
-            "updateDate": 1728156247000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              },
-              {
-                "id": 52,
-                "name": "1.21"
-              }
-            ],
-            "metadata": {
-              "sha1": "6ca11d3cc136bf69bb8f4d56982481eb85b5100b",
-              "size": 584004,
-              "path": "mods/architectury-13.0.8-neoforge.jar",
-              "url": "/mods/419699/5786327/architectury-13.0.8-neoforge.jar"
-            },
-            "installed": 336199,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 5,
-          "downloadMonth": 78,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [],
-          "lastGameVersion": {
-            "id": 70,
-            "name": "26.2"
-          },
-          "updated": 1783717200000,
-          "update": 1783717200000,
-          "downloadALL": 11387668,
           "available": true,
           "parser": true,
           "totalComments": 0,
@@ -1626,78 +1321,6 @@
           "updated": 1783890000000,
           "update": 1783890000000,
           "downloadALL": 11665527,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
-          "id": 274259,
-          "name": "Carry On",
-          "author": "Tschipp Purplicious_Cow",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/carry-on",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 83,
-              "name": "storage",
-              "shortName": "storage",
-              "nesting": 0
-            },
-            {
-              "id": 5,
-              "name": "technology",
-              "shortName": "technology",
-              "nesting": 0
-            }
-          ],
-          "picture": 787817,
-          "pictures": [
-            17751,
-            17743,
-            17737
-          ],
-          "lanName": "carry-on",
-          "version": {
-            "id": 8383188,
-            "name": "carryon-neoforge-1.21.1-2.2.5.8",
-            "updateDate": 1783368868000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "198182d51b788ce262b922537edeeddf27c5353d",
-              "size": 357508,
-              "path": "mods/carryon-neoforge-1.21.1-2.2.5.8.jar",
-              "url": "/mods/274259/8383188/carryon-neoforge-1.21.1-2.2.5.8.jar"
-            },
-            "installed": 4957,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 5,
-          "downloadMonth": 18088,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [],
-          "lastGameVersion": {
-            "id": 66,
-            "name": "1.21.11"
-          },
-          "updated": 1766782800000,
-          "update": 1766782800000,
-          "downloadALL": 23316585,
           "available": true,
           "parser": true,
           "totalComments": 0,
@@ -4668,171 +4291,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 869316,
-          "name": "Create Diesel Generators",
-          "author": "george8188262 george8188262",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/create-diesel-generators",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 5,
-              "name": "technology",
-              "shortName": "technology",
-              "nesting": 0
-            }
-          ],
-          "picture": 1045481,
-          "pictures": [
-            571107,
-            483793,
-            1466836,
-            1466838,
-            501514
-          ],
-          "lanName": "create-diesel-generators",
-          "version": {
-            "id": 8298898,
-            "name": "createdieselgenerators-1.21.1-1.3.14",
-            "updateDate": 1782117755000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "565e9014912b8692ff8866be17dd739505062374",
-              "size": 3143118,
-              "path": "mods/createdieselgenerators-1.21.1-1.3.14.jar",
-              "url": "/mods/869316/8298898/createdieselgenerators-1.21.1-1.3.14.jar"
-            },
-            "installed": 9614,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 5,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 769,
-              "name": "Create",
-              "gameEntityId": 328085,
-              "dependencyType": "required",
-              "available": false
-            }
-          ],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1782075600000,
-          "update": 1782075600000,
-          "downloadALL": 787879,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
-          "id": 1216624,
-          "name": "Create Dragons Plus",
-          "author": "DragonsPlus",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/create-dragons-plus",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 5,
-              "name": "technology",
-              "shortName": "technology",
-              "nesting": 0
-            },
-            {
-              "id": 30,
-              "name": "technology_processing",
-              "shortName": "processing",
-              "nesting": 0
-            },
-            {
-              "id": 20,
-              "name": "technology_item_fluid_energy_transport",
-              "shortName": "fluid",
-              "nesting": 0
-            },
-            {
-              "id": 7,
-              "name": "library_api",
-              "shortName": "api",
-              "nesting": 0
-            }
-          ],
-          "picture": 1074556,
-          "pictures": [],
-          "lanName": "create-dragons-plus",
-          "version": {
-            "id": 8219463,
-            "name": "1.11.2b",
-            "updateDate": 1780970032000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "c0427a7f657f583694e485186621bdeda16ca8dd",
-              "size": 1006723,
-              "path": "mods/CreateDragonsPlus-1.11.2b.jar",
-              "url": "/mods/1216624/8219463/CreateDragonsPlus-1.11.2b.jar"
-            },
-            "installed": 6211,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 2,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 769,
-              "name": "Create",
-              "gameEntityId": 328085,
-              "dependencyType": "required",
-              "available": false
-            }
-          ],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1780952400000,
-          "update": 1780952400000,
-          "downloadALL": 45925,
-          "available": true,
-          "parser": true,
-          "totalComments": 0
-        },
-        {
-          "stateGameElement": "active",
           "id": 688768,
           "name": "Create Enchantment Industry",
           "author": "dragons_plus",
@@ -5529,121 +4987,6 @@
           "updated": 1753045200000,
           "update": 1753045200000,
           "downloadALL": 575729,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
-          "id": 659674,
-          "name": "Create Slice & Dice",
-          "author": "possible_triangle",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/slice-and-dice",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 5,
-              "name": "technology",
-              "shortName": "technology",
-              "nesting": 0
-            },
-            {
-              "id": 26,
-              "name": "mc_addons",
-              "shortName": "addons",
-              "nesting": 0
-            },
-            {
-              "id": 10,
-              "name": "technology_farming",
-              "shortName": "farming",
-              "nesting": 0
-            }
-          ],
-          "picture": 909994,
-          "pictures": [],
-          "lanName": "slice-and-dice",
-          "version": {
-            "id": 8310636,
-            "name": "sliceanddice-neoforge-4.3.2",
-            "updateDate": 1782280153000,
-            "type": "beta",
-            "gameVersionsDTO": [
-              {
-                "id": 53,
-                "name": "1.21.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "ba4a47438623e78739d125b733971121ad14915e",
-              "size": 1353585,
-              "path": "mods/sliceanddice-neoforge-4.3.2.jar",
-              "url": "/mods/659674/8310636/sliceanddice-neoforge-4.3.2.jar"
-            },
-            "installed": 2597,
-            "available": false,
-            "remove": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 5,
-                "name": "neoForge"
-              }
-            ]
-          },
-          "popularity": 3,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 4946,
-              "name": "Overweight Farming",
-              "gameEntityId": 591666,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 769,
-              "name": "Create",
-              "gameEntityId": 328085,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 1361,
-              "name": "Kotlin for Forge",
-              "gameEntityId": 351264,
-              "dependencyType": "required",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 1782,
-              "name": "Farmer's Delight",
-              "gameEntityId": 398521,
-              "dependencyType": "optional",
-              "available": false
-            },
-            {
-              "gameType": "mod",
-              "id": 8724,
-              "name": "Create Enchantment Industry",
-              "gameEntityId": 688768,
-              "dependencyType": "optional",
-              "available": false
-            }
-          ],
-          "lastGameVersion": {
-            "id": 53,
-            "name": "1.21.1"
-          },
-          "updated": 1782248400000,
-          "update": 1782248400000,
-          "downloadALL": 222609,
           "available": true,
           "parser": true,
           "totalComments": 0,
@@ -7601,6 +6944,671 @@
           "updated": 1781298000000,
           "update": 1781298000000,
           "downloadALL": 225665,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 998474,
+          "name": "[NTGL] NukaTeam's Gun Lib",
+          "author": "Jetug",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/nukateams-gun-lib",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 4,
+              "name": "armor_weapons_tools",
+              "shortName": "military",
+              "nesting": 0
+            },
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 916493,
+          "pictures": [],
+          "lanName": "nukateams-gun-lib",
+          "version": {
+            "id": 8501185,
+            "name": "ntgl-1.21.1-3.1.8",
+            "updateDate": 1784912195000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "c44b6f1e1989452005f6400230c95be0d1d57f54",
+              "size": 3966979,
+              "path": "mods/ntgl-1.21.1-3.1.8.jar",
+              "url": "/mods/998474/8501185/ntgl-1.21.1-3.1.8.jar"
+            },
+            "installed": 5270,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 3167,
+              "name": "Sophisticated Backpacks",
+              "gameEntityId": 422301,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 169,
+              "name": "GeckoLib",
+              "gameEntityId": 388172,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 5014,
+              "name": "Backpacked",
+              "gameEntityId": 352835,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 6187,
+              "name": "playerAnimator",
+              "gameEntityId": 658587,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 14652,
+              "name": "VMinus",
+              "gameEntityId": 1072978,
+              "dependencyType": "incompatible",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 2138,
+              "name": "Traveler's Backpack",
+              "gameEntityId": 321117,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 15701,
+              "name": "yyzsbackpack",
+              "gameEntityId": 1285177,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 1016,
+              "name": "Controllable",
+              "gameEntityId": 317269,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 16308,
+              "name": "Subtle Effects",
+              "gameEntityId": 1023913,
+              "dependencyType": "optional",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1784840400000,
+          "update": 1784840400000,
+          "downloadALL": 183122,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 419699,
+          "name": "Architectury API",
+          "author": "shedaniel",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 787812,
+          "pictures": [],
+          "lanName": "architectury-forge",
+          "version": {
+            "id": 8492726,
+            "name": "architectury-13.0.11-neoforge",
+            "updateDate": 1784800652000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              },
+              {
+                "id": 52,
+                "name": "1.21"
+              }
+            ],
+            "metadata": {
+              "sha1": "008656a0702801174b8ec245ed7aad1921d6e9f1",
+              "size": 584734,
+              "path": "mods/architectury-13.0.11-neoforge.jar",
+              "url": "/mods/419699/8492726/architectury-13.0.11-neoforge.jar"
+            },
+            "installed": 12754,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 78,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 70,
+            "name": "26.2"
+          },
+          "updated": 1785618000000,
+          "update": 1785618000000,
+          "downloadALL": 11644234,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 274259,
+          "name": "Carry On",
+          "author": "Tschipp Purplicious_Cow",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/carry-on",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 83,
+              "name": "storage",
+              "shortName": "storage",
+              "nesting": 0
+            },
+            {
+              "id": 5,
+              "name": "technology",
+              "shortName": "technology",
+              "nesting": 0
+            }
+          ],
+          "picture": 787817,
+          "pictures": [
+            17737,
+            17743,
+            17751
+          ],
+          "lanName": "carry-on",
+          "version": {
+            "id": 8512888,
+            "name": "carryon-neoforge-1.21.1-2.2.6.13",
+            "updateDate": 1785069608000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "2ceb0d9284525b6cb2a214c88cf6511cab91f601",
+              "size": 361486,
+              "path": "mods/carryon-neoforge-1.21.1-2.2.6.13.jar",
+              "url": "/mods/274259/8512888/carryon-neoforge-1.21.1-2.2.6.13.jar"
+            },
+            "installed": 6014,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 18088,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 70,
+            "name": "26.2"
+          },
+          "updated": 1785618000000,
+          "update": 1785618000000,
+          "downloadALL": 23507170,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 659674,
+          "name": "Create Slice & Dice",
+          "author": "possible_triangle",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/slice-and-dice",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 5,
+              "name": "technology",
+              "shortName": "technology",
+              "nesting": 0
+            },
+            {
+              "id": 26,
+              "name": "mc_addons",
+              "shortName": "addons",
+              "nesting": 0
+            },
+            {
+              "id": 10,
+              "name": "technology_farming",
+              "shortName": "farming",
+              "nesting": 0
+            }
+          ],
+          "picture": 909994,
+          "pictures": [],
+          "lanName": "slice-and-dice",
+          "version": {
+            "id": 8547315,
+            "name": "sliceanddice-4.3.3-neoforge",
+            "updateDate": 1785502077000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "dea6393354faf06632ca1f0185a51fb3c9b5816e",
+              "size": 1354014,
+              "path": "mods/sliceanddice-4.3.3-neoforge.jar",
+              "url": "/mods/659674/8547315/sliceanddice-4.3.3-neoforge.jar"
+            },
+            "installed": 212,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 1782,
+              "name": "Farmer's Delight",
+              "gameEntityId": 398521,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 769,
+              "name": "Create",
+              "gameEntityId": 328085,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 1361,
+              "name": "Kotlin for Forge",
+              "gameEntityId": 351264,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 8724,
+              "name": "Create Enchantment Industry",
+              "gameEntityId": 688768,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 4946,
+              "name": "Overweight Farming",
+              "gameEntityId": 591666,
+              "dependencyType": "optional",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1785618000000,
+          "update": 1785618000000,
+          "downloadALL": 227506,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 869316,
+          "name": "Create Diesel Generators",
+          "author": "george8188262 george8188262",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/create-diesel-generators",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 5,
+              "name": "technology",
+              "shortName": "technology",
+              "nesting": 0
+            }
+          ],
+          "picture": 1045481,
+          "pictures": [
+            501514,
+            483793,
+            571107,
+            1466836,
+            1466838
+          ],
+          "lanName": "create-diesel-generators",
+          "version": {
+            "id": 8542167,
+            "name": "createdieselgenerators-1.21.1-1.3.15",
+            "updateDate": 1785433598000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "7f751dabfa83c141c1d13025cd16f06553ba459b",
+              "size": 3154746,
+              "path": "mods/createdieselgenerators-1.21.1-1.3.15.jar",
+              "url": "/mods/869316/8542167/createdieselgenerators-1.21.1-1.3.15.jar"
+            },
+            "installed": 3713,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 769,
+              "name": "Create",
+              "gameEntityId": 328085,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 20795,
+              "name": "Strut Your Stuff (Library)",
+              "gameEntityId": 1486746,
+              "dependencyType": "optional",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1785358800000,
+          "update": 1785358800000,
+          "downloadALL": 818699,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1216624,
+          "name": "Create Dragons Plus",
+          "author": "DragonsPlus",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/create-dragons-plus",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 5,
+              "name": "technology",
+              "shortName": "technology",
+              "nesting": 0
+            },
+            {
+              "id": 30,
+              "name": "technology_processing",
+              "shortName": "processing",
+              "nesting": 0
+            },
+            {
+              "id": 20,
+              "name": "technology_item_fluid_energy_transport",
+              "shortName": "fluid",
+              "nesting": 0
+            },
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 1074556,
+          "pictures": [],
+          "lanName": "create-dragons-plus",
+          "version": {
+            "id": 8567534,
+            "name": "1.11.4",
+            "updateDate": 1785738885000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "4b76a8dec488cd6fd81d20106e4a05a72efdf54d",
+              "size": 1029344,
+              "path": "mods/CreateDragonsPlus-1.11.4.jar",
+              "url": "/mods/1216624/8567534/CreateDragonsPlus-1.11.4.jar"
+            },
+            "installed": 328,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 18913,
+              "name": "Create Fly",
+              "gameEntityId": 1346281,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1785790800000,
+          "update": 1785790800000,
+          "downloadALL": 51539,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1194036,
+          "name": "Create Gunsmithing",
+          "author": "Jetug",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/cgs",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 26,
+              "name": "mc_addons",
+              "shortName": "addons",
+              "nesting": 0
+            }
+          ],
+          "picture": 1022293,
+          "pictures": [
+            1470859,
+            1470857,
+            1470860,
+            1145519,
+            1470856,
+            1470858,
+            1237696,
+            1145521,
+            1145520,
+            1085424,
+            1022402,
+            1145522
+          ],
+          "lanName": "cgs",
+          "version": {
+            "id": 8501347,
+            "name": "create-gunsmithing-1.21.1-1.4.9",
+            "updateDate": 1784913744000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "b93931be985419f5ac021116e8fd166ce62e92de",
+              "size": 1819221,
+              "path": "mods/create-gunsmithing-1.21.1-1.4.9.jar",
+              "url": "/mods/1194036/8501347/create-gunsmithing-1.21.1-1.4.9.jar"
+            },
+            "installed": 5166,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 769,
+              "name": "Create",
+              "gameEntityId": 328085,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 3667,
+              "name": "playerAnimator",
+              "gameEntityId": 658587,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 8175,
+              "name": "[NTGL] NukaTeam's Gun Lib",
+              "gameEntityId": 998474,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1784840400000,
+          "update": 1784840400000,
+          "downloadALL": 164042,
           "available": true,
           "parser": true,
           "totalComments": 0
