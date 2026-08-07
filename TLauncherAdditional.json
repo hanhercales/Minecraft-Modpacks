@@ -7612,6 +7612,64 @@
           "available": true,
           "parser": true,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1491974,
+          "name": "Weather, Storms & Tornadoes - Concurrent Packet Fix",
+          "author": "BachCter",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/weather-storms-tornadoes-concurrent-packet-fix",
+          "favorite": false,
+          "categories": [],
+          "picture": 1369358,
+          "pictures": [],
+          "lanName": "weather-storms-tornadoes-concurrent-packet-fix",
+          "version": {
+            "id": 7795252,
+            "name": "weather2patch-1.1.1",
+            "updateDate": 1774194397000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              },
+              {
+                "id": 52,
+                "name": "1.21"
+              }
+            ],
+            "metadata": {
+              "sha1": "b685240f35d50dab0658776366649d98d61c8b64",
+              "size": 3426,
+              "path": "mods/weather2patch-1.1.1.jar",
+              "url": "/mods/1491974/7795252/weather2patch-1.1.1.jar"
+            },
+            "installed": 1543,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              }
+            ]
+          },
+          "popularity": 1,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1775941200000,
+          "update": 1775941200000,
+          "downloadALL": 6663,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [],
